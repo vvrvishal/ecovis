@@ -1,0 +1,41 @@
+.contact-header{
+    background-color: #cd1432;
+}
+.main-header{
+    background-color: #f7f7f7;
+    /* width: 65%; */
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 75%;
+}
+.menu{
+    width: 65%;
+}
+.menu ul a{
+    text-decoration: none;
+    color: #000 !important;
+}
+.menu ul li:hover{
+    color: #cd1432 !important;
+}
+.Contact_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.header_connectBTN{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 2px 6px 0px grey;
+}
+.ourPresents, .ourValues{
+    background-color: #c4c4c4;
+}
+.ourPresents h3, .ourValues h3{    
+    line-height: 41px;
+    border-bottom: 2.5px solid;
+    width: 50%;
+}
