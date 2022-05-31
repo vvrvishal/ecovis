@@ -1,4 +1,8 @@
-.contact-header{
+/* open sans font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+
+.contact-header, .bannerDD{
     background-color: #cd1432;
 }
 .main-header{
@@ -9,7 +13,7 @@
     width: 15%;
 }
 .logo img{
-    width: 75%;
+    width: 45%;
 }
 .menu{
     width: 65%;
@@ -38,4 +42,99 @@
     line-height: 41px;
     border-bottom: 2.5px solid;
     width: 50%;
+}
+.ourPresents ul li span,.ourValues ul li span {
+    font-size: larger;
+}
+.bannerDD{
+    border-radius: 16px;
+    bottom: -4%;
+    left: 12.5%;
+}
+#homebannner{
+    height: calc(100vh - 94px);
+    /* border: 1px solid; */
+}
+.carousel-caption{
+    position: absolute;
+    top: 15%;
+}
+.service_icons{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #eda4ad;
+}
+/* owl .carousel css  */
+
+.owl_carousel_caption{
+    position: absolute;
+    bottom: 5%;
+}
+.owl-item{
+    display: flex;
+    justify-content: space-around;
+}
+/* .owl-stage-outer{
+    
+    margin: auto 2rem;
+
+} */
+
+
+/* heramhbh css  */
+/* owl .carousel css  */
+
+.owl-carousel button .next-slide{
+    position: absolute;
+    top: 48%;
+    background: white;
+    right: 1%;
+}
+.owl-carousel button .next-slide:hover, .owl-carousel button .prev-slide:hover{
+    background-color: var(--greenTheme);
+    color: var(--textWhiteColor);
+    border: var(--onHoverTextColor);
+}
+.owl-carousel button .prev-slide{
+    position: absolute;
+    top: 48%;
+    background: white;
+    left: 1%;
+}
+.nav-link{
+    color: #1ab293;
+}
+.prenavigate, .postnavigate{
+    box-shadow: 0px 1px 2px 0px darkgrey;
+    font-size: 24px;
+    padding: 0px 11px !important;
+    border-radius: 3px;
+    color: #cd1432;
+    background: transparent;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 0px !important;
+}
+.prenavigate:focus-visible, .postnavigate:focus-visible{
+    border: 2px solid var(--greenTheme);
+    outline: none !important;
+}
+
+/* footer css */
+.col-half-offset{
+    margin-left:4.166666667%
+}
+ul{
+    list-style: none;
+}
+.footer_menu{
+    font-size:17px;
+    color:#FFF;
+}
+.footer_menu a li{
+    color:#FFF;
+}
+.footer_menu a{
+    text-decoration: none;
 }
