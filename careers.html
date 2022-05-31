@@ -1,0 +1,110 @@
+<!-- carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css cdn  -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="./css/style.css">
+<style>
+    .owl-carousel button .next-slide{
+        position: absolute;
+        top: 25%;
+        background: white;
+        right: 1%;
+    }
+    .owl-carousel button .next-slide:hover, .owl-carousel button .prev-slide:hover{
+        background-color: var(--greenTheme);
+        color: var(--textWhiteColor);
+        border: var(--onHoverTextColor);
+    }
+    .owl-carousel button .prev-slide{
+        position: absolute;
+        top: 25%;
+        background: white;
+        left: 1%;
+    }
+    .nav-link{
+        color: #1ab293;
+    }
+    .prenavigate, .postnavigate{
+        
+        border: 1px solid;
+        padding: 0px 11px !important;
+        border-radius: 3px;
+        color: #1ab293;
+        background: transparent;
+        /* font-weight: 400; */
+        line-height: 32px;
+        margin-bottom: 0px !important;
+        /* padding-bottom: 4px !important; */
+    }
+    .prenavigate:focus-visible, .postnavigate:focus-visible{
+        border: 2px solid var(--greenTheme);
+        outline: none !important;
+    }
+    .current_vacancies{
+        background-color:#cd1432;
+        border-radius: 5px;
+        width:25%;
+        height:40px;
+        color:white;
+        margin-left:37%;
+        border:none;
+    }
+    .jobs_section{
+        background-color: #eda4ad;
+        width:100%;
+        padding:1%;
+        border-radius:7px;
+    }
+</style>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+<div class="container">
+    <div class="owl-carousel owl-theme my-4">
+        <div class="item text-center" style="width:90%;">
+            <img src="./ecovis-images/ecovis-logo.jpeg" alt="" height="240px">
+            <h4 class="categryName">Fresh Vegetables</h4>
+        </div>
+        <div class="item text-center" style="width:90%;">
+            <img src="./ecovis-images/space.jpg" alt="" height="240px">
+            <h4 class="categryName">Fruits</h4>
+        </div>
+        <div class="item text-center" style="width:90%;">
+            <img src="./ecovis-images/abstract.jpg" alt="" height="240px">
+            <h4 class="categryName">Green Vegetables</h4>
+        </div>
+        <div class="item text-center" style="width:90%;">
+            <img src="./ecovis-images/space.jpg" alt="" height="240px">
+            <h4 class="categryName">organic Vegetables</h4>
+        </div>
+        <div class="item text-center" style="width:90%;">
+            <img src="./ecovis-images/abstract.jpg" alt="" height="240px" width="50px;">
+            <h4 class="categryName">Cut & Sprouts</h4>
+        </div>
+
+    </div>
+
+    <h2 style="text-align:center;">We will believe in bringing out the best out from the people who work with us</h2><br><br><br>
+
+    <h4>
+        At Ecovis, we re pleased to develop our own ability by fostering our people right from the start through to 
+    proficient capabilities and beyond. We likewise value the benefit of enrolling experienced staff with in depth 
+    knowledge and skills. This assists us to infuse and curate new ideas and perspective to our team
+    </h4><br><br>
+    <div class="jobs_section">
+        <h2 style="text-align:center;">JOBS AT ECOVIS INDIA</h2><br>
+        <h4 style="text-align:center;">If you are intrigued with our work join us and we can develop together.</h4><br>
+        <button type="submit" class="current_vacancies">CURRENT VACANCIES<i class="fa-solid fa-angle-right" style="margin-left:10px; text-shadow:0px 5px 4px black"></i></button><br>
+    </div>
+</div>
