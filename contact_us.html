@@ -1,0 +1,147 @@
+<style>
+    .input_form{
+        width:800px;
+        height:60px;
+        margin-left:200px;
+        margin-bottom:30px;
+        border-radius:5px;
+        background-color: #eda4ad;
+        padding:10px;
+    }
+    .submit_form{
+        background-color:#cd1432;
+        border-radius: 5px;
+        width:200px;
+        height:50px;
+        color:white;
+        font-weight:bold;
+        margin-left:500px;
+    }
+    .query_sumit{
+        background-color:#cd1432;
+        border-radius: 5px;
+        width:200px;
+        height:40px;
+        color:white;
+        font-weight:bold;
+        margin-left:800px;
+    }
+    .query_form{
+        background-color:#eda4ad;
+        width:250px;
+        padding:10px;
+        height:50px;
+        margin-right:15px;
+        border-radius:5px;
+    }
+    .email_query{
+        width:40%;
+        height:50px;
+        margin-left:200px;
+        margin-bottom:30px;
+        border-radius:5px;
+        background-color: #eda4ad;
+        padding:10px;
+    }
+    .location_button{
+        background-color:#cd1432;
+        border-radius: 5px;
+        width:30%;
+        height:40px;
+        color:white;
+        font-weight:bold;
+        margin-top:0px;
+    }
+    #location_icon{
+        font-size:50px;
+        margin-right:8%;
+        margin-top:5px;
+        color:#cd1432;
+        /* margin-top:15px; */
+    }
+    .locations{
+        margin-left:25%;
+        margin-top:12%;
+    }
+    #comm_icon{
+        font-size:50px;
+        color:#cd1432;
+        margin:15px;
+    }
+    .communication{
+        margin-left:25%;
+        margin-top:10%;
+    }
+    .lets_connect{
+        background-color: #cd1432;
+        height:280px;
+        margin:10px;
+    }
+    .lets_connect_button{
+        background-color:transparent;
+        border-radius: 5px;
+        width:15%;
+        height:15%;
+        color:white;
+        margin-top:0px;
+        border:1px solid white;
+        justify-content:center;
+    }
+        
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="./bootstrap/bootstrap.css">
+
+<!-- custom css link  -->
+<link rel="stylesheet" href="./css/style.css">
+
+<div class="row">
+    <div class="col-md-6">
+        <h3 style="margin-left:250px;margin-top:30px;">Job Application</h3>
+        <form action="" class="form-group" method="post">
+            <input type="text" name="" id="" class="input_form" placeholder="Name"><br>
+            <input type="text" name="" id="" class="input_form" placeholder="Mobile No."><br>
+            <input type="text" name="" id="" class="input_form" placeholder="Email"><br>
+            <select name="functional_area" id="functional_area" class="input_form">
+                <option>Functional Area</option>
+            </select><br>
+            <input type="file" name="" id="" class="input_form" placeholder="Upload CV in Doc or Pdf format"><br>
+            <button type="submit" class="submit_form">SUBMIT</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <!-- <h3 style="margin-left:150px;margin-top:30px;">View our locations</h5> -->
+            <div class="locations d-flex align-items-center">
+                <i class="fa-solid fa-location-dot" id="location_icon"></i>
+                <button type="submit" class="location_button">VIEW OUR LOCATIONS</button>
+            </div>
+            <div class="communication">
+                <i class="fa-solid fa-envelope" id="comm_icon"></i>
+                <i class="fa-brands fa-linkedin" id="comm_icon"></i>
+                <i class="fa-brands fa-instagram" id="comm_icon"></i>
+                <i class="fa-brands fa-facebook" id="comm_icon"></i>
+            </div>
+            
+    </div>
+</div>
+<div>
+    <h3 style="text-align:center;margin-top:30px;">Want to know more about us?Leave us a message</h3>
+    <form action="" class="form-group" method="post">
+        <input type="text" name="email" id="email" class="email_query" placeholder="Email" style="margin-right:15px;">
+        <input type="text" name="first_name" id="first_name" class="query_form" placeholder="First Name">
+        <input type="text" name="last_name" id="last_name" class="query_form" placeholder="Last Name"><br>
+        <span style="margin-left:700px;margin-top:30px;font-size:20px;">Your message or query</span><br>
+        <textarea cols="165" rows="5" style="margin-left:200px;background-color: #eda4ad;">
+
+        </textarea><br><br>
+        <span style="margin-left:38%;margin-bottom:30px;">Our team will get in touch with you as soon as possible</span><br><br>
+        <button type="submit" class="query_sumit">SUBMIT</button>
+    </form>
+</div>
+<div class="lets_connect text-center">
+    <h3 style="text-align:center;" class="lets_connect_title">Didn't find your preferred job role? Connect with us anyway</h5>
+        <button type="submit" class="lets_connect_button">LETS CONNECT</button>
+</div>
