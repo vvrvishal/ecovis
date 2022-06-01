@@ -16,7 +16,7 @@
     width: 45%;
 }
 .menu{
-    width: 65%;
+    width: 46%;
 }
 .menu ul a{
     text-decoration: none;
@@ -50,6 +50,7 @@
     border-radius: 16px;
     bottom: -4%;
     left: 12.5%;
+    box-shadow: 0px 2px 6px 1px grey;
 }
 #homebannner{
     height: calc(100vh - 94px);
@@ -137,4 +138,34 @@ ul{
 }
 .footer_menu a{
     text-decoration: none;
+}
+
+/* careear page css */
+
+.job_title {
+    background-color: #cd1432;
+    width: 20%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.job-title{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.lets_connect {
+    background-color: #cd1432;
+    padding-bottom: 5rem;
+    padding-top: 6rem;
+   
+}
+
+.lets_connect_button {
+    background-color: transparent;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-top: 0px;
+    border: 1px solid white;
+    justify-content: center;
 }
