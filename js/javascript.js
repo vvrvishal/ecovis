@@ -56,11 +56,6 @@ $('#visitorMap').vectorMap({
       }
     }
 },
-markerStyle: {
-  initial: {
-    image: "./ecovis-icons/location.png",
 
-  },
-},
 });
 
