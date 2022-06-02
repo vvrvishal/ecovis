@@ -1,13 +1,15 @@
 <html>
     <head>
 <link href="./js/jqvmap/dist/jqvmap.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .jvectormap-container {
     height:100%;
     width:100%;
 }
-
+.pin{
+    color:red;
+}
 .jvectormap-legend-inner {
     margin-bottom: 3px;
   }
@@ -29,18 +31,27 @@
     display: inline-block;
     vertical-align: middle;
   }
+
+  .jvectormap-marker{
+    font-size:6px;
+    fill:red;
+  } 
+  .jvectormap-container circle{
+    fill:black;
+  }
+  
+ 
 </style>
 </head>
 <body>
 <div class="main-content">
     <section class="section">
       <div class="section-body">
-        <h2 class="section-title">Vector Map</h2>       
         <div class="row">
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h4>Indonesian Map</h4>
+                <h4>Indian Map</h4>
               </div>
               <div class="card-body">
                 <div id="visitorMap" style="width: 600px; height: 400px;"></div>
