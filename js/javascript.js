@@ -22,7 +22,7 @@ $('#visitorMap').vectorMap({
   selectedRegions: true,
   showTooltip: true,
   pins: {
-    id: '<div class="jqvmcleap-cir"></div>',
+    id: '<div class="jqvmcleap-cir" style="height:30px;width:40px;"></div>',
     my: '<div class="jqvmap-circle"></div>',
     th: '<div class="jqvmap-circle"></div>',
     sy: '<div class="jqvmap-circle"></div>',
@@ -53,9 +53,8 @@ $('#visitorMap').vectorMap({
     markers: {
       render: function(index){
         return plants[index].name;
-      }
+      } 
     }
 },
-
 });
 
