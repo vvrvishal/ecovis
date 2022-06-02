@@ -1,6 +1,9 @@
 /* open sans font family */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
 
 .contact-header, .bannerDD{
     background-color: #cd1432;
@@ -169,3 +172,9 @@ ul{
     border: 1px solid white;
     justify-content: center;
 }
+  /* #aboutUs_menu{
+    display: none;
+} */
+/* #about_us:hover #aboutUs_menu{
+    display: block !important;
+}  */
