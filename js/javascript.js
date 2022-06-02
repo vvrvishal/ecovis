@@ -53,13 +53,14 @@ $('#visitorMap').vectorMap({
     markers: {
       render: function(index){
         return plants[index].name;
-      },
-      offsets: function(index){
-        var offset = plants[index]['offsets'] || [0, 0];
-
-        return [offset[0] - 7, offset[1] + 3];
       }
     }
+},
+markerStyle: {
+  initial: {
+    image: "./ecovis-icons/location.png",
+
+  },
 },
 });
 
