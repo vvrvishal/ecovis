@@ -54,15 +54,8 @@ $('#visitorMap').vectorMap({
       render: function(index){
         return plants[index].name;
       }
-<<<<<<< HEAD
-    });
-  });
-
-  // header 
-=======
     }
 },
 
 });
->>>>>>> 753e02a5f1aeed5bdb88c50393c2457fc7ff5019
 
