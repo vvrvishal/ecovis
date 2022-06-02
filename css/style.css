@@ -91,7 +91,7 @@ html {
 
 .owl-carousel button .next-slide{
     position: absolute;
-    top: 48%;
+    top: 38%;
     background: white;
     right: 1%;
 }
@@ -102,7 +102,7 @@ html {
 }
 .owl-carousel button .prev-slide{
     position: absolute;
-    top: 48%;
+    top: 38%;
     background: white;
     left: 1%;
 }
