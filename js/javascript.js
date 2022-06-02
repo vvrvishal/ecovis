@@ -53,8 +53,9 @@ $('#visitorMap').vectorMap({
     markers: {
       render: function(index){
         return plants[index].name;
-      } 
+      }
     }
 },
 });
+
 
