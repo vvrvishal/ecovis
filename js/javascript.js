@@ -72,8 +72,4 @@ $('#visitorMap').vectorMap({
 //   }
 // },
 });
-<<<<<<< HEAD
-=======
-
->>>>>>> a41a8adcfad669157b3ddbaa90c4c957023401f1
 
