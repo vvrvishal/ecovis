@@ -42,6 +42,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- jqv link  -->
+<link href="./js/jqvmap/dist/jqvmap.min.css">
+
 
 </head>
 <style>
@@ -57,7 +60,7 @@
 
     .kwadrat2 {
         width: 232px;
-        height: 170px;
+        height: 120px;
         border-top: 1px solid #fff;
         overflow: hidden;
         margin-top: 5px;
@@ -95,12 +98,14 @@
 
 <body>
     <!-- header  -->
-    <header id="Header"></header>
+    <?php include_once "header.html" ?>
+<!--  -->
+    <!-- <header id="Header"></header> -->
 
     <!-- banner  -->
     <div class="ecovis_insia_banner">
         <img src="./ecovis-images/our_team_banner.png" class="w-100" style="height: 35vh;" alt="">
-        <div class="bg-light w-100 arrow">
+        <div class=" w-100 arrow">
 
             <div class="border-0 kwadrat2 mt-0 mx-auto">
                 <div class="trojkat2">
@@ -109,11 +114,41 @@
             </div>
             <!-- our team  -->
             <div class="our_team" >
-                <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;" class="text-center">Our Team</h1>
+                <h1 style="font-family: 'Libre Baskerville', serif; font-size:2.4rem;" class="text-center">Our Team</h1>
                 <h3 class="font-weight-normal text-center">Located in all the major cities</h3>
-                <div class="text-center">
-                    <img src="./ecovis-images/location_map.jpg" class="w-75 mx-auto" alt="">
-                </div>
+                <div class="main-content">
+                    <section class="section">
+                      <div class="section-body">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="">
+                              <!-- <div class="card-header">
+                              </div> -->
+                              <div class="card-body mb-4">
+                                <div id="visitorMap" class="position-relative" style="width: 600px; height: 700px;margin:auto;">
+                                    <div class=" align-items-center border d-flex justify-content-center rounded-circle" style="width: 150px;height: 150px;position: absolute;background-color: #eda4ad;top: 1%;box-shadow: 0px 2px 3px 1px lightgray;right: 21%;"  >   
+                                        <p class="font-weight-bold mb-0 text-center" style="width: 90%;">70+ Countries Expertise Access</p>
+                                    </div>
+                                     <div class=" align-items-center border d-flex justify-content-center rounded-circle" style="width: 150px;height: 150px;position: absolute;background-color: #eda4ad;top: 33%;box-shadow: 0px 2px 3px 1px lightgray;right: -25%;"  >   
+                                        <p class="font-weight-bold mb-0 text-center" style="width: 90%;">2000+ Clients Advised</p>
+                                    </div>
+                                    <div class=" align-items-center border d-flex justify-content-center rounded-circle" style="width: 150px;height: 150px;position: absolute;background-color: #eda4ad;top: 67%;box-shadow: 0px 2px 3px 1px lightgray;right: 9%;"  >   
+                                        <p class="font-weight-bold mb-0 text-center" style="width: 90%;">Covering all major cities</p>
+                                    </div>
+                                   <div class=" align-items-center border d-flex justify-content-center rounded-circle" style="width: 150px;height: 150px;position: absolute;background-color: #eda4ad;top: 23%;box-shadow: 0px 2px 3px 1px lightgray;left: -29%;"  >   
+                                        <p class="font-weight-bold mb-0 text-center" style="width: 90%;">40+ Industries Served</p>
+                                    </div>
+                                    <div class=" align-items-center border d-flex justify-content-center rounded-circle" style="width: 150px;height: 150px;position: absolute;background-color: #eda4ad;bottom: 14%;box-shadow: 0px 2px 3px 1px lightgray;left: -18%;"  >   
+                                        <p class="font-weight-bold mb-0 text-center" style="width: 90%;">50+ Years in India</p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
             </div>
             <div class="office_Address row mx-0 justify-content-around">
                 <div class="col-md-9">
@@ -236,10 +271,14 @@
     </div>
     <!-- footer  -->
     <div id="footer"></div>
+    <script src="./js/jquery.min.js"></script>
+<script src="./js/jqvmap/dist/jquery.vmap.min.js"></script>
+<script type="text/javascript" src="./js/jqvmap/dist/maps/jquery-jvectormap-in-merc.js" charset="utf-8"></script>
+<script src="./js/javascript.js"></script>
 
     <script>
         $(function () {
-            $("#Header").load("header.html");
+            // $("#Header").load("header.html");
             $("#footer").load("footer.html");
         });
     </script>
