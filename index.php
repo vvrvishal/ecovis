@@ -7,47 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecovis</title>
     <!-- font-awesome cdn  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <!-- bootstrap css cdn  -->
-    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./bootstrap/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./bootstrap/bootstrap.css">
 
     <!-- custom css link  -->
-    <link rel="stylesheet" href="./css/style.css">
-
-    <!-- box icons link  -->
-    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
 
     <!-- bootstrap javascript cdn  -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> -->
     <!-- oul carousel link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
 
 <body>
 
     <!-- header -->
-    <header id="Header"></header>
+    <?php include_once "header.html" ?>
+    <!-- <header id="Header"></header> -->
     <!-- ecovis banner  -->
 
     <div id="homebannner" class="carousel slide" data-ride="carousel">
@@ -58,8 +43,7 @@
                     <div class="">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
                         <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
-                        <a href="#"> <button class="btn text-light mt-5"
-                                style="border: 2px solid whitesmoke; background-color: transparent;">OUR
+                        <a href="#"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
                                 OFFICES</button></a>
                     </div>
 
@@ -70,8 +54,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
                     <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
-                    <a href="#"> <button class="btn text-light mt-5"
-                            style="border: 2px solid whitesmoke; background-color: transparent;">OUR
+                    <a href="#"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
                             OFFICES</button></a>
 
                 </div>
@@ -81,8 +64,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
                     <h3 class="font-weight-normal">Broaden your business horizon with us </h3>
-                    <a href="#"> <button class="btn text-light mt-5"
-                            style="border: 2px solid whitesmoke; background-color: transparent;">OUR
+                    <a href="#"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
                             OFFICES</button></a>
 
                 </div>
@@ -103,22 +85,16 @@
         <h3 class="text-center text-light mt-3">
             Your Biggest challenge?
         </h3>
-        <div class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark w-25"
-            style="
-            box-shadow: 0px 2px 4px 0px darkslategrey;">
+        <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
             <p class="mb-0">SELECT YOUR PROBLEM</p>
             <span><i class="fa-solid fa-caret-down text-danger"></i></span>
         </div>
 
-        <div id="gendererror"></div>
-        <div class="select_location border p-2 mb-3 rounded" id="gender_value"
-            style="background: #ededed; width: 95%; margin: auto; display: none;" id="">
-            <p class="border-dark form-control mb-2 mx-auto genderValue activeSelection"
-                onclick="genderValue(this,'Male');" style="border-radius: 7px; width: 95%; ">Male</p>
-            <p class="border-dark form-control mb-2 mx-auto   genderValue" onclick="genderValue(this,'Female');"
-                style="border-radius: 7px; width: 95%;">Female</p>
-            <p class="border-dark form-control mb-2 mx-auto genderValue" onclick="genderValue(this,'Other');"
-                style="border-radius: 7px; width: 95%;">Other</p>
+        <!-- <div id=""></div> -->
+        <div class="select_location border p-2 mb-3 mt-1 w-25 rounded" id="indexProblemDD">
+            <p class="border-dark form-control mb-2 mx-auto genderValue activeSelection" onclick="genderValue(this,'Male');" style="border-radius: 7px; width: 95%; ">PROBLEM 1</p>
+            <p class="border-dark form-control mb-2 mx-auto   genderValue" onclick="genderValue(this,'Female');" style="border-radius: 7px; width: 95%;">PROBLEM 2</p>
+            <p class="border-dark form-control mb-2 mx-auto genderValue" onclick="genderValue(this,'Other');" style="border-radius: 7px; width: 95%;">PROBLEM 3</p>
         </div>
 
     </div>
@@ -132,38 +108,49 @@
         <div class="row mx-0 justify-content-around">
             <div class="col-md-10">
                 <div class="row justify-content-around">
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-4 col-lg-3 text-center">
                         <div class="align-items-center border d-flex justify-content-around mx-auto service_icons">
                             <img src="./ecovis icons/Assurance.png" class="w-75" alt="">
                         </div>
-                        <h4 class="mt-3">Assurance</h4>
-                        <p>Giving you the certainty to drive open and straightforward development</p>
+                        <a href="#" style="text-decoration:none" class="text-dark">
+                            <h4 class="mt-3">Assurance</h4>
+                            <p>Giving you the certainty to drive open and straightforward development</p>
+                        </a>
                     </div>
                     <div class="col-md-3 text-center">
                         <div class="align-items-center border d-flex justify-content-around mx-auto service_icons">
                             <img src="./ecovis icons/TAXATION-removebg.png" class="w-75" alt="">
                         </div>
-                        <h4 class="mt-3">Taxation</h4>
-                        <p>Assisting Companies With overseeing
-                            Accounting and Tax commitments</p>
+                        <a href="#" style="text-decoration:none" class="text-dark">
+                            <h4 class="mt-3">Taxation</h4>
+                            <p>Assisting Companies With overseeing
+                                Accounting and Tax commitments</p>
+                        </a>
+
                     </div>
                     <div class="col-md-3 text-center">
                         <div class="align-items-center border d-flex justify-content-around mx-auto service_icons">
                             <img src="./ecovis icons/RISK COMPLIANCE.png" class="w-75" alt="">
                         </div>
-                        <h4 class="mt-3">Risk & Compliance</h4>
-                        <p>Preparing organizations for any unexpected,
-                            distinguishing, alleviating chances, and
-                            reinforcing business culture.</p>
+                        <a href="#" style="text-decoration:none" class="text-dark">
+                            <h4 class="mt-3">Risk & Compliance</h4>
+                            <p>Preparing organizations for any unexpected,
+                                distinguishing, alleviating chances, and
+                                reinforcing business culture.</p>
+                        </a>
+
                     </div>
                     <div class="col-md-3 text-center">
                         <div class="align-items-center border d-flex justify-content-around mx-auto service_icons">
                             <img src="./ecovis icons/Business-Support.png" class="w-75" alt="">
                         </div>
-                        <h4 class="mt-3">Accounting Business support</h4>
-                        <p>Offering accounting business support to
-                            grow your business.
-                        </p>
+                        <a href="#" style="text-decoration:none" class="text-dark">
+                            <h4 class="mt-3">Accounting Business support</h4>
+                            <p>Offering accounting business support to
+                                grow your business.
+                            </p>
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -176,25 +163,34 @@
                         <div class="align-items-center border d-flex justify-content-around mx-auto service_icons">
                             <img src="./ecovis icons/LEgal-Support.png" class="w-75" alt="">
                         </div>
-                        <h4 class="mt-3">Legal Services</h4>
-                        <p>We create a platform to offer you legal
-                            services and consultancy</p>
+                        <a href="#" style="text-decoration:none" class="text-dark">
+                            <h4 class="mt-3">Legal Services</h4>
+                            <p>We create a platform to offer you legal
+                                services and consultancy</p>
+                        </a>
+
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="align-items-center border d-flex justify-content-around mx-auto service_icons">
                             <img src="./ecovis icons/Growth-Services.png" class="w-75" alt="">
                         </div>
-                        <h4 class="mt-3">Growth Services</h4>
-                        <p>We demonstrate and further develop your
-                            business quality by offering growth services</p>
+                        <a href="#" style="text-decoration:none" class="text-dark">
+                            <h4 class="mt-3">Growth Services</h4>
+                            <p>We demonstrate and further develop your
+                                business quality by offering growth services</p>
+                        </a>
+
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="align-items-center border d-flex justify-content-around mx-auto service_icons">
                             <img src="./ecovis icons/Digital-Transformation.png" class="w-75" alt="">
                         </div>
-                        <h4 class="mt-3">Digital Transformation</h4>
-                        <p>Transform and foster your business digitally
-                            using our digital transformation services</p>
+                        <a href="#" style="text-decoration:none" class="text-dark">
+                            <h4 class="mt-3">Digital Transformation</h4>
+                            <p>Transform and foster your business digitally
+                                using our digital transformation services</p>
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -205,7 +201,18 @@
     <!-- Client stories  -->
 
     <div class="owl-carousel owl-theme my-4 position-relative" id="client_Stories">
-        <div class="item border p-4" style="width:80%;">
+        <div class="item border p-4 client_story">
+           <div class="border float-right">
+           <h5 class="">Combined efforts bagging successful
+                outcomes!</h5>
+            <p>The main motive of our company which is completely aimed at is to render professional services to its
+                potential clients from different fields of the varied economy sectors. Out of the services facilitated
+                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
+                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
+                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
+           </div>
+        </div>
+        <div class="item border p-4 client_story">
             <h5 class="">Combined efforts bagging successful
                 outcomes!</h5>
             <p>The main motive of our company which is completely aimed at is to render professional services to its
@@ -214,7 +221,7 @@
                 functionality was for the accommodation services, gym facilities, social events, restaurants and sports
                 events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
         </div>
-        <div class="item border p-4" style="width:80%;">
+        <div class="item border p-4 client_story">
             <h5 class="">Combined efforts bagging successful
                 outcomes!</h5>
             <p>The main motive of our company which is completely aimed at is to render professional services to its
@@ -223,7 +230,7 @@
                 functionality was for the accommodation services, gym facilities, social events, restaurants and sports
                 events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
         </div>
-        <div class="item border p-4" style="width:80%;">
+        <div class="item border p-4 client_story">
             <h5 class="">Combined efforts bagging successful
                 outcomes!</h5>
             <p>The main motive of our company which is completely aimed at is to render professional services to its
@@ -232,16 +239,7 @@
                 functionality was for the accommodation services, gym facilities, social events, restaurants and sports
                 events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
         </div>
-        <div class="item border p-4" style="width:80%;">
-            <h5 class="">Combined efforts bagging successful
-                outcomes!</h5>
-            <p>The main motive of our company which is completely aimed at is to render professional services to its
-                potential clients from different fields of the varied economy sectors. Out of the services facilitated
-                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
-                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
-                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
-        </div>
-        <div class="item border p-4" style="width:80%;">
+        <div class="item border p-4 client_story">
             <h5 class="">Combined efforts bagging successful
                 outcomes!</h5>
             <p>The main motive of our company which is completely aimed at is to render professional services to its
@@ -251,41 +249,22 @@
                 events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
         </div>
 
-        <!-- <div class="item border d-flex justify-content-around text-center" style="width:90%;">
-            <img src="./ecovis-images/location_map.jpg" class="w-100" alt="">
-            <h5 class="owl_carousel_caption" style="width:80%;">Facilitation of collective outsources
-                accounting, local tax compliance, and
-                company formation services!</h5>
-        </div>
-        <div class="item border d-flex justify-content-around text-center" style="width:90%;">
-            <img src="./ecovis-images/location_map.jpg" class="w-100" alt="">
-            <h5 class="owl_carousel_caption" style="width:80%;">A Lending Hand for the procuration
-                of the client!</h5>
-        </div>
-        <div class="item border d-flex justify-content-around text-center" style="width:90%;">
-            <img src="./ecovis-images/location_map.jpg" class="w-100" alt="">
-            <h5 class="owl_carousel_caption" style="width:80%;">A Lending Hand for the procuration
-                of the client!</h5>
-        </div>
-        <div class="item d-flex border justify-content-around text-center" style="width:90%;">
-            <img src="./ecovis-images/location_map.jpg" class="w-100" alt="">
-            <h5 class="owl_carousel_caption" style="width:80%;">A Lending Hand for the procuration
-                of the client!</h5>
-        </div> -->
 
     </div>
 
     <!-- footer  -->
     <div id="footer"></div>
 
+    <script>
+        $("#indexProblem").click(function() {
+            $("#indexProblemDD").slideToggle("fast");
+        });
+    </script>
 
     <!-- oul carousel javascript cdn  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
-        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="./js/javascript.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,
@@ -314,13 +293,13 @@
             }
         })
 
-        $(function () {
-            $("#Header").load("header.html");
+        $(function() {
+            // $("#Header").load("header.html");
             $("#footer").load("footer.html");
         });
         $('.carousel').carousel({
             interval: 1000000000
-        })
+        });
     </script>
 </body>
 

@@ -17,18 +17,13 @@
     <!-- custom css link  -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- box icons link  -->
-    <!-- <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
-        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> -->
     <!-- jquery cdn  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
         integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- bootstrap javascript cdn  -->
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script> -->
+    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
@@ -59,10 +54,10 @@
             </div>
             <div class="align-items-center col-md-12 d-flex justify-content-between main-header">
                 <div class="logo py-2 text-center">
-                    <a href="./index.html"><img src="./ecovis-images/ecovis-logo.jpeg" alt=""></a>
+                    <a href="./index.php"><img src="./ecovis-images/ecovis-logo.jpeg" alt=""></a>
                 </div>
-                <div class="menu">
-                    <ul class="d-flex mb-0 font-weight-bold justify-content-around list-unstyled">
+                <div id="menu" class="menu ">
+                    <ul class="d-flex mb-0 justify-content-around list-unstyled">
                         <a href="#">
                             <li id="about_us" class="about_us">About Us</li>
                         </a>
@@ -87,9 +82,10 @@
                         <a href="#">
                             <li><span><i class="fa-solid fa-magnifying-glass"></i></span></li>
                         </a>
-
                     </ul>
+                   
                 </div>
+                    <span id="menu_icon" class="menu_icon mr-3 d-none" style="font-size: x-large;"><i class="fa-solid fa-bars"></i></span>
             </div>
         </div>
         <!-- about us -->
@@ -178,24 +174,6 @@
                         </div>
                     </li>
                 </ul>
-                <!-- <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <img src="./ecovis icons/r_in.png" style="width: 15%;" alt="">
-                        <span>Responsibility</span>
-                    </li>
-                    <li class="mb-2">
-                        <img src="./ecovis icons/k_in.png" style="width: 15%;" alt="">
-                        <span>Knowledge</span>
-                    </li>
-                    <li class="mb-2">
-                        <img src="./ecovis icons/c_in.png" style="width: 12%;" class="ml-2" alt="">
-                        <span class="ml-2">Commitment</span>
-                    </li>
-                    <li class="mb-2">
-                        <img src="./ecovis icons/a_in.png" style="width: 15%;" alt="">
-                        <span>Accountability</span>
-                    </li>
-                </ul> -->
             </div>
         </div>
 
@@ -270,32 +248,6 @@
                                         </div>
                                     </div>
                                 </li>
-
-
-                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <img src="./ecovis icons/Taxation.png" class="mr-1" style="width: 15%;" alt="">
-                                    <div class="">
-                                        <h5 class="mb-1">Taxation</h5>
-                                        <p class="small">Assisting companies with accounting and tax commitments</p>
-                                    </div>
-                                </li> -->
-                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <img src="./ecovis icons/Risk-Compliance.png" class="mr-1" style="width: 15%;"
-                                        alt="">
-                                    <div class="">
-                                        <h5 class="mb-1">Risk & Compliance</h5>
-                                        <p class="small">We prepare organizations for any unexpected challenges</p>
-                                    </div>
-                                </li> -->
-                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <img src="./ecovis icons/Business-Support.png" class="mr-1" style="width: 15%;"
-                                        alt="">
-                                    <div class="">
-                                        <h5 class="mb-1">Accounting Business support</h5>
-                                        <p class="small">Offering accounting business support to grow your business.</p>
-                                    </div>
-                                </li> -->
-
                             </ul>
                         </div>
                         <div class="w-50">
@@ -339,33 +291,6 @@
                                         </div>
                                     </div>
                                 </li>
-
-                                <!-- 
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <img src="./ecovis icons/LEgal-Support.png" class="mr-1" style="width: 15%;" alt="">
-                                    <div class="">
-                                        <h5 class="mb-1">Legal Services</h5>
-                                        <p class="small">We create a platform to offer you legal services and
-                                            consultancy</p>
-                                    </div>
-                                </li> -->
-                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <img src="./ecovis icons/Growth-Services.png" class="mr-1" style="width: 15%;"
-                                        alt="">
-                                    <div class="">
-                                        <h5 class="mb-1">Growth Services</h5>
-                                        <p class="small">We develop your business growth quality</p>
-                                    </div>
-                                </li> -->
-                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <img src="./ecovis icons/Digital-Transformation.png" class="mr-1"
-                                        style="width: 15%;" alt="">
-                                    <div class="">
-                                        <h5 class="mb-1">Digital transformation</h5>
-                                        <p class="small">Transform and foster your business with our services</p>
-                                    </div>
-                                </li> -->
-
                             </ul>
                         </div>
                     </div>
@@ -382,54 +307,14 @@
                         <li>
                             <h5>Finance</h5>
                         </li>
-                        <!-- <li class=" d-flex justify-content-between">
-                            <div class="row">
-                                <div class=" col-9 ">
-                                    <h5 >Creative</h5>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class=" d-flex justify-content-between">
-                            <div class="row">
-                                <div class="col-3">
-                                </div>
-                                <div class="col-9 ">
-                                    <h5 >Technology</h5>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class=" d-flex justify-content-between">
-                            <div class="row">
-                                <div class="col-3">
-                                </div>
-                                <div class="col-9 ">
-                                    <h5 >Finance</h5>
-                                </div>
-                            </div>
-                        </li> -->
-
-                        <!-- <li class="mb-2">
-                            <h5>Creative</h5>
-                        </li>
-                        <li class="mb-2">
-                            <h5>Technology</h5>
-                        </li>
-                        <li class="mb-2">
-                            <h5>Finance</h5>
-                        </li> -->
                     </ul>
 
                 </div>
             </div>
         </div>
     </header>
-    <!-- <script src="./js/javascript.js"></script> -->
+
     <script>
-        //           $("#about_us").click(function(){
-        //     $("#aboutUs_menu").slideToggle();
-        //   });
 
         $("#about_us").click(function () {
             $("#aboutUs_menu").slideToggle();
@@ -439,14 +324,9 @@
             $("#services_menu").slideToggle();
             $("#aboutUs_menu").slideUp();
         });
-// $("#about_us").hover(function(){
-//   $("#aboutUs_menu").slideToggle();
-//   $("#services_menu").slideUp();
-// });
-// $("#services").hover(function(){
-//   $("#services_menu").slideToggle();
-//   $("#aboutUs_menu").slideUp();
-// });
+        $("#menu_icon").click(function () {
+            $("#menu").slideToggle();
+        });
     </script>
 </body>
 

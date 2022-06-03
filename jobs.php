@@ -46,7 +46,9 @@
 
 <body>
     <!-- header  -->
-    <header id="Header"></header>
+    <?php include_once "header.html" ?>
+
+    <!-- <header id="Header"></header> -->
 
     <!-- banner   -->
     <div class="banner ">
@@ -136,7 +138,7 @@
 
     <script>
         $(function () {
-            $("#Header").load("header.html");
+            // $("#Header").load("header.html");
             $("#footer").load("footer.html");
         });
     </script>

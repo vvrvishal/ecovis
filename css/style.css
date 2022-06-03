@@ -21,7 +21,7 @@ html {
     width: 15%;
 }
 .logo img{
-    width: 45%;
+    width: 45% !important;
 }
 .menu{
     width: 46%;
@@ -59,6 +59,7 @@ html {
     bottom: -4%;
     left: 12.5%;
     box-shadow: 0px 2px 6px 1px grey;
+    max-height: 170px;
 }
 #homebannner{
     height: calc(100vh - 94px);
@@ -215,3 +216,83 @@ ul{
     fill:red;
   }
  
+  .client_story{
+      width: 80%;
+      overflow: hidden;
+      max-height: 255px;
+  }
+.select_location{
+    background: #ededed;
+     margin: auto;
+     display: none;
+}
+#indexProblem{
+    width: 25%;
+    box-shadow: 0px 2px 4px 0px darkslategrey;
+}
+/* media query  */
+
+@media only screen and (min-width: 1439px)  {
+    /* index page  */
+    .menu{
+        width: 48% !important;
+    }
+    #indexProblem{
+        width: 25% !important;
+    }
+}
+@media only screen and (min-width: 1024px)  {
+    /* index page  */
+    .menu{
+        width: 70%;
+    }
+    .logo img {
+        width: 65% !important;
+    }
+    #indexProblem{
+        width: 35% !important;
+    }
+}
+@media only screen and (max-width: 769px)  {
+    /* index page  */
+    #homebannner{
+        z-index: -1;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 30%;
+        right: 0%;
+    }
+    .menu ul{
+        display: block !important;
+        z-index: 11 !important;
+        background: whitesmoke;
+       
+    }
+    .menu ul li{
+        padding:5px 40px;
+    }
+    .menu ul li:hover{
+        background-color: #cd143336;
+        font-weight: 600;
+    }
+    .logo img{
+        width: 100% !important;
+    }
+    .menu_icon{
+        display: block !important;
+    }
+    #indexProblem{
+        width: 55% !important;
+    }
+}
+@media only screen and (max-width: 559px)  {
+    .menu{
+        width: 50%;
+    }
+    #indexProblem{
+        width: 95% !important;
+    }
+}

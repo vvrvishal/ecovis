@@ -44,7 +44,9 @@
     </head>
 <body>
     <!-- header  -->
-    <header id="Header"></header>
+    <!-- <header id="Header"></header> -->
+    <?php include_once "header.html" ?>
+
 
     <!-- career nammer  -->
         <div class="banner ">
