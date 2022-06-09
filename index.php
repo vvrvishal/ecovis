@@ -81,13 +81,19 @@
     </div>
 
     <!-- banner problem solving drop down  -->
-    <div class="bannerDD mx-auto pb-4 position-absolute pt-3 pb-5 w-75">
+    <div class="bannerDD pb-5 pt-3">
         <h3 class="text-center text-light mt-3">
             Your Biggest challenge?
         </h3>
-        <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
-            <p class="mb-0">SELECT YOUR PROBLEM</p>
-            <span><i class="fa-solid fa-caret-down text-danger"></i></span>
+        <div class="d-flex mx-auto w-50">
+            <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
+                <p class="mb-0">Select our service</p>
+                <span><i class="fa-solid fa-caret-down text-danger"></i></span>
+            </div>
+            <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
+                <p class="mb-0">Select category</p>
+                <span><i class="fa-solid fa-caret-down text-danger"></i></span>
+            </div>
         </div>
 
         <!-- <div id=""></div> -->
@@ -100,8 +106,90 @@
     </div>
 
     <!-- offering services  -->
+    <div class="my-5">
+        <h2 class="text-center ">Services offered by our experts at Ecovis</h2>
 
-    <div class="offer_services" style="margin-top: 7rem;">
+    </div>
+    <div class="row mx-0 mb-4">
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <img src="./ecovis_icons/Assurance.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Strategy & Performance Consulting </h4>
+                <p class="offeringservicesdetails">Giving you the certainty to drive open and straightforward development</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Taxation</h4>
+                <p class="offeringservicesdetails">Assisting Companies With overseeing Accounting and Tax commitments</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <img src="./new_icon_images/Governanceb_black.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Risk & Compliance</h4>
+                <p class="offeringservicesdetails">We prepare organizations for any unexpected challenges</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <img src="./new_icon_images/BusinessSupportb.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Accounting Business support</h4>
+                <p class="offeringservicesdetails">Offering accounting business support to grow your business.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row mx-0">
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <img src="./new_icon_images/Legalb.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Litigation & Legal Services</h4>
+                <p class="offeringservicesdetails">We create a platform to offer you legal services and consultancy</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <img src="./ecovis_icons/Growth-Services.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Growth Services </h4>
+                <p class="offeringservicesdetails">We demonstrate and further develop your business quality by offering growth services </p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <img src="./new_icon_images/Digital_Transformationb.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Digital Transformation</h4>
+                <p class="offeringservicesdetails">Transform and foster your business digitally using our digital transformation services</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <img src="./new_icon_images/Capacityb.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Capacity & Capability</h4>
+                <p class="offeringservicesdetails">Offering accounting business support to grow your business.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="offer_services" style="margin-top: 7rem;">
 
         <h2 class="text-center " style="margin-bottom: 4rem;">Services offered by our experts at Ecovis</h2>
 
@@ -196,60 +284,132 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 
     <!-- Client stories  -->
+    <div class="clientStoriesHeading text-center mt-4">
+        <h2>Know Us through Our Clients</h2>
+    </div>
+    <div class="owl-carousel owl-theme mt-4 mb-0 position-relative" id="client_Stories">
+        <div class="item  client_story">
+            <div class=" float-right">
+                
+                <!-- <div class="" style="background-image: url(./ecovis_new_images/baggingoutcomes_b.jpg);"></div> -->
+                <!-- <img src="img.png" data-src="./ecovis_new_images/baggingoutcomes_b.jpg" data-hover="./ecovis_new_images/baggingoutcomes_r.jpg" alt="" class="image-container" /> -->
 
-    <div class="owl-carousel owl-theme my-4 position-relative" id="client_Stories">
-        <div class="item border p-4 client_story">
-           <div class="border float-right">
-           <h5 class="">Combined efforts bagging successful
-                outcomes!</h5>
-            <p>The main motive of our company which is completely aimed at is to render professional services to its
-                potential clients from different fields of the varied economy sectors. Out of the services facilitated
-                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
-                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
-                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
-           </div>
-        </div>
-        <div class="item border p-4 client_story">
-            <h5 class="">Combined efforts bagging successful
-                outcomes!</h5>
-            <p>The main motive of our company which is completely aimed at is to render professional services to its
-                potential clients from different fields of the varied economy sectors. Out of the services facilitated
-                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
-                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
-                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
-        </div>
-        <div class="item border p-4 client_story">
-            <h5 class="">Combined efforts bagging successful
-                outcomes!</h5>
-            <p>The main motive of our company which is completely aimed at is to render professional services to its
-                potential clients from different fields of the varied economy sectors. Out of the services facilitated
-                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
-                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
-                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
-        </div>
-        <div class="item border p-4 client_story">
-            <h5 class="">Combined efforts bagging successful
-                outcomes!</h5>
-            <p>The main motive of our company which is completely aimed at is to render professional services to its
-                potential clients from different fields of the varied economy sectors. Out of the services facilitated
-                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
-                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
-                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
-        </div>
-        <div class="item border p-4 client_story">
-            <h5 class="">Combined efforts bagging successful
-                outcomes!</h5>
-            <p>The main motive of our company which is completely aimed at is to render professional services to its
-                potential clients from different fields of the varied economy sectors. Out of the services facilitated
-                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
-                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
-                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
-        </div>
+                <img id="client_stories_1" src="" class="w-100" alt="">
+                <div class="pb-3 pt-4 px-4">
+                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
+                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                    </div>
+                    <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
+                </div>
 
 
+            </div>
+        </div>
+        <div class="item  client_story">
+            <div class=" float-right">
+                <img src="./ecovis-images/our_team_banner.png" class="w-100" alt="">
+                <div class="pb-3 pt-4 px-4">
+                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
+                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                    </div>
+                    <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
+                </div>
+
+
+            </div>
+        </div>
+        <div class="item  client_story">
+            <div class=" float-right">
+                <img src="./ecovis-images/our_team_banner.png" class="w-100" alt="">
+                <div class="pb-3 pt-4 px-4">
+                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
+                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                    </div>
+                    <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
+                </div>
+
+
+            </div>
+        </div>
+        <div class="item  client_story">
+            <div class=" float-right">
+                <img src="./ecovis-images/our_team_banner.png" class="w-100" alt="">
+                <div class="pb-3 pt-4 px-4">
+                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
+                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                    </div>
+                    <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
+                </div>
+
+
+            </div>
+        </div>
+        <div class="item  client_story">
+            <div class=" float-right">
+                <img src="./ecovis-images/our_team_banner.png" class="w-100" alt="">
+                <div class="pb-3 pt-4 px-4">
+                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
+                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                    </div>
+                    <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
+                </div>
+
+
+            </div>
+        </div>
+        <!-- <div class="item border p-4 client_story">
+            <h5 class="">Combined efforts bagging successful
+                outcomes!</h5>
+            <p>The main motive of our company which is completely aimed at is to render professional services to its
+                potential clients from different fields of the varied economy sectors. Out of the services facilitated
+                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
+                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
+                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
+        </div>
+        <div class="item border p-4 client_story">
+            <h5 class="">Combined efforts bagging successful
+                outcomes!</h5>
+            <p>The main motive of our company which is completely aimed at is to render professional services to its
+                potential clients from different fields of the varied economy sectors. Out of the services facilitated
+                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
+                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
+                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
+        </div>
+        <div class="item border p-4 client_story">
+            <h5 class="">Combined efforts bagging successful
+                outcomes!</h5>
+            <p>The main motive of our company which is completely aimed at is to render professional services to its
+                potential clients from different fields of the varied economy sectors. Out of the services facilitated
+                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
+                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
+                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
+        </div>
+        <div class="item border p-4 client_story">
+            <h5 class="">Combined efforts bagging successful
+                outcomes!</h5>
+            <p>The main motive of our company which is completely aimed at is to render professional services to its
+                potential clients from different fields of the varied economy sectors. Out of the services facilitated
+                so far, in the year 2015, one of our clients in need of the services was a non-profit organization whose
+                functionality was for the accommodation services, gym facilities, social events, restaurants and sports
+                events, etc. <a href="#" style="text-decoration: none;">Read More</a></p>
+        </div> -->
+
+    </div>
+    <div class="text-center">
+        <button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore All</button>
     </div>
 
     <!-- footer  -->
@@ -270,7 +430,7 @@
             loop: true,
             margin: 10,
             nav: true,
-            navText: ["<div class='nav-btn prev-slide prenavigate'> <i class='fa-solid fa-chevron-left'></i></div>", "<div class='nav-btn next-slide postnavigate'> <i class='fa-solid fa-chevron-right'></i></div>"],
+            navText: ["<div class='nav-btn prev-slide bg-light prenavigate'> <i class='fa-solid fa-chevron-left text-danger'></i></div>", "<div class='nav-btn next-slide bg-light postnavigate'> <i class='fa-chevron-right fa-solid text-danger'></i></div>"],
 
             autoplay: false,
             autoplayTimeout: 3000,
@@ -282,13 +442,13 @@
                     items: 1
                 },
                 500: {
-                    items: 2
+                    items: 1
                 },
                 768: {
-                    items: 3
+                    items: 2
                 },
                 1024: {
-                    items: 3
+                    items: 4
                 }
             }
         })
@@ -300,6 +460,13 @@
         $('.carousel').carousel({
             interval: 1000000000
         });
+
+
+//         $("#client_stories_1").mouseover(function (e) {    
+//   $(this).attr("src", $(this).attr("src").replace("ecovis_new_images/baggingoutcomes_b.jpg", "ecovis_new_images/baggingoutcomes_r.jpg"));
+// }).mouseout(function (e) {
+//   $(this).attr("src", $(this).attr("src").replace("ecovis_new_images/baggingoutcomes_r.jpg", "ecovis_new_images/baggingoutcomes_b.jpg"));
+// });
     </script>
 </body>
 

@@ -72,3 +72,24 @@ $('#visitorMap').vectorMap({
 //   }
 // },
 });
+
+
+// =================================================================  index page js  ==============================================================
+function hover(element) {
+  element.setAttribute('src', 'http://dummyimage.com/100x100/eb00eb/fff');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'http://dummyimage.com/100x100/000/fff');
+}
+
+
+
+$("#client_stories_1").mouseover(function (e) {    
+  $(this).attr("src", $(this).attr("src").replace("ecovis_new_images/baggingoutcomes_b.jpg", "ecovis_new_images/baggingoutcomes_r.jpg"));
+}).mouseout(function (e) {
+  $(this).attr("src", $(this).attr("src").replace("ecovis_new_images/baggingoutcomes_r.jpg", "ecovis_new_images/baggingoutcomes_b.jpg"));
+});
+// =================================================================  index page js end  ==============================================================
+
+
