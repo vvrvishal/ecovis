@@ -134,14 +134,8 @@
     </div>
 
     <!-- footer  -->
-    <div id="footer"></div>
+    <?php include_once "footer.html" ?>
 
-    <script>
-        $(function () {
-            // $("#Header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
 </body>
 
 </html>

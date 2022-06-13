@@ -292,18 +292,13 @@
         </div>
     </div>
     <!-- footer  -->
-    <div id="footer"></div>
+    <?php include_once "footer.html" ?>
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/jqvmap/dist/jquery.vmap.min.js"></script>
     <script type="text/javascript" src="./js/jqvmap/dist/maps/jquery-jvectormap-in-merc.js" charset="utf-8"></script>
     <script src="./js/javascript.js"></script>
 
-    <script>
-        $(function() {
-            // $("#Header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
 </body>
 
 </html>

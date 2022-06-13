@@ -1,6 +1,7 @@
 /* open sans font family */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
 
+/* * css  */
 :root {
     --secondry_font_size: 16px;
     --primary_Font_size: 1.4rem;
@@ -30,10 +31,6 @@
     box-shadow: var(--box-shadow);
 }
 
-* {
-    /* border: 1px solid; */
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -41,8 +38,9 @@ html {
 .btn:focus {
     border: none;
     outline: none !important;
-    box-shadow: unset;
+    box-shadow: unset !important;
 }
+
 
 /* header css  */
 
@@ -106,16 +104,11 @@ html {
     font-size: larger;
 }
 
-/* index page css  */
+/* ====================================================================== index page css ================================================================ */
 
 .bannerDD {
     box-shadow: var(--box-shadow);
     max-height: 170px;
-}
-
-#homebannner {
-    height: calc(100vh - 94px);
-    /* border: 1px solid; */
 }
 
 .carousel-caption {
@@ -131,6 +124,70 @@ html {
 .offeringservicesHeading {
     font-size: var(--primary_Font_size);
     font-weight: var(--heading_font_weight);
+}
+
+#client_stories_1 {
+    filter: brightness(0.5);
+}
+
+#clientStoriesdiv_1:hover #client_stories_1 {
+    filter: brightness(1);
+}
+
+/* services section  */
+
+.services_logo {
+    height: 105px;
+    background-size: cover;
+}
+
+.offeringservicesHeading:hover {
+    color: #cd1432;
+}
+
+.Assurance_logo {
+    background-image: url(../ecovis_icons/Assurance.png);
+
+}
+.Taxation_logo{
+    background-image: url(../new_icon_images/overnanceb_black.png);
+
+}
+.Risk_Compliance_logo{
+    background-image: url(../new_icon_images/Governanceb_black.png);
+}
+.serviceColomn:hover .Risk_Compliance_logo{
+    background-image: url(../new_icon_images/Governancep_red.png);
+
+}
+.businessSupport_logo {
+    background-image: url(../new_icon_images/BusinessSupportb.png);
+
+}
+.Legalb_logo{
+    background-image: url(../new_icon_images/Legalb.png);
+}
+.serviceColomn:hover .Legalb_logo{
+    background-image: url('../new_icon_images/Legalp.png');
+
+}
+.Digital_Transformationb_logo{
+    background-image: url(../new_icon_images/Digital_Transformationb.png);
+}
+.serviceColomn:hover .Digital_Transformationb_logo{
+    background-image: url(../new_icon_images/Digital_Transformationp.png);
+}
+.Capacityb_logo{
+    background-image: url(../new_icon_images/Capacityb.png);
+}
+.serviceColomn:hover .Capacityb_logo{
+    background-image: url(../new_icon_images/Capacityp.png);
+}
+.serviceColomn:hover .businessSupport_logo,
+.serviceColomn:hover .offeringservicesHeading {
+    color: #cd1432;
+    background-image: url(../new_icon_images/BusinessSupportp.png);
+
 }
 
 /* owl .carousel css  */
@@ -359,6 +416,25 @@ ul {
     top: 48%;
 }
 
+.pageBanner {
+    height: 450px;
+    width: 100%;
+    filter: brightness(0.5);
+    background-size: cover;
+}
+
+.bannerDiv {
+    background-image: url(../ecovis-images/careers_bannercroped.png);
+
+}
+
+.ConnectUsBanner {
+    background-image: url(../ecovis-images/CONACT_US_BANNER.png);
+    filter: brightness(1);
+
+}
+
+
 .careers_banner_subtext {
     font-size: var(--primary_Font_size);
     font-weight: var(--box_normal_text);
@@ -415,14 +491,15 @@ ul {
     width: 60%;
     top: 50%;
 }
-.menterBiheader{
+
+/* .menterBiheader{
     position: absolute;
     top: 0%;
     color: whitesmoke;
     left: 47%;
     top: 33%;
-}
-.menterBidetail{
+} */
+.menterBidetail {
     position: absolute;
     top: 0%;
     color: whitesmoke;

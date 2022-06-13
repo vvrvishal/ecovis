@@ -6,39 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecovis</title>
-    <!-- font-awesome cdn  -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <!-- bootstrap css cdn  -->
-    <!-- <link rel="stylesheet" href="./bootstrap/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 
-    <!-- custom css link  -->
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
-
-    <!-- bootstrap javascript cdn  -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- google font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> -->
-    <!-- oul carousel link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
 
 <body>
 
     <!-- header -->
     <?php include_once "header.html" ?>
-    <!-- <header id="Header"></header> -->
-    <!-- ecovis banner  -->
 
-    <div id="homebannner" class="carousel slide" data-ride="carousel">
+    <!-- ecovis banner  -->
+    <div id="homebannner" class="carousel slide" style="height: 450px;" data-ride="carousel">
         <div class="carousel-inner h-100">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" alt="First slide">
+            <div class=" carousel-item active">
+            <img class="d-block w-100" src="./images/ecovis_banners/homepage_b1_ecovis_india.png" style="height: 450px;" alt="First slide">
+
+                <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption d-none d-md-block">
                     <div class="">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
@@ -49,8 +32,10 @@
 
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="./ecovis-images/careers_banner.png" alt="Second slide">
+            <div class="carousel-item ">
+            <img class="d-block w-100" src="./images/ecovis_banners/homepage_b2_our_team.png" style="height: 450px;" alt="First slide">
+
+                <!-- <img class="d-block w-100" src="./ecovis-images/careers_banner.png" style="height: 450px;" alt="Second slide"> -->
                 <div class="carousel-caption d-none d-md-block">
                     <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
                     <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
@@ -60,7 +45,9 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./ecovis-images//contact_us_banner.png" alt="Third slide">
+            <img class="d-block w-100" src="./images/ecovis_banners/homepage_b3_job_vaccancies.png" style="height: 450px;" alt="First slide">
+
+            <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption d-none d-md-block">
                     <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
                     <h3 class="font-weight-normal">Broaden your business horizon with us </h3>
@@ -85,18 +72,37 @@
         <h3 class="text-center text-light mt-3">
             Your Biggest challenge?
         </h3>
-        <div class="d-flex mx-auto w-50">
-            <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
+        <div class="d-flex mx-auto w-50 justify-content-around">
+            <div class="btn-group py-3" style="width: 30%;">
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false">
+                    Right-aligned menu
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <button class="dropdown-item" type="button">Action</button>
+                    <button class="dropdown-item" type="button">Another action</button>
+                    <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+            </div>
+            <div class="btn-group py-3" style="width: 30%;">
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false">
+                    Right-aligned menu
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <button class="dropdown-item" type="button">Action</button>
+                    <button class="dropdown-item" type="button">Another action</button>
+                    <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+            </div>
+            <!-- <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
                 <p class="mb-0">Select our service</p>
                 <span><i class="fa-solid fa-caret-down text-danger"></i></span>
             </div>
             <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
                 <p class="mb-0">Select category</p>
                 <span><i class="fa-solid fa-caret-down text-danger"></i></span>
-            </div>
+            </div> -->
         </div>
 
-        <!-- <div id=""></div> -->
         <div class="select_location border p-2 mb-3 mt-1 w-25 rounded" id="indexProblemDD">
             <p class="border-dark form-control mb-2 mx-auto genderValue activeSelection" onclick="genderValue(this,'Male');" style="border-radius: 7px; width: 95%; ">PROBLEM 1</p>
             <p class="border-dark form-control mb-2 mx-auto   genderValue" onclick="genderValue(this,'Female');" style="border-radius: 7px; width: 95%;">PROBLEM 2</p>
@@ -115,34 +121,47 @@
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                    <img src="./ecovis_icons/Assurance.png" class="w-75" alt="">
+                    <div class=" w-75 mx-auto services_logo Assurance_logo" style=""></div>
+                    <!-- <img src="./ecovis_icons/Assurance.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Strategy & Performance Consulting </h4>
                 <p class="offeringservicesdetails">Giving you the certainty to drive open and straightforward development</p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <!-- <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="text-center">
                 <div class="mx-auto service_icons">
+                    <img src="./ecovis_icons/Assurance.png" class="w-75" alt="">
+                </div>
+                <h4 class="offeringservicesHeading">Strategy & Performance Consulting </h4>
+                <p class="offeringservicesdetails">Giving you the certainty to drive open and straightforward development</p>
+            </div>
+        </div> -->
+        <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                <!-- <div class=" w-75 mx-auto Taxation_logo services_logo" style=""></div> -->
                     <img src="./ecovis_icons/TAXATION-removebg.png" class="w-75" alt="">
                 </div>
                 <h4 class="offeringservicesHeading">Taxation</h4>
                 <p class="offeringservicesdetails">Assisting Companies With overseeing Accounting and Tax commitments</p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                    <img src="./new_icon_images/Governanceb_black.png" class="w-75" alt="">
+                <div class=" w-75 mx-auto Risk_Compliance_logo services_logo" style=""></div>
+                    <!-- <img src="./new_icon_images/Governanceb_black.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Risk & Compliance</h4>
                 <p class="offeringservicesdetails">We prepare organizations for any unexpected challenges</p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                    <img src="./new_icon_images/BusinessSupportb.png" class="w-75" alt="">
+                <div class=" w-75 mx-auto businessSupport_logo services_logo" style=""></div>
+                    <!-- <img src="./new_icon_images/BusinessSupportb.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Accounting Business support</h4>
                 <p class="offeringservicesdetails">Offering accounting business support to grow your business.</p>
@@ -151,10 +170,12 @@
     </div>
     <div class="row mx-0">
 
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                    <img src="./new_icon_images/Legalb.png" class="w-75" alt="">
+                <div class=" w-75 mx-auto services_logo Legalb_logo" style=""></div>
+
+                    <!-- <img src="./new_icon_images/Legalb.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Litigation & Legal Services</h4>
                 <p class="offeringservicesdetails">We create a platform to offer you legal services and consultancy</p>
@@ -169,19 +190,23 @@
                 <p class="offeringservicesdetails">We demonstrate and further develop your business quality by offering growth services </p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                    <img src="./new_icon_images/Digital_Transformationb.png" class="w-75" alt="">
+                <div class=" w-75 mx-auto Digital_Transformationb_logo services_logo" style=""></div>
+                
+                    <!-- <img src="./new_icon_images/Digital_Transformationb.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Digital Transformation</h4>
                 <p class="offeringservicesdetails">Transform and foster your business digitally using our digital transformation services</p>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                    <img src="./new_icon_images/Capacityb.png" class="w-75" alt="">
+                <div class=" w-75 mx-auto Capacityb_logo services_logo" style=""></div>
+
+                    <!-- <img src="./new_icon_images/Capacityb.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Capacity & Capability</h4>
                 <p class="offeringservicesdetails">Offering accounting business support to grow your business.</p>
@@ -291,13 +316,9 @@
         <h2>Know Us through Our Clients</h2>
     </div>
     <div class="owl-carousel owl-theme mt-4 mb-0 position-relative" id="client_Stories">
-        <div class="item  client_story">
+        <div class="item  client_story" id="clientStoriesdiv_1">
             <div class=" float-right">
-                
-                <!-- <div class="" style="background-image: url(./ecovis_new_images/baggingoutcomes_b.jpg);"></div> -->
-                <!-- <img src="img.png" data-src="./ecovis_new_images/baggingoutcomes_b.jpg" data-hover="./ecovis_new_images/baggingoutcomes_r.jpg" alt="" class="image-container" /> -->
-
-                <img id="client_stories_1" src="" class="w-100" alt="">
+                <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" class="w-100" alt="">
                 <div class="pb-3 pt-4 px-4">
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
                     <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
@@ -413,7 +434,8 @@
     </div>
 
     <!-- footer  -->
-    <div id="footer"></div>
+    <?php include_once "footer.html" ?>
+
 
     <script>
         $("#indexProblem").click(function() {
@@ -422,9 +444,9 @@
     </script>
 
     <!-- oul carousel javascript cdn  -->
-    <!-- <script src="./js/javascript.js"></script> -->
+    <script src="./js/javascript.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,
@@ -448,25 +470,16 @@
                     items: 2
                 },
                 1024: {
-                    items: 4
+                    items: 3
                 }
             }
         })
 
-        $(function() {
-            // $("#Header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-        $('.carousel').carousel({
-            interval: 1000000000
-        });
-
-
-//         $("#client_stories_1").mouseover(function (e) {    
-//   $(this).attr("src", $(this).attr("src").replace("ecovis_new_images/baggingoutcomes_b.jpg", "ecovis_new_images/baggingoutcomes_r.jpg"));
-// }).mouseout(function (e) {
-//   $(this).attr("src", $(this).attr("src").replace("ecovis_new_images/baggingoutcomes_r.jpg", "ecovis_new_images/baggingoutcomes_b.jpg"));
-// });
+        // $("#zebraFirst").mouseover(function() {
+        //     this.src = "ecovis_new_images/baggingoutcomes_r.jpg"
+        // }).mouseout(function() {
+        //     this.src = "/ecovis_new_images/baggingoutcomes_b.jpg"
+        // });
     </script>
 </body>
 

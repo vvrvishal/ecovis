@@ -5,52 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>    
-    
-<!-- custom css link  -->
-<link rel="stylesheet" href="./css/style.css">
+    <title>Contact us</title>
+
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="./css/style.css">
     <style>
+        #location_icon {
+            font-size: 50px;
+            margin-right: 8%;
+            margin-top: 5px;
+            color: #cd1432;
+        }
 
-    #location_icon {
-        font-size: 50px;
-        margin-right: 8%;
-        margin-top: 5px;
-        color: #cd1432;
-    }
+        .locations {
+            margin-left: 25%;
+            margin-top: 12%;
+        }
 
-    .locations {
-        margin-left: 25%;
-        margin-top: 12%;
-    }
-
-    #comm_icon {
-        font-size: 50px;
-        /* color: #cd1432;
+        #comm_icon {
+            font-size: 50px;
+            /* color: #cd1432;
         margin: 15px; */
-    }
+        }
 
-    .communication {
-        margin-left: 25%;
-        margin-top: 10%;
-    }
+        .communication {
+            margin-left: 25%;
+            margin-top: 10%;
+        }
 
-    .lets_connect {
-        background-color: #cd1432;
-        height: 30%;
-        margin: 10px;
-    }
+        .lets_connect {
+            background-color: #cd1432;
+            height: 30%;
+            margin: 10px;
+        }
 
-    .lets_connect_button {
-        background-color: transparent;
-        border-radius: 5px;
-        width: 15%;
-        height: 15%;
-        color: white;
-        margin-top: 0px;
-        border: 1px solid white;
-        justify-content: center;
-    }
-</style>
+        .lets_connect_button {
+            background-color: transparent;
+            border-radius: 5px;
+            width: 15%;
+            height: 15%;
+            color: white;
+            margin-top: 0px;
+            border: 1px solid white;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -59,10 +58,13 @@
     <?php include_once "header.html" ?>
 
     <!-- banner   -->
-    <div class="banner ">
-        <img src="./ecovis-images/careers_bannercroped.png" class="w-100" alt="">
+    <div class="ConnectUsBanner pageBanner">
 
-        <div class="bannerDD pb-4 pt-2">
+    </div>
+    <div class="banner ">
+        <!-- <img src="./ecovis-images/careers_bannercroped.png" class="w-100" alt=""> -->
+
+        <!-- <div class="bannerDD pb-4 pt-2">
             <h3 class="text-center text-light mt-3">
                 Let’s Connect
             </h3>
@@ -73,8 +75,17 @@
                     specialisms guarantees there's </p>
             </div>
 
-        </div>
+        </div> -->
+        <div class="bannerDD mx-auto pb-4 position-relative pt-2 w-75" style="top: -68px; border-radius: 8px;">
+            <h3 class="text-center text-light mt-3">
+                Let’s Connect
+            </h3>
+            <div class="font-weight-bold mb-2 mt-4 mx-auto problemDD py-2 text-light text-center" style="width: 60%;">
+                <p class="mb-0">We love Networking. Reach out to us for any queries.</p>
+            </div>
 
+        </div>
+        <!-- 
         <div class="justify-content-around mt-5 mx-0 row">
             <div class="col-md-10">
                 <div class="row">
@@ -120,38 +131,45 @@
                 </div>
             </div>
 
-        </div>
-        <div class="row justify-content-around mx-0">
+        </div> -->
+        <div class="row justify-content-around mx-0" style="margin-top: -38px;">
             <div class="col-md-9">
-                <h4 class="mb-4 mt-4 text-center">Want to know more about us?Leave us a message</h3>
+                <h4 class="mb-4 mt-4 text-center">Want to know more about us? Leave us a message</h3>
                     <form action="" class="form-group mb-5" method="post">
                         <div class="d-flex justify-content-between mb-5">
-                            <input type="text" name="email" id="email" class="form-control bg-light box_shadow ml-4" style="width:40% !important"  placeholder="Email"
-                            style="margin-right:15px;">
+                            <input type="text" name="email" id="email" class="form-control bg-light box_shadow ml-4" style="width:40% !important" placeholder="Email" style="margin-right:15px;">
                             <div class="d-flex justify-content-between" style="width:55% !important">
-                                <input type="text" name="first_name" id="first_name" class="form-control box_shadow bg-light mr-3"
-                                placeholder="First Name">
-                            <input type="text" name="last_name" id="last_name" class="form-control box_shadow bg-light "
-                                placeholder="Last Name">
+                                <input type="text" name="first_name" id="first_name" class="form-control box_shadow bg-light mr-3" placeholder="First Name">
+                                <input type="text" name="last_name" id="last_name" class="form-control box_shadow bg-light " placeholder="Last Name">
                             </div>
-                       
+
                         </div>
-                        
+
                         <span style="font-size:20px;">Your message or query : </span>
-                        <textarea class="form-control box_shadow bg-light mt-2 mb-3" rows="3" style=" border-radius: 6px;"></textarea>
+                        <textarea class="form-control box_shadow bg-light mt-2 mb-3" rows="6" style=" border-radius: 6px;"></textarea>
                         <p style="font-size:20px;" class="mb-2 text-center">Our team will get in touch with you as soon as possible</p>
                         <div class="text-center">
-                        <button type="submit" class="bg-danger btn box_shadow font-weight-bold text-light" style="width: 12%;">SUBMIT</button>
+                            <button type="submit" class="bg-danger btn box_shadow font-weight-bold text-light" style="width: 12%;">SUBMIT</button>
 
                         </div>
                     </form>
                     <div class="row">
                         <div class="col-md-6">
-                           
+
                         </div>
                     </div>
             </div>
 
+        </div>
+        <div class="align-items-center d-flex justify-content-around mb-5">
+            <div class="align-items-center d-flex ">
+                <span><i class="fa-solid fa-location-dot text-danger mr-2" style="font-size: x-large;"></i></span>
+                <button class="btn btn-danger btn-sm font-weight-bold px-3 text-light">View our Location</button>
+            </div>
+            <div class="align-items-center d-flex ">
+                <span><i class="fa-solid text-danger fa-envelope mr-2" style="font-size: x-large;"></i></span>
+                <a href="#">info@ecovisrkca.com</a>
+            </div>
         </div>
     </div>
     <!-- footer  -->
@@ -160,4 +178,3 @@
 </body>
 
 </html>
-

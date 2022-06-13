@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./bootstrap/bootstrap.css"> -->
 
     <!-- custom css link  -->
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- box icons link  -->
     <!-- <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
@@ -42,6 +42,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <style>
+        .clientStoryDetails {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .clientStoryDetails:hover {
+            /* transition-duration: 2s; */
+
+            white-space: unset;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
 </head>
 
 <body>
@@ -128,7 +143,203 @@
     </div>
 
     <div class="clientStoriesList mb-5 pb-1">
-        <div class="mx-auto" style="width: 80%;">
+
+        <!-- <div class="mx-auto" style="width: 80%;"> -->
+        <div class="mb-3 mx-0 row">
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <div class="px-3">
+                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                            with Ecovis Sydney in November</p>
+                        <div class="d-flex justify-content-end">
+                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <div class="px-3">
+                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                            with Ecovis Sydney in November</p>
+                        <div class="d-flex justify-content-end">
+                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <div class="px-3">
+                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                            with Ecovis Sydney in November</p>
+                        <div class="d-flex justify-content-end">
+                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <div class="px-3">
+                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                            with Ecovis Sydney in November</p>
+                        <div class="d-flex justify-content-end">
+                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <div class="px-3">
+                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                            with Ecovis Sydney in November</p>
+                        <div class="d-flex justify-content-end">
+                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <div class="px-3">
+                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                            with Ecovis Sydney in November</p>
+                        <div class="d-flex justify-content-end">
+                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow pt-2 px-3 rounded">
+                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
+                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow pt-2 px-3 rounded">
+                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
+                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow pt-2 px-3 rounded">
+                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
+                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow pt-2 px-3 rounded">
+                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
+                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow pt-2 px-3 rounded">
+                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
+                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+                <div class="box_shadow pt-2 px-3 rounded">
+                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
+                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+
+
+
+        </div>
+
+        <!-- </div> -->
+        <!-- <div class="mx-auto" style="width: 80%;">
             <div class="border border-danger mb-4 mx-0 px-4 row" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
                 <P class="d-flex justify-content-end mb-0 mt-2 mx-3 small w-100" style="font-weight: var(--box_normal_text);">Category: <span class="mx-2"> Start-up</span> <span class="">4th June, 2022</span></P>
                 <h4 class="clientStoryHeading py-2">Rendering extensive start-up services to our clients!</h4>
@@ -169,23 +380,68 @@
                 </div>
 
             </div>
-        </div>
-        <div class="mx-auto" style="width: 80%;">
-            <div class="border border-danger mb-4 mx-0 px-4 row" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
-                <P class="d-flex justify-content-end mb-0 mt-2 mx-3 small w-100" style="font-weight: var(--box_normal_text);">Category: <span class="mx-2"> Start-up</span> <span class="">4th June, 2022</span></P>
-                <h4 class="clientStoryHeading py-2">Rendering extensive start-up services to our clients!</h4>
-                <div class="align-items-end d-flex justify-content-between">
-                    <p class="clientStoryDetails w-75">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
-                    <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 mr-3 px-3 py-2">Read more...</span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+        </div> -->
     </div>
-        <!-- <div class="job_details">
+
+    <!-- <div class="clientStoriesList mb-5 pb-1">
+        <div class="mx-auto" style="width: 80%;">
+            <div class="border border-danger mb-4 mx-0 px-4 row" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
+                <P class="d-flex justify-content-end mb-0 mt-2 mx-3 small w-100" style="font-weight: var(--box_normal_text);">Category: <span class="mx-2"> Start-up</span> <span class="">4th June, 2022</span></P>
+                <h4 class="clientStoryHeading py-2">Rendering extensive start-up services to our clients!</h4>
+                <div class="align-items-end d-flex justify-content-between">
+                    <p class="clientStoryDetails w-75">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 mr-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="mx-auto" style="width: 80%;">
+            <div class="border border-danger mb-4 mx-0 px-4 row" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
+                <P class="d-flex justify-content-end mb-0 mt-2 mx-3 small w-100" style="font-weight: var(--box_normal_text);">Category: <span class="mx-2"> Start-up</span> <span class="">4th June, 2022</span></P>
+                <h4 class="clientStoryHeading py-2">Rendering extensive start-up services to our clients!</h4>
+                <div class="align-items-end d-flex justify-content-between">
+                    <p class="clientStoryDetails w-75">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 mr-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="mx-auto" style="width: 80%;">
+            <div class="border border-danger mb-4 mx-0 px-4 row" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
+                <P class="d-flex justify-content-end mb-0 mt-2 mx-3 small w-100" style="font-weight: var(--box_normal_text);">Category: <span class="mx-2"> Start-up</span> <span class="">4th June, 2022</span></P>
+                <h4 class="clientStoryHeading py-2">Rendering extensive start-up services to our clients!</h4>
+                <div class="align-items-end d-flex justify-content-between">
+                    <p class="clientStoryDetails w-75">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 mr-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="mx-auto" style="width: 80%;">
+            <div class="border border-danger mb-4 mx-0 px-4 row" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
+                <P class="d-flex justify-content-end mb-0 mt-2 mx-3 small w-100" style="font-weight: var(--box_normal_text);">Category: <span class="mx-2"> Start-up</span> <span class="">4th June, 2022</span></P>
+                <h4 class="clientStoryHeading py-2">Rendering extensive start-up services to our clients!</h4>
+                <div class="align-items-end d-flex justify-content-between">
+                    <p class="clientStoryDetails w-75">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
+                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
+                    <div class="d-flex justify-content-end">
+                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 mr-3 px-3 py-2">Read more...</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="job_details">
                 <div class="w-75 mx-auto">
                     <div class="row mx-0 border border-danger mb-4" style="border-radius: 7px;box-shadow: 0px 1px 5px 1px #cececc">
                         <div class="col-md-3 px-0 ">
@@ -233,11 +489,11 @@
                     </div>
                 </div>
             </div> -->
-        <!-- <div class="lets_connect px-0 text-center">
+    <!-- <div class="lets_connect px-0 text-center">
             <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey">LETS CONNECT</button>
             <h4 style="text-align:center;color:white;" class="mt-4 font-weight-normal">Didn't find your preferred job role? Connect with us anyway</h4>
         </div> -->
-        <!-- 
+    <!-- 
     <div class="row justify-content-around ">
         <div class="col-md-8">
             <div class="jobs_section w-75 mx-auto">
@@ -253,15 +509,9 @@
 
 
 
-        <!-- footer  -->
-        <div id="footer"></div>
+    <!-- footer  -->
+    <?php include_once "footer.html" ?>
 
-        <script>
-            $(function() {
-                $("#Header").load("header.html");
-                $("#footer").load("footer.html");
-            });
-        </script>
 </body>
 
 </html>
