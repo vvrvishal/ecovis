@@ -49,27 +49,39 @@
             text-overflow: ellipsis;
         }
 
-        .clientStoryDetails:hover {
-            /* transition-duration: 2s; */
-
+        /* .clientStoryDetails:hover {
             white-space: unset;
             overflow: hidden;
             text-overflow: ellipsis;
-        }
+        } */
     </style>
 </head>
 
 <body>
     <!-- header  -->
-    <?php include_once "header.html" ?>
+    <?php include_once "header.php" ?>
 
 
     <!-- career nammer  -->
-    <div class="banner position-relative">
-        <img src="./ecovis-images/mentor_bi_banner.jpg" style="height:100vh" class="w-100" alt="">
-        <p class="careers_banner_text">Client Stories</p>
-        <p class="careers_banner_subtext">You want to obtain your rights we help you to do it</p>
+
+    <!-- <div class="align-items-center bannerDiv d-flex justify-content-around pageBanner">
+       <div class="">
+       <p class="mainHeading text-center text-dark">OUR TEAM</p>
+        <p class="normalText text-center text-dark">The people who intensify business capabilities</p>
+       </div>
+        <img src="" alt="">
+    </div> -->
+
+    <div class="clientStoriesBannaer pageBanner d-flex justify-content-around align-items-center">
+        <div class="text-center">
+        <p class="mainHeading text-light">Client Stories</p>
+        <p class="normalText text-light">You want to obtain your rights we help you to do it</p>
+        </div>
     </div>
+    <!-- <div class="banner position-relative">
+        <img src="./ecovis-images/mentor_bi_banner.jpg" style="height:100vh" class="w-100" alt="">
+       
+    </div> -->
     <!-- <div class="bg-danger pb-4 pt-3" style="box-shadow: var(--box-shadow);">
         <p class="text-center text-light mt-3 w-50 mx-auto" style="font-weight: var(--box_normal_text);">
             Career routes aren't direct all the time. We enroll a different blend of people by taking a gander at your true capacity
@@ -248,11 +260,10 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
                 <div class="box_shadow pt-2 px-3 rounded">
                     <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
                     <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
                     <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
                         with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
                     <div class="d-flex justify-content-end">
@@ -260,13 +271,11 @@
                     </div>
                 </div>
 
-                <!-- </div> -->
-            </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            </div> -->
+            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
                 <div class="box_shadow pt-2 px-3 rounded">
                     <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
                     <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
                     <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
                         with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
                     <div class="d-flex justify-content-end">
@@ -274,13 +283,11 @@
                     </div>
                 </div>
 
-                <!-- </div> -->
-            </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            </div> -->
+            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
                 <div class="box_shadow pt-2 px-3 rounded">
                     <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
                     <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
                     <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
                         with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
                     <div class="d-flex justify-content-end">
@@ -288,14 +295,12 @@
                     </div>
                 </div>
 
-                <!-- </div> -->
-            </div>
+            </div> -->
 
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
                 <div class="box_shadow pt-2 px-3 rounded">
                     <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
                     <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
                     <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
                         with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
                     <div class="d-flex justify-content-end">
@@ -303,13 +308,11 @@
                     </div>
                 </div>
 
-                <!-- </div> -->
-            </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            </div> -->
+            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
                 <div class="box_shadow pt-2 px-3 rounded">
                     <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
                     <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
                     <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
                         with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
                     <div class="d-flex justify-content-end">
@@ -317,13 +320,11 @@
                     </div>
                 </div>
 
-                <!-- </div> -->
-            </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            </div> -->
+            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
                 <div class="box_shadow pt-2 px-3 rounded">
                     <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
                     <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <!-- <div class="align-items-end d-flex justify-content-between"> -->
                     <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
                         with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
                     <div class="d-flex justify-content-end">
@@ -331,8 +332,7 @@
                     </div>
                 </div>
 
-                <!-- </div> -->
-            </div>
+            </div> -->
 
 
 
@@ -510,7 +510,7 @@
 
 
     <!-- footer  -->
-    <?php include_once "footer.html" ?>
+    <?php include_once "footer.php" ?>
 
 </body>
 

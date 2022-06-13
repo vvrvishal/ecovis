@@ -96,7 +96,7 @@
 
 <body>
     <!-- header  -->
-    <?php include_once "header.html" ?>
+    <?php include_once "header.php" ?>
     <!-- banner  -->
     <div class="ecovis_insia_banner">
         
@@ -292,7 +292,7 @@
         </div>
     </div>
     <!-- footer  -->
-    <?php include_once "footer.html" ?>
+    <?php include_once "footer.php" ?>
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/jqvmap/dist/jquery.vmap.min.js"></script>

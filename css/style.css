@@ -40,6 +40,12 @@ html {
     outline: none !important;
     box-shadow: unset !important;
 }
+.pageBanner {
+    height: 450px;
+    width: 100%;
+    filter: brightness(0.5);
+    background-size: cover;
+}
 
 
 /* header css  */
@@ -126,13 +132,6 @@ html {
     font-weight: var(--heading_font_weight);
 }
 
-#client_stories_1 {
-    filter: brightness(0.5);
-}
-
-#clientStoriesdiv_1:hover #client_stories_1 {
-    filter: brightness(1);
-}
 
 /* services section  */
 
@@ -189,6 +188,21 @@ html {
     background-image: url(../new_icon_images/BusinessSupportp.png);
 
 }
+
+/* client stories section  */
+
+.client_stories_images {
+    filter: brightness(0.5);
+}
+
+/* #clientStoriesdiv_1:hover #client_stories_1 {
+    filter: brightness(1);
+} */
+.client_story:hover .client_stories_images{
+    filter: brightness(1);
+}
+
+/* /client stories section  */
 
 /* owl .carousel css  */
 
@@ -406,7 +420,7 @@ ul {
     top: 48%;
 }
 
-.careers_banner_text {
+/* .careers_banner_text {
     font-size: var(--content_heading);
     font-weight: var(--heading_font_weight);
     position: absolute;
@@ -414,14 +428,9 @@ ul {
     color: whitesmoke;
     left: 47%;
     top: 48%;
-}
+} */
 
-.pageBanner {
-    height: 450px;
-    width: 100%;
-    filter: brightness(0.5);
-    background-size: cover;
-}
+
 
 .bannerDiv {
     background-image: url(../ecovis-images/careers_bannercroped.png);
@@ -435,7 +444,7 @@ ul {
 }
 
 
-.careers_banner_subtext {
+/* .careers_banner_subtext {
     font-size: var(--primary_Font_size);
     font-weight: var(--box_normal_text);
     position: absolute;
@@ -443,7 +452,7 @@ ul {
     color: whitesmoke;
     left: 39%;
     top: 55%;
-}
+} */
 
 .job_post {
     font-size: var(--primary_Font_size);
@@ -456,7 +465,7 @@ ul {
     font-weight: var(--box_normal_text);
 }
 
-/* client stories css  */
+/* client stories page css  */
 #clientStory_categry {
     box-shadow: var(--box-shadow);
 }
@@ -490,6 +499,10 @@ ul {
     left: 20%;
     width: 60%;
     top: 50%;
+}
+.clientStoriesBannaer{
+    background-image: url(../images/ecovis_banners/client_stories.png);
+    filter: brightness(1);
 }
 
 /* .menterBiheader{
@@ -589,4 +602,13 @@ ul {
     #indexProblem {
         width: 95% !important;
     }
+}
+
+/* ======================================================== ecovis services page  ===================================================================== */
+
+/* Strategy_Performance_Consulting_services page  */
+
+.Strategy_Performance_Consulting_servicesBanner{
+    background-image: url(../images/ecovis_banners/strategy_perfomance_consulting.png);
+    filter: brightness(1);
 }

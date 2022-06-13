@@ -10,7 +10,7 @@
 
 <body>
     <!-- header  -->
-    <?php include_once "header.html" ?>
+    <?php include_once "header.php" ?>
 
     <!-- career nammer  -->
     <div class="banner position-relative">
@@ -29,7 +29,7 @@
     </div>
 
     <!-- footer  -->
-    <?php include_once "footer.html" ?>
+    <?php include_once "footer.php" ?>
 
 </body>
 

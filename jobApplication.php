@@ -55,7 +55,7 @@
 <body>
 
     <!-- header -->
-    <?php include_once "header.html" ?>
+    <?php include_once "header.php" ?>
 
     <!-- banner   -->
     <div class="banner ">
@@ -161,7 +161,7 @@
         </div> -->
     </div>
     <!-- footer  -->
-    <?php include_once "footer.html" ?>
+    <?php include_once "footer.php" ?>
 
 </body>
 

@@ -7,13 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecovis</title>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <style>
+        .dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    outline: none !important;
+    text-decoration: none;
+    background-color: #e7455f4a !important;
+    font-weight: 500;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #16181b !important;
+    text-decoration: none;
+    background-color: #e7455f4a !important;
+}
+    </style>
 
 </head>
 
 <body>
 
     <!-- header -->
-    <?php include_once "header.html" ?>
+    <?php include_once "header.php" ?>
 
     <!-- ecovis banner  -->
     <div id="homebannner" class="carousel slide" style="height: 450px;" data-ride="carousel">
@@ -75,22 +89,45 @@
         <div class="d-flex mx-auto w-50 justify-content-around">
             <div class="btn-group py-3" style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false">
-                    Right-aligned menu
+                Formation
                 </button>
-                <div class="dropdown-menu dropdown-menu-right">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else here</button>
+                <div class="dropdown-menu w-100">
+                    <button class="dropdown-item" type="button">Formation</button>
+                    <button class="dropdown-item" type="button">Regestration</button>
+                    <button class="dropdown-item" type="button">Closure of Concern</button>
                 </div>
             </div>
             <div class="btn-group py-3" style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false">
                     Right-aligned menu
                 </button>
-                <div class="dropdown-menu dropdown-menu-right">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else here</button>
+                <div class="dropdown-menu w-100">
+                    <button class="dropdown-item" type="button">Private Limited Company</button>
+                    <button class="dropdown-item" type="button">Limited Liability Partnerships</button>
+                    <button class="dropdown-item" type="button">One Person Company (OPC)</button>
+                    <button class="dropdown-item" type="button">Proprietorship</button>
+                    <button class="dropdown-item" type="button">Partnership</button>
+                    <button class="dropdown-item" type="button">Nidhi Company</button>
+                    <button class="dropdown-item" type="button">NGO Registration</button>
+                    <button class="dropdown-item" type="button">Society Registration</button>
+
+                </div>
+                <div class="dropdown-menu w-100">
+                    <button class="dropdown-item" type="button">Professional Tax Registration</button>
+                    <button class="dropdown-item" type="button">Goods and Services Tax Registration</button>
+                    <button class="dropdown-item" type="button">Employee Provident Fund (EPF) Registration</button>
+                    <button class="dropdown-item" type="button">Employees’ State Insurance (ESI) Registration</button>
+                    <button class="dropdown-item" type="button">Permanent Account Number (PAN) Application</button>
+                    <button class="dropdown-item" type="button">Digital Signature Registration</button>
+                    <button class="dropdown-item" type="button">Tax Deduction and Collection Account Number – TAN</button>
+                </div>
+                <div class="dropdown-menu w-100">
+                    <button class="dropdown-item" type="button">Close Your Public Limited Company</button>
+                    <button class="dropdown-item" type="button">Closing a One Person Company</button>
+                    <button class="dropdown-item" type="button">Closing a Partnership</button>
+                    <button class="dropdown-item" type="button">Closing a Proprietorship</button>
+                    <button class="dropdown-item" type="button">Closing a Nidhi Company</button>
+                    <button class="dropdown-item" type="button">Closing a Private Limited Company</button>
                 </div>
             </div>
             <!-- <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
@@ -121,7 +158,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                    <div class=" w-75 mx-auto services_logo Assurance_logo" style=""></div>
+                    <div class=" w-75 mx-auto services_logo Assurance_logo"></div>
                     <!-- <img src="./ecovis_icons/Assurance.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Strategy & Performance Consulting </h4>
@@ -150,7 +187,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto Risk_Compliance_logo services_logo" style=""></div>
+                <div class=" w-75 mx-auto Risk_Compliance_logo services_logo" ></div>
                     <!-- <img src="./new_icon_images/Governanceb_black.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Risk & Compliance</h4>
@@ -160,7 +197,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto businessSupport_logo services_logo" style=""></div>
+                <div class=" w-75 mx-auto businessSupport_logo services_logo" ></div>
                     <!-- <img src="./new_icon_images/BusinessSupportb.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Accounting Business support</h4>
@@ -173,7 +210,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto services_logo Legalb_logo" style=""></div>
+                <div class=" w-75 mx-auto services_logo Legalb_logo" ></div>
 
                     <!-- <img src="./new_icon_images/Legalb.png" class="w-75" alt=""> -->
                 </div>
@@ -193,7 +230,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto Digital_Transformationb_logo services_logo" style=""></div>
+                <div class=" w-75 mx-auto Digital_Transformationb_logo services_logo" ></div>
                 
                     <!-- <img src="./new_icon_images/Digital_Transformationb.png" class="w-75" alt=""> -->
                 </div>
@@ -204,7 +241,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto Capacityb_logo services_logo" style=""></div>
+                <div class=" w-75 mx-auto Capacityb_logo services_logo" ></div>
 
                     <!-- <img src="./new_icon_images/Capacityb.png" class="w-75" alt=""> -->
                 </div>
@@ -312,13 +349,13 @@
     </div> -->
 
     <!-- Client stories  -->
-    <div class="clientStoriesHeading text-center mt-4">
+    <div class="clientStoriesHeading text-center  mt-5" id="client_Stories">
         <h2>Know Us through Our Clients</h2>
     </div>
-    <div class="owl-carousel owl-theme mt-4 mb-0 position-relative" id="client_Stories">
-        <div class="item  client_story" id="clientStoriesdiv_1">
+    <div class="owl-carousel owl-theme mt-4 mb-0 position-relative" >
+        <div class="item  client_story">
             <div class=" float-right">
-                <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" class="w-100" alt="">
+                <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" class="w-100 client_stories_images" alt="">
                 <div class="pb-3 pt-4 px-4">
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
                     <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
@@ -333,7 +370,9 @@
         </div>
         <div class="item  client_story">
             <div class=" float-right">
-                <img src="./ecovis-images/our_team_banner.png" class="w-100" alt="">
+            <img id="client_stories_1" src="./images/clientStoriesImages/lending hand_r.jpg" class="w-100 client_stories_images" alt="">
+
+                <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
                     <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
@@ -348,7 +387,9 @@
         </div>
         <div class="item  client_story">
             <div class=" float-right">
-                <img src="./ecovis-images/our_team_banner.png" class="w-100" alt="">
+            <img id="client_stories_1" src="./images/clientStoriesImages/rendering extensive_r.png" class="w-100 client_stories_images" alt="">
+
+                <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
                     <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
@@ -363,7 +404,9 @@
         </div>
         <div class="item  client_story">
             <div class=" float-right">
-                <img src="./ecovis-images/our_team_banner.png" class="w-100" alt="">
+            <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" class="w-100 client_stories_images" alt="">
+
+                <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
                     <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
@@ -378,7 +421,9 @@
         </div>
         <div class="item  client_story">
             <div class=" float-right">
-                <img src="./ecovis-images/our_team_banner.png" class="w-100" alt="">
+            <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" class="w-100 client_stories_images" alt="">
+
+                <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
                     <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
@@ -430,11 +475,11 @@
 
     </div>
     <div class="text-center">
-        <button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore All</button>
+        <a href="#" ><button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore All</button></a>
     </div>
 
     <!-- footer  -->
-    <?php include_once "footer.html" ?>
+    <?php include_once "footer.php" ?>
 
 
     <script>
