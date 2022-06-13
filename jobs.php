@@ -46,7 +46,7 @@
 
 <body>
     <!-- header  -->
-    <?php include_once "header.html" ?>
+    <?php include_once "header.php" ?>
 
     <!-- <header id="Header"></header> -->
 
@@ -134,14 +134,8 @@
     </div>
 
     <!-- footer  -->
-    <div id="footer"></div>
+    <?php include_once "footer.php" ?>
 
-    <script>
-        $(function () {
-            // $("#Header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
 </body>
 
 </html>
