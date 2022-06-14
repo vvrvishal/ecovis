@@ -34,6 +34,10 @@
 html {
     scroll-behavior: smooth;
 }
+button:focus, button:active, button:hover{
+    outline: none !important;
+    cursor: pointer;
+}
 
 .btn:focus {
     border: none;
@@ -43,8 +47,22 @@ html {
 .pageBanner {
     height: 450px;
     width: 100%;
-    filter: brightness(0.5);
+    /* filter: brightness(0.5); */
     background-size: cover;
+}
+ /* drop down css  */
+
+ .dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    outline: none !important;
+    text-decoration: none;
+    background-color: #e7455f4a !important;
+    font-weight: 500;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #16181b !important;
+    text-decoration: none;
+    background-color: #e7455f4a !important;
 }
 
 
@@ -306,6 +324,11 @@ ul {
 }
 
 /* careear page css */
+
+.careearBanner{
+    background-image: url(../images/ecovis_banners/Careers_banner.png);
+
+}
 
 .job_title {
     background-color: #cd1432;
@@ -611,4 +634,38 @@ ul {
 .Strategy_Performance_Consulting_servicesBanner{
     background-image: url(../images/ecovis_banners/strategy_perfomance_consulting.png);
     filter: brightness(1);
+}
+.collabrationBanner{
+    background-image: url(../images/ecovis_banners/mentor_bi.png);
+    filter: brightness(1);
+}
+
+/* ecovis international page css  */
+
+.ecovisInternationalBanner{
+    background-image: url(../images/ecovis_banners/ecovis_intl_banner.png);
+    /* background-image: url(); */
+    filter: brightness(1);
+
+}
+
+/* marketing_head page css  */
+
+.marketing_headBanner{
+background-image: url(../images/ecovis_banners/marketing_head_banner.png);
+filter: brightness(1);
+
+}
+
+/* Business_Analyst page css  */
+
+.Business_AnalystBanner{
+    background-image: url(../images/ecovis_banners/business_analys_banner.png);
+    filter: brightness(1);
+}
+
+/* jobapplication page css  */
+
+.jobapplicationBanner{
+    background-image: url(../images/ecovis_banners/Apply_banner.png);
 }

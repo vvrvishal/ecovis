@@ -169,7 +169,8 @@
                     <div class="row justify-content-around my-5">
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                                <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt="">
+                            <img src="./images/icon_images/ahmedabad.png" class="office_state_img" alt="">
+                                <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">AHEMEDABAD</h6>
                             </div>
                             <div class="">
@@ -181,7 +182,8 @@
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                                <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt="">
+                            <img src="./images/icon_images/chennai1.png" class="office_state_img" alt="">
+                                <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">CHENNAI</h6>
                             </div>
                             <div class="">
@@ -193,7 +195,8 @@
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                                <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt="">
+                            <img src="./images/icon_images/delhi.png" class="office_state_img" alt="">
+                                <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">DELHI</h6>
                             </div>
                             <div class="">
@@ -209,7 +212,8 @@
                     <div class="row justify-content-around my-5">
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                                <img src="./ecovis_icons/ahd.png" class="office_state_img" alt="">
+                            <img src="./images/icon_images/hyderabad1.png" class="office_state_img" alt="">
+                                <!-- <img src="./ecovis_icons/ahd.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">HYDERABAD</h6>
                             </div>
                             <div class="">
@@ -221,7 +225,8 @@
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                                <img src="./ecovis_icons/chen.png" class="office_state_img" alt="">
+                            <img src="./images/icon_images/indore1.png" class="office_state_img" alt="">
+                                <!-- <img src="./ecovis_icons/chen.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">INDORE</h6>
                             </div>
                             <div class="">
@@ -233,7 +238,8 @@
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                                <img src="./ecovis_icons/ncr.png" class="office_state_img" alt="">
+                            <img src="./images/icon_images/kolkata.png" class="office_state_img" alt="">
+                                <!-- <img src="./ecovis_icons/ncr.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">KOLKATA</h6>
                             </div>
                             <div class="">
@@ -249,7 +255,8 @@
                     <div class="row justify-content-around my-5">
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                                <img src="./ecovis_icons/hyd.png" class="office_state_img" alt="">
+                            <img src="./images/icon_images/mumbai1.png" class="office_state_img" alt="">
+                                <!-- <img src="./ecovis_icons/hyd.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">MUMBAI</h6>
                             </div>
                             <div class="">
@@ -261,7 +268,8 @@
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                                <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt="">
+                            <img src="./images/icon_images/mumbai1.png" class="office_state_img" alt="">
+                                <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">NAVI MUMBAI</h6>
                             </div>
                             <div class="">
