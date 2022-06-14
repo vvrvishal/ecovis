@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>On shore and Off shore Advisory
+    <title>Cross border and merchant banking services
+        
     </title>
 </head>
 
@@ -16,10 +17,12 @@
     <!-- banner   -->
     <div class="Strategy_Performance_Consulting_servicesBanner align-items-center d-flex justify-content-center pageBanner">
         <div class="text-center">
-            <h1 class="mainHeading mb-4 px-5 text-center text-light">On shore and Off shore Advisory</h1>
+            <h1 class="mainHeading mb-4 text-center text-light">Cross border and merchant banking services
+            </h1>
             <h6 class="mx-auto normalText text-justify text-light w-50" style="
     line-height: 25px;
-">Giving both onshore advisory for home clients who wish to grow outbound and offshore advisory for inbound clients who need to put resources into India. We offer advisory on Accessing Global and Virtual business sectors through outbound speculation and functional plans. Proper Positioning of gathering substances for Global Business. India Entry and Exit Planning.</h6>
+">National borders do not limit the scope of a company's operations. To run a successful business, any organisation must grasp how cross-border payments work
+</h6>
         </div>
     </div>
     <div class="banner ">
@@ -67,19 +70,19 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/CrossBorderandMerchantBankingAdvice/StartupAccelerator.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-9">
-                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Offshore  Business Planning</p>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Start-up Accelerator  </p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-
-We construct a specific offshore business structure that lowers your worldwide tax responsibilities, diversify your business abroad, and secure your assets, starting with the jurisdiction and then the type of entity.
-</p>
+                            In any business, Our Start-up Program helps entrepreneurs improve their technology and computing capabilities. Our cloud and high-performance computer services help start-ups scale faster. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -90,18 +93,21 @@ We construct a specific offshore business structure that lowers your worldwide t
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/CrossBorderandMerchantBankingAdvice/NavigatingInternationalMarkets.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-9">
-                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Succession Planning </p>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Navigating International Markets </p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
                             
-Succession planning can bring together the needs of the business and the interests of the personnel with it's broad breadth and open procedure.
-</p>
+                                We can assist you whether you are already in International Markets or are wanting to enter for the first time by providing practical support, we help you navigate through it.
+
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -112,112 +118,88 @@ Succession planning can bring together the needs of the business and the interes
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/CrossBorderandMerchantBankingAdvice/SourcingTechnologySolutions.png" class="w-75" alt="">
+                                    
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-9">
-                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Residency Programs </p>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Sourcing Technology Solutions </p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                           
-                            
-We facilitate the residency application process for applicant, their Designated Dean's Offices, Letter of Recommendation (LoR) authors, and programme directors. By allowing applicants to create and deliver their own applications, as well as providing help.
+                            We can decipher any technical complication and provide solutions and services to help you take your business to the next level.
 </p>
                         </div>
                     </div>
                 </div>
             </div>
-           <div class="justify-content-center mx-0 row">
+             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/CrossBorderandMerchantBankingAdvice/BusinessGrowth.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-9">
-                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Trust/Business Compliance</p>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Business Growth</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                           
-We assist parties and clients in drafting the legal paperwork needed to formalise the agreement for businesses. We will assist you, your family, or business colleagues in avoiding legal blunders in the present and future.
-</p>
+                            Our business growth services give your business development solutions more clarity and solidity.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row"style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/CrossBorderandMerchantBankingAdvice/InternationalCapitalStructures.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-9">
-                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">International Tax</p>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> International Capital Structures</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-We'll be with you, wherever you are, to help your company to understand and manage their global tax affairs. So you can be confident that you're doing the right things at the right times in the right places and that you're on track to meet your strategic objectives.
-</p>
+                           
+                                We provide assistance to our client's capital structure is the specific mix of debt and equity it employs to fund ongoing operations and expand.</p>
                         </div>
                     </div>
                 </div>
             </div> 
-             <div class="justify-content-center mx-0 row">
-                <div class="col-md-8">
-                    <div class=" mb-3 row">
-                        <div class="col-3">
-                            <div class="text-center">
-                                <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Company Resolution Matters
-
-                            </p>
-
-                            <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                           
-We take up company resolution matters and offer the required services. A corporate resolution is usually used by a corporation to establish itself as a separate legal entity from the company's owners.
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="justify-content-center mx-0 row">
+            <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row" >
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/CrossBorderandMerchantBankingAdvice/MergerAcquisitions.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-9">
-                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Intellectual Property  </p>
+                            <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Merger & Acquisitions</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                                Over the years, ECOVIS' specialised IP team has grown to be one of the largest practises among India's full-service law firms, representing a diverse spectrum of clients in industries such as pharmaceuticals, chemicals, mechanical engineering, technology, retail, and others. Patents, designs, trademarks, copyrights, plant varieties, domain names, geographical indications, biodiversity issues, trade secrets, and sensitive information are all areas where our Intellectual Property (IP) lawyers can help.
-
-                                Our team consists of legal and technical professionals who work together to provide bespoke, pragmatic, and cost-effective solutions based on our clients' commercial, strategic, and technical objectives. We help a wide range of clients with local and international filings, prosecutions, advice services, transactions, and enforcement.
-
-                            </p>
+                           
+                                We assist companies and investment funds through the various stages of buying or selling a company or a business division.
+                          </p>
                         </div>
                     </div>
                 </div>

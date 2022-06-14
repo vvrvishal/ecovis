@@ -68,7 +68,9 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/Strategy_Performance_Consulting_services/StrategicThinkingPlanning.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -89,7 +91,8 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/Strategy_Performance_Consulting_services/NewProductDevelopmentApproach.png" class="w-75" alt="">
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -109,7 +112,9 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/Strategy_Performance_Consulting_services/Processdriven.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -129,7 +134,9 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/Strategy_Performance_Consulting_services/PerformanceEnablingBusinessGoalsKPIs.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -145,11 +152,13 @@
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" >
+                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;" >
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/Strategy_Performance_Consulting_services/CustomerInsightsEngagement.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -169,7 +178,9 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/Strategy_Performance_Consulting_services/InstitutionalizingRobustPerformanceManagement.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>

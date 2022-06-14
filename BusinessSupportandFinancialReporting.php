@@ -69,7 +69,9 @@ Tally ERP, SAP, and other Indian and international accounting software are all f
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/AccountingServices.png" class="w-75" alt="">
+                                    
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -90,7 +92,9 @@ We give the support, neutrality, and experience that businesses require to prosp
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/BusinessAnalytics.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -112,7 +116,9 @@ We work with firms in a wide range of industries to help them take advantage of 
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/IndiaEntryConsulting.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -134,7 +140,9 @@ Our India market entry consulting team specialises in offering comprehensive sol
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/ManagementSystems.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -157,7 +165,9 @@ We offer a comprehensive range of advisory services around the world, including 
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/MISDashboards.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -179,7 +189,9 @@ The Management Information System's (MIS) Dashboard creates a visual insights in
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/OnGoingBusinessSupport.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>

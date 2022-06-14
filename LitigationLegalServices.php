@@ -69,7 +69,9 @@ We stay up to date on the latest rules and regulations governing our industry, a
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/LitigationLegalServices/Litigation.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -93,7 +95,9 @@ We stay up to date on the latest rules and regulations governing our industry, a
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/LitigationLegalServices/BusinessAdvisory.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -116,7 +120,9 @@ Every business need business consulting services since it aids in the identifica
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/LitigationLegalServices/PolicyRegulatoryAffairs.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -140,7 +146,9 @@ Regulatory policy is an important component of our job since it affects every ar
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/LitigationLegalServices/SecretarialMatters.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -162,7 +170,9 @@ Our staff provides company secretarial services in a variety of countries, ensur
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/LitigationLegalServices/JVMAIPO.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>

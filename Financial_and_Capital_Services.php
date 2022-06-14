@@ -67,7 +67,9 @@
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/FinancialCapitalServices/BusinessValuations.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -91,7 +93,9 @@ We have clients with valuation of their enterprises and commercial interests, as
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/FinancialCapitalServices/TradeWorkingCapitalFinance.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -114,7 +118,9 @@ Our broad trade and capital finance capabilities provide you with the flexibilit
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/FinancialCapitalServices/FinancialRestructuring.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -137,7 +143,9 @@ We assist you in developing a pre- and post-financial restructuring action plan,
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/FinancialCapitalServices/FinancialPlanningControl.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -158,7 +166,9 @@ We assist you in developing a strategy that will support your organization's who
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/FinancialCapitalServices/BusinessPlanPitchDecks.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -180,7 +190,9 @@ We provide end-to-end support for creating business plan pitch decks, with a str
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                <img src="./images/icon_images/FinancialCapitalServices/BudgetingandCapitalAdvisory.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
