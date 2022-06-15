@@ -13,7 +13,7 @@
         <div class="align-items-center pt-4 mx-0 row">
             <div class="col-md-2">
                 <ul>
-                    <li> <img src="./images/ecovis_logoes/Ecovis_reverse.png" style="width: 75%;" alt=""></li>
+                   <a href="./index.php"> <li> <img src="./images/ecovis_logoes/Ecovis_reverse.png" style="width: 75%;" alt=""></li></a>
                 </ul>
                
             </div>
@@ -32,44 +32,45 @@
             <div class="col-md-2">
                 <div class="AboutUs">
                     <ul class="font-italic">
-                        <a href="#"><li>Ecovis India</li></a>
-                        <a href="#"><li>Ecovis International </li></a>
+                        <a href="./ecovis_india.php"><li>Ecovis India</li></a>
+                        <a href="./ecovis_International.php"><li>Ecovis International </li></a>
                     </ul>
                 </div>
             </div>
             <div class="col-md-3 ">
                 <div class="Services">
                     <ul  class="font-italic">
-                        <a href="#"><li>Strategy & Perfomance Consulting</li></a>
-                        <a href="#"><li>Onshore & Offshore Advisory</li></a>
-                        <a href="#"> <li>Governance Risk & Compliance</li></a>
-                        <a href="#"> <li>Business support & Financial Reporting</li></a>
-                        <a href="#"><li>Litigation & Legal services</li></a>
-                        <a href="#"><li>Financial & Capital Services</li></a>
-                        <a href="#"><li>Digital Transformation</li></a>
-                        <a href="#"><li>Capacity & Capability Building</li></a>
+                        <a href="./Strategy_Performance_Consulting_services.php"><li>Strategy & Perfomance Consulting</li></a>
+                        <a href="./Onshore_Offshore_Advisory.php"><li>Onshore & Offshore Advisory</li></a>
+                        <a href="./Government_risk_compliance.php"> <li>Governance Risk & Compliance</li></a>
+                        <a href="./BusinessSupportandFinancialReporting.php"> <li>Business support & Financial Reporting</li></a>
+                        <a href="./LitigationLegalServices.php"><li>Litigation & Legal services</li></a>
+                        <a href="./Financial_and_Capital_Services.php"><li>Financial & Capital Services</li></a>
+                        <a href="./Digital_transformation.php"><li>Digital Transformation</li></a>
+                        <a href="./Crossborderandmerchantbankingservices.php"><li>Cross border & merchant banking advice</li></a>
                     </ul>
                 </div>
             </div>
             <div class="col-md-1 ">
                 <div class="Collaboration">
-                    <ul  class="font-italic">
-                        <a href="#"><li>Collaboration</li></a>
-                        <a href="#"><li>Client Stories</li></a>
+                    <ul  class="font-italic pl-0">
+                        <a href="./collabration.php"><li>Collaboration</li></a>
+                        <a href="./client_stories.php"><li>Client Stories</li></a>
                     </ul>
                 </div>
             </div>
             <div class="col-md-2 ">
                 <div class="Careers">
                     <ul  class="font-italic">
-                        <a href="#" class="text-center"><li>Careers</li></a>
+                        <a href="./careers.php" class="text-center"><li>Careers</li></a>
+                        <a href="./jobApplication.php" class="text-center"><li>Work with us</li></a>
                     </ul>
                 </div>
             </div>
             <div class="col-md-2 ">
                 <div class="Contactus">
                     <ul  class="font-italic">
-                        <li class="text-light">Connect Us</li>
+                        <a href="./contact_us.php"><li class="text-light">contact us</li></a>
                         <div class="social_icons">
                             <h6 class="text-light mt-5">Connect with us</h6>
                             <a href="#">

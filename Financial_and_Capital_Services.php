@@ -63,7 +63,7 @@
         <div class="discribeStory mt-5">
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -89,7 +89,7 @@ We have clients with valuation of their enterprises and commercial interests, as
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -114,7 +114,7 @@ Our broad trade and capital finance capabilities provide you with the flexibilit
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row"style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row"style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -139,7 +139,7 @@ We assist you in developing a pre- and post-financial restructuring action plan,
             </div>
            <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -162,7 +162,7 @@ We assist you in developing a strategy that will support your organization's who
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">

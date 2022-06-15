@@ -65,7 +65,7 @@ We stay up to date on the latest rules and regulations governing our industry, a
         <div class="discribeStory mt-5">
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -91,7 +91,7 @@ We stay up to date on the latest rules and regulations governing our industry, a
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -116,7 +116,7 @@ Every business need business consulting services since it aids in the identifica
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row"style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row"style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -142,7 +142,7 @@ Regulatory policy is an important component of our job since it affects every ar
             </div>
            <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">

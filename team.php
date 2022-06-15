@@ -12,7 +12,7 @@
 
 <body>
     <!-- header  -->
-    <?php include_once "header.html" ?>
+    <?php include_once "header.php" ?>
 
     <!-- career nammer  -->
     <div class="align-items-center bannerDiv d-flex justify-content-around pageBanner">
@@ -118,7 +118,7 @@
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
-                    <img src="./ourTeam_B&W/10_D._Bala.JPG" class="w-100" alt="">
+                    <img src="./ourTeam_B&W/10_Bala.png" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">D. Bala</p>
                 <p class="normalText">Expertise</p>
@@ -253,7 +253,7 @@
 
 
     <!-- footer  -->
-    <?php include_once "footer.html" ?>
+    <?php include_once "footer.php" ?>
 
 
 </body>

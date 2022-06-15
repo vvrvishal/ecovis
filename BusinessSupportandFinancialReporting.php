@@ -65,7 +65,7 @@ Tally ERP, SAP, and other Indian and international accounting software are all f
         <div class="discribeStory mt-5">
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -88,7 +88,7 @@ We give the support, neutrality, and experience that businesses require to prosp
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -112,7 +112,7 @@ We work with firms in a wide range of industries to help them take advantage of 
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row"style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row"style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -136,7 +136,7 @@ Our India market entry consulting team specialises in offering comprehensive sol
             </div>
            <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -161,7 +161,7 @@ We offer a comprehensive range of advisory services around the world, including 
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">

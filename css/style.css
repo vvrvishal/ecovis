@@ -40,7 +40,7 @@ button:focus, button:active, button:hover{
 }
 
 .btn:focus {
-    border: none;
+    /* border: none; */
     outline: none !important;
     box-shadow: unset !important;
 }
@@ -65,8 +65,49 @@ button:focus, button:active, button:hover{
     background-color: #e7455f4a !important;
 }
 
+.clientStoriesDetailPageImage:hover{
+    filter: brightness(1) !important;
+}
 
 /* header css  */
+.menu_services_logo {
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.serviceList:hover .serviceName{
+    color: #cd1432;
+}
+.serviceList:hover .Strategy_Performance_Consulting_logo{
+    background-image: url(../images/icon_images/services_icons/Strategyp.png);
+}
+.serviceList:hover .Onshoreb_logo{
+    background-image: url(../images/icon_images/services_icons/Onshorep.png);
+
+}
+.serviceList:hover .Risk_Compliance_logo{
+    background-image: url(../new_icon_images/Governancep_red.png);
+
+}
+.serviceList:hover .businessSupport_logo {
+    background-image: url(../new_icon_images/BusinessSupportp.png);
+
+}
+.serviceList:hover .Legalb_logo{
+    background-image: url(../new_icon_images/Legalp.png);
+
+}
+.serviceList:hover .financial_capital_Services{
+    background-image: url(../images/icon_images/services_icons/Financial&Capitalp.png);
+}
+.serviceList:hover .Digital_Transformationb_logo{
+    background-image: url(../new_icon_images/Digital_Transformationp.png);
+}
+.serviceList:hover  .Capacityb_logo{
+    background-image: url(../new_icon_images/Capacityp.png);
+}
+
 
 .contact-header,
 .bannerDD {
@@ -161,13 +202,28 @@ button:focus, button:active, button:hover{
 .offeringservicesHeading:hover {
     color: #cd1432;
 }
+.financial_capital_Services{
+    background-image: url(../images/icon_images/services_icons/Financial&Capitalb.png);
+}
+.serviceColomn:hover .financial_capital_Services{
+    background-image: url(../images/icon_images/services_icons/Financial&Capitalp.png);
+}
 
-.Assurance_logo {
-    background-image: url(../ecovis_icons/Assurance.png);
+
+.Strategy_Performance_Consulting_logo {
+    background-image: url(../images/icon_images/services_icons/Strategyb.png);
 
 }
-.Taxation_logo{
-    background-image: url(../new_icon_images/overnanceb_black.png);
+.serviceColomn:hover .Strategy_Performance_Consulting_logo{
+    background-image: url(../images/icon_images/services_icons/Strategyp.png);
+
+}
+.Onshoreb_logo{
+    background-image: url(../images/icon_images/services_icons/Onshoreb.png);
+
+}
+.serviceColomn:hover .Onshoreb_logo{
+    background-image: url(../images/icon_images/services_icons/Onshorep.png);
 
 }
 .Risk_Compliance_logo{
@@ -211,6 +267,9 @@ button:focus, button:active, button:hover{
 
 .client_stories_images {
     filter: brightness(0.5);
+}
+.client_stories_card:hover .client_stories_images{
+    filter: brightness(1);
 }
 
 /* #clientStoriesdiv_1:hover #client_stories_1 {
@@ -326,7 +385,7 @@ ul {
 /* careear page css */
 
 .careearBanner{
-    background-image: url(../images/ecovis_banners/Careers_banner.png);
+    background-image: url(../images/ecovis_banners/homepage_b3_job_vaccancies.png);
 
 }
 
@@ -635,6 +694,7 @@ ul {
     background-image: url(../images/ecovis_banners/strategy_perfomance_consulting.png);
     filter: brightness(1);
 }
+
 .collabrationBanner{
     background-image: url(../images/ecovis_banners/mentor_bi.png);
     filter: brightness(1);
@@ -647,6 +707,10 @@ ul {
     /* background-image: url(); */
     filter: brightness(1);
 
+}
+/* ecovisIndia page css  */
+.ecovisIndiaBanner{
+    background-image: url(../images/ecovis_banners/homepage_b1_ecovis_india.png);
 }
 
 /* marketing_head page css  */

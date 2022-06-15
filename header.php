@@ -1,4 +1,4 @@
-<?php $GLOBALS['base_url'] = "http://localhost/ecovis/ecovis/"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -66,19 +66,19 @@
                         <a href="#">
                             <li id="services">Services</li>
                         </a>
-                        <a href="#client_Stories">
+                        <a href="./client_stories.php">
                             <li>Client stories</li>
                         </a>
-                        <a href="#">
+                        <a href="./collabration.php">
                             <li>Collaboration</li>
                         </a>
                         <a href="./ecovis_india.php">
                             <li>Our team</li>
                         </a>
-                        <a href="./careers.html">
+                        <a href="./careers.php">
                             <li>Careers</li>
                         </a>
-                        <a href="./contact_us.html">
+                        <a href="./contact_us.php">
                             <li>Contact Us</li>
                         </a>
                         <a href="#">
@@ -98,13 +98,14 @@
                 <P class="mx-auto text-justify text-light mt-5 w-75">Our team is always on hand to answer
                     any questions and provide any help
                     we can. So let s start a conversation</P>
-                <button class="btn header_connectBTN mt-3 font-weight-bold text-light">CONTACT US</button>
+                <a href="./contact_us.php"><button class="btn header_connectBTN mt-3 font-weight-bold text-light">CONTACT US</button></a>
             </div>
-            <div class="col-md-4 ourPresents pt-2">
+            <div class="col-md-4 ourPresents pt-4">
                 <h3 class="font-weight-normal d-inline ml-4 mt-3">Our Presence </h3>
                 <ul class="list-unstyled">
                     <li class="justify-content-between mb-3 mt-4">
                         <div class="align-items-center row">
+                            <a href="./ecovis_india.php" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
                             <div class="col-3 pr-0 text-center w-75">
                                 <i class="fa-solid fa-location-pin text-danger" style="font-size: 2.5rem; "></i>
                             </div>
@@ -112,10 +113,13 @@
                                 <span>India</span>
                                 <p></p>
                             </div>
+                            </a>
                         </div>
                     </li>
                     <li class="justify-content-between mb-1">
                         <div class="align-items-center row">
+                        <a href="./ecovis_International.php" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
+                            
                             <div class="col-3 pr-0 text-center w-75">
                                 <i class="fa-solid fa-earth-asia" style="font-size: 2.5rem; "></i>
                             </div>
@@ -123,12 +127,13 @@
                                 <span>Ecovis International</span>
                                 <p></p>
                             </div>
+                        </a>
                         </div>
                     </li>
                 </ul>
 
             </div>
-            <div class="col-md-4 ourValues pt-2">
+            <div class="col-md-4 ourValues pt-4">
                 <h3 class="font-weight-normal d-inline ml-4 mt-3">Our Values</h3>
                 <ul class="list-unstyled">
                     <li class="justify-content-between mt-4">
@@ -192,15 +197,15 @@
 
             <div class="col-md-8 ourValues d-flex">
 
-                <div class="w-75 mt-2">
-                    <h3 class="font-weight-normal d-inline ml-4">Our Values</h3>
+                <div class="w-100 my-4">
+                    <h3 class="font-weight-normal d-inline ml-4">Our Services</h3>
                     <div class="d-flex mt-2">
                         <div class="w-50">
                             <ul class="list-unstyled">
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
+                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
                                     <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center w-75">
-                                            <img src="./ecovis_icons/Assurance.png" class="w-75" alt="">
+                                        <div class="col-3 pr-0 text-center menu_services_logo Strategy_Performance_Consulting_logo  w-75">
+                                        
                                         </div>
                                         <div class="col-9 pl-0">
                                             <h5 class="mb-1">Assurance</h5>
@@ -209,11 +214,70 @@
                                             </p>
                                         </div>
                                     </div>
-                                </li>
-
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
+                                </li> -->
+                                <a href="./Strategy_Performance_Consulting_services.php" style="text-decoration: none;" class="text-dark">
+                                <li class="mb-1 serviceList">
                                     <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center w-75">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo Strategy_Performance_Consulting_logo">
+                                            <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                        </div>
+                                        <div class="col-9 pl-0">
+                                            <h5 class="mb-1 serviceName" >Strategy and Performance Consulting</h5>
+                                            <p class="mb-0 small">Goal-oriented service focuses on the gaps between business and performance outcomes</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                </a>
+                                <a href="./Onshore_Offshore_Advisory.php" style="text-decoration: none;" class="text-dark">
+                                <li class="mb-1 serviceList">
+                                    <div class="align-items-center row">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo Onshoreb_logo ">
+                                            <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                        </div>
+                                        <div class="col-9 pl-0">
+                                            <h5 class="mb-1 serviceName">Onshore and Offshore consultancy</h5>
+                                            <p class="mb-0 small">Assisting Companies with overseeing Accounting and Tax commitments</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </a>
+
+                            <a href="./Government_risk_compliance.php" style="text-decoration: none;" class="text-dark">
+                            <li class="mb-1 serviceList">
+                                    <div class="align-items-center row">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo Risk_Compliance_logo ">
+                                            <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                        </div>
+                                        <div class="col-9 pl-0">
+                                            <h5 class="mb-1 serviceName">Governance Risk & compliance</h5>
+                                            <p class="mb-0 small">We prepare organizations for any unexpected challenges</p>
+                                        </div>
+                                    </div>
+                                </li>
+                        </a>
+                        <a href="./BusinessSupportandFinancialReporting.php" style="text-decoration: none;" class="text-dark">
+                        <li class="mb-1 serviceList">
+                                    <div class="align-items-center row">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo businessSupport_logo ">
+                                            <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                        </div>
+                                        <div class="col-9 pl-0">
+                                            <h5 class="mb-1 serviceName">Business support & Financial reporting</h5>
+                                            <p class="mb-0 small">Offering accounting and management services to grow your business.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                    </a>
+                                
+
+
+                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
+                                    <div class="align-items-center row">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo Strategy_Performance_Consulting_logo">
                                             <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
                                                 alt="">
                                         </div>
@@ -249,12 +313,12 @@
                                             </p>
                                         </div>
                                     </div>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                         <div class="w-50">
                             <ul class="list-unstyled">
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
+                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
                                     <div class="align-items-center row">
                                         <div class="col-3 pr-0 text-center w-75">
                                             <img src="./ecovis_icons/LEgal-Support.png" class="" style="width: 67%;"
@@ -266,9 +330,66 @@
                                                 consultancy</p>
                                         </div>
                                     </div>
+                                </li> -->
+                                <a href="./LitigationLegalServices.php" style="text-decoration: none;" class="text-dark">
+                                <li class="mb-1 serviceList">
+                                    <div class="align-items-center row">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo Legalb_logo">
+                                            <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                        </div>
+                                        <div class="col-9 pl-0">
+                                            <h5 class="mb-1 serviceName">Legal & Litigation Services</h5>
+                                            <p class="mb-0 small">Aiding you with legal advises and policies</p>
+                                        </div>
+                                    </div>
                                 </li>
+                            </a>
+                            <a href="./Financial_and_Capital_Services.php" style="text-decoration: none;" class="text-dark">
+                            <li class="mb-1 serviceList">
+                                    <div class="align-items-center row">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo financial_capital_Services">
+                                            <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                        </div>
+                                        <div class="col-9 pl-0">
+                                            <h5 class="mb-1 serviceName">Financial Capital Services</h5>
+                                            <p class="mb-0 small">Offering services to make your business financially sound</p>
+                                        </div>
+                                    </div>
+                                </li>
+                        </a>
+                        <a href="./Digital_transformation.php" style="text-decoration: none;" class="text-dark">
+                        <li class="mb-1 serviceList">
+                                    <div class="align-items-center row">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo Digital_Transformationb_logo">
+                                            <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                        </div>
+                                        <div class="col-9 pl-0">
+                                            <h5 class="mb-1 serviceName">Digital Transformations</h5>
+                                            <p class="mb-0 small">Transform and foster your business with our tech experts and their creativity</p>
+                                        </div>
+                                    </div>
+                                </li>
+                    </a>
+                    <a href="./Crossborderandmerchantbankingservices.php" style="text-decoration: none;" class="text-dark">
+                    <li class="mb-1 serviceList">
+                                    <div class="align-items-center row">
+                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo Capacityb_logo">
+                                            <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                        </div>
+                                        <div class="col-9 pl-0">
+                                            <h5 class="mb-1 serviceName">Cross Border & Merchant Banking Advice</h5>
+                                            <p class="mb-0 small">Capacity and Capability building is becoming one of the fundamental responsibilities, and it is evolving into a high-quality service</p>
+                                        </div>
+                                    </div>
+                                </li>
+                </a>
+                                
 
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
+                                <!-- <li class="mb-1 d-flex justify-content-between align-items-center">
                                     <div class="align-items-center row">
                                         <div class="col-3 pr-0 text-center w-75">
                                             <img src="./ecovis_icons/Growth-Services.png" class="" style="width: 67%;"
@@ -292,12 +413,12 @@
                                             <p class="small">Transform and foster your business with our services</p>
                                         </div>
                                     </div>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="mt-2">
+                <!-- <div class="mt-2">
                     <h3 class="font-weight-normal d-inline mt-3">Industries</h3>
                     <ul class="list-unstyled mt-3">
                         <li>
@@ -311,7 +432,7 @@
                         </li>
                     </ul>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </header>

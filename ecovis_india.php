@@ -91,7 +91,6 @@
         box-shadow: 0px 2px 3px 1px lightgray;
         background-color: whitesmoke;
     }
-  
 </style>
 
 <body>
@@ -99,20 +98,25 @@
     <?php include_once "header.php" ?>
     <!-- banner  -->
     <div class="ecovis_insia_banner">
-        
-        <div class="position-relative">
-        <img src="./ecovis-images/our_team_banner.png" class="w-100" style="height: 50vh;" alt="">
-            <p class="banner_text">ECOVIS INDIA</p>
+        <div class="align-items-center ecovisIndiaBanner d-flex justify-content-around pageBanner">
+            <div class="">
+                <p class="mainHeading text-center text-light">ECOVIS India</p>
+            </div>
+            <!-- <img src="" alt=""> -->
         </div>
+        <!-- <div class="position-relative">
+            <img src="./ecovis-images/our_team_banner.png" class="w-100" style="height: 50vh;" alt="">
+            <p class="banner_text">ECOVIS India</p>
+        </div> -->
         <div class=" w-100 arrow">
-
+            <!-- 
             <div class="border-0 kwadrat2 mt-0 mx-auto">
                 <div class="trojkat2">
                     <div class="trojkat_bg2"></div>
                 </div>
-            </div>
+            </div> -->
             <!-- our team  -->
-            <div class="our_team">
+            <div class="our_team mt-5">
                 <h1 style="font-family: 'Libre Baskerville', serif; font-size:2.4rem;" class="text-center">Our Team</h1>
                 <h3 class="font-weight-normal text-center">Located in all the major cities</h3>
                 <div class="main-content">
@@ -169,39 +173,39 @@
                     <div class="row justify-content-around my-5">
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                            <img src="./images/icon_images/ahmedabad.png" class="office_state_img" alt="">
+                                <img src="./images/icon_images/ahmedabad.png" class="office_state_img" alt="">
                                 <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">AHEMEDABAD</h6>
                             </div>
                             <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                                <p class="small text-muted mb-0">Practice head</p>
+                                <h6 class="text-danger">R L Kabra</h6>
                                 <p>Naharraj Leela, 1 Ganga Soc, Shahibaug</p>
                             </div>
 
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                            <img src="./images/icon_images/chennai1.png" class="office_state_img" alt="">
+                                <img src="./images/icon_images/chennai1.png" class="office_state_img" alt="">
                                 <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">CHENNAI</h6>
                             </div>
                             <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                                <p class="small text-muted mb-0">Practice head</p>
+                                <h6 class="text-danger">R L Kabra</h6>
                                 <p>17/39, Krishnappa Tank St, Konditope, Chennai – 600 079</p>
                             </div>
 
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                            <img src="./images/icon_images/delhi.png" class="office_state_img" alt="">
+                                <img src="./images/icon_images/delhi.png" class="office_state_img" alt="">
                                 <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">DELHI</h6>
                             </div>
                             <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                                <p class="small text-muted mb-0">Practice head</p>
+                                <h6 class="text-danger">R L Kabra</h6>
                                 <p>A 531, Shastri Nagar, New Delhi – 110052</p>
                             </div>
 
@@ -212,39 +216,39 @@
                     <div class="row justify-content-around my-5">
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                            <img src="./images/icon_images/hyderabad1.png" class="office_state_img" alt="">
+                                <img src="./images/icon_images/hyderabad1.png" class="office_state_img" alt="">
                                 <!-- <img src="./ecovis_icons/ahd.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">HYDERABAD</h6>
                             </div>
                             <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                                <p class="small text-muted mb-0">Practice head</p>
+                                <h6 class="text-danger">R L Kabra</h6>
                                 <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                             </div>
 
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                            <img src="./images/icon_images/indore1.png" class="office_state_img" alt="">
+                                <img src="./images/icon_images/indore1.png" class="office_state_img" alt="">
                                 <!-- <img src="./ecovis_icons/chen.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">INDORE</h6>
                             </div>
                             <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                                <p class="small text-muted mb-0">Practice head</p>
+                                <h6 class="text-danger">R L Kabra</h6>
                                 <p>401, Fortune Ambience Business Spaces Indore (M.P) – 452001</p>
                             </div>
 
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                            <img src="./images/icon_images/kolkata.png" class="office_state_img" alt="">
+                                <img src="./images/icon_images/kolkata.png" class="office_state_img" alt="">
                                 <!-- <img src="./ecovis_icons/ncr.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">KOLKATA</h6>
                             </div>
                             <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                                <p class="small text-muted mb-0">Practice head</p>
+                                <h6 class="text-danger">R L Kabra</h6>
                                 <p>4A/2, Anandam Apt, 7 Mall Road, Kolkata – 700 080</p>
                             </div>
 
@@ -255,26 +259,26 @@
                     <div class="row justify-content-around my-5">
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                            <img src="./images/icon_images/mumbai1.png" class="office_state_img" alt="">
+                                <img src="./images/icon_images/mumbai1.png" class="office_state_img" alt="">
                                 <!-- <img src="./ecovis_icons/hyd.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">MUMBAI</h6>
                             </div>
                             <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                                <p class="small text-muted mb-0">Practice head</p>
+                                <h6 class="text-danger">R L Kabra</h6>
                                 <p>1902 C, Kailas Business Park, Vikhroli – W, Mumbai – 400 079</p>
                             </div>
 
                         </div>
                         <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
                             <div class="mb-4">
-                            <img src="./images/icon_images/mumbai1.png" class="office_state_img" alt="">
+                                <img src="./images/icon_images/mumbai1.png" class="office_state_img" alt="">
                                 <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                                 <h6 class="text-danger">NAVI MUMBAI</h6>
                             </div>
                             <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                                <p class="small text-muted mb-0">Practice head</p>
+                                <h6 class="text-danger">R L Kabra</h6>
                                 <p>513, Arenja Corner, Vashi, Navi Mumbai – 400 703. </p>
                             </div>
 

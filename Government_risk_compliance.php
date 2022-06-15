@@ -65,7 +65,7 @@
         <div class="discribeStory mt-5">
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -89,7 +89,7 @@
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -113,7 +113,7 @@
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -137,7 +137,7 @@
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
@@ -160,7 +160,7 @@
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">

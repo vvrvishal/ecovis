@@ -134,13 +134,13 @@
                         <div class="row mx-0">
                             <div class="col-md-4">
                                 <div class="india_team_point mx-auto align-items-center flex-column border d-flex justify-content-center rounded-circle">
-                                    <h1 class="mainHeading mb-3 text-danger">80</h1>
+                                    <h1 class="mainHeading mb-3 text-danger">80+</h1>
                                     <p class="font-weight-bold mb-0 text-center" style="width: 90%;">Operating in more than 80 countries</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="india_team_point mx-auto align-items-center flex-column border d-flex justify-content-center rounded-circle">
-                                    <h1 class="mainHeading mb-3 text-danger">9000</h1>
+                                    <h1 class="mainHeading mb-3 text-danger">9000+</h1>
                                     <p class="font-weight-bold mb-0 text-center" style="width: 90%;">Team of experts</p>
                                 </div>
                             </div>

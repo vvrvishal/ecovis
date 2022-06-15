@@ -22,40 +22,50 @@
     <div id="homebannner" class="carousel slide" style="height: 450px;" data-ride="carousel">
         <div class="carousel-inner h-100">
             <div class=" carousel-item active">
-            <img class="d-block w-100" src="./images/ecovis_banners/homepage_b1_ecovis_india.png" style="height: 450px;" alt="First slide">
+                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b1_ecovis_india.png" style="height: 450px;" alt="First slide">
 
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption d-none d-md-block">
                     <div class="">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
                         <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
-                        <a href="#"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
+                        <a href="./ecovis_india.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
                                 OFFICES</button></a>
                     </div>
 
                 </div>
             </div>
             <div class="carousel-item ">
-            <img class="d-block w-100" src="./images/ecovis_banners/homepage_b2_our_team.png" style="height: 450px;" alt="First slide">
+                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b2_our_team.png" style="height: 450px;" alt="First slide">
 
                 <!-- <img class="d-block w-100" src="./ecovis-images/careers_banner.png" style="height: 450px;" alt="Second slide"> -->
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
-                    <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
-                    <a href="#"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
-                            OFFICES</button></a>
+                    <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem; color:transparent;">ECOVIS INDIA</h1>
+                    <h3 class="font-weight-normal">The people who intensify our Business</h3>
+                    <a href="./team.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
+                            TEAM</button></a>
 
                 </div>
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="./images/ecovis_banners/homepage_b3_job_vaccancies.png" style="height: 450px;" alt="First slide">
+                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b3_job_vaccancies.png" style="height: 450px;" alt="First slide">
 
-            <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
+                <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem;">ECOVIS INDIA</h1>
-                    <h3 class="font-weight-normal">Broaden your business horizon with us </h3>
-                    <a href="#"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
-                            OFFICES</button></a>
+                    <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem; color:transparent">ECOVIS INDIA</h1>
+                    <h3 class="font-weight-normal">Build your future with us </h3>
+                    <a href="./careers.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">CAREER PATHS</button></a>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/ecovis_banners/lets_connect.png" style="height: 450px;" alt="First slide">
+
+                <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="font-family: 'Libre Baskerville', serif; font-size: 3rem; color:transparent">ECOVIS INDIA</h1>
+                    <!-- <h3 class="font-weight-normal">Network with us</h3> -->
+                    <a href="./careers.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">LETS CONNECT</button></a>
 
                 </div>
             </div>
@@ -78,17 +88,17 @@
         <div class="d-flex mx-auto w-50 justify-content-around">
             <div class="btn-group py-3" style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false">
-                Formation
+                    Select service
                 </button>
                 <div class="dropdown-menu w-100">
                     <button class="dropdown-item" type="button">Formation</button>
-                    <button class="dropdown-item" type="button">Regestration</button>
+                    <button class="dropdown-item" type="button">Registration</button>
                     <button class="dropdown-item" type="button">Closure of Concern</button>
                 </div>
             </div>
             <div class="btn-group py-3" style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false">
-                    Right-aligned menu
+                   Select category
                 </button>
                 <div class="dropdown-menu w-100">
                     <button class="dropdown-item" type="button">Private Limited Company</button>
@@ -144,10 +154,10 @@
     </div>
     <div class="row mx-0 mb-4">
 
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                    <div class=" w-75 mx-auto services_logo Assurance_logo"></div>
+                    <div class=" w-75 mx-auto services_logo Strategy_Performance_Consulting_logo "></div>
                     <!-- <img src="./ecovis_icons/Assurance.png" class="w-75" alt=""> -->
                 </div>
                 <h4 class="offeringservicesHeading">Strategy & Performance Consulting </h4>
@@ -166,30 +176,30 @@
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <!-- <div class=" w-75 mx-auto Taxation_logo services_logo" style=""></div> -->
-                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-75" alt="">
+                    <div class=" w-75 mx-auto Onshoreb_logo services_logo" ></div>
+                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-75" alt=""> -->
                 </div>
-                <h4 class="offeringservicesHeading">Taxation</h4>
-                <p class="offeringservicesdetails">Assisting Companies With overseeing Accounting and Tax commitments</p>
+                <h4 class="offeringservicesHeading text-capitalize">Onshore & Offshore advisory</h4>
+                <p class="offeringservicesdetails">Ecovis has experience offering both onshore and offshore advisory services</p>
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto Risk_Compliance_logo services_logo" ></div>
+                    <div class=" w-75 mx-auto Risk_Compliance_logo services_logo"></div>
                     <!-- <img src="./new_icon_images/Governanceb_black.png" class="w-75" alt=""> -->
                 </div>
-                <h4 class="offeringservicesHeading">Risk & Compliance</h4>
+                <h4 class="offeringservicesHeading text-capitalize">Governance risk & compliance</h4>
                 <p class="offeringservicesdetails">We prepare organizations for any unexpected challenges</p>
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto businessSupport_logo services_logo" ></div>
+                    <div class=" w-75 mx-auto businessSupport_logo services_logo"></div>
                     <!-- <img src="./new_icon_images/BusinessSupportb.png" class="w-75" alt=""> -->
                 </div>
-                <h4 class="offeringservicesHeading">Accounting Business support</h4>
+                <h4 class="offeringservicesHeading text-capitalize">Business support & financial Reporting</h4>
                 <p class="offeringservicesdetails">Offering accounting business support to grow your business.</p>
             </div>
         </div>
@@ -199,43 +209,45 @@
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto services_logo Legalb_logo" ></div>
+                    <div class=" w-75 mx-auto services_logo Legalb_logo"></div>
 
                     <!-- <img src="./new_icon_images/Legalb.png" class="w-75" alt=""> -->
                 </div>
-                <h4 class="offeringservicesHeading">Litigation & Legal Services</h4>
+                <h4 class="offeringservicesHeading text-capitalize">Litigation & Legal Services</h4>
                 <p class="offeringservicesdetails">We create a platform to offer you legal services and consultancy</p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="text-center">
-                <div class="mx-auto service_icons">
-                    <img src="./ecovis_icons/Growth-Services.png" class="w-75" alt="">
-                </div>
-                <h4 class="offeringservicesHeading">Growth Services </h4>
-                <p class="offeringservicesdetails">We demonstrate and further develop your business quality by offering growth services </p>
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto Digital_Transformationb_logo services_logo" ></div>
-                
+                <div class=" w-75 mx-auto services_logo financial_capital_Services"></div>
+
+                    <!-- <img src="./ecovis_icons/Growth-Services.png" class="w-75" alt=""> -->
+                </div>
+                <h4 class="offeringservicesHeading text-capitalize">financial & capital Services </h4>
+                <p class="offeringservicesdetails">We want to build a long-term value in the financial services business by transforming it from the ground up.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
+            <div class="text-center">
+                <div class="mx-auto service_icons">
+                    <div class=" w-75 mx-auto Digital_Transformationb_logo services_logo"></div>
+
                     <!-- <img src="./new_icon_images/Digital_Transformationb.png" class="w-75" alt=""> -->
                 </div>
-                <h4 class="offeringservicesHeading">Digital Transformation</h4>
+                <h4 class="offeringservicesHeading text-capitalize">Digital Transformation</h4>
                 <p class="offeringservicesdetails">Transform and foster your business digitally using our digital transformation services</p>
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 serviceColomn">
             <div class="text-center">
                 <div class="mx-auto service_icons">
-                <div class=" w-75 mx-auto Capacityb_logo services_logo" ></div>
+                    <div class=" w-75 mx-auto Capacityb_logo services_logo"></div>
 
                     <!-- <img src="./new_icon_images/Capacityb.png" class="w-75" alt=""> -->
                 </div>
-                <h4 class="offeringservicesHeading">Capacity & Capability</h4>
-                <p class="offeringservicesdetails">Offering accounting business support to grow your business.</p>
+                <h4 class="offeringservicesHeading text-capitalize">Cross border & merchant banking advice</h4>
+                <p class="offeringservicesdetails">Capacity and Capability building is becoming one of the fundamental responsibilities, and it is evolving into a high-quality service</p>
             </div>
         </div>
     </div>
@@ -339,17 +351,17 @@
 
     <!-- Client stories  -->
     <div class="clientStoriesHeading text-center  mt-5" id="client_Stories">
-        <h2>Know Us through Our Clients</h2>
+        <h2 class="text-capitalize primaryHeading">Know Us through Our Clients</h2>
     </div>
-    <div class="owl-carousel owl-theme mt-4 mb-0 position-relative" >
-        <div class="item  client_story">
+    <div class=" owl-carousel owl-theme mt-4 mb-0 position-relative">
+        <div class="1 item  client_story">
             <div class=" float-right">
-                <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c1_baggingoutcomes_r.jpg" class="w-100 client_stories_images" alt="">
                 <div class="pb-3 pt-4 px-4">
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
-                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <p class="clientStoryDetails text-justify">The main motive of our company which is completely aimed at is to render professional services to its potential clients from different fields of the varied economy sectors.</p>
                     <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                        <a href="./clientStoriesDetailPage1.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -357,16 +369,16 @@
 
             </div>
         </div>
-        <div class="item  client_story">
+        <div class="2 item  client_story">
             <div class=" float-right">
-            <img id="client_stories_1" src="./images/clientStoriesImages/lending hand_r.jpg" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c2_lendinghand_r.jpg" class="w-100 client_stories_images" alt="">
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
-                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <h5 class="client_stories_heading text-center">A Lending Hand for the procuration of the client!</h5>
+                    <p class="client_stories_details text-justify mb-2">With the mission of owning and operating high-quality wireless infrastructure sites in stable markets, PTI was established in the year 2013.</p>
                     <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                       <a href="./clientStoriesDetailPage2.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -374,16 +386,19 @@
 
             </div>
         </div>
-        <div class="item  client_story">
+        <div class="3 item  client_story">
             <div class=" float-right">
-            <img id="client_stories_1" src="./images/clientStoriesImages/rendering extensive_r.png" class="w-100 client_stories_images" alt="">
+            <img id="client_stories_1" src="./images/clientStoriesImages/c3_Facilitationofcollective_r.png" class="w-100 client_stories_images" alt="">
+
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
-                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <h5 class="client_stories_heading text-center">Facilitation of collective outsources accounting, local tax compliance, and company formation services!</h5>
+                    <p class="client_stories_details text-justify mb-2">The client is a subsidiary of a multinational company based in Turkey that functions in various fields of batteries, chargers, accessories for motive, etc.</p>
                     <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                       <a href="./clientStoriesDetailPage3.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+
+                        <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -391,16 +406,18 @@
 
             </div>
         </div>
-        <div class="item  client_story">
+        <div class="4 item  client_story">
             <div class=" float-right">
-            <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c4_facilitating_r.png" class="w-100 client_stories_images" alt="">
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
-                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <h5 class="client_stories_heading text-center">Facilitating assistance for the expansion of Spanish automotive components producer.</h5>
+                    <p class="client_stories_details text-justify mb-2">Our consumer could be a major transnational company within the automotive sector, with varied plants in Spain that manufacture automotive components. </p>
                     <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                       <a href="./clientStoriesDetailPage4.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+
+                        <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -408,16 +425,37 @@
 
             </div>
         </div>
-        <div class="item  client_story">
+         <div class="5 item  client_story">
             <div class=" float-right">
-            <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" class="w-100 client_stories_images" alt="">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c5_renderingextensive_r.png" class="w-100 client_stories_images" alt="">
 
                 <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
                 <div class="pb-3 pt-4 px-4">
-                    <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
-                    <p class="client_stories_details text-justify mb-2">The main motive of our company which is completely aimed at is to render professional services to its</p>
+                    <h5 class="client_stories_heading text-center">Rendering extensive start-up services to our clients!</h5>
+                    <p class="client_stories_details text-justify mb-2">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series,</p>
                     <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span>
+                       <a href="./clientStoriesDetailPage5.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+
+                        <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
+                    </div>
+                    <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
+                </div>
+
+
+            </div>
+        </div>
+        <div class="6 item  client_story">
+            <div class=" float-right">
+                <img id="client_stories_1" src="./images/clientStoriesImages/c6_assisstanceprovided_r.png" class="w-100 client_stories_images" alt="">
+
+                <!-- <img src="./ecovis-images/our_team_banner.png" class="w-100" alt=""> -->
+                <div class="pb-3 pt-4 px-4">
+                    <h5 class="client_stories_heading text-center">Assistance provided to electrical contractors for avoiding double taxation.</h5>
+                    <p class="client_stories_details text-justify mb-2">Our client is a massive electrical contracting business located in New Zealand. </p>
+                    <div class="d-flex justify-content-end">
+                       <a href="./clientStoriesDetailPage6.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+
+                        <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -464,7 +502,7 @@
 
     </div>
     <div class="text-center">
-        <a href="#" ><button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore All</button></a>
+        <a href="./client_stories.php"><button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore All</button></a>
     </div>
 
     <!-- footer  -->
