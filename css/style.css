@@ -68,6 +68,10 @@ button:focus, button:active, button:hover{
 .clientStoriesDetailPageImage:hover{
     filter: brightness(1) !important;
 }
+.form-control:focus, .form-control:active{
+    box-shadow: none;
+    outline: none;
+}
 
 /* header css  */
 .menu_services_logo {
@@ -266,15 +270,13 @@ button:focus, button:active, button:hover{
 /* client stories section  */
 
 .client_stories_images {
-    filter: brightness(0.5);
+    height: 221px !important;
+    filter: brightness(.5);
 }
 .client_stories_card:hover .client_stories_images{
     filter: brightness(1);
 }
 
-/* #clientStoriesdiv_1:hover #client_stories_1 {
-    filter: brightness(1);
-} */
 .client_story:hover .client_stories_images{
     filter: brightness(1);
 }
@@ -473,9 +475,9 @@ ul {
     border-top-right-radius: 10px;
 }
 
-.client_stories_heading {
+/* .client_stories_heading {
     font-size: var(--primary_Font_size);
-}
+} */
 
 .client_stories_details {
     font-size: var(--secondry_font_size);
@@ -629,6 +631,11 @@ ul {
 
     #indexProblem {
         width: 35% !important;
+    }
+}
+@media screen and (max-width:1024px){
+    #client_stories_1{
+        height: 175px !important;
     }
 }
 

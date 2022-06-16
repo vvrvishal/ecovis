@@ -130,7 +130,7 @@ Our broad trade and capital finance capabilities provide you with the flexibilit
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
                            
-We assist you in developing a pre- and post-financial restructuring action plan, as well as contingency preparations.
+We assist you in developing a pre-and post-financial restructuring action plan, as well as contingency preparations.
 
                             </p>
                         </div>

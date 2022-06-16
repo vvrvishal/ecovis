@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 p-4">
-                <i class="fa-solid fa-arrow-left-long"></i>
+                <a href="./client_stories.php" class="text-dark"><span class="px-3 py-1"><i class="fa-solid fa-arrow-left-long"></i></span></a>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4">Facilitating assistance for the expansion of Spanish automotive components producer.</h5>
+                            <h5 class="primaryHeading mb-4 text-center">Facilitating assistance for the expansion of Spanish automotive components producer.</h5>
                             <p class="normalText text-justify mb-4">Our consumer could be a major transnational company within the automotive sector, with varied plants in Spain that manufacture automotive components. The corporate required to expand one in all its plants in Northern Spain to extend its production capacity.</p>
                         </div>
                         <div class="d-flex">
@@ -44,7 +44,7 @@
                             <div class="col-md-3 primaryHeading">Our Solutions</div>
                             <div class="col-md-9 normalText text-justify mb-4">
                                 <p>After excluding the advisability of incorporating a replacement company thanks to the issues which might arise in co-ordinating workforce and cross-production issues, we reviewed the varied options hospitable the client, studied the legal situation of every of the plots of land offered to the client and made a preliminary investigation of things of every piece of land within the property register. We then made an inventory of the pros and cons of every plot of land and, along side the client, we ranked the risks the client might encounter. We had in touch in mind the urgency with which the client needed to be ready to construct the extension of the plant and thus the need for more or fewer legal formalities within the acquisition of the plot of land. ECOVIS LEGAL SPAIN also presented different options for the acquisition of the plot of land, either through direct acquisition, a rental agreement with a sale option or a financial leasing agreement. along side the client we chose the simplest available option, taking into consideration all the preceding factors. it had been vital to act during a very co-ordinated manner with the client so on meet its real needs.</p>
-                                
+
                             </div>
                         </div>
                         <hr>
@@ -59,7 +59,7 @@
                             <div class="col-md-3 primaryHeading">Association</div>
                             <div class="col-md-9 normalText text-justify mb-4">
                                 <p> ECOVIS is in joint efforts withChristian Koch, lawyer</p>
-<P>ECOVIS Legal Spain</p>
+                                <P>ECOVIS Legal Spain</p>
                             </div>
                         </div>
                         <!-- </div> -->
@@ -69,25 +69,25 @@
                         <div class=" text-center">
                             <img src="./images/clientStoriesImages/c4_facilitating_r.png" style="border-radius: 10px; filter:brightness(.5)" class="w-75 clientStoriesDetailPageImage" alt="">
                         </div>
-                    <div class="">
-                <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
-                <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                        <div class="">
+                            <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
+                            <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">Combined efforts bagging successful outcomes!</p>
-                <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">A Lending Hand for the procuration of the client!</p>
-                <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">Facilitation of collective outsources accounting, local tax compliance....</p>
-               
-            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-        
+
         </div>
     </div>
 

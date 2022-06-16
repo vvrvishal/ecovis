@@ -18,9 +18,9 @@
             <h1 class="mainHeading mb-4 text-center text-light">Strategy &amp; Performance Consulting</h1>
             <h6 class="mx-auto normalText text-justify text-light w-50" style="
     line-height: 25px;
-">The implementation of a strategy plan to fulfil an organization s goals is
+">The implementation of a strategy plan to fulfil an organization's goals is
                 known as strategic execution. The implementation of a method plan to
-                fulfil an organization s desires is referred to as strategic execution</h6>
+                fulfil an organization's desires is referred to as strategic execution</h6>
         </div>
     </div>
     <div class="banner ">
@@ -167,7 +167,7 @@
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Customer Insights & Engagement</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            Consumer insights assist organisations in gaining a better understanding of their customers' requirements, attitudes, and purchase habits. Learn how to put these information to good use and make informed decisions.                            </p>
+                            Consumer insights assist organisations in gaining a better understanding of their customer's requirements, attitudes, and purchase habits. Learn how to put these information to good use and make informed decisions.                            </p>
                         </div>
                     </div>
                 </div>
@@ -189,7 +189,7 @@
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Institutionalizing Robust Performance Management</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            Developing a performance management system that improves research organisations' impact orientation                            </p>
+                            Developing a performance management system that improves research organisation's impact orientation.</p>
                         </div>
                     </div>
                 </div>

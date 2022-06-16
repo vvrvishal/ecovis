@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 p-4">
-                <i class="fa-solid fa-arrow-left-long"></i>
+                <a href="./client_stories.php" class="text-dark"><span class="px-3 py-1"><i class="fa-solid fa-arrow-left-long"></i></span></a>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4">SEKO Group located in Czech earned German Smithy Company</h5>
+                            <h5 class="primaryHeading mb-4 text-center">SEKO Group located in Czech earned German Smithy Company</h5>
                             <p class="normalText text-justify mb-4">Our client, SEKO Group, may be a driving Czech-based producer of key components for flying machine fly motors and steam turbines. The company moreover fabricates total penetrating rigs for clients around the world and has generation offices in Brazil and India.</p>
                         </div>
                         <div class="d-flex">
@@ -41,7 +41,7 @@
                         <div class="d-flex">
                             <div class="col-md-3 primaryHeading">Our Solutions</div>
                             <div class="col-md-9 normalText text-justify mb-4">
-                                <p>With the help of our  team of experts at ECOVIS Wirtschaftstreuhand GmbH Wirtschaftsprüfungsgesellschaft, which is responsible for providing tax and financial  due diligence services, we were able to ensure a successful closing of the transaction, which was ultimately help our clients complete a career acquisition.</p>
+                                <p>With the help of our team of experts at ECOVIS Wirtschaftstreuhand GmbH Wirtschaftsprüfungsgesellschaft, which is responsible for providing tax and financial due diligence services, we were able to ensure a successful closing of the transaction, which was ultimately help our clients complete a career acquisition.</p>
                             </div>
                         </div>
                         <hr>
@@ -69,25 +69,25 @@
                         <div class=" text-center">
                             <img src="./images/clientStoriesImages/c13_SEKO_Group_r.png" style="border-radius: 10px; filter:brightness(.5)" class="w-75 clientStoriesDetailPageImage" alt="">
                         </div>
-                    <div class="">
-                <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
-                <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                        <div class="">
+                            <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
+                            <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">Combined efforts bagging successful outcomes!</p>
-                <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">A Lending Hand for the procuration of the client!</p>
-                <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">Facilitation of collective outsources accounting, local tax compliance....</p>
-               
-            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-        
+
         </div>
     </div>
 

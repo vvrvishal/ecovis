@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 p-4">
-                <i class="fa-solid fa-arrow-left-long"></i>
+                <a href="./client_stories.php" class="text-dark"><span class="px-3 py-1"><i class="fa-solid fa-arrow-left-long"></i></span></a>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4">A Lending Hand for the procuration of the client!</h5>
+                            <h5 class="primaryHeading mb-4 text-center">A Lending Hand for the procuration of the client!</h5>
                             <p class="normalText text-justify mb-4">With the mission of owning and operating high-quality wireless infrastructure sites in stable markets, PTI was established in the year 2013.</p>
                         </div>
                         <div class="d-flex">
@@ -42,7 +42,7 @@
                             <div class="col-md-3 primaryHeading">Our Solutions</div>
                             <div class="col-md-9 normalText text-justify mb-4">
                                 <p>Ecovis Costa Rica offers the client a fanatical service supervised by its accounting and tax partner. Our client was positively affected by Ecovis’ prompt responses to their requests. The PTI account was once handled by an esteemed international skilled services firm. Having compared our services with theirs, our client determined to award Ecovis with their account.</p>
-                                
+
                             </div>
                         </div>
                         <hr>
@@ -66,25 +66,25 @@
                         <div class=" text-center">
                             <img src="./images/clientStoriesImages/lendinghand_r.jpg" style="border-radius: 10px; filter:brightness(.5)" class="w-75 clientStoriesDetailPageImage" alt="">
                         </div>
-                    <div class="">
-                <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
-                <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                        <div class="">
+                            <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
+                            <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">Combined efforts bagging successful outcomes!</p>
-                <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">A Lending Hand for the procuration of the client!</p>
-                <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">Facilitation of collective outsources accounting, local tax compliance....</p>
-               
-            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-        
+
         </div>
     </div>
 

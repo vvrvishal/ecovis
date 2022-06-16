@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 p-4">
-                <i class="fa-solid fa-arrow-left-long"></i>
+                <a href="./client_stories.php" class="text-dark"><span class="px-3 py-1"><i class="fa-solid fa-arrow-left-long"></i></span></a>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4">Ukraine International Airways and ECOVIS Bondar & Bondar</h5>
+                            <h5 class="primaryHeading mb-4 text-center">Ukraine International Airways and ECOVIS Bondar & Bondar</h5>
                             <p class="normalText text-justify mb-4">Ukraine International Airlines (UIA) is Ukraine’s leading airline established in 1992.</p>
                         </div>
                         <div class="d-flex">

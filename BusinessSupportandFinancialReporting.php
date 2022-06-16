@@ -203,7 +203,7 @@ The Management Information System's (MIS) Dashboard creates a visual insights in
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
                             
-By offering a back office for your regulatory compliances, we can make managing your company's ongoing business tasks much easier.
+By offering a back office for your regulatory compliances, we can manage your company's ongoing business tasks much easily.
 
                             </p>
                         </div>

@@ -99,8 +99,7 @@
     <!-- banner  -->
     <div class="align-items-center marketing_headBanner d-flex justify-content-around pageBanner">
         <div class="">
-            <p class="mainHeading text-center text-light">Marketing head
-            </p>
+            <p class="mainHeading text-center text-light">Marketing Head</p>
         </div>
         <!-- <img src="" alt=""> -->
     </div>
@@ -108,13 +107,13 @@
         <div class="mt-5 mx-auto w-75">
             <h1 class="mb-4 primaryHeading text-center">About Us</h1>
             <p class="mb-3 normalText text-justify">ECOVIS RKCA with presence and representation of firms in India having more than 5 decades of presence and offices in Major Indian cities, a
-                global footprint with associates in more than 70+ countries serving clients in Assurance,Tax, legal, commercial, economic, regulatory,
-                management consulting and Wealth planning matters. Serving with core values of Responsibility towards Profession, Knowledge in People,
-                Commitment towards Clients and Accountability towards the society is our key differentiator. </p>
+                global footprint with associates in more than 70+ countries serving clients in Strategy & Performance Consulting, On shore and Off shore Advisory, Government, Risk & Compliance, Business Support and Financial Reporting
+, Legal & Litigation Services, Financial and Capital Services, Digital Transformation, Cross border and Merchant Banking Services management consulting and Wealth planning matters. Serving with core values of Responsibility towards Profession, Knowledge in People,
+                Commitment towards Clients, and Accountability towards the society is our key differentiator. </p>
         </div>
         <div class="mt-5 mx-auto w-75">
             <h1 class="mb-4 primaryHeading text-center">Job role</h1>
-            <p class="mb-3 normalText text-justify">We re recruiting for a Head of Marketing to manage all of our marketing initiatives, involving social media and digital marketing, along with
+            <p class="mb-3 normalText text-justify">We're recruiting for a Head of Marketing to manage all of our marketing initiatives, involving social media and digital marketing, along with
                 advertising and creative projects. Formulation of plans to help establish our brand, allocating resources to various projects, and defining
                 short and long term department goals are all tasks of the Head of Marketing. </p>
         </div>
@@ -125,11 +124,11 @@
             </div>
             <div class="col-md-4 text-center">
                 <h1 class="mb-4 primaryHeading">Employment type</h1>
-                <p class="mb-3 normalText text-justify text-center">Full time</p>
+                <p class="mb-3 normalText text-justify text-center">Full-time</p>
             </div>
             <div class="col-md-4 text-center">
                 <h1 class="mb-4 primaryHeading ">Location</h1>
-                <p class="mb-3 normalText text-justify text-center">Full time</p>
+                <p class="mb-3 normalText text-justify text-center">Vashi</p>
             </div>
         </div>
         <div class="justify-content-center mb-5 mx-0 row" style="margin-top: 4rem; ">
@@ -140,7 +139,7 @@
                         <ul style="list-style: unset;">
                             <li> Work experience as Head of Marketing or VP Marketing, preferably within our industry</li>
                             <li> Experience running successful marketing campaigns </li>
-                            <li>Solid knowledge of web analytics and Google Adwords</li>
+                            <li>Solid knowledge of web analytics, SEO, and Google Adwords</li>
                             <li>Experience with CRM software</li>
                             <li>Leadership skills with the ability to set and prioritize goals</li>
                             <li>Analytical mind</li>
@@ -153,11 +152,11 @@
                             <li>Craft strategies for all Marketing teams, including Digital, Advertising, Communications and Creative</li>
                             <li>Set, monitor and report on team goals</li>
                             <li>Design branding, positioning and pricing strategies</li>
-                            <li>Ensure our brand message is strong and consistent across all channels and marketing efforts (like events, email campaigns, web pages and promotional material)</li>
+                            <li>Ensure our brand message is strong and consistent across all channels and marketing efforts (like events, email campaigns, web pages and promotional material</li>
                             <li>Analyze consumer behavior and determine customer personas </li>
                             <li>Identify opportunities to reach new market segments and expand market share</li>
-                            <li>Monitor competition (acquisitions, pricing changes and new products and features)</li>
-                            <li>Coordinate sales and marketing efforts to boost brand awareness</li>
+                            <li>Monitor competition (acquisitions, pricing changes and new products and its feature</li>
+                            <li>Co-ordinate sales and marketing efforts to boost brand awareness</li>
                             <li>Participate in the quarterly and annual planning of company objectives</li>
                         </ul>
                     </div>

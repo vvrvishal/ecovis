@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketing Head</title>
+    <title>Business Analyst</title>
     <!-- font-awesome cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootstrap css cdn  -->
@@ -104,21 +104,20 @@
         <div class="mt-5 mx-auto w-75">
             <h1 class="mb-4 primaryHeading text-center">About Us</h1>
             <p class="mb-3 normalText text-justify">ECOVIS RKCA with presence and representation of firms in India having more than 5 decades of presence and offices in Major Indian cities, a
-global footprint with associates in more than 70+ countries serving clients in Assurance,Tax, legal, commercial, economic, regulatory,
-management consulting and Wealth planning matters. Serving with core values of Responsibility towards Profession, Knowledge in People,
-Commitment towards Clients and Accountability towards the society is our key differentiator. </p>
+                global footprint with associates in more than 70+ countries serving clients in Strategy & Performance Consulting, On shore and Off shore Advisory, Government, Risk & Compliance, Business Support and Financial Reporting , Legal & Litigation Services, Financial and Capital Services, Digital Transformation, Cross border and Merchant Banking Services management consulting and Wealth planning matters. Serving with core values of Responsibility towards Profession, Knowledge in People,
+                Commitment towards Clients and Accountability towards the society is our key differentiator. </p>
         </div>
         <div class="mt-5 mx-auto w-75">
             <h1 class="mb-4 primaryHeading text-center">Job role</h1>
             <p class="mb-3 normalText text-justify">We are looking for a Business Analyst who could help us enhance the business aspect of our organization.</p>
             <p class="mb-3 normalText text-justify">You will have to work in coordination with other business analysts and give the updates directly to the project manager. Your responsibilities
-will include performing thorough requirement analysis, building procedure with your business guidance, ensuring proper deployment and
-user acceptance of the product. You should have good analytical thinking and excellent verbal communication skills to be able to explain
-difficult concepts in a simple way to everybody.
-</p>
-<p class="mb-3 normalText text-justify">To do justice with the position of Business Analyst you should be capable of moving the organization towards efficiency, productivity, and
-profitability.
-</p>
+                will include performing thorough requirement analysis, building procedure with your business guidance, ensuring proper deployment, and
+                user acceptance of the product. You should have good analytical thinking and excellent verbal communication skills to be able to explain
+                difficult concepts in a simple way to everybody.
+            </p>
+            <p class="mb-3 normalText text-justify">To do justice with the position of Business Analyst you should be capable of moving the organization towards efficiency, productivity, and
+                profitability.
+            </p>
 
         </div>
         <div class="mt-5 mx-auto w-75 row">
@@ -141,53 +140,53 @@ profitability.
                     <div class="col-lg-6">
                         <h1 class="primaryHeading">Entry requirements</h1>
                         <ul style="list-style: unset;">
-                            <li>Bachelor s degree in Computer Science and other related
-courses.</li>
+                            <li>Bachelor's degree in Computer Science and other related
+                                courses.</li>
                             <li> Knowledge of both Information Technology and Business
-Administration. </li>
+                                Administration. </li>
                             <li> Proven experience as a Business Analyst.
 
-</li>
+                            </li>
                             <li> Familiarity with SQL and MS Excel.</li>
                             <li>Product testing and problem solving abilities.</li>
                             <li>Proficiency in data visualization techniques and tools.</li>
                             <li>Efficiency in creating detailed reports and presentations.</li>
-                            <li>  Excellent communication and interpersonal skills.
-</li>
+                            <li> Excellent communication and interpersonal skills.
+                            </li>
                             <li> Exceptional analytical, logical and reasoning skills.
-</li>
+                            </li>
                             <li>Experience in data visualization tools and techniques.
-</li>
+                            </li>
                             <li>Ability to build and maintain good relations with
-stakeholders.
-</li>
+                                stakeholders.
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <h1 class="primaryHeading">Responsibilities</h1>
                         <ul style="list-style: unset;">
                             <li>Analyze the business structure, technology used and goals
-of the organization.</li>
+                                of the organization.</li>
                             <li>Determine improvements in existing business processes.</li>
                             <li>Interact with business leaders and users to understand
-how to improve the efficiency of the product and add
-values.</li>
+                                how to improve the efficiency of the product and add
+                                values.</li>
                             <li>Suggest and implement new features that are
-technologically feasible and financially and functionally
-reasonable.</li>
+                                technologically feasible, financially, and functionally
+                                reasonable.</li>
                             <li>Analyze the impact of the new features introduced.</li>
                             <li>Sit with all the stakeholders to analyze and validate the
-changes made in the business processes, information
-system and policies.</li>
+                                changes made in the business processes, information
+                                system and policies.</li>
                             <li> Perform quality assurance and implement new business
-technology.</li>
+                                technology.</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
         </div>
-     
+
     </div>
 
     <?php include_once "footer.php" ?>

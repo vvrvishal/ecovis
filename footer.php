@@ -43,11 +43,11 @@
                         <a href="./Strategy_Performance_Consulting_services.php"><li>Strategy & Perfomance Consulting</li></a>
                         <a href="./Onshore_Offshore_Advisory.php"><li>Onshore & Offshore Advisory</li></a>
                         <a href="./Government_risk_compliance.php"> <li>Governance Risk & Compliance</li></a>
-                        <a href="./BusinessSupportandFinancialReporting.php"> <li>Business support & Financial Reporting</li></a>
-                        <a href="./LitigationLegalServices.php"><li>Litigation & Legal services</li></a>
+                        <a href="./BusinessSupportandFinancialReporting.php"> <li>Business Support & Financial Reporting</li></a>
+                        <a href="./LitigationLegalServices.php"><li>Litigation & Legal Services</li></a>
                         <a href="./Financial_and_Capital_Services.php"><li>Financial & Capital Services</li></a>
                         <a href="./Digital_transformation.php"><li>Digital Transformation</li></a>
-                        <a href="./Crossborderandmerchantbankingservices.php"><li>Cross border & merchant banking advice</li></a>
+                        <a href="./Crossborderandmerchantbankingservices.php"><li>Cross Border & Merchant Banking Advice</li></a>
                     </ul>
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <div class="col-md-2 ">
                 <div class="Contactus">
                     <ul  class="font-italic">
-                        <a href="./contact_us.php"><li class="text-light">contact us</li></a>
+                        <a href="./contact_us.php"><li class="text-light">Contact us</li></a>
                         <div class="social_icons">
                             <h6 class="text-light mt-5">Connect with us</h6>
                             <a href="#">

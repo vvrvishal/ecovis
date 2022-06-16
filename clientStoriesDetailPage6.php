@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 p-4">
-                <i class="fa-solid fa-arrow-left-long"></i>
+                <a href="./client_stories.php" class="text-dark"><span class="px-3 py-1"><i class="fa-solid fa-arrow-left-long"></i></span></a>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
                     <div class="col-md-7">
                         <!-- <div class="col-md-8"> -->
                         <div>
-                            <h5 class="primaryHeading mb-4">Assistance provided to electrical contractors for avoiding double taxation.</h5>
+                            <h5 class="primaryHeading mb-4 text-center">Assistance provided to electrical contractors for avoiding double taxation.</h5>
                             <p class="normalText text-justify mb-4">Our client is a massive electrical contracting business located in New Zealand. The company has developed industrial electrical and control systems and expanded its activities to Australia. </p>
                         </div>
                         <div class="d-flex">
@@ -42,7 +42,7 @@
                             <div class="col-md-3 primaryHeading">Our Solutions</div>
                             <div class="col-md-9 normalText text-justify mb-4">
                                 <p>We checked on the company’s exchanging history and corporate structure that had been set up in Australia by past consultants. We at that point considered an assortment of arrangements with a pro/con investigation, and in discussion with ECOVIS KGA prescribed the ideal arrangement for our client. This approach permitted us to supply the client with an encompassing and down to business survey of the situation and present them with the foremost reasonable arrangements to their problem.</p>
-                                
+
                             </div>
                         </div>
                         <hr>
@@ -67,25 +67,25 @@
                         <div class=" text-center">
                             <img src="./images/clientStoriesImages/c6_assisstanceprovided_r.png" style="border-radius: 10px; filter:brightness(.5)" class="w-75 clientStoriesDetailPageImage" alt="">
                         </div>
-                    <div class="">
-                <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
-                <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                        <div class="">
+                            <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
+                            <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">Combined efforts bagging successful outcomes!</p>
-                <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">A Lending Hand for the procuration of the client!</p>
-                <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
+                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;">Facilitation of collective outsources accounting, local tax compliance....</p>
-               
-            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-        
+
         </div>
     </div>
 

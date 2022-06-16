@@ -127,7 +127,7 @@
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Cloud Infra Services</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                                Our cloud Infrastructure Services (CIS) benefit our clients as they are dependable, efficient, and proven cloud and digital infrastructure services.
+                                Our cloud Infrastructure Services (CIS) benefit our clients as they are dependable, efficient, and proven cloud, and digital infrastructure services.
                             </p>
                         </div>
                     </div>
