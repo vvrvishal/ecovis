@@ -20,8 +20,8 @@
             <h6 class="mx-auto normalText text-justify text-light w-50" style="
     line-height: 25px;
 ">
-We combine our compliance risk consulting knowledge with digital technologies and data analytics capabilities. Start-up Mentoring are also the services that is facilitated by ECOVIS.
-</h6>
+                We combine our compliance risk consulting knowledge with digital technologies and data analytics capabilities. Start-up Mentoring are also the services that is facilitated by ECOVIS.
+            </h6>
         </div>
     </div>
     <div class="banner ">
@@ -65,11 +65,13 @@ We combine our compliance risk consulting knowledge with digital technologies an
         <div class="discribeStory mt-5">
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                    <img src="./images/icon_images/Government_risk_compliance/forensicInvestigations.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -78,20 +80,22 @@ We combine our compliance risk consulting knowledge with digital technologies an
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Forensic Investigations</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-We provide the most dependable, economical, objective, discreet, and complete forensic services available, including criminal, legal, and undercover investigations.
-</p>
+
+                                We provide the most dependable, economical, objective, discreet, and complete forensic services available, including criminal, legal, and undercover investigations.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                    <img src="./images/icon_images/Government_risk_compliance/DueDiligence.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -100,20 +104,22 @@ We provide the most dependable, economical, objective, discreet, and complete fo
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Due Diligence</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-Prior to making any major business decisions or acquiring a firm, due diligence is an important business method to consider. You must first understand due diligence and how to perform it correctly before you can put your company's finances into action.
-</p>
+
+                                Prior to making any major business decisions or acquiring a firm, due diligence is an important business method to consider. You must first understand due diligence and how to perform it correctly before you can put your company's finances into action.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row"style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                    <img src="./images/icon_images/Government_risk_compliance/SupplyChainBrandRisks.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -122,20 +128,22 @@ Prior to making any major business decisions or acquiring a firm, due diligence 
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Supply Chain / Brand Risks</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                           
-Supply chain and risk management solutions that we deploy can help a company run more efficiently, cut expenses, and improve customer service.
-</p>
+
+                                Supply chain and risk management solutions that we deploy can help a company run more efficiently, cut expenses, and improve customer service.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-           <div class="justify-content-center mx-0 row">
+            <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row" style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                    <img src="./images/icon_images/Government_risk_compliance/InformationSecuritySystemsConsulting.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -144,19 +152,21 @@ Supply chain and risk management solutions that we deploy can help a company run
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Information Security & Systems Consulting</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-ISMS Consulting services assist a company in developing, implementing, and operating a consistent set of policies, standards, and procedures (PSP) to manage risks to its information assets.</p>
+
+                                ISMS Consulting services assist a company in developing, implementing, and operating a consistent set of policies, standards, and procedures (PSP) to manage risks to its information assets.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row"style="border-bottom: 2px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                    <img src="./images/icon_images/Government_risk_compliance/GDPRCompliance.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -165,20 +175,22 @@ ISMS Consulting services assist a company in developing, implementing, and opera
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">GDPR Compliance</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-Expand your horizons by selling to larger firms now that you're GDPR compliant. Obtain authorization for stalled agreements and markets that were previously inaccessible.
-</p>
+
+                                Expand your horizons by selling to larger firms now that you're GDPR compliant. Obtain authorization for stalled agreements and markets that were previously inaccessible.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                    <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt="">
+                                    <img src="./images/icon_images/Government_risk_compliance/KYCBackgroundChecks.png" class="w-75" alt="">
+
+                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
                             </div>
@@ -189,16 +201,16 @@ Expand your horizons by selling to larger firms now that you're GDPR compliant. 
                             </p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
 
-KYC and background checks ensure that the claims made by consumers and/or clients are genuine and that no anomalies exist. As a result, it aids in the development of trust, which is the foundation of all beneficial and successful commercial relationships.
+
+                                KYC and background checks ensure that the claims made by consumers and/or clients are genuine and that no anomalies exist. As a result, it aids in the development of trust, which is the foundation of all beneficial and successful commercial relationships.
 
                             </p>
                         </div>
                     </div>
                 </div>
-            </div> 
-            
+            </div>
+
             <!-- <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row" >

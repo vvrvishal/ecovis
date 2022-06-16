@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
+    <title>Job Application</title>
 
     <!-- custom css link  -->
     <link rel="stylesheet" href="./css/style.css">
@@ -58,8 +58,14 @@
     <?php include_once "header.php" ?>
 
     <!-- banner   -->
+    <div class="align-items-center jobapplicationBanner d-flex justify-content-around pageBanner">
+        <div class="">
+            <p class="mainHeading text-center text-light">Work with Us
+            </p>
+        </div>
+    </div>
     <div class="banner ">
-        <img src="./ecovis-images/careers_bannercroped.png" class="w-100" alt="">
+        <!-- <img src="./ecovis-images/careers_bannercroped.png" class="w-100" alt=""> -->
 
         <!-- <div class="bannerDD pb-4 pt-2">
             <h3 class="text-center text-light mt-3">
@@ -76,7 +82,7 @@
 
         <div class="justify-content-around mt-5 mx-0 row">
             <div class="col-md-10">
-                <div class="row mb-4">
+                <div class="align-items-center mb-4 row">
                     <div class="col-md-6">
                         <h3 class="mb-4 mt-4 text-center">Job Application</h3>
                         <form action="" class="form-group" method="post">
@@ -94,20 +100,23 @@
                         </form>
                     </div>
                     <div class="col-md-6">
-                    <h3 class="mb-4 mt-3 text-center" style="color: transparent;">Job Application</h3>
 
-                        <div class="">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nam alias obcaecati tempora quas, dolorum optio earum ducimus deleniti cum autem sit ad asperiores debitis blanditiis repellat
-                                 vitae illo incidunt quaerat similique odit, ipsum laborum provident! Unde cumque ad ipsam qui omnis eaque velit distinctio vero. Ipsum, sint molestiae. Ratione?</p>
+                        <div class="mx-auto normalText text-justify w-75">
+                            <p>At Ecovis, we re pleased to develop our own ability by
+                                fostering our people right from the start through to
+                                proficient capabilities and beyond. We likewise value
+                                the benefit of enrolling experienced staff with in depth
+                                knowledge and skills. This assists us to infuse and
+                                curate new ideas and perspective to our team.</p>
                         </div>
-                        <div class="box_shadow pb-4 pt-4 px-5 text-center">
+                        <!-- <div class="box_shadow pb-4 pt-4 px-5 text-center">
                             <h1 class="primaryHeading mb-3">JOBS AT ECOVIS INDIA</h1>
                             <p class="mb-4">If you are intrigued with our work join us and we can devlop together</p>
                             <div class="">
-                                <button class="btn btn-danger normalText text-light mb-2"> <span>CURRENT VACANCIES</span>  <span><i class="fa-solid text-light font-weight-bold fa-angle-right"></i></span></button>
-                               
+                                <button class="btn btn-danger normalText text-light mb-2"> <span>CURRENT VACANCIES</span> <span><i class="fa-solid text-light font-weight-bold fa-angle-right"></i></span></button>
+
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="locations d-flex align-items-center">
                             <i class="fa-solid fa-location-dot" id="location_icon"></i>
                             <a href="./ecovis_india.html">
@@ -127,6 +136,7 @@
             </div>
 
         </div>
+      
         <!-- <div class="row justify-content-around mx-0">
             <div class="col-md-9">
                 <h4 class="mb-4 mt-4 text-center">Want to know more about us?Leave us a message</h3>
@@ -160,6 +170,11 @@
 
         </div> -->
     </div>
+    <div class="lets_connect px-0 m-0 text-center">
+    <a href="./careers.php"><button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey">CAREER PATHS</button></a>
+
+            <h3 class="mt-3 text-center text-light ">Explore our job vaccancies</h3>
+        </div>
     <!-- footer  -->
     <?php include_once "footer.php" ?>
 

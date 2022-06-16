@@ -81,7 +81,7 @@
                 Let’s Connect
             </h3>
             <div class="font-weight-bold mb-2 mt-4 mx-auto problemDD py-2 text-light text-center" style="width: 60%;">
-                <p class="mb-0">We love Networking. Reach out to us for any queries.</p>
+                <p class="mb-0">We love Networking! Reach out to us for any queries.</p>
             </div>
 
         </div>
@@ -147,8 +147,8 @@
 
                         <span style="font-size:20px;">Your message or query : </span>
                         <textarea class="form-control box_shadow bg-light mt-2 mb-3" rows="6" style=" border-radius: 6px;"></textarea>
-                        <p style="font-size:20px;" class="mb-2 text-center">Our team will get in touch with you as soon as possible</p>
-                        <div class="text-center">
+                        <p style="font-size:20px;" class="mb-2 text-center">Our team will get in touch with you as soon as possible.</p>
+                        <div class="text-center mt-4">
                             <button type="submit" class="bg-danger btn box_shadow font-weight-bold text-light" style="width: 12%;">SUBMIT</button>
 
                         </div>
@@ -164,11 +164,11 @@
         <div class="align-items-center d-flex justify-content-around mb-5">
             <div class="align-items-center d-flex ">
                 <span><i class="fa-solid fa-location-dot text-danger mr-2" style="font-size: x-large;"></i></span>
-                <button class="btn btn-danger btn-sm font-weight-bold px-3 text-light">View our Location</button>
+               <a href="./ecovis_india.php"> <button class="btn btn-danger btn-sm font-weight-bold px-3 text-light">View our Location</button></a>
             </div>
             <div class="align-items-center d-flex ">
                 <span><i class="fa-solid text-danger fa-envelope mr-2" style="font-size: x-large;"></i></span>
-                <a href="#">info@ecovisrkca.com</a>
+                <a href="https://rmt.ecovisrkca.com/email_client1">info@ecovisrkca.com</a>
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@
 
 <body>
     <!-- header  -->
-    <?php include_once "header.html" ?>
+    <?php include_once "header.php" ?>
 
     <!-- career nammer  -->
     <div class="align-items-center bannerDiv d-flex justify-content-around pageBanner">
@@ -41,9 +41,9 @@
     <div class="row justify-content-around " style="margin: 3.5rem 0rem;">
         <div class="col-md-8">
             <div class="text-center">
-                <h2 class="text-center mb-5" style="font-size: var(--primary_Font_size); font-weight:var(--heading_font_weight);">We will believe in bringing out the best out from the people who work with us</h2>
+                <h2 class="text-center mb-5" style="font-size: var(--primary_Font_size); font-weight:var(--heading_font_weight);">We believe in bringing out the best out from the people who work with us.</h2>
 
-                <p class="w-75 mx-auto  text-center " style="font-size: var(--secondry_font_size); font-weight:var(--box_normal_text);">At Ecovis, we re pleased to develop our own ability by fostering our people right from the start through to
+                <p class="w-75 mx-auto  text-center " style="font-size: var(--secondry_font_size); font-weight:var(--box_normal_text);">At Ecovis, we're pleased to develop our own ability by fostering our people right from the start through to
                     proficient capabilities and beyond. We likewise value the benefit of enrolling experienced staff with in depth
                     knowledge and skills. This assists us to infuse and curate new ideas and perspective to our team.
                 </p>
@@ -118,7 +118,7 @@
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
-                    <img src="./ourTeam_B&W/10_D._Bala.JPG" class="w-100" alt="">
+                    <img src="./ourTeam_B&W/10_Bala.png" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">D. Bala</p>
                 <p class="normalText">Expertise</p>
@@ -253,7 +253,7 @@
 
 
     <!-- footer  -->
-    <?php include_once "footer.html" ?>
+    <?php include_once "footer.php" ?>
 
 
 </body>

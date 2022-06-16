@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecovis</title>
+    <title>client Stories</title>
     <!-- font-awesome cdn  -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
             integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./bootstrap/bootstrap.css"> -->
 
     <!-- custom css link  -->
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
 
     <!-- box icons link  -->
     <!-- <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
@@ -42,12 +42,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
     <style>
         .clientStoryDetails {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+           
+    display: block;
+    display: -webkit-box;
+    /* margin: 0 auto; */
+    /* color: #cf6824; */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
         }
+
+
+        .primaryHeading{
+            height: 93px !important;
+            display: block;
+    display: -webkit-box;
+    /* margin: 0 auto; */
+    /* color: #cf6824; */
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+        }
+        #client_stories_1{
+            min-height: 175px;
+        }
+        .box_shadow {
+    box-shadow: var(--box-shadow);
+    min-height: 404.27px;
+}
 
         /* .clientStoryDetails:hover {
             white-space: unset;
@@ -75,7 +104,7 @@
     <div class="clientStoriesBannaer pageBanner d-flex justify-content-around align-items-center">
         <div class="text-center">
         <p class="mainHeading text-light">Client Stories</p>
-        <p class="normalText text-light">You want to obtain your rights we help you to do it</p>
+        <p class="normalText text-light">Our clients are the heart of our business!</p>
         </div>
     </div>
     <!-- <div class="banner position-relative">
@@ -130,8 +159,51 @@
         <div class="d-flex justify-content-around mb-2 pb-4 pt-5 w-50">
 
             <!-- <div class=" mx-auto w-50"> -->
-
-            <div id="clientStory_categry" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 px-3 py-2 rounded text-dark w-25">
+            <div class="btn-group py-3" style="width: 30%;">
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
+                Category
+                </button>
+                <div class="dropdown-menu w-100">
+                <button class="dropdown-item" type="button">Business Transformation</button>
+                <button class="dropdown-item" type="button">Digital Transformation</button>
+                <button class="dropdown-item" type="button">Legal Services</button>
+                <button class="dropdown-item" type="button">Accounting </button>
+                <button class="dropdown-item" type="button">Start-up</button>
+                    <button class="dropdown-item" type="button">Finance</button>
+                </div>
+            </div>
+            <div class="btn-group py-3" style="width: 30%;">
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
+                Month
+                </button>
+                <div class="dropdown-menu w-100">
+                    <button class="dropdown-item" type="button">January</button>
+                    <button class="dropdown-item" type="button">February</button>
+                    <button class="dropdown-item" type="button">March</button>
+                    <button class="dropdown-item" type="button">April</button>
+                    <button class="dropdown-item" type="button">May</button>
+                    <button class="dropdown-item" type="button">June</button>
+                    <button class="dropdown-item" type="button">July</button>
+                    <button class="dropdown-item" type="button">August</button>
+                    <button class="dropdown-item" type="button">September</button>
+                    <button class="dropdown-item" type="button">October</button>
+                    <button class="dropdown-item" type="button">November</button>
+                    <button class="dropdown-item" type="button">December</button>
+                </div>
+            </div>
+            <div class="btn-group py-3" style="width: 30%;">
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
+                Year
+                </button>
+                <div class="dropdown-menu w-100">
+                    <button class="dropdown-item" type="button">2018</button>
+                    <button class="dropdown-item" type="button">2019</button>
+                    <button class="dropdown-item" type="button">2020</button>
+                    <button class="dropdown-item" type="button">2022</button>
+                    <button class="dropdown-item" type="button">2022</button>
+                </div>
+            </div>
+            <!-- <div id="clientStory_categry" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 px-3 py-2 rounded text-dark w-25">
                 <p class="mb-0">Category</p>
                 <span><i class="fa-solid fa-caret-down text-danger"></i></span>
             </div>
@@ -142,7 +214,7 @@
             <div id="clientStory_categry" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 px-3 py-2 rounded text-dark w-25">
                 <p class="mb-0">Year</p>
                 <span><i class="fa-solid fa-caret-down text-danger"></i></span>
-            </div>
+            </div> -->
             <!-- </div> -->
 
             <div class="select_location border p-2 mb-3 mt-1 w-25 rounded" id="clientStory_categryDD">
@@ -157,145 +229,277 @@
     <div class="clientStoriesList mb-5 pb-1">
 
         <!-- <div class="mx-auto" style="width: 80%;"> -->
-        <div class="mb-3 mx-0 row">
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+        <div class="mb-3 mx-0 row px-5 px-sm-3">
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
-                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c1_baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;     max-height: 219.58px;" class="w-100 client_stories_images" alt="">
                     <div class="px-3">
-                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <h4 class="primaryHeading text-justify py-2">Combined efforts bagging successful outcomes!</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
-                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                            with Ecovis Sydney in November</p>
+                        <p class="clientStoryDetails text-justify">The main motive of our company which is completely aimed at is to render professional services to its potential clients from different fields of the varied economy sectors.</p>
                         <div class="d-flex justify-content-end">
-                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                            <a href="./clientStoriesDetailPage1.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
                         </div>
                     </div>
                 </div>
 
                 <!-- </div> -->
             </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
-                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c2_lendinghand_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;    max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+
                     <div class="px-3">
-                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <h4 class="primaryHeading text-justify py-2">A Lending Hand for the procuration of the client!</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
-                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                            with Ecovis Sydney in November</p>
+                        <p class="clientStoryDetails text-justify">With the mission of owning and operating high-quality wireless infrastructure sites in stable markets, PTI was established in the year 2013.</p>
                         <div class="d-flex justify-content-end">
-                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                           <a href="./clientStoriesDetailPage2.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
                         </div>
                     </div>
                 </div>
 
                 <!-- </div> -->
             </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
-                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c3_Facilitationofcollective_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
                     <div class="px-3">
-                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <h4 class="primaryHeading text-justify py-2">Facilitation of collective outsources accounting, local tax compliance, and company formation services!</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
-                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                            with Ecovis Sydney in November</p>
+                        <p class="clientStoryDetails text-justify">The client is a subsidiary of a multinational company based in Turkey that functions in various fields of batteries, chargers, accessories for motive, etc.</p>
                         <div class="d-flex justify-content-end">
-                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        <a href="./clientStoriesDetailPage3.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
                     </div>
                 </div>
 
                 <!-- </div> -->
             </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
-                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c4_facilitating_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
                     <div class="px-3">
-                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <h4 class="primaryHeading text-justify py-2">Facilitating assistance for the expansion of Spanish automotive components producer.</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
-                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                            with Ecovis Sydney in November</p>
+                        <p class="clientStoryDetails text-justify">Our consumer could be a major transnational company within the automotive sector, with varied plants in Spain that manufacture automotive components. </p>
                         <div class="d-flex justify-content-end">
-                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        <a href="./clientStoriesDetailPage4.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
                     </div>
                 </div>
 
                 <!-- </div> -->
             </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
-                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c5_renderingextensive_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
                     <div class="px-3">
-                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <h4 class="primaryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
-                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                            with Ecovis Sydney in November</p>
+                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!</p>
                         <div class="d-flex justify-content-end">
-                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        <a href="./clientStoriesDetailPage5.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
                     </div>
                 </div>
 
                 <!-- </div> -->
             </div>
-            <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
-                    <img id="client_stories_1" src="./ecovis_new_images/baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;" class="w-100" alt="">
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c6_assisstanceprovided_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
                     <div class="px-3">
-                        <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
+                        <h4 class="primaryHeading text-justify py-2">Assistance provided to electrical contractors for avoiding double taxation.</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
-                        <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                            with Ecovis Sydney in November</p>
+                        <p class="clientStoryDetails text-justify">Our client is a massive electrical contracting business located in New Zealand. The company has developed industrial electrical and control systems and expanded its activities to Australia. </p>
                         <div class="d-flex justify-content-end">
-                            <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                        <a href="./clientStoriesDetailPage6.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
                     </div>
                 </div>
 
                 <!-- </div> -->
             </div>
-            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
-                <div class="box_shadow pt-2 px-3 rounded">
-                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
-                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
-                    <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c7_redesigning_of_an_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">Redesigning of an American Wholesale Company.</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">BPM Australia could be a huge, fast-moving worldwide discount company for customer merchandise. </p>
+                        <div class="d-flex justify-content-end">
+                            <a href="./clientStoriesDetailPage7.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            \
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
                     </div>
                 </div>
 
-            </div> -->
-            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
-                <div class="box_shadow pt-2 px-3 rounded">
-                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
-                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
-                    <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                <!-- </div> -->
+            </div>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c8_Tax_and_advisory_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">Tax and advisory services rendered to UK start-up</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">Our client is an imaginative UK start-up within the field of computerized investigate and substance curation/maintenance.</p>
+                        <div class="d-flex justify-content-end">
+                        <a href="./clientStoriesDetailPage8.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
                     </div>
                 </div>
 
-            </div> -->
-            <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
-                <div class="box_shadow pt-2 px-3 rounded">
-                    <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P>
-                    <h4 class="clientStoryHeading text-justify py-2">Rendering extensive start-up services to our clients!</h4>
-                    <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch
-                        with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!....</p>
-                    <div class="d-flex justify-content-end">
-                        <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span>
+                <!-- </div> -->
+            </div>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c9_Offering_continuous_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">Offering continuous back to outside bank department with administrative reporting</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">A department of a foreign bank was subject to certain limitations on enlisting proficient staff.</p>
+                        <div class="d-flex justify-content-end">
+                        <a href="./clientStoriesDetailPage9.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
                     </div>
                 </div>
 
-            </div> -->
+                <!-- </div> -->
+            </div>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c10_We_help_the_private_bank_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">We help the private bank with anti-money washing and counter-terrorism financing compliance</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">Uruguay’s second most important private bank was gained by an international bank. Thus, the local bank was obliged to adjust to the rules and controls of its modern head office.</p>
+                        <div class="d-flex justify-content-end">
+                        <a href="./clientStoriesDetailPage10.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c11_We_help_the_start_ups_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">We help the start-ups gain a competitive edge in the Polish market.</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">Our client is a young and dynamic company that provides a platform for online table reservations in restaurants. The company currently provides  services in 12 countries around the world and is constantly striving to expand its market scope.</p>
+                        <div class="d-flex justify-content-end">
+                        <a href="./clientStoriesDetailPage11.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c12_Recommendation_and_assistance_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">Recommendation and assistance to client for implementing improved internal controls</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">One of Uruguay's major passenger transport companies,  regulated by the authorities, has asked to review  its purchasing process and cash flow.</p>
+                        <div class="d-flex justify-content-end">
+                        <a href="./clientStoriesDetailPage12.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c13_SEKO_Group_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;"  class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">SEKO Group located in Czech earned German Smithy Company</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">Our client, SEKO Group, may be a driving Czech-based producer of key components for flying machine fly motors and steam turbines. </p>
+                        <div class="d-flex justify-content-end">
+                        <a href="./clientStoriesDetailPage13.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c14_Scenario_Portugal_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">Scenario of non-habitual tax resident in Portugal</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">Our clients' businesses are focused on providing IT services, including market observations, feasibility studies, competitive assessments, IT project management support, and standard software maintenance. </p>
+                        <div class="d-flex justify-content-end">
+                        <a href="./clientStoriesDetailPage14.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+                <div class="box_shadow rounded">
+                    <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c15_Ukraine_International_Airways_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
+                    <div class="px-3">
+                        <h4 class="primaryHeading text-justify py-2">Ukraine International Airways and ECOVIS Bondar & Bondar</h4>
+                        <!-- <div class="align-items-end d-flex justify-content-between"> -->
+                        <p class="clientStoryDetails text-justify">Ukraine International Airlines (UIA) is Ukraine’s leading airline established in 1992.</p>
+                        <div class="d-flex justify-content-end">
+                        <a href="./clientStoriesDetailPage15.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+
+                            <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+ 
+          
+           
 
             <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
                 <div class="box_shadow pt-2 px-3 rounded">
