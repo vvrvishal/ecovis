@@ -6,7 +6,10 @@ var plants = [
     {name: 'Indore', coords: [22.3196, 75.8577]},
     {name: 'Hyderabad', coords: [17.3850, 78.4867]},
     {name: 'Mumbai', coords: [18.9256, 72.8242]},
-    {name: 'Chennai', coords: [13.0827, 80.2707]}
+    {name: 'Chennai', coords: [13.0827, 80.2707]},
+    {name: 'Jaipur', coords: [26.9124,  75.7873]},
+    {name: 'Nagpur', coords: [21.1458,  79.0882]},
+    {name: 'Pune', coords: [18.5204,  73.8567]}
   ];
 $('#visitorMap').vectorMap({
   map: 'in_merc',
