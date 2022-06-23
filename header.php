@@ -52,7 +52,7 @@
                         <span id="closeSearchBar"><i class="fa-solid text-danger fa-xmark"></i></span>
                     </div>
                 </div>
-                <div id="menu" class="menu" style="width: 60%;">
+                <div id="menu" class="menu" style="width: 60%; z-index:50;">
                     <ul class="d-flex mb-0 justify-content-around list-unstyled">
                         <a href="#">
                             <li id="about_us" class="about_us">About Us</li>
@@ -491,13 +491,21 @@
         $("#about_us").click(function() {
             $("#aboutUs_menu").slideToggle();
             $("#services_menu").slideUp();
+            $("#menu").slideUp();
         });
         $("#services").click(function() {
             $("#services_menu").slideToggle();
             $("#aboutUs_menu").slideUp();
+            $("#menu").slideUp();
+
         });
         $("#menu_icon").click(function() {
             $("#menu").slideToggle();
+            $("#aboutUs_menu").slideUp();
+            $("#services_menu").slideUp();
+
+
+          
         });
 
 
@@ -517,6 +525,22 @@
                 $("#menu").slideToggle();
 
             });
+        });
+
+        $(document).mouseup(function(e) {
+            if ($(e.target).closest("#menu").length === 0 && $(e.target).closest("#menu_icon").length === 0) {
+                $("#menu").slideUp();
+            }
+        });
+        $(document).mouseup(function(e) {
+            if ($(e.target).closest("#aboutUs_menu").length === 0) {
+                $("#aboutUs_menu").slideUp();
+            }
+        });
+        $(document).mouseup(function(e) {
+            if ($(e.target).closest("#services_menu").length === 0 ) {
+                $("#services_menu").slideUp();
+            }
         });
     </script>
 </body>
