@@ -77,9 +77,6 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 
@@ -97,27 +94,15 @@
     <?php include_once 'footer.php'; ?>
 
     <script>
-        let Business_TransformationArray = localStorage.getItem('Business_TransformationArray');
+        let Business_TransformationArray = localStorage.getItem('Business_Transformation');
         let Business_TransformationArr = JSON.parse(Business_TransformationArray);
         for (let i = 0; i < Business_TransformationArr.length; i++) {
-            var htmlClientStories = `<a href="${Business_TransformationArr[i].pageLink}" class="text-dark"><p class="Similar_stories box_shadow mt-4 normalText px-4 py-3 text-center" style="border-radius: 8px; white-space: nowrap; letter-spacing:.5px; overflow: hidden; text-overflow: ellipsis;">${Business_TransformationArr[i].pageName}</p></a>`;
+            var htmlClientStories = `<a href="${Business_TransformationArr[i].pageLink}" class="text-dark" style="text-decoration:none;"><p class="Similar_stories box_shadow mt-4 normalText px-4 py-3 text-center" style="border-radius: 8px; white-space: nowrap; letter-spacing:.5px; overflow: hidden; text-overflow: ellipsis;">${Business_TransformationArr[i].pageName}</p></a>`;
             $("#similer_stories").append(htmlClientStories);
         }
 
     </script>
 
-
-
-<!-- 
-<script>
-        let FinanceArray = localStorage.getItem('Business_TransformationArray');
-        let financeArr = JSON.parse(FinanceArray);
-        for (let i = 0; i < financeArr.length; i++) {
-            var htmlClientStories = `<a href="${financeArr[i].pageLink}" class="text-dark"><p class="Similar_stories box_shadow mt-4 normalText px-4 py-3 text-center" style="border-radius: 8px; white-space: nowrap; letter-spacing:.5px; overflow: hidden; text-overflow: ellipsis;">${financeArr[i].pageName}</p></a>`;
-            $("#similer_stories").append(htmlClientStories);
-        }
-
-    </script> -->
 </body>
 
 </html>

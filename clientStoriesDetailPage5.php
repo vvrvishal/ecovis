@@ -95,15 +95,7 @@
                         </div>
                         <div class="">
                             <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
-                            <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;">Combined efforts bagging successful outcomes!</p>
-                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;">A Lending Hand for the procuration of the client!</p>
-                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;">Facilitation of collective outsources accounting, local tax compliance....</p>
+                            <div id="similer_stories"></div>
 
                         </div>
                     </div>
@@ -127,6 +119,15 @@
 
     <!-- footer  -->
     <?php include_once 'footer.php'; ?>
+    <script>
+        let Start_upArray = localStorage.getItem('Business_Transformation');
+        let Start_upArr = JSON.parse(Start_upArray);
+        for (let i = 0; i < Start_upArr.length; i++) {
+            var htmlClientStories = `<a href="${Start_upArr[i].pageLink}" class="text-dark" style="text-decoration:none;"><p class="Similar_stories box_shadow mt-4 normalText px-4 py-3 text-center" style="border-radius: 8px; white-space: nowrap; letter-spacing:.5px; overflow: hidden; text-overflow: ellipsis;">${Start_upArr[i].pageName}</p></a>`;
+            $("#similer_stories").append(htmlClientStories);
+        }
+
+    </script>
 
 </body>
 

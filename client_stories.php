@@ -46,53 +46,56 @@
 
     <style>
         .clientStoryDetails {
-           
-    display: block;
-    display: -webkit-box;
-    /* margin: 0 auto; */
-    /* color: #cf6824; */
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
+            display: block;
+            display: -webkit-box;
+            /* margin: 0 auto; */
+            /* color: #cf6824; */
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
 
         }
+
         .current_vacancies {
-        background-color: #cd1432;
-        box-shadow: 0px 2px 4px 0px grey;
-        border-radius: 5px;
-        width: 25%;
-        height: 40px;
-        color: white;
-        /* margin-left: 37%; */
-        border: none;
-    }
+            background-color: #cd1432;
+            box-shadow: 0px 2px 4px 0px grey;
+            border-radius: 5px;
+            width: 25%;
+            height: 40px;
+            color: white;
+            /* margin-left: 37%; */
+            border: none;
+        }
 
-    .jobs_section {
-        background-color: #eda4ad;
-        width: 100%;
-        padding: 1%;
-        border-radius: 7px;
-    }
+        .jobs_section {
+            background-color: #eda4ad;
+            width: 100%;
+            padding: 1%;
+            border-radius: 7px;
+        }
 
-        .primaryHeading{
+        .primaryHeading {
             height: 93px !important;
             display: block;
-    display: -webkit-box;
-    /* margin: 0 auto; */
-    /* color: #cf6824; */
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+            display: -webkit-box;
+            /* margin: 0 auto; */
+            /* color: #cf6824; */
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
-        #client_stories_1{
+
+        #client_stories_1 {
             min-height: 175px;
         }
+
         .box_shadow {
-    box-shadow: var(--box-shadow);
-    min-height: 404.27px;
-}
+            box-shadow: var(--box-shadow);
+            min-height: 404.27px;
+        }
 
         /* .clientStoryDetails:hover {
             white-space: unset;
@@ -119,8 +122,8 @@
 
     <div class="clientStoriesBannaer pageBanner d-flex justify-content-around align-items-center">
         <div class="text-center">
-        <p class="mainHeading text-light">Client Stories</p>
-        <p class="normalText text-light">Our clients are the heart of our business!</p>
+            <p class="mainHeading text-light">Client Stories</p>
+            <p class="normalText text-light">Our clients are the heart of our business!</p>
         </div>
     </div>
     <!-- <div class="banner position-relative">
@@ -177,20 +180,20 @@
             <!-- <div class=" mx-auto w-50"> -->
             <div class="btn-group py-3 " style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
-                Category
+                    Category
                 </button>
                 <div class="dropdown-menu w-100 toggled">
-                <button class="dropdown-item" type="button" id="Business_Transformation">Business Transformation</button>
-                <button class="dropdown-item" type="button" id="Digital_Transformation">Digital Transformation</button>
-                <button class="dropdown-item" type="button" id="Legal_Services">Legal Services</button>
-                <button class="dropdown-item" type="button"id="Accounting" >Accounting </button>
-                <button class="dropdown-item" type="button" id="Start_up" >Start-up</button>
-                    <button class="dropdown-item" type="button" id="Finance" >Finance</button>
+                    <button class="dropdown-item" type="button" id="Business_Transformation">Business Transformation</button>
+                    <button class="dropdown-item" type="button" id="Digital_Transformation">Digital Transformation</button>
+                    <button class="dropdown-item" type="button" id="Legal_Services">Legal Services</button>
+                    <button class="dropdown-item" type="button" id="Accounting">Accounting </button>
+                    <button class="dropdown-item" type="button" id="Start_up">Start-up</button>
+                    <button class="dropdown-item" type="button" id="Finance">Finance</button>
                 </div>
             </div>
             <div class="btn-group py-3 " style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
-                Month
+                    Month
                 </button>
                 <div class="dropdown-menu w-100 toggled">
                     <button class="dropdown-item" type="button" id="Jan">January</button>
@@ -209,7 +212,7 @@
             </div>
             <div class="btn-group py-3 " style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
-                Year
+                    Year
                 </button>
                 <div class="dropdown-menu w-100 toggled">
                     <button class="dropdown-item" type="button" id="_18">2018</button>
@@ -246,7 +249,7 @@
 
         <!-- <div class="mx-auto" style="width: 80%;"> -->
         <div class="mb-3 mx-0 row px-5 px-sm-3">
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover" >
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c1_baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;     max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -274,7 +277,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">With the mission of owning and operating high-quality wireless infrastructure sites in stable markets, PTI was established in the year 2013.</p>
                         <div class="d-flex justify-content-end">
-                           <a href="./clientStoriesDetailPage2.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage2.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
                         </div>
                     </div>
                 </div>
@@ -292,7 +295,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">The client is a subsidiary of a multinational company based in Turkey that functions in various fields of batteries, chargers, accessories for motive, etc.</p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage3.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage3.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -312,7 +315,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our consumer could be a major transnational company within the automotive sector, with varied plants in Spain that manufacture automotive components. </p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage4.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage4.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -332,7 +335,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!</p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage5.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage5.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -352,7 +355,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our client is a massive electrical contracting business located in New Zealand. The company has developed industrial electrical and control systems and expanded its activities to Australia. </p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage6.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage6.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -392,7 +395,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our client is an imaginative UK start-up within the field of computerized investigate and substance curation/maintenance.</p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage8.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage8.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -412,7 +415,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">A department of a foreign bank was subject to certain limitations on enlisting proficient staff.</p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage9.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage9.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -432,7 +435,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Uruguay’s second most important private bank was gained by an international bank. Thus, the local bank was obliged to adjust to the rules and controls of its modern head office.</p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage10.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage10.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -450,9 +453,9 @@
                     <div class="px-3">
                         <h4 class="primaryHeading text-justify py-2">We help the start-ups gain a competitive edge in the Polish market.</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
-                        <p class="clientStoryDetails text-justify">Our client is a young and dynamic company that provides a platform for online table reservations in restaurants. The company currently provides  services in 12 countries around the world and is constantly striving to expand its market scope.</p>
+                        <p class="clientStoryDetails text-justify">Our client is a young and dynamic company that provides a platform for online table reservations in restaurants. The company currently provides services in 12 countries around the world and is constantly striving to expand its market scope.</p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage11.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage11.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -470,9 +473,9 @@
                     <div class="px-3">
                         <h4 class="primaryHeading text-justify py-2">Recommendation and assistance to client for implementing improved internal controls</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
-                        <p class="clientStoryDetails text-justify">One of Uruguay's major passenger transport companies,  regulated by the authorities, has asked to review  its purchasing process and cash flow.</p>
+                        <p class="clientStoryDetails text-justify">One of Uruguay's major passenger transport companies, regulated by the authorities, has asked to review its purchasing process and cash flow.</p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage12.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage12.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -486,13 +489,13 @@
             <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
-                    <img id="client_stories_1" src="./images/clientStoriesImages/c13_SEKO_Group_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;"  class="w-100 client_stories_images" alt="">
+                    <img id="client_stories_1" src="./images/clientStoriesImages/c13_SEKO_Group_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
                     <div class="px-3">
                         <h4 class="primaryHeading text-justify py-2">SEKO Group located in Czech earned German Smithy Company</h4>
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our client, SEKO Group, may be a driving Czech-based producer of key components for flying machine fly motors and steam turbines. </p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage13.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage13.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -512,7 +515,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our clients' businesses are focused on providing IT services, including market observations, feasibility studies, competitive assessments, IT project management support, and standard software maintenance. </p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage14.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage14.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -532,7 +535,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Ukraine International Airlines (UIA) is Ukraine’s leading airline established in 1992.</p>
                         <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage15.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage15.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -541,9 +544,9 @@
 
                 <!-- </div> -->
             </div>
- 
-          
-           
+
+
+
 
             <!-- <div class="col-lg-4 mb-4 col-md-6 col-sm-12 ">
                 <div class="box_shadow pt-2 px-3 rounded">
@@ -763,54 +766,117 @@
 
 </body>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>
-        
-        $(function() {
+<script>
+    $(function() {
 
-$('.toggled button').click(function(){
-  var get_id = this.id;
-  var get_current = $('.clientStoriesList .' + get_id);
-  console.log(get_current);
-
-
-    $('.cover').not( get_current ).hide(500);
-    get_current.show(500);
-});
+        $('.toggled button').click(function() {
+            var get_id = this.id;
+            var get_current = $('.clientStoriesList .' + get_id);
+            console.log(get_current);
 
 
-}); 
+            $('.cover').not(get_current).hide(500);
+            get_current.show(500);
+        });
 
 
-// finance filter 
+    });
 
-var finamce_heading = $( ".Finance" ).children().children(1).children("h4");
-var finamce_pageLink = $( ".Finance" ).children().children(1).children().children("a");
-console.log(finamce_pageLink);
-const FinanceArray = [];
 
-for (let i = 0; i < finamce_heading.length; i++) {
-    let obj = {};
-    obj["pageName"] = finamce_heading[i].innerHTML;
-    obj["pageLink"] = finamce_pageLink[i].href;
-    FinanceArray.push(obj);
-}
+    // finance filter 
 
-localStorage.setItem("FinanceArray",JSON.stringify(FinanceArray));
+    var finamce_heading = $(".Finance").children().children(1).children("h4");
+    var finamce_pageLink = $(".Finance").children().children(1).children().children("a");
+    // console.log(finamce_pageLink);
+    const FinanceArray = [];
 
-// Business_Transformation 
+    for (let i = 0; i < finamce_heading.length; i++) {
+        let obj = {};
+        obj["pageName"] = finamce_heading[i].innerHTML;
+        obj["pageLink"] = finamce_pageLink[i].href;
+        FinanceArray.push(obj);
+    }
 
-var Business_Transformation_heading = $( ".Business_Transformation" ).children().children(1).children("h4");
-var Business_Transformation_pageLink = $( ".Business_Transformation" ).children().children(1).children().children("a");
-const Business_TransformationArray =[];
-for (let i = 0; i < Business_Transformation_heading.length; i++) {
-    let obj = {};
-    obj["pageName"] = Business_Transformation_heading[i].innerHTML;
-    obj["pageLink"] = Business_Transformation_pageLink[i].href;
-    Business_TransformationArray.push(obj);
-}
-// console.log(Business_TransformationArray);
-localStorage.setItem(JSON.stringify(Business_TransformationArray));
+    localStorage.setItem("FinanceArray", JSON.stringify(FinanceArray));
 
-    </script>
+    // Business_Transformation 
+
+    var Business_Transformation_heading = $(".Business_Transformation").children().children(1).children("h4");
+    var Business_Transformation_pageLink = $(".Business_Transformation").children().children(1).children().children("a");
+    const Business_TransformationArray = [];
+    for (let i = 0; i < Business_Transformation_heading.length; i++) {
+        let obj = {};
+        obj["pageName"] = Business_Transformation_heading[i].innerHTML;
+        obj["pageLink"] = Business_Transformation_pageLink[i].href;
+        Business_TransformationArray.push(obj);
+    }
+    // console.log(Business_TransformationArray);
+    localStorage.setItem("Business_Transformation", JSON.stringify(Business_TransformationArray));
+
+    // Start_up 
+
+    var Start_up_heading = $(".Start_up").children().children(1).children("h4");
+    var Start_up_pageLink = $(".Start_up").children().children(1).children().children("a");
+    const Start_upArray = [];
+    for (let i = 0; i < Start_up_heading.length; i++) {
+        let obj = {};
+        obj["pageName"] = Start_up_heading[i].innerHTML;
+        obj["pageLink"] = Start_up_pageLink[i].href;
+        Start_upArray.push(obj);
+    }
+    // console.log(Start_upArray);
+
+    localStorage.setItem("Business_Transformation", JSON.stringify(Start_upArray));
+
+    //Digital_Transformation
+
+    var Digital_Transformation_heading = $(".Digital_Transformation").children().children(1).children("h4");
+    var Digital_Transformation_pageLink = $(".Digital_Transformation").children().children(1).children().children("a");
+    const Digital_TransformationArray = [];
+    for (let i = 0; i < Digital_Transformation_heading.length; i++) {
+        let obj = {};
+        obj["pageName"] = Digital_Transformation_heading[i].innerHTML;
+        obj["pageLink"] = Digital_Transformation_pageLink[i].href;
+        Digital_TransformationArray.push(obj);
+    }
+    // console.log(Digital_TransformationArray);
+
+    localStorage.setItem("Digital_Transformation", JSON.stringify(Digital_TransformationArray));
+
+
   
+// Legal_Services
+
+var Legal_Services_heading = $(".Legal_Services").children().children(1).children("h4");
+    var Legal_Services_pageLink = $(".Legal_Services").children().children(1).children().children("a");
+    const Legal_ServicesArray = [];
+    for (let i = 0; i < Legal_Services_heading.length; i++) {
+        let obj = {};
+        obj["pageName"] = Legal_Services_heading[i].innerHTML;
+        obj["pageLink"] = Legal_Services_pageLink[i].href;
+        Legal_ServicesArray.push(obj);
+    }
+    // console.log(Legal_ServicesArray);
+
+    localStorage.setItem("Legal_Services", JSON.stringify(Legal_ServicesArray));
+
+    // Accounting 
+
+    var Accounting_heading = $(".Accounting").children().children(1).children("h4");
+    var Accounting_pageLink = $(".Accounting").children().children(1).children().children("a");
+    const AccountingArray = [];
+    for (let i = 0; i < Accounting_heading.length; i++) {
+        let obj = {};
+        obj["pageName"] = Accounting_heading[i].innerHTML;
+        obj["pageLink"] = Accounting_pageLink[i].href;
+        AccountingArray.push(obj);
+    }
+    console.log(AccountingArray);
+
+    localStorage.setItem("Accounting", JSON.stringify(AccountingArray));
+
+
+
+</script>
+
 </html>
