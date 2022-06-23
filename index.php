@@ -44,61 +44,61 @@
         <div class="carousel-inner h-100">
             <div class=" carousel-item active">
                 <img class="d-block w-100" src="./images/ecovis_banners/homepage_b1_ecovis_india.png" style="height: 450px;" alt="First slide">
-
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption d-none d-md-block">
                     <div class="animate__animated animate__fadeInDown">
-                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem;" class="">ECOVIS INDIA</h1>
+                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem;" class="">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
-                        <a href="./ecovis_india.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
-                                OFFICES</button></a>
+                        <a href="./ecovis_india.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR OFFICES</button></a>
                     </div>
-
                 </div>
             </div>
             <div class="carousel-item ">
-                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b2_our_team.png" style="height: 450px;" alt="First slide">
-
+                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b2_our_team.png" style="height: 450px;" alt="Second slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/careers_banner.png" style="height: 450px;" alt="Second slide"> -->
                 <div class="carousel-caption d-none d-md-block ">
                     <div class="animate__animated animate__fadeInDown">
-                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent;">ECOVIS INDIA</h1>
+                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent;">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">The people who intensify our Business</h3>
-                        <a href="./team.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR
-                                TEAM</button></a>
+                        <a href="./team.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR TEAM</button></a>
                     </div>
-
-
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b3_job_vaccancies.png" style="height: 450px;" alt="First slide">
-
+                <img class="d-block w-100" src="./images/ecovis_banners/homepage_b3_job_vaccancies.png" style="height: 450px;" alt="Third slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption d-none d-md-block">
                     <div class="animate__animated animate__fadeInDown">
-                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">ECOVIS INDIA</h1>
+                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">Build your future with us </h3>
                         <a href="./careers.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">CAREER PATHS</button></a>
                     </div>
-
-
-
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./images/ecovis_banners/lets_connect.png" style="height: 450px;" alt="First slide">
-
+                <img class="d-block w-100" src="./images/ecovis_banners/lets_connect.png" style="height: 450px;" alt="Forth slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
                 <div class="carousel-caption d-none d-md-block">
                     <div class="animate__animated animate__fadeInDown">
-                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">ECOVIS INDIA</h1>
+                        <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA INDIA</h1>
                         <!-- <h3 class="font-weight-normal">Network with us</h3> -->
                         <a href="./careers.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">LET'S CONNECT</button></a>
                     </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/ecovis_banners/mentor_bi.png" style="height: 450px;" alt="Fifth slide">
+                <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="animate__animated animate__fadeInDown">
+                        <img src="./images/ecovis_logoes/Mentor_bi.png" class="w-25 mb-3 mt-4" alt="">
+                        <!-- <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA  INDIA</h1> -->
+                        <h3 class="font-weight-normal">An initiative for Business Transformation</h3>
 
-
-
+                        <!-- <p class="normalText">An initiative for Business Transformation</p> -->
+                        <!-- <h3 class="font-weight-normal">Network with us</h3> -->
+                        <a href="./careers.php"> <button class="btn text-light mt-3" style="border: 2px solid whitesmoke; background-color: transparent;">EXPLORE</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,22 +117,22 @@
         <h3 class="text-center text-light mt-3">
             Your Business need
         </h3>
-        <div class="d-flex mx-auto w-50 justify-content-around">
-            <div class="btn-group py-3" style="width: 30%;">
-                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false">
+        <div class="d-flex mx-auto mx-lg-5 justify-content-around">
+            <div class="btn-group py-3" style="width: 16%; min-width:285px;">
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" id="servicebtn" data-toggle="dropdown" aria-expanded="false">
                     Select service
                 </button>
-                <div class="dropdown-menu w-100">
-                    <button class="dropdown-item " id="services1" type="button">Formation</button>
-                    <button class="dropdown-item " id="services2" type="button">Registration</button>
-                    <button class="dropdown-item " id="services3" type="button">Closure of Concern</button>
+                <div class="dropdown-menu FIRSTserviceDD w-100">
+                    <button class="dropdown-item services" id="" onclick="showDD('FormationCompanies', 'Formation')" type="button">Formation</button>
+                    <button class="dropdown-item services" id="" onclick="showDD('RegistrationCompanies','Registration')" type="button">Registration</button>
+                    <button class="dropdown-item services" id="" onclick="showDD('Closure_of_ConcernCompanies','Closure of Concern')" type="button">Closure of Concern</button>
                 </div>
             </div>
-            <div class="btn-group py-3" style="width: 30%;">
-                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false">
+            <div class="btn-group py-3" style="width: 16%; min-width:285px;">
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" onclick="showchildDD('servicebtn')" data-toggle="dropdown" aria-expanded="false">
                     Select category
                 </button>
-                <div class="dropdown-menu w-100" id="FormationCompanies">
+                <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
                     <button class="dropdown-item" type="button">Private Limited Company</button>
                     <button class="dropdown-item" type="button">Limited Liability Partnerships</button>
                     <button class="dropdown-item" type="button">One Person Company (OPC)</button>
@@ -143,16 +143,24 @@
                     <button class="dropdown-item" type="button">Society Registration</button>
 
                 </div>
-                <div class="dropdown-menu w-100">
-                    <button class="dropdown-item" type="button">Professional Tax Registration</button>
+                <div class="dropdown-menu w-100 baseofselectedService" id="RegistrationCompanies">
+                    <!-- <button class="dropdown-item" type="button">Professional Tax Registration</button>
                     <button class="dropdown-item" type="button">Goods and Services Tax Registration</button>
                     <button class="dropdown-item" type="button">Employee Provident Fund (EPF) Registration</button>
                     <button class="dropdown-item" type="button">Employees’ State Insurance (ESI) Registration</button>
                     <button class="dropdown-item" type="button">Permanent Account Number (PAN) Application</button>
                     <button class="dropdown-item" type="button">Digital Signature Registration</button>
-                    <button class="dropdown-item" type="button">Tax Deduction and Collection Account Number – TAN</button>
+                    <button class="dropdown-item" type="button">Tax Deduction and Collection Account Number – TAN</button> -->
+
+                    <button class="dropdown-item" type="button">PTR</button>
+                    <button class="dropdown-item" type="button">GST Registration</button>
+                    <button class="dropdown-item" type="button">EPF Registration</button>
+                    <button class="dropdown-item" type="button">ESI Registration</button>
+                    <button class="dropdown-item" type="button">PAN Application</button>
+                    <button class="dropdown-item" type="button">Digital Signature Registration</button>
+                    <button class="dropdown-item" type="button">TAN</button>
                 </div>
-                <div class="dropdown-menu w-100">
+                <div class="dropdown-menu w-100 baseofselectedService" id="Closure_of_ConcernCompanies">
                     <button class="dropdown-item" type="button">Close Your Public Limited Company</button>
                     <button class="dropdown-item" type="button">Closing a One Person Company</button>
                     <button class="dropdown-item" type="button">Closing a Partnership</button>
@@ -226,7 +234,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
                     <a href="./Government_risk_compliance.php" class="text-dark" style="text-decoration: none;">
-                        <div class="text-center animate__animated animate__flipInX ">
+                        <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <div class=" w-75 mx-auto Risk_Compliance_logo services_logo"></div>
                                 <!-- <img src="./new_icon_images/Governanceb_black.png" class="w-75" alt=""> -->
@@ -615,15 +623,31 @@
             }
         })
 
-        //    drop down services 
-
-        var services = document.querySelectorAll(".services");
-        // console.log(services);
-        for (let i = 0; i < services.length; i++) {
 
 
+        $("#servicebtn").click(function() {
+            $(".FIRSTserviceDD").slideDown();
+        });
+
+        function showDD(id, name) {
+            $("#servicebtn").attr("attr-selected", id);
+            $(".baseofselectedService").slideUp();
+            $("#servicebtn").text('').text(name);
 
         }
+
+        function showchildDD(id) {
+            $(".baseofselectedService").hide();
+            var childId = $("#" + id).attr('attr-selected');
+            $("#" + childId).slideDown();
+        }
+
+        $(document).mouseup(function(e) {
+            if ($(e.target).closest(".baseofselectedService").length === 0) {
+                $(".baseofselectedService").slideUp();
+                $(".FIRSTserviceDD").slideUp();
+            }
+        });
     </script>
 </body>
 

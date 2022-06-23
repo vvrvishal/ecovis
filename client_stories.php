@@ -57,7 +57,23 @@
     text-overflow: ellipsis;
 
         }
+        .current_vacancies {
+        background-color: #cd1432;
+        box-shadow: 0px 2px 4px 0px grey;
+        border-radius: 5px;
+        width: 25%;
+        height: 40px;
+        color: white;
+        /* margin-left: 37%; */
+        border: none;
+    }
 
+    .jobs_section {
+        background-color: #eda4ad;
+        width: 100%;
+        padding: 1%;
+        border-radius: 7px;
+    }
 
         .primaryHeading{
             height: 93px !important;
@@ -159,48 +175,48 @@
         <div class="d-flex justify-content-around mb-2 pb-4 pt-5 w-50">
 
             <!-- <div class=" mx-auto w-50"> -->
-            <div class="btn-group py-3" style="width: 30%;">
+            <div class="btn-group py-3 " style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
                 Category
                 </button>
-                <div class="dropdown-menu w-100">
-                <button class="dropdown-item" type="button">Business Transformation</button>
-                <button class="dropdown-item" type="button">Digital Transformation</button>
-                <button class="dropdown-item" type="button">Legal Services</button>
-                <button class="dropdown-item" type="button">Accounting </button>
-                <button class="dropdown-item" type="button">Start-up</button>
-                    <button class="dropdown-item" type="button">Finance</button>
+                <div class="dropdown-menu w-100 toggled">
+                <button class="dropdown-item" type="button" id="Business_Transformation">Business Transformation</button>
+                <button class="dropdown-item" type="button" id="Digital_Transformation">Digital Transformation</button>
+                <button class="dropdown-item" type="button" id="Legal_Services">Legal Services</button>
+                <button class="dropdown-item" type="button"id="Accounting" >Accounting </button>
+                <button class="dropdown-item" type="button" id="Start_up" >Start-up</button>
+                    <button class="dropdown-item" type="button" id="Finance" >Finance</button>
                 </div>
             </div>
-            <div class="btn-group py-3" style="width: 30%;">
+            <div class="btn-group py-3 " style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
                 Month
                 </button>
-                <div class="dropdown-menu w-100">
-                    <button class="dropdown-item" type="button">January</button>
-                    <button class="dropdown-item" type="button">February</button>
-                    <button class="dropdown-item" type="button">March</button>
-                    <button class="dropdown-item" type="button">April</button>
-                    <button class="dropdown-item" type="button">May</button>
-                    <button class="dropdown-item" type="button">June</button>
-                    <button class="dropdown-item" type="button">July</button>
-                    <button class="dropdown-item" type="button">August</button>
-                    <button class="dropdown-item" type="button">September</button>
-                    <button class="dropdown-item" type="button">October</button>
-                    <button class="dropdown-item" type="button">November</button>
-                    <button class="dropdown-item" type="button">December</button>
+                <div class="dropdown-menu w-100 toggled">
+                    <button class="dropdown-item" type="button" id="Jan">January</button>
+                    <button class="dropdown-item" type="button" id="Feb">February</button>
+                    <button class="dropdown-item" type="button" id="Mar">March</button>
+                    <button class="dropdown-item" type="button" id="Apr">April</button>
+                    <button class="dropdown-item" type="button" id="May">May</button>
+                    <button class="dropdown-item" type="button" id="Jun">June</button>
+                    <button class="dropdown-item" type="button" id="Jul">July</button>
+                    <button class="dropdown-item" type="button" id="Aug">August</button>
+                    <button class="dropdown-item" type="button" id="Sep">September</button>
+                    <button class="dropdown-item" type="button" id="Oct">October</button>
+                    <button class="dropdown-item" type="button" id="Nov">November</button>
+                    <button class="dropdown-item" type="button" id="Dec">December</button>
                 </div>
             </div>
-            <div class="btn-group py-3" style="width: 30%;">
+            <div class="btn-group py-3 " style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
                 Year
                 </button>
-                <div class="dropdown-menu w-100">
-                    <button class="dropdown-item" type="button">2018</button>
-                    <button class="dropdown-item" type="button">2019</button>
-                    <button class="dropdown-item" type="button">2020</button>
-                    <button class="dropdown-item" type="button">2022</button>
-                    <button class="dropdown-item" type="button">2022</button>
+                <div class="dropdown-menu w-100 toggled">
+                    <button class="dropdown-item" type="button" id="_18">2018</button>
+                    <button class="dropdown-item" type="button" id="_19">2019</button>
+                    <button class="dropdown-item" type="button" id="_20">2020</button>
+                    <button class="dropdown-item" type="button" id="_22">2022</button>
+                    <button class="dropdown-item" type="button" id="_22">2022</button>
                 </div>
             </div>
             <!-- <div id="clientStory_categry" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 px-3 py-2 rounded text-dark w-25">
@@ -230,7 +246,7 @@
 
         <!-- <div class="mx-auto" style="width: 80%;"> -->
         <div class="mb-3 mx-0 row px-5 px-sm-3">
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover" >
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c1_baggingoutcomes_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;     max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -246,7 +262,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c2_lendinghand_r.jpg" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;    max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -263,7 +281,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Business_Transformation cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c3_Facilitationofcollective_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -281,7 +301,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Business_Transformation cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c4_facilitating_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -299,7 +321,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Start_up cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c5_renderingextensive_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -317,7 +341,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c6_assisstanceprovided_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -335,7 +361,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Digital_Transformation cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c7_redesigning_of_an_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -353,7 +381,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Legal_Services cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c8_Tax_and_advisory_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -371,7 +401,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Accounting cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c9_Offering_continuous_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -389,7 +421,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c10_We_help_the_private_bank_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -407,7 +441,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Start_up cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c11_We_help_the_start_ups_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -425,7 +461,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Accounting cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c12_Recommendation_and_assistance_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -443,7 +481,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c13_SEKO_Group_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;"  class="w-100 client_stories_images" alt="">
@@ -461,7 +501,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card ">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Finance cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c14_Scenario_Portugal_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -479,7 +521,9 @@
 
                 <!-- </div> -->
             </div>
-            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card">
+
+
+            <div class="col-xl-3 col-lg-4 mb-4 col-md-6 col-sm-12 client_stories_card Legal_Services cover">
                 <div class="box_shadow rounded">
                     <!-- <P class="d-flex justify-content-between mt-2 small" style="font-weight: var(--box_normal_text);"> <span class="mx-2">Category: Start-up</span> <span class="">4th June, 2022</span></P> -->
                     <img id="client_stories_1" src="./images/clientStoriesImages/c15_Ukraine_International_Airways_r.png" style="border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; max-height: 219.58px;" class="w-100 client_stories_images" alt="">
@@ -713,109 +757,60 @@
 
 
 
+    <div id="output-container"></div>
     <!-- footer  -->
     <?php include_once "footer.php" ?>
 
 </body>
-
-</html>
-<!-- carousel -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-
-<!-- Font awesome -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-<!-- bootstrap css cdn  -->
-<!-- <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="./bootstrap/bootstrap.css"> -->
-
-<!-- custom css link  -->
-<!-- <link rel="stylesheet" href="./css/style.css"> -->
-<style>
-    /* .owl-carousel button .next-slide{
-        position: absolute;
-        top: 25%;
-        background: white;
-        right: 1%;
-    }
-    .owl-carousel button .next-slide:hover, .owl-carousel button .prev-slide:hover{
-        background-color: var(--greenTheme);
-        color: var(--textWhiteColor);
-        border: var(--onHoverTextColor);
-    }
-    .owl-carousel button .prev-slide{
-        position: absolute;
-        top: 25%;
-        background: white;
-        left: 1%;
-    }
-    .nav-link{
-        color: #1ab293;
-    }
-    .prenavigate, .postnavigate{
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
         
-        border: 1px solid;
-        padding: 0px 11px !important;
-        border-radius: 3px;
-        color: #1ab293;
-        background: transparent;
-        font-weight: 400;
-        line-height: 32px;
-        margin-bottom: 0px !important;
-        padding-bottom: 4px !important;
-    }
-    .prenavigate:focus-visible, .postnavigate:focus-visible{
-        border: 2px solid var(--greenTheme);
-        outline: none !important;
-    } */
-    .current_vacancies {
-        background-color: #cd1432;
-        box-shadow: 0px 2px 4px 0px grey;
-        border-radius: 5px;
-        width: 25%;
-        height: 40px;
-        color: white;
-        /* margin-left: 37%; */
-        border: none;
-    }
+        $(function() {
 
-    .jobs_section {
-        background-color: #eda4ad;
-        width: 100%;
-        padding: 1%;
-        border-radius: 7px;
-    }
-</style>
-<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
-<div class="container">
-    <div class="owl-carousel owl-theme my-4">
-        <div class="item text-center" style="width:90%;">
-            <img src="./ecovis-images/ecovis-logo.jpeg" alt="" height="240px">
-            <h4 class="categryName">Fresh Vegetables</h4>
-        </div>
-        <div class="item text-center" style="width:90%;">
-            <img src="./ecovis-images/space.jpg" alt="" height="240px">
-            <h4 class="categryName">Fruits</h4>
-        </div>
-        <div class="item text-center" style="width:90%;">
-            <img src="./ecovis-images/abstract.jpg" alt="" height="240px">
-            <h4 class="categryName">Green Vegetables</h4>
-        </div>
-        <div class="item text-center" style="width:90%;">
-            <img src="./ecovis-images/space.jpg" alt="" height="240px">
-            <h4 class="categryName">organic Vegetables</h4>
-        </div>
-        <div class="item text-center" style="width:90%;">
-            <img src="./ecovis-images/abstract.jpg" alt="" height="240px" width="50px;">
-            <h4 class="categryName">Cut & Sprouts</h4>
-        </div>
+$('.toggled button').click(function(){
+  var get_id = this.id;
+  var get_current = $('.clientStoriesList .' + get_id);
+  console.log(get_current);
 
-    </div>
 
-</div> -->
+    $('.cover').not( get_current ).hide(500);
+    get_current.show(500);
+});
+
+
+}); 
+
+
+// finance filter 
+
+var finamce_heading = $( ".Finance" ).children().children(1).children("h4");
+var finamce_pageLink = $( ".Finance" ).children().children(1).children().children("a");
+console.log(finamce_pageLink);
+const FinanceArray = [];
+
+for (let i = 0; i < finamce_heading.length; i++) {
+    let obj = {};
+    obj["pageName"] = finamce_heading[i].innerHTML;
+    obj["pageLink"] = finamce_pageLink[i].href;
+    FinanceArray.push(obj);
+}
+
+localStorage.setItem("FinanceArray",JSON.stringify(FinanceArray));
+
+// Business_Transformation 
+
+var Business_Transformation_heading = $( ".Business_Transformation" ).children().children(1).children("h4");
+var Business_Transformation_pageLink = $( ".Business_Transformation" ).children().children(1).children().children("a");
+const Business_TransformationArray =[];
+for (let i = 0; i < Business_Transformation_heading.length; i++) {
+    let obj = {};
+    obj["pageName"] = Business_Transformation_heading[i].innerHTML;
+    obj["pageLink"] = Business_Transformation_pageLink[i].href;
+    Business_TransformationArray.push(obj);
+}
+// console.log(Business_TransformationArray);
+localStorage.setItem(JSON.stringify(Business_TransformationArray));
+
+    </script>
+  
+</html>
