@@ -175,11 +175,6 @@ button:focus, button:active, button:hover{
 
 /* ====================================================================== index page css ================================================================ */
 
-.bannerDD {
-    /* box-shadow: var(--box-shadow); */
-    max-height: 170px;
-}
-
 .carousel-caption {
     position: absolute;
     top: 15%;
@@ -302,7 +297,7 @@ button:focus, button:active, button:hover{
     position: absolute;
     top: 38%;
     background: white;
-    right: 1%;
+    right: -1%;
 }
 
 .owl-carousel button .next-slide:hover,
@@ -664,7 +659,7 @@ ul {
     }
 
     .logo img {
-        width: 100% !important;
+        width: 100px !important;
     }
 
     .menu_icon {
@@ -674,6 +669,7 @@ ul {
     #indexProblem {
         width: 55% !important;
     }
+   
 }
 
 @media only screen and (max-width: 559px) {
@@ -683,6 +679,10 @@ ul {
 
     #indexProblem {
         width: 95% !important;
+    }
+    .client_story{
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
     }
 }
 

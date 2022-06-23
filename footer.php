@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    <footer style="background:#1d252d;">
+    <!-- <footer style="background:#1d252d;" class="d-none d-md-block">
         <div class="align-items-center pt-4 mx-0 row">
             <div class="col-md-2">
                 <ul>
-                   <a href="./index.php"> <li> <img src="./images/ecovis_logoes/Ecovis_reverse.png" style="width: 75%;" alt=""></li></a>
+                   <a href="./index.php"> <li> <img src="./images/ecovis_logoes/Ecovis_reverse.png" style="width: 75%; max-width:130px" alt=""></li></a>
                 </ul>
                
             </div>
@@ -88,6 +88,104 @@
         
             </div>
         </div>
+    </footer> -->
+    <footer style="background:#1d252d;" class="d-block d-md-none">
+        <div class="align-items-center pt-4 mx-0 row">
+            <div class="col-12 ">
+                <ul class="pl-3">
+                    <li class="text-light" style="font-size: var(--primary_Font_size); font-weight: var(--heading_font_weight);">Services</li>
+                </ul>
+                <div class="Services">
+                    <ul class="font-italic">
+                        <a href="./Strategy_Performance_Consulting_services.php">
+                            <li>Strategy & Perfomance Consulting</li>
+                        </a>
+                        <a href="./Onshore_Offshore_Advisory.php">
+                            <li>Onshore & Offshore Advisory</li>
+                        </a>
+                        <a href="./Government_risk_compliance.php">
+                            <li>Governance Risk & Compliance</li>
+                        </a>
+                        <a href="./BusinessSupportandFinancialReporting.php">
+                            <li>Business Support & Financial Reporting</li>
+                        </a>
+                        <a href="./LitigationLegalServices.php">
+                            <li>Litigation & Legal Services</li>
+                        </a>
+                        <a href="./Financial_and_Capital_Services.php">
+                            <li>Financial & Capital Services</li>
+                        </a>
+                        <a href="./Digital_transformation.php">
+                            <li>Digital Transformation</li>
+                        </a>
+                        <a href="./Crossborderandmerchantbankingservices.php">
+                            <li>Cross Border & Merchant Banking Advice</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="pl-3">
+                    <li class="text-light" style="font-size: var(--primary_Font_size); font-weight: var(--heading_font_weight);">About Us</li>
+                </ul>
+                <div class="d-flex">
+                    <div class="AboutUs w-50">
+                        <ul class="font-italic">
+                            <a href="./ecovis_india.php">
+                                <li>Ecovis India</li>
+                            </a>
+                            <a href="./ecovis_International.php">
+                                <li>Ecovis International </li>
+                            </a>
+                            <a href="./collabration.php">
+                                <li>Collaboration</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="menus w-50">
+                        <ul class="font-italic pl-0">
+
+                            <a href="./client_stories.php">
+                                <li>Client Stories</li>
+                            </a>
+                            <a href="./contact_us.php">
+                                <li class="text-light">Contact us</li>
+                            </a>
+                            <a href="./jobApplication.php">
+                                <li>Work with us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex align-items-center ">
+                <ul>
+                    <a href="./index.php">
+                        <li> <img src="./images/ecovis_logoes/Ecovis_reverse.png" style="width: 75%; max-width:145px" alt=""></li>
+                    </a>
+                </ul>
+                <div class="Contactus">
+                    <ul class="font-italic">
+
+                        <div class="social_icons">
+                            <h6 class="text-light mt-5">Connect with us</h6>
+                            <a href="#">
+                                <img src="./new_icon_images/linkedin.png" class="linkedInLogo" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./new_icon_images/insta.png" class="instaLogo" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./new_icon_images/facebook.png" class="facebookLogo" alt="">
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+            </div>
+          
+        </div>
+
     </footer>
 
     <!-- <footer class="border" style="background:#fff;">

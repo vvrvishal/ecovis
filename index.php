@@ -30,6 +30,7 @@
             text-overflow: ellipsis;
 
         }
+      
     </style>
 
 </head>
@@ -45,7 +46,7 @@
             <div class=" carousel-item active">
                 <img class="d-block w-100" src="./images/ecovis_banners/homepage_b1_ecovis_india.png" style="height: 450px;" alt="First slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption ">
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem;" class="">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
@@ -56,7 +57,7 @@
             <div class="carousel-item ">
                 <img class="d-block w-100" src="./images/ecovis_banners/homepage_b2_our_team.png" style="height: 450px;" alt="Second slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/careers_banner.png" style="height: 450px;" alt="Second slide"> -->
-                <div class="carousel-caption d-none d-md-block ">
+                <div class="carousel-caption ">
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent;">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">The people who intensify our Business</h3>
@@ -67,7 +68,7 @@
             <div class="carousel-item">
                 <img class="d-block w-100" src="./images/ecovis_banners/homepage_b3_job_vaccancies.png" style="height: 450px;" alt="Third slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption ">
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">Build your future with us </h3>
@@ -78,7 +79,7 @@
             <div class="carousel-item">
                 <img class="d-block w-100" src="./images/ecovis_banners/lets_connect.png" style="height: 450px;" alt="Forth slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA INDIA</h1>
                         <!-- <h3 class="font-weight-normal">Network with us</h3> -->
@@ -89,9 +90,9 @@
             <div class="carousel-item">
                 <img class="d-block w-100" src="./images/ecovis_banners/mentor_bi.png" style="height: 450px;" alt="Fifth slide">
                 <!-- <img class="d-block w-100" src="./ecovis-images/homepage_banner.jpg" style="height: 450px;" alt="First slide"> -->
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption ">
                     <div class="animate__animated animate__fadeInDown">
-                        <img src="./images/ecovis_logoes/Mentor_bi.png" class="w-25 mb-3 mt-4" alt="">
+                        <img src="./images/ecovis_logoes/Mentor_bi.png" class="w-25 mb-3 mt-4" style="min-width: 120px;" alt="">
                         <!-- <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA  INDIA</h1> -->
                         <h3 class="font-weight-normal">An initiative for Business Transformation</h3>
 
@@ -102,49 +103,52 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#homebannner" role="button" data-slide="prev">
+        <a class="carousel-control-prev d-none d-md-block" href="#homebannner" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#homebannner" role="button" data-slide="next">
+        <a class="carousel-control-next d-none d-md-block" href="#homebannner" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
 
     <!-- banner problem solving drop down  -->
-    <div class="bannerDD box_shadow bg-danger pb-5 pt-3">
+    <div class="bannerDD box_shadow bg-danger pb-4 pt-3">
         <h3 class="text-center text-light mt-3">
             Your Business need
         </h3>
-        <div class="d-flex mx-auto mx-lg-5 justify-content-around">
-            <div class="btn-group py-3" style="width: 16%; min-width:285px;">
-                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" id="servicebtn" data-toggle="dropdown" aria-expanded="false">
-                    Select service
-                </button>
-                <div class="dropdown-menu FIRSTserviceDD w-100">
-                    <button class="dropdown-item services" id="" onclick="showDD('FormationCompanies', 'Formation')" type="button">Formation</button>
-                    <button class="dropdown-item services" id="" onclick="showDD('RegistrationCompanies','Registration')" type="button">Registration</button>
-                    <button class="dropdown-item services" id="" onclick="showDD('Closure_of_ConcernCompanies','Closure of Concern')" type="button">Closure of Concern</button>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center">
+                <div class="btn-group py-3" style="width: 16%; min-width:285px;">
+                    <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" id="servicebtn" data-toggle="dropdown" aria-expanded="false">
+                        Select service
+                    </button>
+                    <div class="dropdown-menu FIRSTserviceDD w-100">
+                        <button class="dropdown-item services" id="" onclick="showDD('FormationCompanies', 'Formation')" type="button">Formation</button>
+                        <button class="dropdown-item services" id="" onclick="showDD('RegistrationCompanies','Registration')" type="button">Registration</button>
+                        <button class="dropdown-item services" id="" onclick="showDD('Closure_of_ConcernCompanies','Closure of Concern')" type="button">Closure of Concern</button>
+                    </div>
                 </div>
             </div>
-            <div class="btn-group py-3" style="width: 16%; min-width:285px;">
-                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" onclick="showchildDD('servicebtn')" data-toggle="dropdown" aria-expanded="false">
-                    Select category
-                </button>
-                <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
-                    <button class="dropdown-item" type="button">Private Limited Company</button>
-                    <button class="dropdown-item" type="button">Limited Liability Partnerships</button>
-                    <button class="dropdown-item" type="button">One Person Company (OPC)</button>
-                    <button class="dropdown-item" type="button">Proprietorship</button>
-                    <button class="dropdown-item" type="button">Partnership</button>
-                    <button class="dropdown-item" type="button">Nidhi Company</button>
-                    <button class="dropdown-item" type="button">NGO Registration</button>
-                    <button class="dropdown-item" type="button">Society Registration</button>
+            <div class="col-md-6 col-sm-12 text-center">
+                <div class="btn-group py-3" style="width: 16%; min-width:285px;">
+                    <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" onclick="showchildDD('servicebtn')" data-toggle="dropdown" aria-expanded="false">
+                        Select category
+                    </button>
+                    <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
+                        <button class="dropdown-item" type="button">Private Limited Company</button>
+                        <button class="dropdown-item" type="button">Limited Liability Partnerships</button>
+                        <button class="dropdown-item" type="button">One Person Company (OPC)</button>
+                        <button class="dropdown-item" type="button">Proprietorship</button>
+                        <button class="dropdown-item" type="button">Partnership</button>
+                        <button class="dropdown-item" type="button">Nidhi Company</button>
+                        <button class="dropdown-item" type="button">NGO Registration</button>
+                        <button class="dropdown-item" type="button">Society Registration</button>
 
-                </div>
-                <div class="dropdown-menu w-100 baseofselectedService" id="RegistrationCompanies">
-                    <!-- <button class="dropdown-item" type="button">Professional Tax Registration</button>
+                    </div>
+                    <div class="dropdown-menu w-100 baseofselectedService" id="RegistrationCompanies">
+                        <!-- <button class="dropdown-item" type="button">Professional Tax Registration</button>
                     <button class="dropdown-item" type="button">Goods and Services Tax Registration</button>
                     <button class="dropdown-item" type="button">Employee Provident Fund (EPF) Registration</button>
                     <button class="dropdown-item" type="button">Employees’ State Insurance (ESI) Registration</button>
@@ -152,23 +156,28 @@
                     <button class="dropdown-item" type="button">Digital Signature Registration</button>
                     <button class="dropdown-item" type="button">Tax Deduction and Collection Account Number – TAN</button> -->
 
-                    <button class="dropdown-item" type="button">PTR</button>
-                    <button class="dropdown-item" type="button">GST Registration</button>
-                    <button class="dropdown-item" type="button">EPF Registration</button>
-                    <button class="dropdown-item" type="button">ESI Registration</button>
-                    <button class="dropdown-item" type="button">PAN Application</button>
-                    <button class="dropdown-item" type="button">Digital Signature Registration</button>
-                    <button class="dropdown-item" type="button">TAN</button>
-                </div>
-                <div class="dropdown-menu w-100 baseofselectedService" id="Closure_of_ConcernCompanies">
-                    <button class="dropdown-item" type="button">Close Your Public Limited Company</button>
-                    <button class="dropdown-item" type="button">Closing a One Person Company</button>
-                    <button class="dropdown-item" type="button">Closing a Partnership</button>
-                    <button class="dropdown-item" type="button">Closing a Proprietorship</button>
-                    <button class="dropdown-item" type="button">Closing a Nidhi Company</button>
-                    <button class="dropdown-item" type="button">Closing a Private Limited Company</button>
+                        <button class="dropdown-item" type="button">PTR</button>
+                        <button class="dropdown-item" type="button">GST Registration</button>
+                        <button class="dropdown-item" type="button">EPF Registration</button>
+                        <button class="dropdown-item" type="button">ESI Registration</button>
+                        <button class="dropdown-item" type="button">PAN Application</button>
+                        <button class="dropdown-item" type="button">Digital Signature Registration</button>
+                        <button class="dropdown-item" type="button">TAN</button>
+                    </div>
+                    <div class="dropdown-menu w-100 baseofselectedService" id="Closure_of_ConcernCompanies">
+                        <button class="dropdown-item" type="button">Close Your Public Limited Company</button>
+                        <button class="dropdown-item" type="button">Closing a One Person Company</button>
+                        <button class="dropdown-item" type="button">Closing a Partnership</button>
+                        <button class="dropdown-item" type="button">Closing a Proprietorship</button>
+                        <button class="dropdown-item" type="button">Closing a Nidhi Company</button>
+                        <button class="dropdown-item" type="button">Closing a Private Limited Company</button>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="d-flex mx-auto mx-lg-5 justify-content-around">
+
+
             <!-- <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
                 <p class="mb-0">Select our service</p>
                 <span><i class="fa-solid fa-caret-down text-danger"></i></span>
@@ -179,11 +188,11 @@
             </div> -->
         </div>
 
-        <div class="select_location border p-2 mb-3 mt-1 w-25 rounded" id="indexProblemDD">
+        <!-- <div class="select_location border p-2 mb-3 mt-1 w-25 rounded" id="indexProblemDD">
             <p class="border-dark form-control mb-2 mx-auto genderValue activeSelection" onclick="genderValue(this,'Male');" style="border-radius: 7px; width: 95%; ">PROBLEM 1</p>
             <p class="border-dark form-control mb-2 mx-auto   genderValue" onclick="genderValue(this,'Female');" style="border-radius: 7px; width: 95%;">PROBLEM 2</p>
             <p class="border-dark form-control mb-2 mx-auto genderValue" onclick="genderValue(this,'Other');" style="border-radius: 7px; width: 95%;">PROBLEM 3</p>
-        </div>
+        </div> -->
 
     </div>
 
