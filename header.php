@@ -194,7 +194,7 @@
             <div class="col-md-8 ourValues d-flex">
 
                 <div class="w-100 my-4">
-                    <h3 class="font-weight-normal d-inline ml-4">Practice Areas</h3>
+                    <h3 class="font-weight-normal d-inline ml-4"> Our Practice Areas</h3>
                     <div class="row mt-3">
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled">
