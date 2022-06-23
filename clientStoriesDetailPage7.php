@@ -71,15 +71,8 @@
                         </div>
                         <div class="">
                             <h4 class="text-center mainHeading mt-5 border-top pt-5">Similar stories</h4>
-                            <p class="box_shadow px-4 mt-5 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;">Combined efforts bagging successful outcomes!</p>
-                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;">A Lending Hand for the procuration of the client!</p>
-                            <p class="box_shadow mt-5 px-4 primaryHeading py-3 text-center" style="border-radius: 8px; white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;">Facilitation of collective outsources accounting, local tax compliance....</p>
+                            <div id="similer_stories"></div>
+
 
                         </div>
                     </div>
@@ -104,6 +97,17 @@
     <!-- footer  -->
     <?php include_once 'footer.php'; ?>
 
+<script>
+        let Digital_Transformation = localStorage.getItem('Digital_Transformation');
+        // console.log(Digital_Transformation);
+        let Digital_TransformationArr = JSON.parse(Digital_Transformation);
+        // console.log(Digital_TransformationArr);
+        for (let i = 0; i < Digital_TransformationArr.length; i++) {
+            var htmlClientStories = `<a href="${Digital_TransformationArr[i].pageLink}" class="text-dark" style="text-decoration:none;"><p class="Similar_stories box_shadow mt-4 normalText px-4 py-3 text-center" style="border-radius: 8px; white-space: nowrap; letter-spacing:.5px; overflow: hidden; text-overflow: ellipsis;">${Digital_TransformationArr[i].pageName}</p></a>`;
+            $("#similer_stories").append(htmlClientStories);
+        }
+
+    </script> 
 </body>
 
 </html>
