@@ -491,18 +491,18 @@
         $("#about_us").click(function() {
             $("#aboutUs_menu").slideToggle();
             $("#services_menu").slideUp();
-            $("#menu").slideUp();
+            // $("#menu").slideUp();
         });
         $("#services").click(function() {
             $("#services_menu").slideToggle();
             $("#aboutUs_menu").slideUp();
-            $("#menu").slideUp();
+            // $("#menu").slideUp();
 
         });
         $("#menu_icon").click(function() {
             $("#menu").slideToggle();
-            $("#aboutUs_menu").slideUp();
-            $("#services_menu").slideUp();
+            // $("#aboutUs_menu").slideUp();
+            // $("#services_menu").slideUp();
 
 
           
@@ -527,18 +527,18 @@
             });
         });
 
+        // $(document).mouseup(function(e) {
+        //     if ($(e.target).closest("#menu").length === 0 && $(e.target).closest("#menu_icon").length === 0) {
+        //         $("#menu").slideUp();
+        //     }
+        // });
         $(document).mouseup(function(e) {
-            if ($(e.target).closest("#menu").length === 0 && $(e.target).closest("#menu_icon").length === 0) {
-                $("#menu").slideUp();
-            }
-        });
-        $(document).mouseup(function(e) {
-            if ($(e.target).closest("#aboutUs_menu").length === 0) {
+            if ($(e.target).closest("#aboutUs_menu").length === 0 && $(e.target).closest("#about_us").length === 0 && $(e.target).closest("header").length === 0) {
                 $("#aboutUs_menu").slideUp();
             }
         });
         $(document).mouseup(function(e) {
-            if ($(e.target).closest("#services_menu").length === 0 ) {
+            if ($(e.target).closest("#services_menu").length === 0 && $(e.target).closest("#services").length === 0 ) {
                 $("#services_menu").slideUp();
             }
         });
