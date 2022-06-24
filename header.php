@@ -64,7 +64,7 @@
                             <li>Client Stories</li>
                         </a>
                         <a href="./collabration.php">
-                            <li>Collaboration</li>
+                            <li>Our Initiatives</li>
                         </a>
                         <a href="./team.php">
                             <li>Our team</li>
