@@ -103,11 +103,11 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev d-none d-md-block" href="#homebannner" role="button" data-slide="prev">
+        <a class="carousel-control-prev " href="#homebannner" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next d-none d-md-block" href="#homebannner" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#homebannner" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -116,9 +116,9 @@
     <!-- banner problem solving drop down  -->
     <div class="bannerDD box_shadow bg-danger pb-4 pt-3">
         <h3 class="text-center text-light mt-3">
-            Your Business need
+            Your Business Need
         </h3>
-        <div class="row">
+        <div class="row" id="Your_Business_needs">
             <div class="col-md-6 col-sm-12 text-center">
                 <div class="btn-group py-3" style="width: 16%; min-width:285px;">
                     <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" id="servicebtn" data-toggle="dropdown" aria-expanded="false">

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!-- <footer style="background:#1d252d;" class="d-none d-md-block">
+    <footer style="background:#1d252d;" class="d-none d-md-block">
         <div class="align-items-center pt-4 mx-0 row">
             <div class="col-md-2">
                 <ul>
@@ -88,7 +88,7 @@
         
             </div>
         </div>
-    </footer> -->
+    </footer>
     <footer style="background:#1d252d;" class="d-block d-md-none">
         <div class="align-items-center pt-4 mx-0 row">
             <div class="col-12 ">

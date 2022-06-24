@@ -733,3 +733,9 @@ filter: brightness(1);
 .jobapplicationBanner{
     background-image: url(../images/ecovis_banners/Apply_banner.png);
 }
+
+/* Private_Limited_CompanyBanner */
+
+.Private_Limited_CompanyBanner{
+    background-image: url(../images/ecovis_banners/Apply_banner.png);
+}
