@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Private Limited Company</title>
+    <title>Society Registration</title>
     <link rel="stylesheet" href="./css/style.css">
     <style>
         .sessions {
@@ -58,16 +58,14 @@
     <?php include_once "header.php" ?>
     <!-- banner image  -->
 
-    <div class="align-items-center Private_Limited_CompanyBanner d-flex justify-content-around pageBanner">
+    <div class="align-items-center One_Person_CompanyBanner d-flex justify-content-around pageBanner">
         <div class="">
-            <p class="mainHeading text-center text-light">Private Limited Company
-            </p>
+            <p class="mainHeading text-center text-light">Society Registration</p>
         </div>
-        <!-- <img src="" alt=""> -->
     </div>
     <div class="bannerDD box_shadow bg-danger pb-4 pt-3">
         <h3 class="text-center text-light mt-3">
-            Your Business need
+            Your Business Need
         </h3>
         <div class="row" id="Your_Business_needs">
             <div class="col-md-6 col-sm-12 d-md-flex justify-content-end text-center pr-5">
@@ -91,7 +89,7 @@
                     </button>
                     <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
                         <a href="./Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Private Limited Company</button></a>
-                        <a href="./Limited_Liability_Partnerships.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Limited Liability Partnerships</button></a>
+                        <a href="./Limited_Liability_Partnerships.php"  style="text-decoration: none;"><button class="dropdown-item" type="button">Limited Liability Partnerships</button></a>
                         <a href="./One_Person_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">One Person Company (OPC)</button></a>
                         <a href="./Proprietorship.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Proprietorship</button></a>
                         <a href="./Partnership.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Partnership</button></a>
@@ -116,7 +114,7 @@
                         <a href="./PAN.php" style="text-decoration: none;"><button class="dropdown-item" type="button">PAN Application</button></a>
                         <a href="./Digital_Signature_Registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Digital Signature Registration</button></a>
                         <a href="./TAN.php" style="text-decoration: none;"><button class="dropdown-item" type="button">TAN</button></a>
-
+                        
                     </div>
                     <div class="dropdown-menu w-100 baseofselectedService" id="Closure_of_ConcernCompanies">
                         <a href="./Close_Your_Public_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Close Your Public Limited Company</button></a>
@@ -125,181 +123,57 @@
                         <a href="./Closing_a_Proprietorship.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Proprietorship</button></a>
                         <a href="./Closing_a_Nidhi_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Nidhi Company</button></a>
                         <a href="./Closing_a_Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Private Limited Company</button></a>
-
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row justify-content-center ">
-        <div class="col-lg-8 col-md-10 border-bottom border-danger">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">Why should I register as a Private Limited Company?</h1>
-            <p class="normalText">So you’ve done your research, selected a name, set up all your contacts, and are ready to make it official. Even if you’re not, here are a few reasons why you should register your company.</p>
+        <div class="col-lg-8 col-md-10">
+            <h1 class="mb-3 mt-5 primaryHeading text-danger">Society Registration</h1>
+            <p class="normalText">Societies are run by a governing body or a Managing Committee. Societies fall under the purview of the Societies Registration Act, 1860.</p>
+
+            <h1 class="mb-3 mt-5 primaryHeading text-danger">Proofs Required for Society Registration</h1>
+            <!-- <p class="normalText">Unlike public limited company & private limited company, the liability of the member will be to the extent he has invested in the business. In an OPC, one person holds all the shares and has complete authority over the operation of the business.</p> -->
+
             <ul class="pl-2">
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Increased credibility</p>
+                        <p>The name of the society.</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p> A range of legal and taxation related benefits</p>
+                        <p>Address proof of the office.</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Reduced personal liability, thus less personal risk and/or loss</p>
+                        <p>Identity proof of all the nine members which can be Driving License/Copy of Passport/Voter ID/Aadhaar card.</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Increased capacity to borrow and raise capital</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>More potential to grow and develop</p>
+                        <p>Two copies of the Memorandum of Association and By-laws of the society.</p>
                     </div>
                 </li>
             </ul>
+            <p class="normalText"><B>Note:</B> It takes about 8 to 10 days for drafting the MoA and By-laws of the Society. It takes 21 to 30 days for a Society to be registered.</p>
+
         </div>
     </div>
 
-    <div class="row justify-content-center ">
-        <div class="col-lg-8 col-md-10 border-bottom border-danger">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">How should I register as a Private Limited Company?</h1>
-            <p class="normalText">According to the Company Law 2003, there are certain requirements that need to be met before you can register as a private limited company.</p>
-            <ul class="pl-2">
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>At least two directors and at the most fifteen directors</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A name for it that isn’t the same as any previously registered companies or trademarked names</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Authorized capital of one lakh.</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A registered office address (Now this doesn’t mean you have to have a different office space, any address even your rented home, can be a registered address as long as it fulfills the required conditions w.r.t to NoCs etc)</p>
-                    </div>
-                </li>
 
-            </ul>
-        </div>
-    </div>
 
-    <div class="row justify-content-center ">
-        <div class="col-lg-8 col-md-10 ">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">What needs to be done to register as a Private Limited Company?</h1>
-            <p class="normalText">Now that you’re ready to register and have put together everything that is required, here’s the next step!</p>
-            <ul class="mb-4 pb-1 pl-3 sessions">
-                <li>
-                    <p>Apply for a Digital Signature Certificate. This can be obtained from one of six private agencies authorized by MCA 21. Company directors must submit the prescribed application form along with proof of identity and address.</p>
-                </li>
-                <li>
-                    <p>Apply for a Director Identification Number. For this, you must first obtain a provisional DIN by filing application Form DIN-1 online. This must then be signed and sent to the ministry along with proof of identity and address. Once approved, a permanent DIN is issued.</p>
-                </li>
-                <li>
-                    <p>Registering the company name.</p>
-                </li>
-                <li>
-                    <p>Submitting unsigned copies of the Memorandum of Association and the Articles of Association for stamping.‍</p>
-                </li>
-                <li>
-                    <p>Obtaining the Certificate of Incorporation.</p>
-                </li>
-                <li>
-                    <p>Obtaining a company seal, Permanent Account Number and Taxation Account Number.</p>
-                </li>
-                <li>
-                    <p>Creating a current account in the company’s name with the bank.</p>
-                </li>
-            </ul>
-            <p class="normalText">Registering your company helps enhance visibility and provides advantages over unregistered companies.</p>
-            <p class="mb-5">One of the most important steps to be taken right in the beginning is to check if the
-                name you want for your company is available. This can be done by running a search
-                to check the availability against other registered names and trademarks with the
-                Ministry of Corporate Affairs and the IP India website. It may happen that the name
-                you want is already taken, in this case, it is important to have back up names.</p>
 
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">Proofs required to register as a Private Limited Company?</h1>
-            <p>There are two categories of proofs required to be submitted when you’re
-                registering a company. One is identity proofs, and the other is registered office
-                proof. Under identity proof, you will need - SCANNED COPIES OF</p>
-            <ul class="pl-2">
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>PAN Card or Passport (Foreign Nationals & NRIs)</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Voter’s ID/Passport/Driver’s License</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Latest bank statement/telephone or mobile bill/electricity or gas bill</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Passport-sized photograph specimen signature of directors.</p>
-                    </div>
-                </li>
-
-            </ul>
-            
-            <p class="normalText ">Under registered office proof, one requires</p>
-
-            <ul class="pl-2">
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A copy of the electricity/phone/water bill</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>NoC from the landlord in the case of rented spaces along with a copy of the notarised rental agreement</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A copy of the sale deed/property deed in case of owned property</p>
-                    </div>
-                </li>
-            </ul>
-            <h1 class="normalText  mb-4"><span class="font-weight-bold">Note:</span> The registered office does not have to be a different space, it can be your residence too.</h1>
-
-        </div>
-
-    </div>
     <div class="lets_connect px-0 text-center">
-        <a href="./contact_us.php"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">LET'S CONNECT</button></a>
-        <h5 style="text-align:center;color:white;" class="mt-4  font-weight-normal">Didn’t find what you’re looking for? Write to us about your specific business needs!</h5>
+       <a href="./contact_us.php"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">LET'S CONNECT</button></a>
+        <h4 style="text-align:center;color:white;" class="mt-4 font-weight-normal">Didn’t find what you’re looking for? Write to us about your specific business needs!</h4>
     </div>
 
     <?php include_once "footer.php" ?>

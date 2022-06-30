@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Private Limited Company</title>
+    <title>Nidhi Company</title>
     <link rel="stylesheet" href="./css/style.css">
     <style>
         .sessions {
@@ -60,8 +60,7 @@
 
     <div class="align-items-center Private_Limited_CompanyBanner d-flex justify-content-around pageBanner">
         <div class="">
-            <p class="mainHeading text-center text-light">Private Limited Company
-            </p>
+            <p class="mainHeading text-center text-light">Nidhi Company</p>
         </div>
         <!-- <img src="" alt=""> -->
     </div>
@@ -91,7 +90,7 @@
                     </button>
                     <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
                         <a href="./Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Private Limited Company</button></a>
-                        <a href="./Limited_Liability_Partnerships.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Limited Liability Partnerships</button></a>
+                        <a href="./Limited_Liability_Partnerships.php"  style="text-decoration: none;"><button class="dropdown-item" type="button">Limited Liability Partnerships</button></a>
                         <a href="./One_Person_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">One Person Company (OPC)</button></a>
                         <a href="./Proprietorship.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Proprietorship</button></a>
                         <a href="./Partnership.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Partnership</button></a>
@@ -116,7 +115,7 @@
                         <a href="./PAN.php" style="text-decoration: none;"><button class="dropdown-item" type="button">PAN Application</button></a>
                         <a href="./Digital_Signature_Registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Digital Signature Registration</button></a>
                         <a href="./TAN.php" style="text-decoration: none;"><button class="dropdown-item" type="button">TAN</button></a>
-
+                        
                     </div>
                     <div class="dropdown-menu w-100 baseofselectedService" id="Closure_of_ConcernCompanies">
                         <a href="./Close_Your_Public_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Close Your Public Limited Company</button></a>
@@ -125,7 +124,7 @@
                         <a href="./Closing_a_Proprietorship.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Proprietorship</button></a>
                         <a href="./Closing_a_Nidhi_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Nidhi Company</button></a>
                         <a href="./Closing_a_Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Private Limited Company</button></a>
-
+                        
                     </div>
                 </div>
             </div>
@@ -133,201 +132,144 @@
     </div>
     <div class="row justify-content-center ">
         <div class="col-lg-8 col-md-10 border-bottom border-danger">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">Why should I register as a Private Limited Company?</h1>
-            <p class="normalText">So you’ve done your research, selected a name, set up all your contacts, and are ready to make it official. Even if you’re not, here are a few reasons why you should register your company.</p>
+            <h1 class="mb-3 mt-5 primaryHeading text-danger">What is a Nidhi Company?</h1>
+            <p class="">A nidhi company is a company that operates within the non-banking Indian finance sector recognized under section 406 of the Companies Act, 2013. The main business of a Nidhi Company is borrowing and lending money between their members. They are regulated by the Ministry of Corporate Affairs. The RBI has the power to direct Nidhi Companies about their deposit acceptances.</p>
+            <p class="">All financial dealings and the registration process of a Nidhi company fall under the Ministry of Corporate Affairs.</p>
+            <p class="">A Nidhi company is registered as a Public Limited Company. Hence, the requirements for incorporation of a Nidhi company covers a minimum of three Directors and Seven Shareholders.</p>
+            <p class="">The deposit acceptance activities conducted by the Nidhi Company also come under the scanner of Reserve Bank of India and the latter has the right to look into the financial dealings.</p>
+            <p class="">A Nidhi Company must accumulate 200 members within a year of its formation.If it fails to do so, it needs to apply for permission to extend the time limit to acquire more members. Three of its members will be appointed as directors and there must be seven stockholders on inception.</p>
+            <p class="">A Nidhi Company must have a paid up equity share capital of Rs. 5 lakh on inception. Moreover, 10% of the total deposit collected from members must be in a fixed deposit in a nationalised bank.</p>
+
+            <h1 class="mb-3 mt-5 primaryHeading text-danger">Why should I register a Nidhi Company</h1>
+
             <ul class="pl-2">
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Increased credibility</p>
+                        <p>No External Involvement in Management</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p> A range of legal and taxation related benefits</p>
+                        <p>Helpful for Lower and Middle Classes</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Reduced personal liability, thus less personal risk and/or loss</p>
+                        <p>Low Rates of Interest</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Increased capacity to borrow and raise capital</p>
+                        <p>Secured Investments</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>More potential to grow and develop</p>
+                        <p>Minimum Documentation and Formalities</p>
                     </div>
                 </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="row justify-content-center ">
-        <div class="col-lg-8 col-md-10 border-bottom border-danger">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">How should I register as a Private Limited Company?</h1>
-            <p class="normalText">According to the Company Law 2003, there are certain requirements that need to be met before you can register as a private limited company.</p>
-            <ul class="pl-2">
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>At least two directors and at the most fifteen directors</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A name for it that isn’t the same as any previously registered companies or trademarked names</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Authorized capital of one lakh.</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A registered office address (Now this doesn’t mean you have to have a different office space, any address even your rented home, can be a registered address as long as it fulfills the required conditions w.r.t to NoCs etc)</p>
-                    </div>
-                </li>
-
             </ul>
         </div>
     </div>
 
     <div class="row justify-content-center ">
         <div class="col-lg-8 col-md-10 ">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">What needs to be done to register as a Private Limited Company?</h1>
-            <p class="normalText">Now that you’re ready to register and have put together everything that is required, here’s the next step!</p>
+            <h1 class="mb-3 mt-5 primaryHeading text-danger">How to register a Nidhi Company?</h1>
             <ul class="mb-4 pb-1 pl-3 sessions">
                 <li>
-                    <p>Apply for a Digital Signature Certificate. This can be obtained from one of six private agencies authorized by MCA 21. Company directors must submit the prescribed application form along with proof of identity and address.</p>
+                    <p><span class="font-weight-bold">Application of DSC & DPIN -</span> First of all, the partners have to apply for Digital Signature and DPIN for Nidhi company if they do not already have it.</p>
                 </li>
                 <li>
-                    <p>Apply for a Director Identification Number. For this, you must first obtain a provisional DIN by filing application Form DIN-1 online. This must then be signed and sent to the ministry along with proof of identity and address. Once approved, a permanent DIN is issued.</p>
+                    <p><span class="font-weight-bold">Name approval -</span> Three different name options for the Nidhi Company have to be provided to MCA of which one will be selected. As the rules go for all kinds of companies, the name should not match any existing names and/or trademarks. This can be checked by checking the availability of the name on the MCA database.</p>
                 </li>
                 <li>
-                    <p>Registering the company name.</p>
+                    <p><span class="font-weight-bold">Submitting the MOA & AOA -</span> Post name approval, the Memorandum of Association and Articles of Association need to be drafted. But the object of the Nidhi Company must always be a charitable object. The MOA and AOA need to be filed along with the subscription statement to the MCA.</p>
                 </li>
                 <li>
-                    <p>Submitting unsigned copies of the Memorandum of Association and the Articles of Association for stamping.‍</p>
+                    <p><span class="font-weight-bold">Getting the incorporation certificate -</span>It generally takes 15- 25 days to form a Nidhi Company, and receive the Certificate of Incorporation. It also includes your CIN number.</p>
                 </li>
                 <li>
-                    <p>Obtaining the Certificate of Incorporation.</p>
-                </li>
-                <li>
-                    <p>Obtaining a company seal, Permanent Account Number and Taxation Account Number.</p>
-                </li>
-                <li>
-                    <p>Creating a current account in the company’s name with the bank.</p>
-                </li>
+                    <p><span class="font-weight-bold">Apply for PAN, TAN and Bank account -</span> PAN and TAN are given in 7 working days. Post this, the above documents can be submitted with the bank to open the bank account.</p>
+                </li>               
             </ul>
-            <p class="normalText">Registering your company helps enhance visibility and provides advantages over unregistered companies.</p>
-            <p class="mb-5">One of the most important steps to be taken right in the beginning is to check if the
-                name you want for your company is available. This can be done by running a search
-                to check the availability against other registered names and trademarks with the
-                Ministry of Corporate Affairs and the IP India website. It may happen that the name
-                you want is already taken, in this case, it is important to have back up names.</p>
+         
 
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">Proofs required to register as a Private Limited Company?</h1>
-            <p>There are two categories of proofs required to be submitted when you’re
-                registering a company. One is identity proofs, and the other is registered office
-                proof. Under identity proof, you will need - SCANNED COPIES OF</p>
-            <ul class="pl-2">
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>PAN Card or Passport (Foreign Nationals & NRIs)</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Voter’s ID/Passport/Driver’s License</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Latest bank statement/telephone or mobile bill/electricity or gas bill</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Passport-sized photograph specimen signature of directors.</p>
-                    </div>
-                </li>
+            <h1 class="mb-3 mt-5 primaryHeading text-danger ">Proofs required for Nidhi Company registration</h1>
+            <p class="normalText">To be submitted by all directors :</p>
 
-            </ul>
-            
-            <p class="normalText ">Under registered office proof, one requires</p>
 
             <ul class="pl-2">
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A copy of the electricity/phone/water bill</p>
+                        <p>Self-attested copy of PAN Card</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>NoC from the landlord in the case of rented spaces along with a copy of the notarised rental agreement</p>
+                        <p>Self-attested copy of Driver’s License/ Voter ID/ Aadhaar Card/Passport</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A copy of the sale deed/property deed in case of owned property</p>
+                        <p>Self-attested copy of Bank Statement/ Telephone Bill/Mobile Bill/ Electricity Bill</p>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <div class="d-flex">
+                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
+                        <p>Passport-size Photograph</p>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <div class="d-flex">
+                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
+                        <p>Specimen Signature Certificate</p>
                     </div>
                 </li>
             </ul>
-            <h1 class="normalText  mb-4"><span class="font-weight-bold">Note:</span> The registered office does not have to be a different space, it can be your residence too.</h1>
-
         </div>
 
     </div>
-    <div class="lets_connect px-0 text-center">
-        <a href="./contact_us.php"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">LET'S CONNECT</button></a>
-        <h5 style="text-align:center;color:white;" class="mt-4  font-weight-normal">Didn’t find what you’re looking for? Write to us about your specific business needs!</h5>
+  
+        <div class="lets_connect px-0 text-center">
+       <a href="./contact_us.php"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">LET'S CONNECT</button></a>
+        <h4 style="text-align:center;color:white;" class="mt-4 font-weight-normal">Didn’t find what you’re looking for? Write to us about your specific business needs!</h4>
     </div>
 
-    <?php include_once "footer.php" ?>
-    <script>
-        $("#servicebtn").click(function() {
-            $(".FIRSTserviceDD").slideDown();
-        });
+        <?php include_once "footer.php" ?>
+        <script>
+            $("#servicebtn").click(function() {
+                $(".FIRSTserviceDD").slideDown();
+            });
 
-        function showDD(id, name) {
-            $("#servicebtn").attr("attr-selected", id);
-            $(".baseofselectedService").slideUp();
-            $("#servicebtn").text('').text(name);
-
-        }
-
-        function showchildDD(id) {
-            $(".baseofselectedService").hide();
-            var childId = $("#" + id).attr('attr-selected');
-            $("#" + childId).slideDown();
-        }
-
-        $(document).mouseup(function(e) {
-            if ($(e.target).closest(".baseofselectedService").length === 0) {
+            function showDD(id, name) {
+                $("#servicebtn").attr("attr-selected", id);
                 $(".baseofselectedService").slideUp();
-                $(".FIRSTserviceDD").slideUp();
+                $("#servicebtn").text('').text(name);
+
             }
-        });
-    </script>
+
+            function showchildDD(id) {
+                $(".baseofselectedService").hide();
+                var childId = $("#" + id).attr('attr-selected');
+                $("#" + childId).slideDown();
+            }
+
+            $(document).mouseup(function(e) {
+                if ($(e.target).closest(".baseofselectedService").length === 0) {
+                    $(".baseofselectedService").slideUp();
+                    $(".FIRSTserviceDD").slideUp();
+                }
+            });
+        </script>
 </body>
 
 </html>

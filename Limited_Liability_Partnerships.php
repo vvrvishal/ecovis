@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Private Limited Company</title>
+    <title>Limited Liability Partnerships</title>
     <link rel="stylesheet" href="./css/style.css">
     <style>
         .sessions {
@@ -60,7 +60,7 @@
 
     <div class="align-items-center Private_Limited_CompanyBanner d-flex justify-content-around pageBanner">
         <div class="">
-            <p class="mainHeading text-center text-light">Private Limited Company
+            <p class="mainHeading text-center text-light">Limited Liability Partnerships
             </p>
         </div>
         <!-- <img src="" alt=""> -->
@@ -91,7 +91,7 @@
                     </button>
                     <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
                         <a href="./Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Private Limited Company</button></a>
-                        <a href="./Limited_Liability_Partnerships.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Limited Liability Partnerships</button></a>
+                        <a href="./Limited_Liability_Partnerships.php"  style="text-decoration: none;"><button class="dropdown-item" type="button">Limited Liability Partnerships</button></a>
                         <a href="./One_Person_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">One Person Company (OPC)</button></a>
                         <a href="./Proprietorship.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Proprietorship</button></a>
                         <a href="./Partnership.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Partnership</button></a>
@@ -116,7 +116,7 @@
                         <a href="./PAN.php" style="text-decoration: none;"><button class="dropdown-item" type="button">PAN Application</button></a>
                         <a href="./Digital_Signature_Registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Digital Signature Registration</button></a>
                         <a href="./TAN.php" style="text-decoration: none;"><button class="dropdown-item" type="button">TAN</button></a>
-
+                        
                     </div>
                     <div class="dropdown-menu w-100 baseofselectedService" id="Closure_of_ConcernCompanies">
                         <a href="./Close_Your_Public_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Close Your Public Limited Company</button></a>
@@ -125,7 +125,7 @@
                         <a href="./Closing_a_Proprietorship.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Proprietorship</button></a>
                         <a href="./Closing_a_Nidhi_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Nidhi Company</button></a>
                         <a href="./Closing_a_Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Private Limited Company</button></a>
-
+                        
                     </div>
                 </div>
             </div>
@@ -133,70 +133,78 @@
     </div>
     <div class="row justify-content-center ">
         <div class="col-lg-8 col-md-10 border-bottom border-danger">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">Why should I register as a Private Limited Company?</h1>
-            <p class="normalText">So you’ve done your research, selected a name, set up all your contacts, and are ready to make it official. Even if you’re not, here are a few reasons why you should register your company.</p>
+            <p class="normalText mb-3 mt-5">So you and your friend have been wondering on an idea and are ready to take the plunge. What do you choose? To go for a private limited company or a limited liability partnership (LLP)? First let us take you through the process of getting into a limited liability partnership.</p>
+            <h1 class=" primaryHeading text-danger">Why register as an LLP?</h1>
             <ul class="pl-2">
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Increased credibility</p>
+                        <p> An LLP is a separate legal entity which allows the partners to sue each other if the need arises. Like a private limited company, even an LLP has perpetual succession, which allows the business to remain regardless of whether the partners continue to be a part of it.</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p> A range of legal and taxation related benefits</p>
+                        <p> It is also very easy to induct a new partner and transfer the partnership to them.</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Reduced personal liability, thus less personal risk and/or loss</p>
+                        <p> There is no limit on the number of partners an LLP can have. Also, the cost of forming an LLP is low compared to other forms and there are fewer regulations and compliance.</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Increased capacity to borrow and raise capital</p>
+                        <p>An LLP can be started with the minimum amount of capital money. Capital may be in the form of tangible, movable asset like Land, machinery or intangible form.</p>
                     </div>
                 </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>More potential to grow and develop</p>
-                    </div>
-                </li>
+
             </ul>
         </div>
     </div>
 
     <div class="row justify-content-center ">
         <div class="col-lg-8 col-md-10 border-bottom border-danger">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">How should I register as a Private Limited Company?</h1>
-            <p class="normalText">According to the Company Law 2003, there are certain requirements that need to be met before you can register as a private limited company.</p>
+            <p class="normalText mb-3 mt-5">LLP formation starting from obtaining DSC to Filing Form 3 takes approximately 15 days subject to availability of all the documents.</p>
+
+            <h1 class=" primaryHeading text-danger">What do I need to register as an LLP ?</h1>
             <ul class="pl-2">
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>At least two directors and at the most fifteen directors</p>
+                        <p>A minimum of two partners. There is no upper limit on the number of partners</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A name for it that isn’t the same as any previously registered companies or trademarked names</p>
+                        <p>DIN and DSC for all partners</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Authorized capital of one lakh.</p>
+                        <p>At least one Indian resident as a designated partner</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A registered office address (Now this doesn’t mean you have to have a different office space, any address even your rented home, can be a registered address as long as it fulfills the required conditions w.r.t to NoCs etc)</p>
+                        <p>Authorized capital of at least one lakh, no minimum capital required</p>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <div class="d-flex">
+                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
+                        <p>Address proof for the registered office</p>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <div class="d-flex">
+                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
+                        <p>There is no requirement for shared capital but each partner must contribute which is known as partner’s capital</p>
                     </div>
                 </li>
 
@@ -206,102 +214,84 @@
 
     <div class="row justify-content-center ">
         <div class="col-lg-8 col-md-10 ">
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">What needs to be done to register as a Private Limited Company?</h1>
-            <p class="normalText">Now that you’re ready to register and have put together everything that is required, here’s the next step!</p>
+            <h1 class="mb-3 mt-5 primaryHeading text-danger">How to register as an LLP ?</h1>
+            <!-- <p class="normalText">Now that you’re ready to register and have put together everything that is required, here’s the next step!</p> -->
             <ul class="mb-4 pb-1 pl-3 sessions">
                 <li>
-                    <p>Apply for a Digital Signature Certificate. This can be obtained from one of six private agencies authorized by MCA 21. Company directors must submit the prescribed application form along with proof of identity and address.</p>
+                    <p>The first step is applying for a digital signature of the designated partners since LLP documents are filed online and need to be digitally signed.</p>
                 </li>
                 <li>
-                    <p>Apply for a Director Identification Number. For this, you must first obtain a provisional DIN by filing application Form DIN-1 online. This must then be signed and sent to the ministry along with proof of identity and address. Once approved, a permanent DIN is issued.</p>
+                    <p>The second step is applying for the DIN of all the designated partners or those intending to be designated partner of the LLP. This is made via eForm DIR-3.</p>
                 </li>
                 <li>
-                    <p>Registering the company name.</p>
+                    <p>The next step is reserving the Name. For this, an LLP-RUN (Limited Liability Partnership-Reserve Unique Name) is filed for the reservation of name of proposed LLP. Before quoting the name in the form, it is recommended to check for the similar names that already exist since the name will only be approved if the name is not undesirable in the opinion of the Central Government and does not resemble any existing partnership firm or an LLP or a body corporate or a trademark.</p>
                 </li>
                 <li>
-                    <p>Submitting unsigned copies of the Memorandum of Association and the Articles of Association for stamping.‍</p>
+                    <p>After reserving the name there is incorporation. The process for incorporation is submitting FiLLiP(Form for incorporation of Limited Liability Partnership) which shall be filed with the Registrar who has jurisdiction over the state in which the registered office of the LLP is situated.</p>
                 </li>
                 <li>
-                    <p>Obtaining the Certificate of Incorporation.</p>
+                    <p>This step is filing the Limited Liability Partnership Agreement. This step is very important as it defines the rights you will have as a partner. The LLP agreement governs the mutual rights and duties amongst the partners and also between the LLP and its partners. The agreement becomes active when the LLP is registered via form 3 on the MCA portal and must be done within 30 days of the date of incorporation.</p>
                 </li>
                 <li>
-                    <p>Obtaining a company seal, Permanent Account Number and Taxation Account Number.</p>
+                    <p>Obtaining a Company Seal, Permanent Account Number and Taxation Account Number.</p>
                 </li>
                 <li>
                     <p>Creating a current account in the company’s name with the bank.</p>
                 </li>
             </ul>
-            <p class="normalText">Registering your company helps enhance visibility and provides advantages over unregistered companies.</p>
-            <p class="mb-5">One of the most important steps to be taken right in the beginning is to check if the
-                name you want for your company is available. This can be done by running a search
-                to check the availability against other registered names and trademarks with the
-                Ministry of Corporate Affairs and the IP India website. It may happen that the name
-                you want is already taken, in this case, it is important to have back up names.</p>
-
-            <h1 class="mb-3 mt-5 primaryHeading text-danger">Proofs required to register as a Private Limited Company?</h1>
-            <p>There are two categories of proofs required to be submitted when you’re
-                registering a company. One is identity proofs, and the other is registered office
-                proof. Under identity proof, you will need - SCANNED COPIES OF</p>
-            <ul class="pl-2">
+          <p class="primaryHeading text-danger mb-3 ">Proofs required for LLP registration</p>
+          <h1 class="normalText  mb-3">From Partners:</h1>
+          <ul class="pl-2">
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>PAN Card or Passport (Foreign Nationals & NRIs)</p>
+                        <p>Copy of PAN card/Passport (for Foreign Nationals and NRIs)</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Voter’s ID/Passport/Driver’s License</p>
+                        <p>Copy of AADHAR/Voter ID/Passport/Driver’s License</p>
                     </div>
                 </li>
                 <li class="mb-1">
                     <div class="d-flex">
                         <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Latest bank statement/telephone or mobile bill/electricity or gas bill</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>Passport-sized photograph specimen signature of directors.</p>
-                    </div>
-                </li>
-
-            </ul>
-            
-            <p class="normalText ">Under registered office proof, one requires</p>
-
-            <ul class="pl-2">
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A copy of the electricity/phone/water bill</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>NoC from the landlord in the case of rented spaces along with a copy of the notarised rental agreement</p>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <div class="d-flex">
-                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
-                        <p>A copy of the sale deed/property deed in case of owned property</p>
+                        <p>Copy of bank statement/phone bill/electricity or gas bill</p>
                     </div>
                 </li>
             </ul>
-            <h1 class="normalText  mb-4"><span class="font-weight-bold">Note:</span> The registered office does not have to be a different space, it can be your residence too.</h1>
+            <h1 class="normalText text-danger mb-3">For the office:</h1>
+            <ul class="pl-2"> 
+            <li class="mb-1">
+                    <div class="d-flex">
+                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
+                        <p>Copy of bank statement/phone bill/electricity or gas bill</p>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <div class="d-flex">
+                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
+                        <p>Copy of notarized rent agreement if rented property along with NoC from landlord</p>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <div class="d-flex">
+                        <span class="pr-3 text-danger"><i style='font-size:13px' class='far'>&#xf192;</i></span>
+                        <p>Copy of Sale Deed/Property Deed in English in case of owned property</p>
+                    </div>
+                </li>
+            </ul>
+            <h1 class="normalText mb-4"><span class="font-weight-bold">Note:</span> Your registered office can be your residence, it does not have to be a different commercial space.</h1>
 
         </div>
 
     </div>
-    <div class="lets_connect px-0 text-center">
-        <a href="./contact_us.php"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">LET'S CONNECT</button></a>
-        <h5 style="text-align:center;color:white;" class="mt-4  font-weight-normal">Didn’t find what you’re looking for? Write to us about your specific business needs!</h5>
-    </div>
 
+    <div class="lets_connect px-0 text-center">
+       <a href="./contact_us.php"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">LET'S CONNECT</button></a>
+        <h4 style="text-align:center;color:white;" class="mt-4 font-weight-normal">Didn’t find what you’re looking for? Write to us about your specific business needs!</h4>
+    </div>
     <?php include_once "footer.php" ?>
     <script>
         $("#servicebtn").click(function() {
