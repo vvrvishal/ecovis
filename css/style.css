@@ -739,3 +739,13 @@ filter: brightness(1);
 .Private_Limited_CompanyBanner{
     background-image: url(../images/ecovis_banners/Apply_banner.png);
 }
+.One_Person_CompanyBanner{
+    background-image: url(../images/ecovis_banners/one_person_company.png);
+}
+.Business_RestructuringBanner{
+    background-image: url(../images/ecovis_banners/business_restructuring.png);
+
+}
+.Succession_PlanningBanner{
+    background-image: url(../images/ecovis_banners/Succession_planning.png);
+}

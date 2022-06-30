@@ -114,12 +114,13 @@
     </div>
 
     <!-- banner problem solving drop down  -->
+
     <div class="bannerDD box_shadow bg-danger pb-4 pt-3">
         <h3 class="text-center text-light mt-3">
-            Your Business Need
+            Your Business need
         </h3>
         <div class="row" id="Your_Business_needs">
-            <div class="col-md-6 col-sm-12 text-center">
+            <div class="col-md-6 col-sm-12 d-md-flex justify-content-end text-center pr-5">
                 <div class="btn-group py-3" style="width: 16%; min-width:285px;">
                     <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" id="servicebtn" data-toggle="dropdown" aria-expanded="false">
                         Select service
@@ -128,23 +129,25 @@
                         <button class="dropdown-item services" id="" onclick="showDD('FormationCompanies', 'Formation')" type="button">Formation</button>
                         <button class="dropdown-item services" id="" onclick="showDD('RegistrationCompanies','Registration')" type="button">Registration</button>
                         <button class="dropdown-item services" id="" onclick="showDD('Closure_of_ConcernCompanies','Closure of Concern')" type="button">Closure of Concern</button>
+                        <a href="./Business_Restructuring.php" style="text-decoration: none;" ><button class="dropdown-item services" type="button">Business Restructuring</button></a>
+                        <a href="./Succession_Planning.php" style="text-decoration: none;"><button class="dropdown-item services" type="button">Succession Planning</button></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 text-center">
+            <div class="col-md-6 col-sm-12 d-md-flex text-center pl-5">
                 <div class="btn-group py-3" style="width: 16%; min-width:285px;">
                     <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" onclick="showchildDD('servicebtn')" data-toggle="dropdown" aria-expanded="false">
                         Select category
                     </button>
                     <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
-                        <button class="dropdown-item" type="button">Private Limited Company</button>
-                        <button class="dropdown-item" type="button">Limited Liability Partnerships</button>
-                        <button class="dropdown-item" type="button">One Person Company (OPC)</button>
-                        <button class="dropdown-item" type="button">Proprietorship</button>
-                        <button class="dropdown-item" type="button">Partnership</button>
-                        <button class="dropdown-item" type="button">Nidhi Company</button>
-                        <button class="dropdown-item" type="button">NGO Registration</button>
-                        <button class="dropdown-item" type="button">Society Registration</button>
+                        <a href="./Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Private Limited Company</button></a>
+                        <a href="./Limited_Liability_Partnerships.php"  style="text-decoration: none;"><button class="dropdown-item" type="button">Limited Liability Partnerships</button></a>
+                        <a href="./One_Person_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">One Person Company (OPC)</button></a>
+                        <a href="./Proprietorship.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Proprietorship</button></a>
+                        <a href="./Partnership.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Partnership</button></a>
+                        <a href="./Nidhi_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Nidhi Company</button></a>
+                        <a href="./NGO_regestration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">NGO Registration</button></a>
+                        <a href="./Society_Registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Society Registration</button></a>
 
                     </div>
                     <div class="dropdown-menu w-100 baseofselectedService" id="RegistrationCompanies">
@@ -156,45 +159,29 @@
                     <button class="dropdown-item" type="button">Digital Signature Registration</button>
                     <button class="dropdown-item" type="button">Tax Deduction and Collection Account Number – TAN</button> -->
 
-                        <button class="dropdown-item" type="button">PTR</button>
-                        <button class="dropdown-item" type="button">GST Registration</button>
-                        <button class="dropdown-item" type="button">EPF Registration</button>
-                        <button class="dropdown-item" type="button">ESI Registration</button>
-                        <button class="dropdown-item" type="button">PAN Application</button>
-                        <button class="dropdown-item" type="button">Digital Signature Registration</button>
-                        <button class="dropdown-item" type="button">TAN</button>
+                        <a href="./Professional_Tax_Registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">PTR</button></a>
+                        <a href="./GST.php" style="text-decoration: none;"><button class="dropdown-item" type="button">GST Registration</button></a>
+                        <a href="./epf_registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">EPF Registration</button></a>
+                        <a href="./ESI.php" style="text-decoration: none;"><button class="dropdown-item" type="button">ESI Registration</button></a>
+                        <a href="./PAN.php" style="text-decoration: none;"><button class="dropdown-item" type="button">PAN Application</button></a>
+                        <a href="./Digital_Signature_Registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Digital Signature Registration</button></a>
+                        <a href="./TAN.php" style="text-decoration: none;"><button class="dropdown-item" type="button">TAN</button></a>
+                        
                     </div>
                     <div class="dropdown-menu w-100 baseofselectedService" id="Closure_of_ConcernCompanies">
-                        <button class="dropdown-item" type="button">Close Your Public Limited Company</button>
-                        <button class="dropdown-item" type="button">Closing a One Person Company</button>
-                        <button class="dropdown-item" type="button">Closing a Partnership</button>
-                        <button class="dropdown-item" type="button">Closing a Proprietorship</button>
-                        <button class="dropdown-item" type="button">Closing a Nidhi Company</button>
-                        <button class="dropdown-item" type="button">Closing a Private Limited Company</button>
+                        <a href="./Close_Your_Public_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Close Your Public Limited Company</button></a>
+                        <a href="./Closing_a_One_Person_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a One Person Company</button></a>
+                        <a href="./Closing_a_Partnership.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Partnership</button></a>
+                        <a href="./Closing_a_Proprietorship.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Proprietorship</button></a>
+                        <a href="./Closing_a_Nidhi_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Nidhi Company</button></a>
+                        <a href="./Closing_a_Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Closing a Private Limited Company</button></a>
+                        
                     </div>
                 </div>
             </div>
         </div>
-        <div class="d-flex mx-auto mx-lg-5 justify-content-around">
-
-
-            <!-- <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
-                <p class="mb-0">Select our service</p>
-                <span><i class="fa-solid fa-caret-down text-danger"></i></span>
-            </div>
-            <div id="indexProblem" class="align-items-center bg-light d-flex font-weight-bold justify-content-between mt-4 mx-auto problemDD px-3 py-2 rounded text-dark">
-                <p class="mb-0">Select category</p>
-                <span><i class="fa-solid fa-caret-down text-danger"></i></span>
-            </div> -->
-        </div>
-
-        <!-- <div class="select_location border p-2 mb-3 mt-1 w-25 rounded" id="indexProblemDD">
-            <p class="border-dark form-control mb-2 mx-auto genderValue activeSelection" onclick="genderValue(this,'Male');" style="border-radius: 7px; width: 95%; ">PROBLEM 1</p>
-            <p class="border-dark form-control mb-2 mx-auto   genderValue" onclick="genderValue(this,'Female');" style="border-radius: 7px; width: 95%;">PROBLEM 2</p>
-            <p class="border-dark form-control mb-2 mx-auto genderValue" onclick="genderValue(this,'Other');" style="border-radius: 7px; width: 95%;">PROBLEM 3</p>
-        </div> -->
-
     </div>
+
 
     <!-- offering services  -->
     <div class="my-5">

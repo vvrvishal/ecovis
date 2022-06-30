@@ -37,13 +37,14 @@
         }
 
         .primaryHeading {
-            height: 93px !important;
+            height: 85px !important;
             display: block;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
+            font-size: 1.25rem !important;
         }
 
         #client_stories_1 {
