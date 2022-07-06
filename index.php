@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecovis</title>
+    <link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <style>
         .client_stories_details {
@@ -114,10 +116,11 @@
     </div>
 
     <!-- banner problem solving drop down  -->
+    <div class="" id="Business_in_India"></div>
 
-    <div class="bannerDD box_shadow bg-danger pb-4 pt-3">
+    <!-- <div class="bannerDD box_shadow bg-danger pb-4 pt-3">
         <h3 class="text-center text-light mt-3">
-            Your Business need
+            Your Business in India
         </h3>
         <div class="row" id="Your_Business_needs">
             <div class="col-md-6 col-sm-12 d-md-flex justify-content-end text-center pr-5">
@@ -151,13 +154,7 @@
 
                     </div>
                     <div class="dropdown-menu w-100 baseofselectedService" id="RegistrationCompanies">
-                        <!-- <button class="dropdown-item" type="button">Professional Tax Registration</button>
-                    <button class="dropdown-item" type="button">Goods and Services Tax Registration</button>
-                    <button class="dropdown-item" type="button">Employee Provident Fund (EPF) Registration</button>
-                    <button class="dropdown-item" type="button">Employees’ State Insurance (ESI) Registration</button>
-                    <button class="dropdown-item" type="button">Permanent Account Number (PAN) Application</button>
-                    <button class="dropdown-item" type="button">Digital Signature Registration</button>
-                    <button class="dropdown-item" type="button">Tax Deduction and Collection Account Number – TAN</button> -->
+                      
 
                         <a href="./Professional_Tax_Registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">PTR</button></a>
                         <a href="./GST.php" style="text-decoration: none;"><button class="dropdown-item" type="button">GST Registration</button></a>
@@ -180,7 +177,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- offering services  -->
@@ -585,7 +582,8 @@
     </script>
 
     <!-- oul carousel javascript cdn  -->
-    <script src="./js/javascript.js"></script>
+    <script src="./bootstrap/js/javascript.js"></script>
+    <!-- <script src="./js/javascript.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
     <script>

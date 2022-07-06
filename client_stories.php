@@ -85,7 +85,7 @@
                     <button class="dropdown-item" type="button" id="Finance">Finance</button>
                 </div>
             </div>
-            <div class="btn-group py-3 " style="width: 30%;">
+            <!-- <div class="btn-group py-3 " style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
                     Month
                 </button>
@@ -93,7 +93,7 @@
                     <button class="dropdown-item" type="button" id="Jan">January</button>
                     <button class="dropdown-item" type="button" id="Feb">February</button>
                     <button class="dropdown-item" type="button" id="Mar">March</button>
-                    <button class="dropdown-item" type="button" id="Apr">April</button>
+                    <button class="dropdown-item" type="button" id="Apr">April</button> 
                     <button class="dropdown-item" type="button" id="May">May</button>
                     <button class="dropdown-item" type="button" id="Jun">June</button>
                     <button class="dropdown-item" type="button" id="Jul">July</button>
@@ -103,8 +103,8 @@
                     <button class="dropdown-item" type="button" id="Nov">November</button>
                     <button class="dropdown-item" type="button" id="Dec">December</button>
                 </div>
-            </div>
-            <div class="btn-group py-3 " style="width: 30%;">
+            </div> -->
+            <!-- <div class="btn-group py-3 " style="width: 30%;">
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
                     Year
                 </button>
@@ -115,7 +115,7 @@
                     <button class="dropdown-item" type="button" id="_22">2022</button>
                     <button class="dropdown-item" type="button" id="_22">2022</button>
                 </div>
-            </div>
+            </div> -->
 
             <div class="select_location border p-2 mb-3 mt-1 w-25 rounded" id="clientStory_categryDD">
                 <p class="border-dark form-control mb-2 mx-auto genderValue activeSelection" onclick="genderValue(this,'Male');" style="border-radius: 7px; width: 95%; ">PROBLEM 1</p>

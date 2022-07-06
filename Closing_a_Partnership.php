@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Closing a Partnership</title>
+    <link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
+
     <link rel="stylesheet" href="./css/style.css">
     <style>
         .sessions {
@@ -64,7 +66,9 @@
         </div>
         <!-- <img src="" alt=""> -->
     </div>
-    <div class="bannerDD box_shadow bg-danger pb-4 pt-3">
+    <div class="" id="Business_in_India"></div>
+
+    <!-- <div class="bannerDD box_shadow bg-danger pb-4 pt-3">
         <h3 class="text-center text-light mt-3">
             Your Business Need
         </h3>
@@ -100,13 +104,13 @@
 
                     </div>
                     <div class="dropdown-menu w-100 baseofselectedService" id="RegistrationCompanies">
-                        <!-- <button class="dropdown-item" type="button">Professional Tax Registration</button>
+                        <button class="dropdown-item" type="button">Professional Tax Registration</button>
                     <button class="dropdown-item" type="button">Goods and Services Tax Registration</button>
                     <button class="dropdown-item" type="button">Employee Provident Fund (EPF) Registration</button>
                     <button class="dropdown-item" type="button">Employees’ State Insurance (ESI) Registration</button>
                     <button class="dropdown-item" type="button">Permanent Account Number (PAN) Application</button>
                     <button class="dropdown-item" type="button">Digital Signature Registration</button>
-                    <button class="dropdown-item" type="button">Tax Deduction and Collection Account Number – TAN</button> -->
+                    <button class="dropdown-item" type="button">Tax Deduction and Collection Account Number – TAN</button>
 
                         <a href="./Professional_Tax_Registration.php" style="text-decoration: none;"><button class="dropdown-item" type="button">PTR</button></a>
                         <a href="./GST.php" style="text-decoration: none;"><button class="dropdown-item" type="button">GST Registration</button></a>
@@ -129,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="row justify-content-center mb-5">
         <div class="col-lg-8 col-md-10 ">
             <h1 class="mb-3 mt-5 primaryHeading text-danger">Closing a Partnership</h1>
@@ -374,6 +378,7 @@
         <h5 style="text-align:center;color:white;" class="mt-4  font-weight-normal">Didn’t find what you’re looking for? Write to us about your specific business needs!</h5>
     </div>
     <?php include_once "footer.php" ?>
+    <script src="./bootstrap/js/javascript.js"></script>
     <script>
         $("#servicebtn").click(function() {
             $(".FIRSTserviceDD").slideDown();
