@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Support and Financial Reporting
     </title>
+    <link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
 </head>
 
 <body>
@@ -20,8 +21,8 @@
             <h6 class="mx-auto normalText text-justify text-light w-50" style="
     line-height: 25px;
 ">
-Tally ERP, SAP, and other Indian and international accounting software are all familiar to our teams. We ensure that accounts are kept in line with both domestic and international reporting standards. To ensure prompt remediation, our staff reviews, analyses, and flags any potential issues.
-</h6>
+                Tally ERP, SAP, and other Indian and international accounting software are all familiar to our teams. We ensure that accounts are kept in line with both domestic and international reporting standards. To ensure prompt remediation, our staff reviews, analyses, and flags any potential issues.
+            </h6>
         </div>
     </div>
     <div class="banner ">
@@ -69,8 +70,8 @@ Tally ERP, SAP, and other Indian and international accounting software are all f
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/AccountingServices.png" class="w-75" alt="">
-                                    
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/AccountingServices.png" class="w-75" alt="">
+
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
 
@@ -80,8 +81,8 @@ Tally ERP, SAP, and other Indian and international accounting software are all f
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> Accounting Services</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                           
-We give the support, neutrality, and experience that businesses require to prosper in an ever-changing business environment. We provide a wide range of services in a variety of industries to help business owners and managers gain the knowledge they need to succeed.</p>
+
+                                We give the support, neutrality, and experience that businesses require to prosper in an ever-changing business environment. We provide a wide range of services in a variety of industries to help business owners and managers gain the knowledge they need to succeed.</p>
                         </div>
                     </div>
                 </div>
@@ -92,7 +93,7 @@ We give the support, neutrality, and experience that businesses require to prosp
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/BusinessAnalytics.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/BusinessAnalytics.png" class="w-75" alt="">
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
@@ -103,20 +104,20 @@ We give the support, neutrality, and experience that businesses require to prosp
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Business Analytics</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-We work with firms in a wide range of industries to help them take advantage of the opportunities provided by business analytics.
-</p>
+
+                                We work with firms in a wide range of industries to help them take advantage of the opportunities provided by business analytics.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
-                    <div class=" mb-3 row"style="border-bottom: 1px solid #cd1432;">
+                    <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/IndiaEntryConsulting.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/IndiaEntryConsulting.png" class="w-75" alt="">
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
@@ -127,20 +128,20 @@ We work with firms in a wide range of industries to help them take advantage of 
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">India Entry Consulting </p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-Our India market entry consulting team specialises in offering comprehensive solutions to global corporations with operations in India.
-</p>
+
+                                Our India market entry consulting team specialises in offering comprehensive solutions to global corporations with operations in India.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-           <div class="justify-content-center mx-0 row">
+            <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row" style="border-bottom: 1px solid #cd1432;">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/ManagementSystems.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/ManagementSystems.png" class="w-75" alt="">
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
@@ -151,10 +152,10 @@ Our India market entry consulting team specialises in offering comprehensive sol
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4">Management Systems</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
 
-We offer a comprehensive range of advisory services around the world, including management systems.
-</p>
+
+                                We offer a comprehensive range of advisory services around the world, including management systems.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -165,7 +166,7 @@ We offer a comprehensive range of advisory services around the world, including 
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/MISDashboards.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/MISDashboards.png" class="w-75" alt="">
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
@@ -176,20 +177,20 @@ We offer a comprehensive range of advisory services around the world, including 
                             <p class="primaryHeading text-danger ml-3 mb-0 pl-4"> MIS & Dashboards</p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                           	
-The Management Information System's (MIS) Dashboard creates a visual insights into the data it stores. We also assist you in making data-driven decisions.
-</p>
+
+                                The Management Information System's (MIS) Dashboard creates a visual insights into the data it stores. We also assist you in making data-driven decisions.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             <div class="justify-content-center mx-0 row">
                 <div class="col-md-8">
                     <div class=" mb-3 row">
                         <div class="col-3">
                             <div class="text-center">
                                 <div class="mx-auto service_icons">
-                                <img src="./images/icon_images/BusinessSupportandFinancialReporting/OnGoingBusinessSupport.png" class="w-75" alt="">
+                                    <img src="./images/icon_images/BusinessSupportandFinancialReporting/OnGoingBusinessSupport.png" class="w-75" alt="">
 
                                     <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="w-100" alt=""> -->
                                 </div>
@@ -202,8 +203,8 @@ The Management Information System's (MIS) Dashboard creates a visual insights in
                             </p>
 
                             <p class="ml-3 pl-4" style=" font-size: var(--secondry_font_size);">
-                            
-By offering a back office for your regulatory compliances, we can manage your company's ongoing business tasks much easily.
+
+                                By offering a back office for your regulatory compliances, we can manage your company's ongoing business tasks much easily.
 
                             </p>
                         </div>

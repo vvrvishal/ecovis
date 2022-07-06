@@ -502,7 +502,7 @@ ul {
 
 .bannerDiv {
     background-image: url(../ecovis-images/careers_bannercroped.png);
-
+    filter: brightness(.5);
 }
 
 .ConnectUsBanner {
