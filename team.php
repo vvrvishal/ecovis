@@ -128,7 +128,7 @@ work together and integrate unique capacities, backgrounds, and individual goals
                     <img src="./ourTeam_B&W/08_Ram_Verma.jpg" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Ram Verma</p>
-                <p class="normalText">Audit and Finance</p>
+                <p class="normalText">Financial & Capital Services</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
@@ -142,7 +142,7 @@ work together and integrate unique capacities, backgrounds, and individual goals
                     <img src="./ourTeam_B&W/11_Rahul_Nagar.jpg" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Rahul Nagar</p>
-                <p class="normalText">Finance and auditing</p>
+                <p class="normalText">Financial & Capital Services</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
@@ -156,56 +156,56 @@ work together and integrate unique capacities, backgrounds, and individual goals
                     <img src="./ourTeam_B&W/13_Siddharth_Baghmar.jpg" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Siddharth Baghmar</p>
-                <p class="normalText">Finance</p>
+                <p class="normalText">Financial & Capital Services</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
                     <img src="./ourTeam_B&W/14_Jaigovind_boob.jpg" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Jaigovind Boob</p>
-                <p class="normalText">Finance</p>
+                <p class="normalText">Financial & Capital Services</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
                     <img src="./ourTeam_B&W/15_Bharat_Gupta.jpg" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Bharat Gupta</p>
-                <p class="normalText">Litigation</p>
+                <p class="normalText">Litigation & Legal Services</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
                     <img src="./ourTeam_B&W/07_Sanjay_Surana.jpg" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Sanjay Surana</p>
-                <p class="normalText">Finance</p>
+                <p class="normalText">Financial & Capital Services</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
                     <img src="./ourTeam_B&W/17_Girish_Gangawat.png" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Girish Gangawat</p>
-                <p class="normalText">Banking & Management</p>
+                <p class="normalText">Financial & Capital Services</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
                     <img src="./ourTeam_B&W/18_Nidhi_Vira.png" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Nidhi Vira</p>
-                <p class="normalText">Finanace</p>
+                <p class="normalText">Financial & Capital Services</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
                     <img src="./ourTeam_B&W/19_deepa_shetty.jpg" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">deepa Shetty</p>
-                <p class="normalText">Business support</p>
+                <p class="normalText">Business support & Financial Reporting</p>
             </div>
             <div class="col-lg-3 mb-5 col-md-4 col-sm-12 text-center">
                 <div class="mx-auto rounded-circle" style="width: 160px; height: 160px; overflow: hidden;">
                     <img src="./ourTeam_B&W/20_Prasidh_Sapaliga.png" class="w-100" alt="">
                 </div>
                 <p class="primaryHeading mb-0">Prasidh Sapaliga</p>
-                <p class="normalText">Special Audits</p>
+                <p class="normalText">Financial & Capital Services</p>
             </div>
         </div>
 
