@@ -17,8 +17,7 @@
     <!-- banner   -->
     <div class="Strategy_Performance_Consulting_servicesBanner align-items-center d-flex justify-content-center pageBanner">
         <div class="text-center">
-            <h1 class="mainHeading mb-4 text-center text-light">Cross border and merchant banking services
-            </h1>
+            <h1 class="mainHeading mb-4 text-center text-light">Cross Border & Merchant Banking Advice</h1>
             <h6 class="mx-auto normalText text-justify text-light w-50" style="
     line-height: 25px;
 ">National borders do not limit the scope of a company's operations. To run a successful business, any organisation must grasp how cross-border payments work

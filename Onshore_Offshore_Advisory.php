@@ -18,7 +18,7 @@
     <!-- banner   -->
     <div class="Strategy_Performance_Consulting_servicesBanner align-items-center d-flex justify-content-center pageBanner">
         <div class="text-center">
-            <h1 class="mainHeading mb-4 px-5 text-center text-light">On shore and Off shore Advisory</h1>
+            <h1 class="mainHeading mb-4 px-5 text-center text-light">Onshore and Offshore Advisory</h1>
             <h6 class="mx-auto normalText text-justify text-light w-50" style="
     line-height: 25px;
 ">Giving both onshore advisory for home clients who wish to grow outbound and offshore advisory for inbound clients who need to put resources into India. We offer advisory on Accessing Global and Virtual business sectors through outbound speculation and functional plans. Proper Positioning of gathering substances for Global Business. India Entry and Exit Planning.</h6>

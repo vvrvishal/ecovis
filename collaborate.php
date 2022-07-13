@@ -25,8 +25,8 @@
             <p class="mx-auto normalText text-center text-justify text-light w-75">In a world defined by constant disruption, there is a growing need to impact business on multiple dimensions
                 to ensure sustainable growth. No one person has all the answers. In this context, it becomes imperative for
                 leaders to leverage the wisdom of many to find the solutions. It is this expertise of that mentor-bi consultants
-                bring to partner businesses & leaders to deliver the required business impact. We call it “Co-creating Business
-                Impact”.</p>
+                bring to partner businesses & leaders with this purpose of creating business impact. We call it <a href="https://mentor-bi.com/About-us.html" class="font-weight-bold" style="text-decoration: none; color:#df7b45;">“Co-creating Business
+                Impact”</a>.</p>
         </div>
         <!-- <img src="" alt=""> -->
     </div>

@@ -17,7 +17,7 @@
     <!-- banner   -->
     <div class="Strategy_Performance_Consulting_servicesBanner align-items-center d-flex justify-content-center pageBanner">
         <div class="text-center">
-            <h1 class="mainHeading mb-4 text-center text-light">Strategy &amp; Performance Consulting</h1>
+            <h1 class="mainHeading mb-4 text-center text-light">Strategy and Performance Consulting</h1>
             <h6 class="mx-auto normalText text-justify text-light w-50" style="
     line-height: 25px;
 ">The implementation of a strategy plan to fulfil an organization's goals is
