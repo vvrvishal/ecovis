@@ -19,8 +19,9 @@
     <!-- career nammer  -->
     <div class="align-items-center bannerDiv d-flex justify-content-around pageBanner">
         <div class="">
-            <p class="mainHeading text-center text-dark">OUR TEAM</p>
-            <p class="normalText text-center text-dark">The people who intensify business capabilities</p>
+        <img src="./images/ecovis_logoes/Mentor_bi.png" alt="" class="mb-4" style=" width: 174px;">
+            <p class="mainHeading text-center text-light">OUR TEAM</p>
+            <!-- <p class="normalText text-center text-dark">The people who intensify business capabilities</p> -->
         </div>
         <!-- <img src="" alt=""> -->
     </div>
@@ -79,7 +80,7 @@
         <div class="row justify-content-around " style="margin: 3.5rem 0rem;">
             <div class="col-md-8">
                 <div class="text-center">
-                    <h2 class="text-center primaryHeading ">Few lead experts on board (As Advisors & Consultants)</h2>
+                    <h2 class="text-center primaryHeading ">COE (Center of Excellence) Leads</h2>
                 </div>
             </div>
         </div>
