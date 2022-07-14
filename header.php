@@ -69,9 +69,9 @@
                         <a href="./team.php">
                             <li>Our team</li>
                         </a>
-                        <a href="./team.php">
+                        <!-- <a href="./team.php">
                             <li>Newsletter</li>
-                        </a>
+                        </a> -->
                         <!-- <a href="./careers.php">
                             <li>Careers</li>
                         </a> -->
