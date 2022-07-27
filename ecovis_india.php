@@ -168,7 +168,7 @@
                         <h6 class="text-danger">CORPORATE OFFICE</h6>
                     </div>
                     <div class="">
-                        <p class="small text-muted mb-0">Practice head</p>
+                        <p class="small text-muted mb-0">Regional Lead</p>
                         <h6 class="text-danger">R L Kabra</h6>
                         <p class="px-4">515, Tulsiani chambers, Nariman Point, Mumbai 400 021</p>
                     </div>
@@ -181,10 +181,10 @@
                         <div class="mb-4">
                             <img src="./images/icon_images/ahmedabad.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
-                            <h6 class="text-danger">AHEMEDABAD</h6>
+                            <h6 class="text-danger text-uppercase">ahmedabad</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>Naharraj Leela, 1 Ganga Soc, Shahibaug</p>
                         </div>
@@ -197,7 +197,7 @@
                             <h6 class="text-danger">CHENNAI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>17/39, Krishnappa Tank St, Konditope, Chennai – 600 079</p>
                         </div>
@@ -210,7 +210,7 @@
                             <h6 class="text-danger">DELHI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>A 531, Shastri Nagar, New Delhi – 110052</p>
                         </div>
@@ -227,7 +227,7 @@
                             <h6 class="text-danger">HYDERABAD</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                         </div>
@@ -241,7 +241,7 @@
                             <h6 class="text-danger">INDORE</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>401, Fortune Ambience Business Spaces Indore (M.P) – 452001</p>
                         </div>
@@ -254,7 +254,7 @@
                             <h6 class="text-danger">JAIPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                         </div>
@@ -270,7 +270,7 @@
                             <h6 class="text-danger">KOLKATA</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>4A/2, Anandam Apt, 7 Mall Road, Kolkata – 700 080</p>
                         </div>
@@ -283,7 +283,7 @@
                             <h6 class="text-danger">MUMBAI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>1902 C, Kailas Business Park, Vikhroli – W, Mumbai – 400 079</p>
                         </div>
@@ -296,7 +296,7 @@
                             <h6 class="text-danger">NAGPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>513, Arenja Corner, Vashi, Navi Mumbai – 400 703. </p>
                         </div>
@@ -312,10 +312,10 @@
                         <div class="mb-4">
                             <img src="./images/icon_images/mumbai.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
-                            <h6 class="text-danger">NAVI MUMBAI</h6>
+                            <h6 class="text-danger">Vashi</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>513, Arenja Corner, Vashi, Navi Mumbai – 400 703. </p>
                         </div>
@@ -339,7 +339,7 @@
                             <h6 class="text-danger">JAIPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Practice head</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">R L Kabra</h6>
                             <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                         </div>
