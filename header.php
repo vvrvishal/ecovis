@@ -57,7 +57,7 @@
                         <a href="#">
                             <li id="about_us" class="about_us">About Us</li>
                         </a>
-                        <a href="./client_stories.php">
+                        <a href="./client_stories">
                             <li>Client Stories</li>
                         </a>
                         <a href="./collaborate">
