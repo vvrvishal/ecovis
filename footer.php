@@ -13,7 +13,7 @@
         <div class="align-items-center pt-4 mx-0 row">
             <div class="col-md-2">
                 <ul>
-                   <a href="./index.php"> <li> <img src="./images/ecovis_logoes/Ecovis_reverse.png" style="width: 75%; max-width:130px" alt=""></li></a>
+                   <a href="./index "> <li> <img src="./images/ecovis_logoes/Ecovis_reverse.png" style="width: 75%; max-width:130px" alt=""></li></a>
                 </ul>
                
             </div>
@@ -32,45 +32,45 @@
             <div class="col-md-2">
                 <div class="AboutUs">
                     <ul class="font-italic">
-                        <a href="./ecovis_india.php"><li>Ecovis India</li></a>
-                        <a href="./ecovis_International.php"><li>Ecovis International </li></a>
+                        <a href="./ecovis_india"><li>Ecovis India</li></a>
+                        <a href="./ecovis_International "><li>Ecovis International </li></a>
                     </ul>
                 </div>
             </div>
             <div class="col-md-3 ">
                 <div class="Services">
                     <ul  class="font-italic">
-                        <a href="./Strategy_Performance_Consulting_services.php"><li>Strategy & Perfomance Consulting</li></a>
-                        <a href="./Onshore_Offshore_Advisory.php"><li>Onshore & Offshore Advisory</li></a>
-                        <a href="./Government_risk_compliance.php"> <li>Governance Risk & Compliance</li></a>
-                        <a href="./BusinessSupportandFinancialReporting.php"> <li>Business Support & Financial Reporting</li></a>
-                        <a href="./LitigationLegalServices.php"><li>Litigation & Legal Services</li></a>
-                        <a href="./Financial_and_Capital_Services.php"><li>Financial & Capital Services</li></a>
-                        <a href="./Digital_transformation.php"><li>Digital Transformation</li></a>
-                        <a href="./Crossborderandmerchantbankingservices.php"><li>Cross Border & Merchant Banking Advice</li></a>
+                        <a href="./Strategy_Performance_Consulting_services"><li>Strategy & Perfomance Consulting</li></a>
+                        <a href="./Onshore_Offshore_Advisory "><li>Onshore & Offshore Advisory</li></a>
+                        <a href="./Government_risk_compliance "> <li>Governance Risk & Compliance</li></a>
+                        <a href="./BusinessSupportandFinancialReporting "> <li>Business Support & Financial Reporting</li></a>
+                        <a href="./LitigationLegalServices "><li>Litigation & Legal Services</li></a>
+                        <a href="./Financial_and_Capital_Services "><li>Financial & Capital Services</li></a>
+                        <a href="./Digital_transformation "><li>Digital Transformation</li></a>
+                        <a href="./Crossborderandmerchantbankingservices "><li>Cross Border & Merchant Banking Advice</li></a>
                     </ul>
                 </div>
             </div>
             <div class="col-md-1 ">
                 <div class="Collaboration">
                     <ul  class="font-italic pl-0">
-                        <a href="./collabration.php"><li>Collaboration</li></a>
-                        <a href="./client_stories.php"><li>Client Stories</li></a>
+                        <a href="./collabration "><li>Collaboration</li></a>
+                        <a href="./client_stories "><li>Client Stories</li></a>
                     </ul>
                 </div>
             </div>
             <div class="col-md-2 ">
                 <div class="Careers">
                     <ul  class="font-italic">
-                        <a href="./careers.php" class="text-center"><li>Careers</li></a>
-                        <a href="./jobApplication.php" class="text-center"><li>Work with us</li></a>
+                        <a href="./careers " class="text-center"><li>Careers</li></a>
+                        <a href="./jobApplication " class="text-center"><li>Work with us</li></a>
                     </ul>
                 </div>
             </div>
             <div class="col-md-2 ">
                 <div class="Contactus">
                     <ul  class="font-italic">
-                        <a href="./contact_us.php"><li class="text-light">Contact us</li></a>
+                        <a href="./contact_us "><li class="text-light">Contact us</li></a>
                         <div class="social_icons">
                             <h6 class="text-light mt-5">Connect with us</h6>
                             <a href="#">
@@ -97,28 +97,28 @@
                 </ul>
                 <div class="Services">
                     <ul class="font-italic">
-                        <a href="./Strategy_Performance_Consulting_services.php">
+                        <a href="./Strategy_Performance_Consulting_services ">
                             <li>Strategy & Perfomance Consulting</li>
                         </a>
-                        <a href="./Onshore_Offshore_Advisory.php">
+                        <a href="./Onshore_Offshore_Advisory ">
                             <li>Onshore & Offshore Advisory</li>
                         </a>
-                        <a href="./Government_risk_compliance.php">
+                        <a href="./Government_risk_compliance ">
                             <li>Governance Risk & Compliance</li>
                         </a>
-                        <a href="./BusinessSupportandFinancialReporting.php">
+                        <a href="./BusinessSupportandFinancialReporting ">
                             <li>Business Support & Financial Reporting</li>
                         </a>
-                        <a href="./LitigationLegalServices.php">
+                        <a href="./LitigationLegalServices ">
                             <li>Litigation & Legal Services</li>
                         </a>
-                        <a href="./Financial_and_Capital_Services.php">
+                        <a href="./Financial_and_Capital_Services ">
                             <li>Financial & Capital Services</li>
                         </a>
-                        <a href="./Digital_transformation.php">
+                        <a href="./Digital_transformation ">
                             <li>Digital Transformation</li>
                         </a>
-                        <a href="./Crossborderandmerchantbankingservices.php">
+                        <a href="./Crossborderandmerchantbankingservices ">
                             <li>Cross Border & Merchant Banking Advice</li>
                         </a>
                     </ul>
@@ -131,13 +131,13 @@
                 <div class="d-flex">
                     <div class="AboutUs w-50">
                         <ul class="font-italic">
-                            <a href="./ecovis_india.php">
+                            <a href="./ecovis_india ">
                                 <li>Ecovis India</li>
                             </a>
-                            <a href="./ecovis_International.php">
+                            <a href="./ecovis_International ">
                                 <li>Ecovis International </li>
                             </a>
-                            <a href="./collabration.php">
+                            <a href="./collabration ">
                                 <li>Collaboration</li>
                             </a>
                         </ul>
@@ -145,13 +145,13 @@
                     <div class="menus w-50">
                         <ul class="font-italic pl-0">
 
-                            <a href="./client_stories.php">
+                            <a href="./client_stories ">
                                 <li>Client Stories</li>
                             </a>
-                            <a href="./contact_us.php">
+                            <a href="./contact_us ">
                                 <li class="text-light">Contact us</li>
                             </a>
-                            <a href="./jobApplication.php">
+                            <a href="./jobApplication ">
                                 <li>Work with us</li>
                             </a>
                         </ul>
@@ -160,7 +160,7 @@
             </div>
             <div class="col-12 d-flex align-items-center ">
                 <ul>
-                    <a href="./index.php">
+                    <a href="./index ">
                         <li> <img src="./images/ecovis_logoes/Ecovis_reverse.png" style="width: 75%; max-width:145px" alt=""></li>
                     </a>
                 </ul>

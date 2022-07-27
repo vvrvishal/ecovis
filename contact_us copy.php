@@ -104,7 +104,7 @@
                     <div class="col-md-6">
                         <div class="locations d-flex align-items-center">
                             <i class="fa-solid fa-location-dot" id="location_icon"></i>
-                            <a href="./ecovis_india.html">
+                            <a href="./ecovis_india">
                                 <button type="submit" class="bg-danger box_shadow btn font-weight-bold  text-light">VIEW OUR
                                     LOCATIONS</button>
                             </a>

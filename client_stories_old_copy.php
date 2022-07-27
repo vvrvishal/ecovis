@@ -260,7 +260,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">The main motive of our company which is completely aimed at is to render professional services to its potential clients from different fields of the varied economy sectors.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage1.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage1"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
                         </div>
                     </div>
                 </div>
@@ -279,7 +279,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">With the mission of owning and operating high-quality wireless infrastructure sites in stable markets, PTI was established in the year 2013.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage2.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage2"> <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
                         </div>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">The client is a subsidiary of a multinational company based in Turkey that functions in various fields of batteries, chargers, accessories for motive, etc.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage3.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage3"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -317,7 +317,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our consumer could be a major transnational company within the automotive sector, with varied plants in Spain that manufacture automotive components. </p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage4.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage4"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -337,7 +337,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series, was put in touch with Ecovis Sydney in November 2012 because they needed to establish their imprint quickly, before Christmas!</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage5.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage5"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -357,7 +357,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our client is a massive electrical contracting business located in New Zealand. The company has developed industrial electrical and control systems and expanded its activities to Australia. </p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage6.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage6"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -377,7 +377,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">BPM Australia could be a huge, fast-moving worldwide discount company for customer merchandise. </p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage7.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage7"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
                             \
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -397,7 +397,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our client is an imaginative UK start-up within the field of computerized investigate and substance curation/maintenance.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage8.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage8"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -417,7 +417,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">A department of a foreign bank was subject to certain limitations on enlisting proficient staff.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage9.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage9"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -437,7 +437,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Uruguay’s second most important private bank was gained by an international bank. Thus, the local bank was obliged to adjust to the rules and controls of its modern head office.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage10.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage10"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -457,7 +457,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our client is a young and dynamic company that provides a platform for online table reservations in restaurants. The company currently provides services in 12 countries around the world and is constantly striving to expand its market scope.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage11.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage11"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -477,7 +477,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">One of Uruguay's major passenger transport companies, regulated by the authorities, has asked to review its purchasing process and cash flow.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage12.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage12"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -497,7 +497,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our client, SEKO Group, may be a driving Czech-based producer of key components for flying machine fly motors and steam turbines. </p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage13.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage13"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -517,7 +517,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Our clients' businesses are focused on providing IT services, including market observations, feasibility studies, competitive assessments, IT project management support, and standard software maintenance. </p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage14.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage14"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -537,7 +537,7 @@
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">Ukraine International Airlines (UIA) is Ukraine’s leading airline established in 1992.</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage15.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage15"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
@@ -805,7 +805,7 @@ function clientStoriesCart(image, heading, content, ReadMoreBadgeLink) {
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">${content}</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage${ReadMoreBadgeLink}.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage${ReadMoreBadgeLink}"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>

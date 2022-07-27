@@ -52,7 +52,7 @@
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem;" class="">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">Broaden your business horizon with us</h3>
-                        <a href="./ecovis_india.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR OFFICES</button></a>
+                        <a href="./ecovis_india"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR OFFICES</button></a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent;">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">The people who intensify our Business</h3>
-                        <a href="./team.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR TEAM</button></a>
+                        <a href="./team"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">OUR TEAM</button></a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA INDIA</h1>
                         <h3 class="font-weight-normal">Build your future with us </h3>
-                        <a href="./careers.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">CAREER PATHS</button></a>
+                        <a href="./careers"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">CAREER PATHS</button></a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                     <div class="animate__animated animate__fadeInDown">
                         <h1 style="font-family: 'Libre Baskerville', serif; font-size: 2.5rem; color:transparent">RKCA INDIA</h1>
                         <!-- <h3 class="font-weight-normal">Network with us</h3> -->
-                        <a href="./careers.php"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">LET'S CONNECT</button></a>
+                        <a href="./careers"> <button class="btn text-light mt-5" style="border: 2px solid whitesmoke; background-color: transparent;">LET'S CONNECT</button></a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
 
                         <!-- <p class="normalText">An initiative for Business Transformation</p> -->
                         <!-- <h3 class="font-weight-normal">Network with us</h3> -->
-                        <a href="./careers.php"> <button class="btn text-light mt-3" style="border: 2px solid whitesmoke; background-color: transparent;">EXPLORE</button></a>
+                        <a href="./careers"> <button class="btn text-light mt-3" style="border: 2px solid whitesmoke; background-color: transparent;">EXPLORE</button></a>
                     </div>
                 </div>
             </div>
@@ -190,7 +190,7 @@
             <div class="row mx-0 mb-4">
 
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./Strategy_Performance_Consulting_services.php" class="text-dark" style="text-decoration: none;">
+                    <a href="./Strategy_Performance_Consulting_services" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons  ">
                                 <div class=" w-75 mx-auto services_logo Strategy_Performance_Consulting_logo "></div>
@@ -212,7 +212,7 @@
     </div>
 </div> -->
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./Onshore_Offshore_Advisory.php" class="text-dark" style="text-decoration: none;">
+                    <a href="./Onshore_Offshore_Advisory" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <div class=" w-75 mx-auto Onshoreb_logo services_logo"></div>
@@ -226,7 +226,7 @@
 
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./Government_risk_compliance.php" class="text-dark" style="text-decoration: none;">
+                    <a href="./Government_risk_compliance" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <div class=" w-75 mx-auto Risk_Compliance_logo services_logo"></div>
@@ -240,7 +240,7 @@
 
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./BusinessSupportandFinancialReporting.php" class="text-dark" style="text-decoration: none;">
+                    <a href="./BusinessSupportandFinancialReporting" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <div class=" w-75 mx-auto businessSupport_logo services_logo"></div>
@@ -257,7 +257,7 @@
 <div class="row mx-0"> -->
 
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./LitigationLegalServices.php" class="text-dark" style="text-decoration: none;">
+                    <a href="./LitigationLegalServices" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <div class=" w-75 mx-auto services_logo Legalb_logo"></div>
@@ -272,7 +272,7 @@
 
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./Financial_and_Capital_Services.php" class="text-dark" style="text-decoration: none;">
+                    <a href="./Financial_and_Capital_Services" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <div class=" w-75 mx-auto services_logo financial_capital_Services"></div>
@@ -286,7 +286,7 @@
 
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./Digital_transformation.php" class="text-dark" style="text-decoration: none;">
+                    <a href="./Digital_transformation" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <div class=" w-75 mx-auto Digital_Transformationb_logo services_logo"></div>
@@ -300,7 +300,7 @@
 
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 serviceColomn">
-                    <a href="./Crossborderandmerchantbankingservices.php" class="text-dark" style="text-decoration: none;">
+                    <a href="./Crossborderandmerchantbankingservices" class="text-dark" style="text-decoration: none;">
                         <div class="text-center">
                             <div class="mx-auto service_icons">
                                 <div class=" w-75 mx-auto Capacityb_logo services_logo"></div>
@@ -427,7 +427,7 @@
                     <h5 class="client_stories_heading text-center">Combined efforts bagging successful outcomes!</h5>
                     <p class="client_stories_details text-justify">The main motive of our company which is completely aimed at is to render professional services to its potential clients from different fields of the varied economy sectors.</p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage1.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage1"><span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -444,7 +444,7 @@
                     <h5 class="client_stories_heading text-center">A Lending Hand for the procuration of the client!</h5>
                     <p class="client_stories_details text-justify mb-2">With the mission of owning and operating high-quality wireless infrastructure sites in stable markets, PTI was established in the year 2013.</p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage2.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage2"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
                     </div>
                     <!-- <a href="#" style="text-decoration: none;">Read More</a> -->
                 </div>
@@ -462,7 +462,7 @@
                     <h5 class="client_stories_heading text-center">Facilitation of collective outsources accounting, local tax compliance, and company formation services!</h5>
                     <p class="client_stories_details text-justify mb-2">The client is a subsidiary of a multinational company based in Turkey that functions in various fields of batteries, chargers, accessories for motive, etc.</p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage3.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage3"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
 
                         <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
@@ -481,7 +481,7 @@
                     <h5 class="client_stories_heading text-center">Facilitating assistance for the expansion of Spanish automotive components producer.</h5>
                     <p class="client_stories_details text-justify mb-2">Our consumer could be a major transnational company within the automotive sector, with varied plants in Spain that manufacture automotive components. </p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage4.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage4"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
 
                         <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
@@ -500,7 +500,7 @@
                     <h5 class="client_stories_heading text-center">Rendering extensive start-up services to our clients!</h5>
                     <p class="client_stories_details text-justify mb-2">KEO Films, which had recently won a contract to make an Australian adaptation of a UK TV series,</p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage5.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage5"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
 
                         <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
@@ -519,7 +519,7 @@
                     <h5 class="client_stories_heading text-center">Assistance provided to electrical contractors for avoiding double taxation.</h5>
                     <p class="client_stories_details text-justify mb-2">Our client is a massive electrical contracting business located in New Zealand. </p>
                     <div class="d-flex justify-content-end">
-                        <a href="./clientStoriesDetailPage6.php"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
+                        <a href="./clientStoriesDetailPage6"> <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span></a>
 
                         <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal px-2 py-2">Read more...</span> -->
                     </div>
@@ -568,7 +568,7 @@
 
     </div>
     <div class="text-center">
-        <a href="./client_stories.php"><button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore All</button></a>
+        <a href="./client_stories"><button class="badge-pill btn btn-danger font-weight-bold mb-5 px-5">Explore All</button></a>
     </div>
 
     <!-- footer  -->

@@ -66,16 +66,16 @@
                         <a href="#">
                             <li id="services">Practice Areas</li>
                         </a>
-                        <a href="./team.php">
+                        <a href="./team">
                             <li>Our team</li>
                         </a>
-                        <!-- <a href="./team.php">
+                        <!-- <a href="./team">
                             <li>Newsletter</li>
                         </a> -->
-                        <!-- <a href="./careers.php">
+                        <!-- <a href="./careers">
                             <li>Careers</li>
                         </a> -->
-                        <a href="./contact_us.php">
+                        <a href="./contact_us">
                             <li>Contact Us</li>
                         </a>
                         <a href="#" id="toggleSearch">
@@ -95,14 +95,14 @@
                 </div>
                 <h4 class="text-light  mt-3">Let’s Connect</h4>
                 <p class="mx-auto text-justify text-light mt-5 w-75">RKCA is an organization excelled by its Competency Centers with more than 5 decades of presence in India, having a global footprint with associates in more than 70+ countries. Our Purpose is to mentor start-ups &amp; SMEs of today as MNC’s for tomorrow.</p>
-                <a href="./contact_us.php"><button class="btn header_connectBTN mt-3 font-weight-bold text-light">CONTACT US</button></a>
+                <a href="./contact_us"><button class="btn header_connectBTN mt-3 font-weight-bold text-light">CONTACT US</button></a>
             </div>
             <div class="col-md-4 ourPresents pt-4">
                 <h3 class="font-weight-normal d-inline ml-4 mt-3">Our Presence </h3>
                 <ul class="list-unstyled">
                     <li class="justify-content-between mb-3 mt-4">
                         <div class="align-items-center row">
-                            <a href="./ecovis_india.php" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
+                            <a href="./ecovis_india" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
                                 <div class="col-3 pr-0 text-center w-75">
                                     <i class="fa-solid fa-location-pin text-danger" style="font-size: 2.5rem; "></i>
                                 </div>
@@ -115,7 +115,7 @@
                     </li>
                     <li class="justify-content-between mb-1">
                         <div class="align-items-center row">
-                            <a href="./ecovis_International.php" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
+                            <a href="./ecovis_International" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
 
                                 <div class="col-3 pr-0 text-center w-75">
                                     <i class="fa-solid fa-earth-asia" style="font-size: 2.5rem; "></i>
@@ -204,7 +204,7 @@ And Independent expertise is Hallmark of COE
                     <div class="row mt-3">
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled">
-                                <a href="./Strategy_Performance_Consulting_services.php" style="text-decoration: none;" class="text-dark">
+                                <a href="./Strategy_Performance_Consulting_services" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">
@@ -223,7 +223,7 @@ And Independent expertise is Hallmark of COE
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled">
-                                <a href="./LitigationLegalServices.php" style="text-decoration: none;" class="text-dark">
+                                <a href="./LitigationLegalServices" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75  ">
@@ -243,7 +243,7 @@ And Independent expertise is Hallmark of COE
                     <div class="row mt-3">
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled mb-0">
-                                <a href="./Onshore_Offshore_Advisory.php" style="text-decoration: none;" class="text-dark">
+                                <a href="./Onshore_Offshore_Advisory" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75  menu_services_logo Onshoreb_logo ">
@@ -262,7 +262,7 @@ And Independent expertise is Hallmark of COE
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled mb-0">
-                                <a href="./Financial_and_Capital_Services.php" style="text-decoration: none;" class="text-dark">
+                                <a href="./Financial_and_Capital_Services" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75  menu_services_logo financial_capital_Services">
@@ -282,7 +282,7 @@ And Independent expertise is Hallmark of COE
                     <div class="row mt-3">
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled mb-0">
-                                <a href="./Government_risk_compliance.php" style="text-decoration: none;" class="text-dark">
+                                <a href="./Government_risk_compliance" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75  menu_services_logo Risk_Compliance_logo ">
@@ -301,7 +301,7 @@ And Independent expertise is Hallmark of COE
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled mb-0">
-                                <a href="./Digital_transformation.php" style="text-decoration: none;" class="text-dark">
+                                <a href="./Digital_transformation" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75 ">
@@ -321,7 +321,7 @@ And Independent expertise is Hallmark of COE
                     <div class="row mt-3">
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled mb-0">
-                            <a href="./BusinessSupportandFinancialReporting.php" style="text-decoration: none;" class="text-dark">
+                            <a href="./BusinessSupportandFinancialReporting" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75  ">
@@ -340,7 +340,7 @@ And Independent expertise is Hallmark of COE
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled mb-0">
-                            <a href="./Crossborderandmerchantbankingservices.php" style="text-decoration: none;" class="text-dark">
+                            <a href="./Crossborderandmerchantbankingservices" style="text-decoration: none;" class="text-dark">
                                     <li class="mb-1 serviceList">
                                         <div class="align-items-center row">
                                             <div class="col-3 pr-0 text-center w-75">

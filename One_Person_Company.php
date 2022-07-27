@@ -274,7 +274,7 @@
     </div>
 
     <div class="lets_connect px-0 text-center">
-       <a href="./contact_us.php"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">LET'S CONNECT</button></a>
+       <a href="./contact_us"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">LET'S CONNECT</button></a>
         <h4 style="text-align:center;color:white;" class="mt-4 font-weight-normal">Didn’t find what you’re looking for? Write to us about your specific business needs!</h4>
     </div>
     <?php include_once "footer.php" ?>

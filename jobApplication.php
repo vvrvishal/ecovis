@@ -173,7 +173,7 @@
         </div> -->
     </div>
     <div class="lets_connect px-0 m-0 text-center">
-    <a href="./careers.php"><button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey">CAREER PATHS</button></a>
+    <a href="./careers"><button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey">CAREER PATHS</button></a>
 
             <h3 class="mt-3 text-center text-light ">Explore our job vaccancies</h3>
         </div>

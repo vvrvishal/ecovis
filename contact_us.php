@@ -166,7 +166,7 @@
         <div class="align-items-center d-flex justify-content-around mb-5">
             <div class="align-items-center d-flex ">
                 <span><i class="fa-solid fa-location-dot text-danger mr-2" style="font-size: x-large;"></i></span>
-               <a href="./ecovis_india.php"> <button class="btn btn-danger btn-sm font-weight-bold px-3 text-light">View our Location</button></a>
+               <a href="./ecovis_india"> <button class="btn btn-danger btn-sm font-weight-bold px-3 text-light">View our Location</button></a>
             </div>
             <div class="align-items-center d-flex ">
                 <span><i class="fa-solid text-danger fa-envelope mr-2" style="font-size: x-large;"></i></span>
