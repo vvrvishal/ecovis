@@ -90,7 +90,7 @@
                 <div class="col-md-9">
                     <h4 class=" job_post mt-3 py-2">Marketing head</h4>
                     <p class=" job_post_discription w-75">Want to be a part of India's most innovative and creative commerce industry, backed by a worldclass team, a long-term vision, and top global investors? Don't just wish for it, work with us!</p>
-                    <div class="my-4 pt-2 text-center w-75"><a href="./Marketing_head.php"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
+                    <div class="my-4 pt-2 text-center w-75"><a href="./Marketing_head"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
                 </div>
 
             </div>
@@ -102,14 +102,14 @@
                 <div class="col-md-9">
                     <h4 class=" job_post mt-3 py-2">Business Analyst</h4>
                     <p class="job_post_discription w-75">Want to be a part of India's most innovative and creative commerce industry, backed by a worldclass team, a long-term vision, and top global investors? Don't just wish for it, work with us!</p>
-                    <div class="my-4 pt-2 text-center w-75"><a href="./Business_Analyst.php"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger  px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
+                    <div class="my-4 pt-2 text-center w-75"><a href="./Business_Analyst"><button style="    box-shadow: 0px 1px 5px 1px grey" class="btn btn-danger  px-4 font-weight-bold text-light">VIEW DETAILS</button></a></div>
                 </div>
 
             </div>
         </div>
     </div>
     <div class="lets_connect px-0 text-center">
-       <a href="./jobApplication.php"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">APPLY</button></a>
+       <a href="./jobApplication"> <button type="submit" class="lets_connect_button" style="box-shadow: 0px 1px 4px 1px grey;cursor: pointer;">APPLY</button></a>
         <h4 style="text-align:center;color:white;" class="mt-4 font-weight-normal">Didn't find your preferred job role? Connect with us anyway.</h4>
     </div>
 

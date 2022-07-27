@@ -17,7 +17,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 p-4">
-                <a href="./client_stories.php" class="text-dark"><span class="px-3 py-1"><i class="fa-solid fa-arrow-left-long"></i></span></a>
+                <a href="./client_stories" class="text-dark"><span class="px-3 py-1"><i class="fa-solid fa-arrow-left-long"></i></span></a>
             </div>
         </div>
     </div>

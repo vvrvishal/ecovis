@@ -171,7 +171,7 @@ function clientStoriesCart(image, heading, content, ReadMoreBadgeLink, filter_cl
                         <!-- <div class="align-items-end d-flex justify-content-between"> -->
                         <p class="clientStoryDetails text-justify">${content}</p>
                         <div class="d-flex justify-content-end">
-                            <a href="./clientStoriesDetailPage${ReadMoreBadgeLink}.php"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
+                            <a href="./clientStoriesDetailPage${ReadMoreBadgeLink}"><span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span></a>
 
                             <!-- <span class="badge badge-danger badge-pill font-italic font-weight-normal mb-3 px-3 py-2">Read more...</span> -->
                         </div>
