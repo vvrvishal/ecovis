@@ -2,13 +2,13 @@
 function BusinessInIndiaAppend(params) {
     var Business_in_India_html = `<div class="bannerDD box_shadow bg-danger pb-4 pt-3">
 <h3 class="text-center text-light mt-3">
-    Your Business in India
+Business Startups in India
 </h3>
 <div class="row" id="Your_Business_needs">
     <div class="col-md-6 col-sm-12 d-md-flex justify-content-end text-center pr-5">
         <div class="btn-group py-3" style="width: 16%; min-width:285px;">
             <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" id="servicebtn" data-toggle="dropdown" aria-expanded="false">
-                Select service
+            What You Are
             </button>
             <div class="dropdown-menu FIRSTserviceDD w-100">
                 <button class="dropdown-item services" id="" onclick="showDD('FormationCompanies', 'Formation')" type="button">Formation</button>
@@ -22,7 +22,7 @@ function BusinessInIndiaAppend(params) {
     <div class="col-md-6 col-sm-12 d-md-flex text-center pl-5">
         <div class="btn-group py-3" style="width: 16%; min-width:285px;">
             <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" onclick="showchildDD('servicebtn')" data-toggle="dropdown" aria-expanded="false">
-                Select category
+            How We Support
             </button>
             <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
                 <a href="./Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Private Limited Company</button></a>
