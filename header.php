@@ -60,7 +60,7 @@
                         <a href="./client_stories.php">
                             <li>Client Stories</li>
                         </a>
-                        <a href="./collaborate.php">
+                        <a href="./collaborate">
                             <li>mentor bi</li>
                         </a>
                         <a href="#">
