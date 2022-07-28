@@ -198,7 +198,7 @@
                         </div>
                         <div class="">
                             <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <h6 class="text-danger">Rahul Nagar</h6>
                             <p>17/39, Krishnappa Tank St, Konditope, Chennai – 600 079</p>
                         </div>
 
@@ -211,7 +211,7 @@
                         </div>
                         <div class="">
                             <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <h6 class="text-danger">Bharat Gupta</h6>
                             <p>A 531, Shastri Nagar, New Delhi – 110052</p>
                         </div>
 
@@ -228,7 +228,7 @@
                         </div>
                         <div class="">
                             <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <h6 class="text-danger">Jai Govind</h6>
                             <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                         </div>
 
@@ -242,7 +242,7 @@
                         </div>
                         <div class="">
                             <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <h6 class="text-danger">Siddharth Baghmar</h6>
                             <p>401, Fortune Ambience Business Spaces Indore (M.P) – 452001</p>
                         </div>
 
@@ -271,7 +271,7 @@
                         </div>
                         <div class="">
                             <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <h6 class="text-danger">Pradip Das</h6>
                             <p>4A/2, Anandam Apt, 7 Mall Road, Kolkata – 700 080</p>
                         </div>
 
@@ -327,7 +327,8 @@
                             <h6 class="text-danger">PUNE</h6>
                         </div>
                         <div class="">
-                            <h6 class="text-danger">Corporate office</h6>
+                        <p class="small text-muted mb-0">Regional Lead</p>
+                            <h6 class="text-danger">Vishwanath Lele</h6>
                             <p>4A/2, Anandam Apartment, 7 Mall Road, Dum Dum, Kolkata 700 080 Contact: +91 88796 36056</p>
                         </div>
 
