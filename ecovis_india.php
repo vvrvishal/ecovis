@@ -297,7 +297,7 @@
                         </div>
                         <div class="">
                             <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <h6 class="text-danger">Ram Heda</h6>
                             <p>513, Arenja Corner, Vashi, Navi Mumbai – 400 703. </p>
                         </div>
 
@@ -341,7 +341,7 @@
                         </div>
                         <div class="">
                             <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <h6 class="text-danger">Gaurav Choradia</h6>
                             <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                         </div>
 

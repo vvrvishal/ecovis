@@ -8,7 +8,7 @@ Business Startups in India
     <div class="col-md-6 col-sm-12 d-md-flex justify-content-end text-center pr-5">
         <div class="btn-group py-3" style="width: 16%; min-width:285px;">
             <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" id="servicebtn" data-toggle="dropdown" aria-expanded="false">
-            What You Are
+            What you nees
             </button>
             <div class="dropdown-menu FIRSTserviceDD w-100">
                 <button class="dropdown-item services" id="" onclick="showDD('FormationCompanies', 'Formation')" type="button">Formation</button>
@@ -22,7 +22,7 @@ Business Startups in India
     <div class="col-md-6 col-sm-12 d-md-flex text-center pl-5">
         <div class="btn-group py-3" style="width: 16%; min-width:285px;">
             <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" onclick="showchildDD('servicebtn')" data-toggle="dropdown" aria-expanded="false">
-            How We Support
+            How we support
             </button>
             <div class="dropdown-menu w-100 baseofselectedService" id="FormationCompanies">
                 <a href="./Private_Limited_Company.php" style="text-decoration: none;"><button class="dropdown-item" type="button">Private Limited Company</button></a>

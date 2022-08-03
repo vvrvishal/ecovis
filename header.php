@@ -44,7 +44,7 @@
             </div>
             <div class="align-items-center col-md-12 d-flex justify-content-between main-header">
                 <div class="logo py-2 text-center">
-                    <a href="./index.php"><img src="./ecovis-images/ecovis-logo.jpeg" alt=""></a>
+                    <a href="./index"><img src="./ecovis-images/ecovis-logo.jpeg" alt=""></a>
                 </div>
                 <div style="display:none;" class="w-50" id="searchbar_section">
                     <div class="align-items-center d-flex px-4 searchbar ">
@@ -69,9 +69,9 @@
                         <a href="./team">
                             <li>Our team</li>
                         </a>
-                        <!-- <a href="./team">
+                        <a href="./NewsLetter">
                             <li>Newsletter</li>
-                        </a> -->
+                        </a>
                         <!-- <a href="./careers">
                             <li>Careers</li>
                         </a> -->
