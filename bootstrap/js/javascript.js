@@ -8,7 +8,7 @@ Business Startups in India
     <div class="col-md-6 col-sm-12 d-md-flex justify-content-end text-center pr-5">
         <div class="btn-group py-3" style="width: 16%; min-width:285px;">
             <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" id="servicebtn" data-toggle="dropdown" aria-expanded="false">
-            What you nees
+            What you need
             </button>
             <div class="dropdown-menu FIRSTserviceDD w-100">
                 <button class="dropdown-item services" id="" onclick="showDD('FormationCompanies', 'Formation')" type="button">Formation</button>
