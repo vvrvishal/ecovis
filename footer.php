@@ -74,13 +74,13 @@
                         <div class="social_icons">
                             <h6 class="text-light mt-5">Connect with us</h6>
                             <a href="#">
-                                <img src="./new_icon_images/linkedin.png" class="linkedInLogo" alt="">
+                                <img src="./images/icon_images/social_logo/Linkedin.png" class="linkedInLogo" alt="">
                             </a>
                             <a href="#">
-                                <img src="./new_icon_images/insta.png" class="instaLogo" alt="">
+                                <img src="./images/icon_images/social_logo/Instagram.png" class="instaLogo" alt="">
                             </a>
-                            <a href="#"> 
-                                <img src="./new_icon_images/facebook.png" class="facebookLogo" alt="">
+                            <a href="#">
+                                <img src="./images/icon_images/social_logo/Facebook.png" class="facebookLogo" alt="">
                             </a>
                         </div>
                     </ul>
@@ -170,13 +170,13 @@
                         <div class="social_icons">
                             <h6 class="text-light mt-5">Connect with us</h6>
                             <a href="#">
-                                <img src="./new_icon_images/linkedin.png" class="linkedInLogo" alt="">
+                                <img src="./images/icon_images/social_logo/Linkedin.png" class="linkedInLogo" alt="">
                             </a>
                             <a href="#">
-                                <img src="./new_icon_images/insta.png" class="instaLogo" alt="">
+                                <img src="./images/icon_images/social_logo/Instagram.png" class="instaLogo" alt="">
                             </a>
                             <a href="#">
-                                <img src="./new_icon_images/facebook.png" class="facebookLogo" alt="">
+                                <img src="./images/icon_images/social_logo/Facebook.png" class="facebookLogo" alt="">
                             </a>
                         </div>
                     </ul>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>client Stories</title>
+    <title>ECOVISRKCA - Client Stories</title>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <style>
         .clientStoryDetails {
@@ -69,11 +69,11 @@
     </div>
 
     <div class="clientStoryFilter d-flex justify-content-end">
-        <div class="d-flex justify-content-around mb-2 pb-4 pt-5 w-50">
+        <div class="d-flex justify-content-end mb-2 mr-3 pb-4 pt-5 w-50">
 
             <!-- <div class=" mx-auto w-50"> -->
-            <div class="btn-group py-3 " style="width: 30%;">
-                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; box-shadow: var(--box-shadow);">
+            <div class="btn-group mb-2 " style="width: 30%;min-width: 250px; box-shadow: var(--box-shadow);">
+                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; ">
                     Category
                 </button>
                 <div class="dropdown-menu w-100 toggled">

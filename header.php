@@ -39,8 +39,8 @@
     <header>
         <div class="row mx-0">
             <div class="align-items-center col-md-12 bg-danger contact-header d-flex font-weight-bold justify-content-end px-4 py-1 small text-light">
-                <a href="#" style="text-decoration: none;" class="text-light">Login</a>
-                <a href="#" style="text-decoration: none;" class="text-light ml-3"> <span><i class="fa-solid fa-envelope"></i></span> Info@ecovisrkca.com</a>
+                <a href="./NewsLetter" style="text-decoration: none; font-size:medium;" class="text-light"> <span><i class="fa-solid fa-newspaper"></i></span> NewsLetters</a>
+                <a href="#" style="text-decoration: none; font-size:medium;" class="text-light ml-3"> <span><i class="fa-solid fa-envelope"></i></span> Info@ecovisrkca.com</a>
             </div>
             <div class="align-items-center col-md-12 d-flex justify-content-between main-header">
                 <div class="logo py-2 text-center">
@@ -69,9 +69,9 @@
                         <a href="./team">
                             <li>Our team</li>
                         </a>
-                        <a href="./NewsLetter">
+                        <!-- <a href="./NewsLetter">
                             <li>Newsletter</li>
-                        </a>
+                        </a> -->
                         <!-- <a href="./careers">
                             <li>Careers</li>
                         </a> -->
@@ -95,7 +95,7 @@
                 </div>
                 <h4 class="text-light  mt-3">Let’s Connect</h4>
                 <p class="mx-auto text-justify text-light mt-5 w-75">RKCA is an organization excelled by its Competency Centers with more than 5 decades of presence in India, having a global footprint with associates in more than 70+ countries. Our Purpose is to mentor start-ups &amp; SMEs of today as MNC’s for tomorrow.</p>
-                <a href="./contact_us"><button class="btn header_connectBTN mt-3 font-weight-bold text-light">CONTACT US</button></a>
+                <a href="./contact_us"><button class="btn header_connectBTN mb-4 font-weight-bold text-light">CONTACT US</button></a>
             </div>
             <div class="col-md-4 ourPresents pt-4">
                 <h3 class="font-weight-normal d-inline ml-4 mt-3">Our Presence </h3>
