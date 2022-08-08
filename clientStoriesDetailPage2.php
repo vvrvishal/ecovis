@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Lending Hand for the procuration of the client!
+    <title>ECOVISRKCA - A Lending Hand for the procuration of the client!
     </title>
     <link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
 
@@ -85,9 +85,10 @@
     <div class="container-fluid my-4">
         <div class="row">
             <div class="col-md-12 d-flex justify-content-center">
-                <button class="btn box_shadow btn-dark normalText">PREVIOUS STORY</button>
+                <a href="./clientStoriesDetailPage1"><button class="btn box_shadow btn-dark normalText">PREVIOUS STORY</button></a>
+               
                 <button class="btn box_shadow btn-danger normalText mx-2">CLIENT STORIES</button>
-                <button class="btn box_shadow btn-dark normalText">NEXT STORY</button>
+                <a href="./clientStoriesDetailPage3"><button class="btn box_shadow btn-dark normalText">NEXT STORY</button></a>
             </div>
         </div>
     </div>

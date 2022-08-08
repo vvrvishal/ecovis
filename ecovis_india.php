@@ -118,19 +118,16 @@
                 </div>
             </div> -->
             <!-- our team  -->
-            <div class="our_team mt-5">
+            <div class="our_team my-5">
                 <h1 style="font-family: 'Libre Baskerville', serif; font-size:2.4rem;" class="text-center">Our Team</h1>
-                <h3 class="font-weight-normal text-center">Located in all the major cities</h3>
-                <div class="main-content">
+                <img src="./images/map_image/Picture500.png" class="w-100" alt="">
+                <!-- <div class="main-content">
                     <section class="section">
                         <div class="section-body">
                             <div class="row mx-0">
                                 <div class="col-12">
                                     <div class="">
-                                        <!-- <div class="card-header">
-                              </div> -->
                                         <div class="card-body mb-4">
-                                            <!-- <div id="visitorMap" class="position-relative" style="width: 600px; height: 700px;margin:auto;"> -->
                                             <div class="mx-auto text-center w-75 position-relative">
                                                 <img src="./images/map_image/INDIA.png" alt="" class="w-50">
                                                 <div class="india_team_point align-items-center border d-flex justify-content-center rounded-circle" style="top: -2%;right: 30%;">
@@ -149,20 +146,25 @@
                                                     <p class="font-weight-bold mb-0 text-center" style="width: 90%;">50+ Years in India</p>
                                                 </div>
                                             </div>
-                                            <!--  -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                </div>
-                </section>
+                    </section>
+                </div> -->
+
 
             </div>
         </div>
         <div class="office_Address row mb-5 mx-0 justify-content-around">
+            <div class="col-12 mb-5">
+            <h1 style="font-family: 'Libre Baskerville', serif; font-size:2.4rem;" class="text-center text-danger">Located in all the major cities</h1>
+
+            <!-- <h3 class="font-weight-normal text-center"></h3> -->
+            </div>
             <div class="col-md-6">
-                <div class="col-md-7 mx-auto pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                <div class="col-md-7 mx-auto pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                     <div class="mb-4">
                         <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt="">
                         <h6 class="text-danger">CORPORATE OFFICE</h6>
@@ -177,7 +179,7 @@
             </div>
             <div class="col-md-9">
                 <div class="row justify-content-around my-5">
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/ahmedabad.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
@@ -190,7 +192,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/chennai.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
@@ -203,7 +205,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/delhi.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
@@ -220,7 +222,7 @@
 
                 </div>
                 <div class="row justify-content-around my-5">
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/hyderabad.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/ahd.png" class="office_state_img" alt=""> -->
@@ -233,8 +235,8 @@
                         </div>
 
                     </div>
-             
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/indore.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/chen.png" class="office_state_img" alt=""> -->
@@ -247,7 +249,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/hyderabad.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/ahd.png" class="office_state_img" alt=""> -->
@@ -260,10 +262,10 @@
                         </div>
 
                     </div>
-                
+
                 </div>
                 <div class="row justify-content-around my-5">
-                <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/kolkata.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/ncr.png" class="office_state_img" alt=""> -->
@@ -276,7 +278,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/mumbai.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/hyd.png" class="office_state_img" alt=""> -->
@@ -289,7 +291,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/mumbai.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
@@ -302,13 +304,13 @@
                         </div>
 
                     </div>
-                   
+
 
 
                 </div>
 
                 <div class="row justify-content-around my-5">
-                <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/mumbai.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
@@ -321,19 +323,19 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3 pb-2 pt-4 text-center " style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey;">
+                    <div class="col-md-3 pb-2 pt-4 text-center " style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;" >
                         <div class="mb-4">
                             <img src="./ecovis_icons/kolk.png" class="office_state_img" alt="">
                             <h6 class="text-danger">PUNE</h6>
                         </div>
                         <div class="">
-                        <p class="small text-muted mb-0">Regional Lead</p>
+                            <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">Vishwanath Lele</h6>
                             <p>4A/2, Anandam Apartment, 7 Mall Road, Dum Dum, Kolkata 700 080 Contact: +91 88796 36056</p>
                         </div>
 
                     </div>
-                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px lightgrey; visibility:hidden;">
+                    <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; visibility:hidden;">
                         <div class="mb-4">
                             <img src="./images/icon_images/hyderabad.png" class="office_state_img" alt="">
                             <!-- <img src="./ecovis_icons/ahd.png" class="office_state_img" alt=""> -->
@@ -346,9 +348,9 @@
                         </div>
 
                     </div>
-                
+
                 </div>
-                
+
             </div>
 
 

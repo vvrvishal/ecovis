@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offering continuous back to outside bank department with administrative reporting
+    <title>ECOVISRKCA - Offering continuous back to outside bank department with administrative reporting
     </title>
     <link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
 
@@ -89,9 +89,9 @@
     <div class="container-fluid my-4">
         <div class="row">
             <div class="col-md-12 d-flex justify-content-center">
-                <button class="btn box_shadow btn-dark normalText">PREVIOUS STORY</button>
+                <a href="./clientStoriesDetailPage8"><button class="btn box_shadow btn-dark normalText">PREVIOUS STORY</button></a>
                 <button class="btn box_shadow btn-danger normalText mx-2">CLIENT STORIES</button>
-                <button class="btn box_shadow btn-dark normalText">NEXT STORY</button>
+                <a href="./clientStoriesDetailPage10"><button class="btn box_shadow btn-dark normalText">NEXT STORY</button></a>
             </div>
         </div>
     </div>
