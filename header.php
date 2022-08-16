@@ -39,7 +39,7 @@
     <header>
         <div class="row mx-0">
             <div class="align-items-center col-md-12 bg-danger contact-header d-flex font-weight-bold justify-content-end px-4 py-1 small text-light">
-                <a href="./" style="text-decoration: none; font-size:medium;" class="text-light"> <span><i class="fa-solid fa-newspaper"></i></span> NewsLetters</a>
+                <a href="./NewsLetter" style="text-decoration: none; font-size:medium;" class="text-light"> <span><i class="fa-solid fa-newspaper"></i></span> NewsLetters</a>
                 <a href="#" style="text-decoration: none; font-size:medium;" class="text-light ml-3"> <span><i class="fa-solid fa-envelope"></i></span> Info@ecovisrkca.com</a>
             </div>
             <div class="align-items-center col-md-12 d-flex justify-content-between main-header">
@@ -102,7 +102,7 @@
                 <ul class="list-unstyled">
                     <li class="justify-content-between mb-3 mt-4">
                         <div class="align-items-center row">
-                            <a href="./" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
+                            <a href="./ecovis_india" class="d-flex justify-content-between text-dark w-100" style=" text-decoration: none;">
                                 <div class="col-3 pr-0 text-center w-75">
                                     <i class="fa-solid fa-location-pin text-danger" style="font-size: 2.5rem; "></i>
                                 </div>
