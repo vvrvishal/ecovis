@@ -300,7 +300,7 @@
                         <div class="">
                             <p class="small text-muted mb-0">Regional Lead</p>
                             <h6 class="text-danger">Ram Heda</h6>
-                            <p>513, Arenja Corner, Vashi, Navi Mumbai – 400 703. </p>
+                            <p>2nd Floor, Bhiwapurkar Chambers, Dhantoli, Nagpur, Maharashtra 440012</p>
                         </div>
 
                     </div>

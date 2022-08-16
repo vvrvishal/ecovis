@@ -92,54 +92,53 @@
     }
 </style>
 <style>
+    /* Arrow */
 
+    .arrow {
+        position: relative;
+        margin: 0 auto;
+        width: 140px;
+        /*   border:1px solid red; */
+    }
 
-/* Arrow */
+    .arrow .curve {
+        border: 2px solid #BE5F4B;
+        /* 	border-color: transparent transparent transparent #BE5F4B; */
+        height: 36px;
+        width: 0px;
+        border-radius: 19px;
+    }
 
-.arrow {
-	position: relative;
-  margin: 0 auto;
-  width: 140px;
-/*   border:1px solid red; */
-}
+    .arrow .point {
+        position: absolute;
+        left: .5px;
+        bottom: 5px;
+        transform: rotate(29deg);
+        /* 	top: 315px; */
+    }
 
-.arrow .curve {
-	border: 2px solid #BE5F4B;
-/* 	border-color: transparent transparent transparent #BE5F4B; */
-	height: 36px;
-	width: 0px;
-	border-radius: 19px;
-}
+    .arrow .point:before,
+    .arrow .point:after {
+        border: 2px solid #BE5F4B;
+        height: 25px;
+        content: "";
+        position: absolute;
+        top: 10px;
+        transform: rotate(0deg);
+    }
 
-.arrow .point {
-	position: absolute;
-	left: .5px;
-  bottom:5px;
-  transform:rotate(29deg);
-/* 	top: 315px; */
-}
+    .arrow .point:before {
+        top: -13px;
+        left: -9px;
+        transform: rotate(74deg);
+        -webkit-transform: rotate(-74deg);
+    }
 
-.arrow .point:before, .arrow .point:after {
-	border: 2px solid #BE5F4B;
-	height: 25px;
-	content: "";
-	position: absolute;
-  top:10px;
-  transform:rotate(0deg);
-}
-
-.arrow .point:before {
-	top: -13px;
-	left: -9px;
-	transform:rotate(74deg);
-	-webkit-transform:rotate(-74deg);
-}
-
-.arrow .point:after {
-  top: -20px;
-	left: 5px;
-	transform:rotate(15deg);
-}
+    .arrow .point:after {
+        top: -20px;
+        left: 5px;
+        transform: rotate(15deg);
+    }
 </style>
 
 <body>
@@ -154,7 +153,7 @@
         <!-- <img src="" alt=""> -->
     </div>
     <div class="container">
-        <div class="bg-danger mt-5" onscroll="scrollingImagefunction()" id="ImageDiv">  
+        <div class="bg-danger mt-5" onscroll="scrollingImagefunction()" id="ImageDiv">
             <img src="./ecovis-images/careers_bannercroped.png" alt="" class="border border-danger rounded w-100" id="Image" style="opacity: 0.8;">
         </div>
     </div>
@@ -254,24 +253,24 @@
                         <div class="" id="ItemId-1">
                             <div class="row">
                                 <div class="col-md-6" id="_1st-6">
-                                <p class=" py-2">Lorem ipsum dolor sit amet.</p>
+                                    <p class=" py-2">Lorem ipsum dolor sit amet.</p>
                                 </div>
                                 <div class="col-md-6">
-                                <ul id="listing_tree">
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                </ul>
+                                    <ul id="listing_tree">
+                                        <li>Lorem, ipsum dolor.</li>
+                                        <li>Lorem, ipsum dolor.</li>
+                                        <li>Lorem, ipsum dolor.</li>
+                                        <li>Lorem, ipsum dolor.</li>
+                                        <li>Lorem, ipsum dolor.</li>
+                                        <li>Lorem, ipsum dolor.</li>
+                                        <li>Lorem, ipsum dolor.</li>
+                                        <li>Lorem, ipsum dolor.</li>
+                                        <li>Lorem, ipsum dolor.</li>
+                                    </ul>
                                 </div>
                             </div>
-                            
-                            
+
+
                         </div>
                         <div class="" id="ItemId-2">
                             <p class=" px-5 py-2">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
@@ -305,66 +304,107 @@
         </div>
     </div>
     <div id="draggable" class="ui-widget ui-widget-content">
- 
-  <p>Drag me to trigger the chain of events.</p>
- 
-  <ul class="ui-helper-reset">
-    <li id="event-start" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-play"></span>&quot;start&quot; invoked <span class="count">0</span>x</li>
-    <li id="event-drag" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-arrow-4"></span>&quot;drag&quot; invoked <span class="count">0</span>x</li>
-    <li id="event-stop" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-stop"></span>&quot;stop&quot; invoked <span class="count">0</span>x</li>
-  </ul>
-</div>
-<div class="">
+
+        <p>Drag me to trigger the chain of events.</p>
+
+        <ul class="ui-helper-reset">
+            <li id="event-start" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-play"></span>&quot;start&quot; invoked <span class="count">0</span>x</li>
+            <li id="event-drag" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-arrow-4"></span>&quot;drag&quot; invoked <span class="count">0</span>x</li>
+            <li id="event-stop" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-stop"></span>&quot;stop&quot; invoked <span class="count">0</span>x</li>
+        </ul>
+    </div>
+    <div class="container-fluid mt-4 mb-5">
+        <div class="row">
+            <div class="col-md-11 col-sm-10">
+                <div class="row" id="tablesInput">
+                    <!-- <div class="col-md-3">
+                        <div class="border border-dark content_stack rounded">
+                            <input type="text" name="value-1" placeholder="enter your 1st velue" class="form-control border-0 " data-param="name" id="DataValue_1">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="border border-dark  content_stack rounded">
+                            <input type="text" name="value-2" placeholder="enter your 2nd velue" data-param="name" class="form-control border-0 " id="DataValue_2">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="border border-dark  content_stack rounded">
+                            <input type="text" name="value-3" placeholder="enter your 3rd velue" data-param="name" class="form-control border-0 " id="DataValue_3">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+
+            <div class="col-md-1 col-sm-2">
+                <div class="">
+                    <button class="btn btn-dark text-light font-weight-bold" id="_0" onclick="AddToTable()"> Add </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <table class="table" id="table_for_data">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
 
 
 
+    </div>
 
-</div>
- 
 
     <script>
-  $( function() {
-    var $start_counter = $( "#event-start" ),
-      $drag_counter = $( "#event-drag" ),
-      $stop_counter = $( "#event-stop" ),
-      counts = [ 0, 0, 0 ];
- 
-    $( "#draggable" ).draggable({
-      start: function() {
-        counts[ 0 ]++;
-        updateCounterStatus( $start_counter, counts[ 0 ] );
-        $(updateCounterStatus).css('background-color',"red");
-        console.log(counts);
-      },
-      drag: function() {
-        counts[ 1 ] = counts[ 1 ] +1;
-        updateCounterStatus( $drag_counter, counts[ 1 ] );
-        $(updateCounterStatus).css('background-color',"blue");
+        // $(function() {
+        //     var $start_counter = $("#event-start"),
+        //         $drag_counter = $("#event-drag"),
+        //         $stop_counter = $("#event-stop"),
+        //         counts = [0, 0, 0];
 
-        console.log(counts);
-      },
-      stop: function() {
-        counts[ 2 ]++;
-        updateCounterStatus( $stop_counter, counts[ 2 ] );
-        $(updateCounterStatus).css('background-color',"yellow");
+        //     $("#draggable").draggable({
+        //         start: function() {
+        //             counts[0]++;
+        //             updateCounterStatus($start_counter, counts[0]);
+        //             $(updateCounterStatus).css('background-color', "red");
+        //             console.log(counts);
+        //         },
+        //         drag: function() {
+        //             counts[1] = counts[1] + 1;
+        //             updateCounterStatus($drag_counter, counts[1]);
+        //             $(updateCounterStatus).css('background-color', "blue");
 
-        console.log(counts);
-      }
-    });
- 
-    function updateCounterStatus( $event_counter, new_count ) {
-      // first update the status visually...
-      if ( !$event_counter.hasClass( "ui-state-hover" ) ) {
-        $event_counter.addClass( "ui-state-hover" )
-          .siblings().removeClass( "ui-state-hover" );
-      }
-      // ...then update the numbers
-      $( "span.count", $event_counter ).text( new_count );
-    }
-    console.log(counts);
-  } );
- 
-  </script>
+        //             console.log(counts);
+        //         },
+        //         stop: function() {
+        //             counts[2]++;
+        //             updateCounterStatus($stop_counter, counts[2]);
+        //             $(updateCounterStatus).css('background-color', "yellow");
+
+        //             console.log(counts);
+        //         }
+        //     });
+
+        //     function updateCounterStatus($event_counter, new_count) {
+        //         // first update the status visually...
+        //         if (!$event_counter.hasClass("ui-state-hover")) {
+        //             $event_counter.addClass("ui-state-hover")
+        //                 .siblings().removeClass("ui-state-hover");
+        //         }
+        //         // ...then update the numbers
+        //         $("span.count", $event_counter).text(new_count);
+        //     }
+        //     console.log(counts);
+        // });
+    </script>
 
     <?php include_once "footer.php" ?>
 
@@ -414,10 +454,151 @@
 
         }
     }
-function scrollingImagefunction(){
-    $("#Image").css('opacity','.1');
-}
+
+    function scrollingImagefunction() {
+        $("#Image").css('opacity', '.1');
+    }
+
+    const allArray = [
+        ['value-1', 'value-2', 'value-3', 'value-4', 'value-5', 'value-6', 'value-7'],
+        ['value-1', 'value-2', 'value-3', 'value-4', 'value-5', 'value-6', 'value-7', 'value-8', 'value-9', 'value-10'],
+        ['value-1', 'value-2', 'value-3', 'value-4', 'value-5', 'value-6', 'value-7', 'value-8', 'value-9', 'value-10', 'value-11', 'value-12'],
+        ['value-1', 'value-2', 'value-3', 'value-4', 'value-5', 'value-6', 'value-7', 'value-8', 'value-9', 'value-10', 'value-11', 'value-12', 'value-13', 'value-14'],
+        ['value-1', 'value-2', 'value-3', 'value-4', 'value-5', 'value-6', 'value-7', 'value-8', 'value-9', 'value-10', 'value-11', 'value-12', 'value-13', 'value-14', 'value-15', 'value-16'],
+    ]
+    for (let i = 0; i < allArray.length; i++) {
+        for (let j = 0; j < i.length; j++) {
+            console.log(allArray[i][j]);
+
+        }
+    }
+
+
+
+    const tableDataValue = []
+    var tableCounter = 0;
+
+    function AddToTable() {
+        var value_1 = $("#DataValue_1").val();
+        var value_2 = $("#DataValue_2").val();
+        var value_3 = $("#DataValue_3").val();
+
+
+        var c1 = $("#DataValue_1").data("name");
+        var c2 = $("#DataValue_2").data("name");
+        var c3 = $("#DataValue_3").data("name");
+
+
+        tableCounter++
+        console.log(value_1 + " " + value_2 + " " + value_3);
+        var table = `
+                    <tbody>
+                        <tr>
+                            <th scope="row">${tableCounter}</th>
+                            <td>${value_1}</td>
+                            <td>${value_2}</td>
+                            <td>${value_3}</td>
+                        </tr>
+                    </tbody>`;
+        $("#table_for_data").append(table);
+        $("#DataValue_1").val('');
+        $("#DataValue_2").val('');
+        $("#DataValue_3").val('');
+        const object_1 = {};
+        object_1.c1 = value_1;
+        object_1.c2 = value_2;
+        object_1.c3 = value_3;
+        tableDataValue.push(object_1);
+
+
+
+        console.log(tableDataValue);
+        console.log(object_1);
+    }
+    const globleComponetArray = [];
+    // const Control = function() {
+    //     this.inputValues = [];
+    //     this.add = function(value) {
+    //         this.inputValues.push(value);
+    //     };
+    //     this.remove = function(index) {
+    //         this.inputValues.splice(index, 1);
+    //     }
+    // };
+
+    const inputArray = [{"name": "label","type": "text","isQuery": true,"attributes": "","defaultValue": ""},{"name": "label","type": "dropdown","isQuery": true,"attributes": "","defaultValue": ""}];
+
+
+
+    var ComponentCounter = 0;
+    getComponent(inputArray);
+
+    function getComponent(inputArray) {
+
+        let globleArrayLenght = globleComponetArray.length;
+
+        for (let i = 0; i < inputArray.length; i++) {
+            ComponentCounter++
+            if (inputArray[i].type == 'dropdown') {
+                var ComponentStructure = `<div class="col-md-3">
+                                                <div class="border border-dark content_stack rounded">
+                                                    <select name="${inputArray[i].name}" id="input_${globleArrayLenght}_${ComponentCounter}" placeholder="enter your 1st velue" class="form-control border-0 ">
+                                                        <option value="_1">1</option>
+                                                        <option value="_2">2</option>
+                                                        <option value="_3">3</option>
+                                                        <option value="_4">4</option>
+                                                    </select>
+                                                </div>
+                                            </div>`;
+
+            } else {
+                var ComponentStructure = `<div class="col-md-3">
+                                            <div class="border border-dark content_stack rounded">
+                                                <input type="${inputArray[i].type}" name="${inputArray[i].name}" placeholder="enter your 1st velue" class="form-control border-0 " data-param="name" id="input_${globleArrayLenght}_${ComponentCounter}">
+                                            </div>
+                                        </div>`;
+            }
+            $(ComponentStructure).appendTo("#tablesInput");
+            // console.log(ComponentStructure);
+
+        }
+        globleComponetArray.push({
+            "id": globleArrayLenght,
+            'inputNumber': inputArray.length,
+            // "componentValues": []
+        });
+
+    }
+    console.log(globleComponetArray);
+
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </html>
+
+<script>
+    const components=[];
+
+const Control=function (){
+      this.inputValues=[];
+      this.add = function(value){
+        this.inputValues.push(value);
+    };
+     this.remove= function(index){
+        this.inputValues.splice(index,1);
+    }
+};
+let control1= new Control();
+let control2= new Control();
+
+control1.add({id:1,name:"abc"})
+control2.add({id:2,name:"pqr"})
+// control3.add({id:3,name:"pour"})
+
+components.push(control1,control2);
+console.log(control1.inputValues)
+// console.log("---------------")      
+console.log(control2.inputValues)
+// console.log(components);
+
+</script>
