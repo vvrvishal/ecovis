@@ -170,8 +170,8 @@
                         <h6 class="text-danger">CORPORATE OFFICE</h6>
                     </div>
                     <div class="">
-                        <p class="small text-muted mb-0">Regional Lead</p>
-                        <h6 class="text-danger">R L Kabra</h6>
+                        <p class="small text-muted mb-0">Mentor</p>
+                        <h6 class="text-danger">S C Kabra</h6>
                         <p class="px-4">515, Tulsiani chambers, Nariman Point, Mumbai 400 021</p>
                     </div>
 
@@ -182,12 +182,11 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/ahmedabad.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger text-uppercase">ahmedabad</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">M D Kabra</h6>
                             <p>Naharraj Leela, 1 Ganga Soc, Shahibaug</p>
                         </div>
 
@@ -195,11 +194,10 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/chennai.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">CHENNAI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
+                            <p class="small text-muted mb-0">Mentor</p>
                             <h6 class="text-danger">Rahul Nagar</h6>
                             <p>17/39, Krishnappa Tank St, Konditope, Chennai – 600 079</p>
                         </div>
@@ -208,11 +206,10 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/delhi.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">DELHI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
+                            <p class="small text-muted mb-0">Mentor</p>
                             <h6 class="text-danger">Bharat Gupta</h6>
                             <p>A 531, Shastri Nagar, New Delhi – 110052</p>
                         </div>
@@ -225,11 +222,10 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/hyderabad.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/ahd.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">HYDERABAD</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
+                            <p class="small text-muted mb-0">Mentor</p>
                             <h6 class="text-danger">Jai Govind</h6>
                             <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                         </div>
@@ -239,11 +235,10 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/indore.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/chen.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">INDORE</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
+                            <p class="small text-muted mb-0">Mentor</p>
                             <h6 class="text-danger">Siddharth Baghmar</h6>
                             <p>401, Fortune Ambience Business Spaces Indore (M.P) – 452001</p>
                         </div>
@@ -252,12 +247,11 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/hyderabad.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/ahd.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">JAIPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Sushil Kumar</h6>
                             <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                         </div>
 
@@ -268,11 +262,10 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/kolkata.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/ncr.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">KOLKATA</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
+                            <p class="small text-muted mb-0">Mentor</p>
                             <h6 class="text-danger">Pradip Das</h6>
                             <p>4A/2, Anandam Apt, 7 Mall Road, Kolkata – 700 080</p>
                         </div>
@@ -281,12 +274,11 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/mumbai.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/hyd.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">MUMBAI</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Hemant Vastani</h6>
                             <p>1902 C, Kailas Business Park, Vikhroli – W, Mumbai – 400 079</p>
                         </div>
 
@@ -294,12 +286,11 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/mumbai.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">NAGPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">Ram Heda</h6>
+                            <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Deepak Heda</h6>
                             <p>2nd Floor, Bhiwapurkar Chambers, Dhantoli, Nagpur, Maharashtra 440012</p>
                         </div>
 
@@ -313,12 +304,11 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; background-color: #f7f7f7;">
                         <div class="mb-4">
                             <img src="./images/icon_images/mumbai.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/mumbai.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">Vashi</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
-                            <h6 class="text-danger">R L Kabra</h6>
+                            <p class="small text-muted mb-0">Mentor</p>
+                            <h6 class="text-danger">Ram Varma</h6>
                             <p>513, Arenja Corner, Vashi, Navi Mumbai – 400 703. </p>
                         </div>
 
@@ -329,7 +319,7 @@
                             <h6 class="text-danger">PUNE</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
+                            <p class="small text-muted mb-0">Mentor</p>
                             <h6 class="text-danger">Vishwanath Lele</h6>
                             <p>4A/2, Anandam Apartment, 7 Mall Road, Dum Dum, Kolkata 700 080 Contact: +91 88796 36056</p>
                         </div>
@@ -338,11 +328,10 @@
                     <div class="col-md-3 pb-2 pt-4 text-center" style=" border-radius: 9px; box-shadow: 0px 2px 5px 1px #cac8c8; visibility:hidden;">
                         <div class="mb-4">
                             <img src="./images/icon_images/hyderabad.png" class="office_state_img" alt="">
-                            <!-- <img src="./ecovis_icons/ahd.png" class="office_state_img" alt=""> -->
                             <h6 class="text-danger">JAIPUR</h6>
                         </div>
                         <div class="">
-                            <p class="small text-muted mb-0">Regional Lead</p>
+                            <p class="small text-muted mb-0">Mentor</p>
                             <h6 class="text-danger">Gaurav Choradia</h6>
                             <p>1st Flr, Ramky House, Raj Bhavan Road, Hyderabad – 500082 </p>
                         </div>
