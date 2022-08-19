@@ -97,21 +97,19 @@
 			<button class="NewsletterYearTab" id="_2021">2021
 				<div class="activeTab"></div>
 			</button>
-			<button class="NewsletterYearTab" id="_2020">2020
+			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2020">2020
 				<div class="activeTab"></div>
 			</button>
-			<!-- <button class="NewsletterYearTab" id="_2019">2019
+			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2019">2019
 				<div class="activeTab"></div>
 			</button>
-			<button class="NewsletterYearTab" id="_2018">2018
+			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2018">2018
 				<div class="activeTab"></div>
 			</button>
-			<button class="NewsletterYearTab" id="_2017">2017
+			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2017">2017
 				<div class="activeTab"></div>
-			</button> -->
-			<!-- <button id="pol">Politics</button>
-  <button id="biz">Business</button>
-  <button id="misc">Misc</button> -->
+			</button>
+			
 		</div>
 
 
@@ -171,13 +169,13 @@
 
 				<div class="_2021 cover mb-5 col-md-4">
 					<div>
-						<a href="./newsletterPDF/NEWSLETTER DRAFT 220811.pdf" target="blank">
-							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
+						<a href="./newsletterPDF/2021/NEWSLETTER_FINAL_2021Q3.pdf" target="blank">
+							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
 				</div>
 
-				<div class="_2021 cover mb-5 col-md-4">
+				<!-- <div class="_2021 cover mb-5 col-md-4">
 					<div>
 						<a href="./newsletterPDF/NEWSLETTER DRAFT 220811.pdf" target="blank">
 							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
@@ -191,10 +189,10 @@
 							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
-				</div>
+				</div> -->
 
 
-				<div class="_2020 cover mb-5 col-md-4">
+				<!-- <div class="_2020 cover mb-5 col-md-4">
 					<div>
 						<a href="./newsletterPDF/NEWSLETTER DRAFT 220811.pdf" target="_blank">
 							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
@@ -224,7 +222,7 @@
 							<img class="thumbnail w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
-				</div>
+				</div> -->
 
 
 				<!-- <div class="_2019 cover mb-5 col-md-4">
