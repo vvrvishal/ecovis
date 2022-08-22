@@ -76,28 +76,28 @@
 <body>
 	<?php include_once("./header.php") ?>
 	<div class="mx-0 row">
-		<div class="col-md-5 text-danger">
-			<h1 style="margin-top: 7rem; font-family: 'Libre Baskerville', serif;">Ecovis-RKCA </h1>
+		<div class="col-md-12 text-danger my-4 ">
+			<h1 style=" font-family: 'Libre Baskerville', serif;">Ecovis-RKCA </h1>
 			<h1 style="font-family: 'Libre Baskerville', serif;">NewsLetter</h1>
 		</div>
-		<div class="col-md-7">
+		<!-- <div class="col-md-7">
 			<img src="./images/ecovis_banners/4042846.jpg" class="w-100" alt="">
-		</div>
+		</div> -->
 	</div>
 	<div id="wrapper">
 
 
 		<div class="toggles d-flex justify-content-around py-3 mb-4 toggles" style="border-bottom: 2px solid darkgray;">
-			<button class="NewsletterYearTab active" id="showall"> All
+			<button class="NewsletterYearTab active mx-2" id="showall"> All
 				<div class="activeTab"></div>
 			</button>
-			<button class="NewsletterYearTab" id="_2022">2022
+			<button class="NewsletterYearTab mx-2" id="_2022">2022
 				<div class="activeTab"></div>
 			</button>
-			<button class="NewsletterYearTab" id="_2021">2021
+			<button class="NewsletterYearTab mx-2" id="_2021">2021
 				<div class="activeTab"></div>
 			</button>
-			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2020">2020
+			<button class="NewsletterYearTab mx-2" style="visibility: hidden;" id="_2020">2020
 				<div class="activeTab"></div>
 			</button>
 			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2019">2019
