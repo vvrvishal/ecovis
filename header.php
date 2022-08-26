@@ -38,9 +38,9 @@
 <body>
     <header>
         <div class="row mx-0">
-            <div class="align-items-center col-md-12 bg-danger contact-header d-flex font-weight-bold justify-content-end px-4 py-1 small text-light">
-                <a href="./NewsLetter" style="text-decoration: none; font-size:medium;" class="text-light"> <span><i class="fa-solid fa-newspaper"></i></span> NewsLetter</a>
-                <a href="#" style="text-decoration: none; font-size:medium;" class="text-light ml-3"> <span><i class="fa-solid fa-envelope"></i></span> Info@ecovisrkca.com</a>
+            <div class="align-items-center col-md-12 bg-danger contact-header d-flex justify-content-end px-4 py-1 small text-light">
+                <a href="./NewsLetter" style="text-decoration: none; font-size:medium; font-weight: 500;" class="text-light"> <span><i class="fa-solid fa-newspaper"></i></span> NewsLetter</a>
+                <a href="#" style="text-decoration: none; font-size:medium; font-weight: 500;" class="text-light ml-3"> <span><i class="fa-solid fa-envelope"></i></span> Info@ecovisrkca.com</a>
             </div>
             <div class="align-items-center col-md-12 d-flex justify-content-between main-header">
                 <div class="logo py-2 text-center">

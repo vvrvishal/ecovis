@@ -87,7 +87,7 @@
 	<div id="wrapper">
 
 
-		<div class="toggles d-flex justify-content-around py-3 mb-4 toggles" style="border-bottom: 2px solid darkgray;">
+		<div class="toggles d-flex justify-content-around py-3 mb-4 pl-3" style="border-bottom: 2px solid darkgray;">
 			<button class="NewsletterYearTab active mx-2" id="showall"> All
 				<div class="activeTab"></div>
 			</button>
