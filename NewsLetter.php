@@ -97,10 +97,10 @@
 			<button class="NewsletterYearTab mx-1" id="_2021">2021
 				<!-- <div class="activeTab"></div> -->
 			</button>
-			<button class="NewsletterYearTab mx-1" id="_2020">2020
+			<button class="NewsletterYearTab mx-1" style="visibility: hidden;" id="_2020">2020
 				<!-- <div class="activeTab"></div> -->
 			</button>
-			<button class="NewsletterYearTab mx-1" id="_2019">2019
+			<button class="NewsletterYearTab mx-1" style="visibility: hidden;" id="_2019">2019
 				<!-- <div class="activeTab"></div> -->
 			</button>
 			<!-- <button class="NewsletterYearTab"  id="_2018">2018
