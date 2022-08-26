@@ -25,7 +25,7 @@
 			display: inline-block;
 			text-align: center;
 			/* padding: 10px; */
-			width: 100px;
+			width: 55px;
 			overflow: visible;
 			/* margin: 5px auto !important; */
 		}
@@ -87,28 +87,28 @@
 	<div id="wrapper">
 
 
-		<div class="toggles d-flex justify-content-around py-3 mb-4 toggles" style="border-bottom: 2px solid darkgray;">
-			<button class="NewsletterYearTab active mx-2" id="showall"> All
+	<div class="d-flex justify-content-around mb-4 py-3 toggles" style="border-bottom: 2px solid darkgray;">
+			<button class="NewsletterYearTab active mx-1" id="showall"> All
+				<!-- <div class="activeTab"></div> -->
+			</button>
+			<button class="NewsletterYearTab mx-1" id="_2022">2022
+				<!-- <div class="activeTab"></div> -->
+			</button>
+			<button class="NewsletterYearTab mx-1" id="_2021">2021
+				<!-- <div class="activeTab"></div> -->
+			</button>
+			<button class="NewsletterYearTab mx-1" id="_2020">2020
+				<!-- <div class="activeTab"></div> -->
+			</button>
+			<button class="NewsletterYearTab mx-1" id="_2019">2019
+				<!-- <div class="activeTab"></div> -->
+			</button>
+			<!-- <button class="NewsletterYearTab"  id="_2018">2018
 				<div class="activeTab"></div>
 			</button>
-			<button class="NewsletterYearTab mx-2" id="_2022">2022
+			<button class="NewsletterYearTab"  id="_2017">2017
 				<div class="activeTab"></div>
-			</button>
-			<button class="NewsletterYearTab mx-2" id="_2021">2021
-				<div class="activeTab"></div>
-			</button>
-			<button class="NewsletterYearTab mx-2" style="visibility: hidden;" id="_2020">2020
-				<div class="activeTab"></div>
-			</button>
-			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2019">2019
-				<div class="activeTab"></div>
-			</button>
-			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2018">2018
-				<div class="activeTab"></div>
-			</button>
-			<button class="NewsletterYearTab" style="visibility: hidden;" id="_2017">2017
-				<div class="activeTab"></div>
-			</button>
+			</button> -->
 			
 		</div>
 

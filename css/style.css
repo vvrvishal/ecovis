@@ -297,7 +297,7 @@ button:focus, button:active, button:hover{
     position: absolute;
     top: 38%;
     background: white;
-    right: -1%;
+    right: 0%;
 }
 
 .owl-carousel button .next-slide:hover,
