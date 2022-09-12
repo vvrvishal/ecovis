@@ -121,50 +121,27 @@
                 <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; ">
                     Category
                 </button>
-                <div class="dropdown-menu w-100 toggled">
+                <!-- <div class="dropdown-menu w-100 toggled">
                     <button class="dropdown-item quater_1" type="button" id="quater_1">Q-1</button>
                     <button class="dropdown-item quater_2" type="button" id="quater_2">Q-2</button>
                     <button class="dropdown-item quater_3" type="button" id="quater_3">Q-3</button>
                     <button class="dropdown-item quater_4" type="button" id="quater_4">Q-4 </button>
                     
-                </div>
+                </div> -->
             </div>
 				</div>
 			</div>
 			
 			<div class="row">
 
-				<div class="_2022 cover mb-5 col-md-4 quater_4">
+				<!-- <div class="_2022 cover mb-5 col-md-4 quater_4">
 					<div>
 						<a href="./newsletterPDF/NEWSLETTER DRAFT 220811.pdf" target="blank">
 							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
-				</div>
+				</div> -->
 
-				<div class="_2022 cover  mb-5 col-md-4 quater_3">
-					<div>
-						<a href="./newsletterPDF/NEWSLETTER DRAFT 220811.pdf" target="blank">
-							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
-						</a>
-					</div>
-				</div>
-
-				<div class="_2022 cover mb-5 col-md-4 quater_2">
-					<div>
-						<a href="./newsletterPDF/NEWSLETTER DRAFT 220811.pdf" target="blank">
-							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
-						</a>
-					</div>
-				</div>
-
-				<div class="_2022 cover mb-5 col-md-4 quater_1">
-					<div>
-						<a href="./newsletterPDF/NEWSLETTER DRAFT 220811.pdf " target="blank">
-							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
-						</a>
-					</div>
-				</div>
 
 
 				<div class="_2021 cover mb-5 col-md-4">
