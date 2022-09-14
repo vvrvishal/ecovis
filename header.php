@@ -177,305 +177,278 @@
                             </div>
                         </div>
                     </li>
+                </ul>
             </div>
-            <!-- </li>
-            <li class="justify-content-between">
-
         </div>
-        </li>
-        </ul>
-        </div>
-        </div> -->
 
-            <!-- services  -->
-            <div class="mx-0 row position-absolute" style="display: none; z-index: 1;" id="services_menu">
-                <div class="col-md-4 text-center" style="background: linear-gradient(0deg, #CD1432, #dc4f54);">
-                    <!-- <div class="Contact_image bg-light mt-5 mx-auto">
-                     <img src="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" class="w-100" alt="">
-                </div> -->
-                    <div class="mt-5 mx-auto px-2 py-2 rounded-circle" style="width: 210px;">
-                        <img src="./images/ecovis_logoes/Mentor_bi.png" alt="" class="rounded-circle w-100">
-                    </div>
-                    <h4 class="text-light  mt-3">Let’s Connect</h4>
-                    <P class="mx-auto text-justify text-light w-75">ACE Methodology, technology
-                        And Independent expertise is Hallmark of COE
-                    </P>
-                    <button class="btn header_connectBTN font-weight-bold text-light">CONTACT US</button>
+        <!-- services  -->
+        
+        <div class="mx-0 row  position-absolute " style="display: none; z-index: 1;" id="services_menu">
+            <div class="col-md-4 text-center" style="background: linear-gradient(0deg, #CD1432, #dc4f54);">
+                <div class="mt-5 mx-auto px-2 py-2 rounded-circle" style="width: 210px;">
+                    <img src="./images/ecovis_logoes/Mentor_bi.png" alt="" class="rounded-circle w-100">
                 </div>
+                <h4 class="text-light  mt-3">Let’s Connect</h4>
+                <P class="mx-auto text-justify text-light w-75">ACE Methodology, technology
+                    And Independent expertise is Hallmark of COE
+                </P>
+                <button class="btn header_connectBTN font-weight-bold text-light">CONTACT US</button>
+            </div>
 
-                <div class="col-md-8 ourValues d-flex">
-
-                    <div class="w-100 my-4">
-                        <h3 class="font-weight-normal d-inline ml-4"> Centre of Excellence -COE </h3>
-                        <div class="row mt-3">
-                            <div class="col-md-6 col-sm-12">
-                                <ul class="list-unstyled">
-                                    <a href="./Strategy_Performance_Consulting_services" style="text-decoration: none;" class="text-dark">
-                                        <li class="mb-1 serviceList">
-                                            <div class="align-items-center row">
-                                                <div class="col-3 pr-0 text-center w-75">
-                                                    <img src="./images/ecovis_logoes/Core-Creators-Logo-768x260.png" class="" style="width: 67%;" alt="">
-                                                </div>
-                                                <div class="col-9 pl-0">
-                                                    <h5 class="mb-1 serviceName">Strategy and Performance Consulting</h5>
-                                                    <p class="mb-0 small">Goal-oriented service focuses on the gaps between business and performance outcomes</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </a>
-                                </ul>
-
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <ul class="list-unstyled">
-                                    <a href="./LitigationLegalServices" style="text-decoration: none;" class="text-dark">
-                                        <li class="mb-1 serviceList">
-                                            <div class="align-items-center row">
-                                                <div class="col-3 pr-0 text-center w-75  ">
-                                                    <img src="./images/ecovis_logoes/rkca-law-associates-lawyer-job-mumbai-1.png" class="" style="width: 67%;" alt="">
-                                                </div>
-                                                <div class="col-9 pl-0">
-                                                    <h5 class="mb-1 serviceName">Litigation, GRC Transaction Advisory</h5>
-                                                    <p class="mb-0 small">Aiding you with legal advises and policies</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </a>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-6 col-sm-12">
-                                <ul class="list-unstyled mb-0">
-                                    <a href="./Onshore_Offshore_Advisory" style="text-decoration: none;" class="text-dark">
-                                        <li class="mb-1 serviceList">
-                                            <div class="align-items-center row">
-                                                <div class="col-3 pr-0 text-center w-75  menu_services_logo Onshoreb_logo ">
-                                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
-                                                alt=""> -->
-                                                </div>
-                                                <div class="col-9 pl-0">
-                                                    <h5 class="mb-1 serviceName">Onshore and Offshore Advisory</h5>
-                                                    <p class="mb-0 small">Assisting Companies with overseeing Accounting and Tax commitments in India and overseas</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </a>
-                                </ul>
-
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <ul class="list-unstyled mb-0">
-                                    <a href="./Financial_and_Capital_Services" style="text-decoration: none;" class="text-dark">
-                                        <li class="mb-1 serviceList">
-                                            <div class="align-items-center row">
-                                                <div class="col-3 pr-0 text-center w-75  menu_services_logo financial_capital_Services">
-                                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
-                                                alt=""> -->
-                                                </div>
-                                                <div class="col-9 pl-0">
-                                                    <h5 class="mb-1 serviceName">Financial & Capital Services</h5>
-                                                    <p class="mb-0 small">Offering services to make your business financially sound</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </a>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-6 col-sm-12">
-                                <ul class="list-unstyled mb-0">
-                                    <a href="./Government_risk_compliance" style="text-decoration: none;" class="text-dark">
-                                        <li class="mb-1 serviceList">
-                                            <div class="align-items-center row">
-                                                <div class="col-3 pr-0 text-center w-75  menu_services_logo Risk_Compliance_logo ">
-                                                    <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
-                                                alt=""> -->
-                                                </div>
-                                                <div class="col-9 pl-0">
-                                                    <h5 class="mb-1 serviceName">Legal, Risk and IPR Practice </h5>
-                                                    <p class="mb-0 small">We prepare organizations for any unexpected challenges</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </a>
-                                </ul>
-
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <ul class="list-unstyled mb-0">
-                                    <a href="./Digital_transformation" style="text-decoration: none;" class="text-dark">
-                                        <li class="mb-1 serviceList">
-                                            <div class="align-items-center row">
-                                                <div class="col-3 pr-0 text-center w-75 ">
-                                                    <img src="./images/ecovis_logoes/cropped-cropped-GBT-Logo-pb6aaz3tk8zujck85gf83t01gtnv4kti5umsp0vgnc-1-1.png" class="" style="width: 67%;" alt="">
-                                                </div>
-                                                <div class="col-9 pl-0">
-                                                    <h5 class="mb-1 serviceName">Digital Transformations</h5>
-                                                    <p class="mb-0 small">Transform and foster your business with our tech experts and Data analytics team</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </a>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-6 col-sm-12">
-                                <ul class="list-unstyled mb-0">
-                                    <a href="./BusinessSupportandFinancialReporting" style="text-decoration: none;" class="text-dark">
-                                        <li class="mb-1 serviceList">
-                                            <div class="align-items-center row">
-                                                <div class="col-3 pr-0 text-center w-75  ">
-                                                    <img src="./images/ecovis_logoes/pcgrkcalogo.png" class="" style="width: 67%;" alt="">
-                                                </div>
-                                                <div class="col-9 pl-0">
-                                                    <h5 class="mb-1 serviceName">Business support & Financial reporting</h5>
-                                                    <p class="mb-0 small">Offering accounting and management services to grow your business.</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </a>
-                                </ul>
-
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <ul class="list-unstyled mb-0">
-                                    <a href="./Crossborderandmerchantbankingservices" style="text-decoration: none;" class="text-dark">
-                                        <li class="mb-1 serviceList">
-                                            <div class="align-items-center row">
-                                                <div class="col-3 pr-0 text-center w-75">
-                                                    <img src="./images/ecovis_logoes/Ecovis_reverse.png" class="" style="width: 82%;" alt="">
-                                                </div>
-                                                <div class="col-9 pl-0">
-                                                    <h5 class="mb-1 serviceName">Cross Border & Merchant Banking Advice</h5>
-                                                    <p class="mb-0 small">Capacity and Capability to enable your vision</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </a>
-                                </ul>
-                            </div>
-                        </div>
-
-
-
-
-                        <!-- <div class="d-flex mt-2">
-                        <div class="w-50">
+            <div class="col-md-8 ourValues d-flex">
+                <div class="w-100 my-4">
+                    <h3 class="font-weight-normal d-inline ml-4"> Centre of Excellence -COE </h3>
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled">
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center menu_services_logo Strategy_Performance_Consulting_logo  w-75">
-                                        
+                                <a href="./Strategy_Performance_Consulting_services" style="text-decoration: none;" class="text-dark">
+                                    <li class="mb-1 serviceList">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75">
+                                                <img src="./images/ecovis_logoes/Core-Creators-Logo-768x260.png" class="" style="width: 67%;" alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1 serviceName">Strategy and Performance Consulting</h5>
+                                                <p class="mb-0 small">Goal-oriented service focuses on the gaps between business and performance outcomes</p>
+                                            </div>
                                         </div>
-                                        <div class="col-9 pl-0">
-                                            <h5 class="mb-1">Assurance</h5>
-                                            <p class="small">Giving you the certainty to drive straightforward
-                                                development
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-
-
-                                
-
-
-
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center w-75  menu_services_logo Strategy_Performance_Consulting_logo">
-                                            <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
-                                                alt="">
-                                        </div>
-                                        <div class="col-9 pl-0">
-                                            <h5 class="mb-1">Taxation</h5>
-                                            <p class="small">Assisting companies with accounting and tax commitments</p>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center w-75">
-                                            <img src="./ecovis_icons/RISK COMPLIANCE.png" class="" style="width: 67%;"
-                                                alt="">
-                                        </div>
-                                        <div class="col-9 pl-0">
-                                            <h5 class="mb-1">Risk & Compliance</h5>
-                                            <p class="small">We prepare organizations for any unexpected challenges</p>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center w-75">
-                                            <img src="./ecovis_icons/Business-Support.png" class="" style="width: 67%;"
-                                                alt="">
-                                        </div>
-                                        <div class="col-9 pl-0">
-                                            <h5 class="mb-1">Accounting Business support</h5>
-                                            <p class="small">Offering accounting business support to grow your business.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
+                                    </li>
+                                </a>
                             </ul>
                         </div>
-                        <div class="w-50">
+                        <div class="col-md-6 col-sm-12">
                             <ul class="list-unstyled">
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center w-75">
-                                            <img src="./ecovis_icons/LEgal-Support.png" class="" style="width: 67%;"
-                                                alt="">
+                                <a href="./LitigationLegalServices" style="text-decoration: none;" class="text-dark">
+                                    <li class="mb-1 serviceList">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75  ">
+                                                <img src="./images/ecovis_logoes/rkca-law-associates-lawyer-job-mumbai-1.png" class="" style="width: 67%;" alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1 serviceName">Litigation, GRC Transaction Advisory</h5>
+                                                <p class="mb-0 small">Aiding you with legal advises and policies</p>
+                                            </div>
                                         </div>
-                                        <div class="col-9 pl-0">
-                                            <h5 class="mb-1">Legal Services</h5>
-                                            <p class="small">We create a platform to offer you legal services and
-                                                consultancy</p>
-                                        </div>
-                                    </div>
-                                </li>
-
-
-
-                                
-
-
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center w-75">
-                                            <img src="./ecovis_icons/Growth-Services.png" class="" style="width: 67%;"
-                                                alt="">
-                                        </div>
-                                        <div class="col-9 pl-0">
-                                            <h5 class="mb-1">Growth Services</h5>
-                                            <p class="small">We develop your business growth quality</p>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="mb-1 d-flex justify-content-between align-items-center">
-                                    <div class="align-items-center row">
-                                        <div class="col-3 pr-0 text-center w-75">
-                                            <img src="./ecovis_icons/Digital-Transformation.png" class=""
-                                                style="width: 67%;" alt="">
-                                        </div>
-                                        <div class="col-9 pl-0">
-                                            <h5 class="mb-1">Digital transformation</h5>
-                                            <p class="small">Transform and foster your business with our services</p>
-                                        </div>
-                                    </div>
-                                </li>
+                                    </li>
+                                </a>
                             </ul>
                         </div>
-                    </div> -->
                     </div>
-                    <!-- <div class="mt-2">
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-sm-12">
+                            <ul class="list-unstyled mb-0">
+                                <a href="./Onshore_Offshore_Advisory" style="text-decoration: none;" class="text-dark">
+                                    <li class="mb-1 serviceList">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75  menu_services_logo Onshoreb_logo ">
+                                                <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1 serviceName">Onshore and Offshore Advisory</h5>
+                                                <p class="mb-0 small">Assisting Companies with overseeing Accounting and Tax commitments in India and overseas</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <ul class="list-unstyled mb-0">
+                                <a href="./Financial_and_Capital_Services" style="text-decoration: none;" class="text-dark">
+                                    <li class="mb-1 serviceList">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75  menu_services_logo financial_capital_Services">
+                                                <!-- <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                alt=""> -->
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1 serviceName">Financial & Capital Services</h5>
+                                                <p class="mb-0 small">Offering services to make your business financially sound</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-sm-12">
+                            <ul class="list-unstyled mb-0">
+                                <a href="./Government_risk_compliance" style="text-decoration: none;" class="text-dark">
+                                    <li class="mb-1 serviceList">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75  menu_services_logo Risk_Compliance_logo "></div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1 serviceName">Legal, Risk and IPR Practice </h5>
+                                                <p class="mb-0 small">We prepare organizations for any unexpected challenges</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <ul class="list-unstyled mb-0">
+                                <a href="./Digital_transformation" style="text-decoration: none;" class="text-dark">
+                                    <li class="mb-1 serviceList">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75 ">
+                                                <img src="./images/ecovis_logoes/cropped-cropped-GBT-Logo-pb6aaz3tk8zujck85gf83t01gtnv4kti5umsp0vgnc-1-1.png" class="" style="width: 67%;" alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1 serviceName">Digital Transformations</h5>
+                                                <p class="mb-0 small">Transform and foster your business with our tech experts and Data analytics team</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-sm-12">
+                            <ul class="list-unstyled mb-0">
+                                <a href="./BusinessSupportandFinancialReporting" style="text-decoration: none;" class="text-dark">
+                                    <li class="mb-1 serviceList">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75  ">
+                                                <img src="./images/ecovis_logoes/pcgrkcalogo.png" class="" style="width: 67%;" alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1 serviceName">Business support & Financial reporting</h5>
+                                                <p class="mb-0 small">Offering accounting and management services to grow your business.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <ul class="list-unstyled mb-0">
+                                <a href="./Crossborderandmerchantbankingservices" style="text-decoration: none;" class="text-dark">
+                                    <li class="mb-1 serviceList">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75">
+                                                <img src="./images/ecovis_logoes/Ecovis_reverse.png" class="" style="width: 82%;" alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1 serviceName">Cross Border & Merchant Banking Advice</h5>
+                                                <p class="mb-0 small">Capacity and Capability to enable your vision</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="d-flex mt-2">
+                            <div class="w-50">
+                                <ul class="list-unstyled">
+                                    <li class="mb-1 d-flex justify-content-between align-items-center">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center menu_services_logo Strategy_Performance_Consulting_logo  w-75">
+                                            
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1">Assurance</h5>
+                                                <p class="small">Giving you the certainty to drive straightforward
+                                                    development
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1 d-flex justify-content-between align-items-center">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75  menu_services_logo Strategy_Performance_Consulting_logo">
+                                                <img src="./ecovis_icons/TAXATION-removebg.png" class="" style="width: 67%;"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1">Taxation</h5>
+                                                <p class="small">Assisting companies with accounting and tax commitments</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-1 d-flex justify-content-between align-items-center">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75">
+                                                <img src="./ecovis_icons/RISK COMPLIANCE.png" class="" style="width: 67%;"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1">Risk & Compliance</h5>
+                                                <p class="small">We prepare organizations for any unexpected challenges</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-1 d-flex justify-content-between align-items-center">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75">
+                                                <img src="./ecovis_icons/Business-Support.png" class="" style="width: 67%;"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1">Accounting Business support</h5>
+                                                <p class="small">Offering accounting business support to grow your business.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="w-50">
+                                <ul class="list-unstyled">
+                                    <li class="mb-1 d-flex justify-content-between align-items-center">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75">
+                                                <img src="./ecovis_icons/LEgal-Support.png" class="" style="width: 67%;"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1">Legal Services</h5>
+                                                <p class="small">We create a platform to offer you legal services and
+                                                    consultancy</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-1 d-flex justify-content-between align-items-center">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75">
+                                                <img src="./ecovis_icons/Growth-Services.png" class="" style="width: 67%;"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1">Growth Services</h5>
+                                                <p class="small">We develop your business growth quality</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-1 d-flex justify-content-between align-items-center">
+                                        <div class="align-items-center row">
+                                            <div class="col-3 pr-0 text-center w-75">
+                                                <img src="./ecovis_icons/Digital-Transformation.png" class=""
+                                                    style="width: 67%;" alt="">
+                                            </div>
+                                            <div class="col-9 pl-0">
+                                                <h5 class="mb-1">Digital transformation</h5>
+                                                <p class="small">Transform and foster your business with our services</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> -->
+
+        <!-- <div class="mt-2">
                     <h3 class="font-weight-normal d-inline mt-3">Industries</h3>
                     <ul class="list-unstyled mt-3">
                         <li>
@@ -490,8 +463,8 @@
                     </ul>
 
                 </div> -->
-                </div>
-            </div>
+
+
     </header>
 
     <script>
