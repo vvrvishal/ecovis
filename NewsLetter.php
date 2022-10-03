@@ -8,7 +8,7 @@
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<title>ECOVISRKCA - NewsLetters</title>
 	<link rel="icon" href="./images/ecovis_logoes/Ecovis_rkca_logo_ball.png" type="image/icon type">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<style>
@@ -87,29 +87,45 @@
 	<div id="wrapper">
 
 
-	<div class="d-flex justify-content-around mb-4 py-3 toggles" style="border-bottom: 2px solid darkgray;">
-			<button class="NewsletterYearTab active mx-1" id="showall"> All
-				<!-- <div class="activeTab"></div> -->
-			</button>
-			<button class="NewsletterYearTab mx-1" id="_2022">2022
-				<!-- <div class="activeTab"></div> -->
-			</button>
-			<button class="NewsletterYearTab mx-1" id="_2021">2021
-				<!-- <div class="activeTab"></div> -->
-			</button>
-			<button class="NewsletterYearTab mx-1" style="visibility: hidden;" id="_2020">2020
-				<!-- <div class="activeTab"></div> -->
-			</button>
-			<button class="NewsletterYearTab mx-1" style="visibility: hidden;" id="_2019">2019
-				<!-- <div class="activeTab"></div> -->
-			</button>
+		<div class="row justify-content-around mb-4 py-3 toggles" style="border-bottom: 2px solid darkgray;">
+			<!-- <div class="row"> -->
+			<div class="col-2">
+				<button class="NewsletterYearTab active mx-1" id="showall"> All
+					<!-- <div class="activeTab"></div> -->
+				</button>
+			</div>
+			<div class="col-2">
+				<button class="NewsletterYearTab mx-1" id="_2021">2021
+					<!-- <div class="activeTab"></div> -->
+				</button>
+			</div>
+			<div class="col-2"></div>
+			<div class="col-2"></div>
+			<div class="col-2"></div>
+			<div class="col-2"></div>
+			<!-- </div> -->
+			<!-- <button class="NewsletterYearTab active mx-1" id="showall"> All -->
+			<!-- <div class="activeTab"></div> -->
+			<!-- </button>
+			<button class="NewsletterYearTab mx-1" id="_2022">2022 -->
+			<!-- <div class="activeTab"></div> -->
+			<!-- </button>
+			<button class="NewsletterYearTab mx-1" id="_2021">2021 -->
+			<!-- <div class="activeTab"></div> -->
+			<!-- </button>
+			<button class="NewsletterYearTab mx-1" style="visibility: hidden;" id="_2020">2020 -->
+			<!-- <div class="activeTab"></div> -->
+			<!-- </button>
+			<button class="NewsletterYearTab mx-1" style="visibility: hidden;" id="_2019">2019 -->
+			<!-- <div class="activeTab"></div> -->
+			<!-- </button> -->
 			<!-- <button class="NewsletterYearTab"  id="_2018">2018
 				<div class="activeTab"></div>
 			</button>
 			<button class="NewsletterYearTab"  id="_2017">2017
 				<div class="activeTab"></div>
 			</button> -->
-			
+
 		</div>
 
 
@@ -117,21 +133,21 @@
 		<div class="covers">
 			<div class="row w-100">
 				<div class="align-items-end col-md-12 d-flex justify-content-end mb-3 pr-0">
-				<div class="btn-group mb-2 " style="width: 30%;min-width: 250px; box-shadow: var(--box-shadow);">
-                <button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; ">
-                    Category
-                </button>
-                <!-- <div class="dropdown-menu w-100 toggled">
+					<div class="btn-group mb-2 " style="width: 30%;min-width: 250px; box-shadow: var(--box-shadow);">
+						<button type="button" class="align-items-center btn d-flex dropdown-toggle font-weight-bold justify-content-between px-3 text-dark w-100" data-toggle="dropdown" aria-expanded="false" style="background: #f8f9fa; ">
+							Category
+						</button>
+						<!-- <div class="dropdown-menu w-100 toggled">
                     <button class="dropdown-item quater_1" type="button" id="quater_1">Q-1</button>
                     <button class="dropdown-item quater_2" type="button" id="quater_2">Q-2</button>
                     <button class="dropdown-item quater_3" type="button" id="quater_3">Q-3</button>
                     <button class="dropdown-item quater_4" type="button" id="quater_4">Q-4 </button>
                     
                 </div> -->
-            </div>
+					</div>
 				</div>
 			</div>
-			
+
 			<div class="row">
 
 				<!-- <div class="_2022 cover mb-5 col-md-4 quater_4">
@@ -145,8 +161,29 @@
 
 
 				<div class="_2021 cover mb-5 col-md-4">
-					<div>
-						<a href="./newsletterPDF/2021/NEWSLETTER_FINAL_2021Q3.pdf" target="blank">
+					<div class="_2021Q1">
+						<a href="./newsletterPDF/2021/NQ1_mentor-bi.pdf" target="blank">
+							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
+						</a>
+					</div>
+				</div>
+				<div class="_2021 cover mb-5 col-md-4">
+					<div class="_2021Q2">
+						<a href="./newsletterPDF/2021/NQ2_mentor-bi.pdf" target="blank">
+							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
+						</a>
+					</div>
+				</div>
+				<div class="_2021 cover mb-5 col-md-4">
+					<div class="_2021Q3">
+						<a href="./newsletterPDF/2021/NQ3_mentor-bi.pdf" target="blank">
+							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
+						</a>
+					</div>
+				</div>
+				<div class="_2021 cover mb-5 col-md-4">
+					<div class="_2021Q4">
+						<a href="./newsletterPDF/2021/NQ4_mentor-bi.pdf" target="blank">
 							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
@@ -158,9 +195,9 @@
 							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
-				</div>
+				</div> -->
 
-				<div class="_2021 cover mb-5 col-md-4">
+				<!--	<div class="_2021 cover mb-5 col-md-4">
 					<div>
 						<a href="./newsletterPDF/NEWSLETTER DRAFT 220811.pdf" target="blank">
 							<img class="media-object w-100" src="./images/newslettersFrontPage/newsLetterFrontPage-1.jpeg" alt="NEWSLETTER_2022_220811">
