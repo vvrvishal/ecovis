@@ -163,30 +163,30 @@
 				<div class="_2021 cover mb-5 col-md-4">
 					<div class="_2021Q1">
 						<a href="./newsletterPDF/2021/NQ1_mentor-bi.pdf" target="blank">
-							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
+							<img class="media-object w-100" src="./newsletterPDF/2021/coverpage/COVERPAGEQ1.png" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
 				</div>
 				<div class="_2021 cover mb-5 col-md-4">
 					<div class="_2021Q2">
 						<a href="./newsletterPDF/2021/NQ2_mentor-bi.pdf" target="blank">
-							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
+							<img class="media-object w-100" src="./newsletterPDF/2021/coverpage/COVERPAGEQ2.png" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
 				</div>
 				<div class="_2021 cover mb-5 col-md-4">
 					<div class="_2021Q3">
 						<a href="./newsletterPDF/2021/NQ3_mentor-bi.pdf" target="blank">
-							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
+							<img class="media-object w-100" src="./newsletterPDF/2021/coverpage/COVERPAGEQ3.png" alt="NEWSLETTER_2022_220811">
 						</a>
 					</div>
 				</div>
 				<div class="_2021 cover mb-5 col-md-4">
 					<div class="_2021Q4">
 						<a href="./newsletterPDF/2021/NQ4_mentor-bi.pdf" target="blank">
-							<img class="media-object w-100" src="./newsletterPDF/newsLetterCourPageImage/2021/Coverpage3q.jpg" alt="NEWSLETTER_2022_220811">
+							<img class="media-object w-100" src="./newsletterPDF/2021/coverpage/COVERPAGEQ4.png"  alt="NEWSLETTER_2022_220811">
 						</a>
-					</div>
+					</div> 
 				</div>
 
 				<!-- <div class="_2021 cover mb-5 col-md-4">
